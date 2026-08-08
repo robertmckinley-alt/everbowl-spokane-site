@@ -38,9 +38,9 @@ const ORDER_URL = "https://www.everbowl.com/";
 const CATERING_URL = "https://www.everbowl.com/acai-bowl-catering-near-me";
 const PHONE = "(509) 555-0142";
 const PHONE_HREF = "tel:+15095550142";
-const ADDRESS = "1235 W Summit Pkwy, Spokane, WA 99201";
-const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=1235+W+Summit+Pkwy+Spokane+WA+99201";
-const MAPS_EMBED = "https://www.google.com/maps?q=1235+W+Summit+Pkwy+Spokane+WA+99201&output=embed";
+const ADDRESS = "13324 E. Sprague Ave, Suite 101, Spokane Valley, WA 99216";
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=13324+E+Sprague+Ave+Suite+101+Spokane+Valley+WA+99216";
+const MAPS_EMBED = "https://www.google.com/maps?q=13324+E+Sprague+Ave+Suite+101+Spokane+Valley+WA+99216&output=embed";
 const INSTAGRAM_URL = "https://www.instagram.com/everbowl/";
 
 const clamp = (v: number, lo = 0, hi = 1) => Math.min(hi, Math.max(lo, v));
@@ -346,7 +346,7 @@ export default function App() {
           <div>
             <p className="mb-2 font-display text-sm font-semibold uppercase tracking-wide text-eb-green-deep">Visit us</p>
             <h2 className="font-display text-4xl font-extrabold leading-none tracking-tight text-eb-ink md:text-6xl">Fuel up in Spokane.</h2>
-            <p className="mt-5 text-lg font-semibold text-eb-ink">Kendall Yards</p>
+            <p className="mt-5 text-lg font-semibold text-eb-ink">Spokane Valley</p>
             <p className="text-base leading-relaxed text-eb-muted">{ADDRESS}</p>
             <p className="mt-1 text-base"><a href={PHONE_HREF} className="font-medium text-eb-green-deep hover:underline">{PHONE}</a></p>
             <dl className="mt-7 space-y-2 border-t border-eb-bone-line pt-6 text-base">
