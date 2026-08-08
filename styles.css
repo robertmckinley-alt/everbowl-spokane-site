@@ -19,8 +19,8 @@
   --color-eb-muted: var(--eb-muted);
   --color-eb-muted-light: var(--eb-muted-light);
 
-  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
-  --font-body: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Clash Display", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Satoshi", ui-sans-serif, system-ui, sans-serif;
 }
 
 /* ---- Variant: Fuel for Movement (default) ---- */
