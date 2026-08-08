@@ -10,18 +10,55 @@ const VARIANTS: { id: Variant; label: string; swatch: string }[] = [
   { id: "fresh", label: "Fresh", swatch: "#22c55e" },
 ];
 
-const BOWLS = [
-  { name: "Everbowl", ingredients: "Açaí, granola, banana, strawberry, blueberry.", price: "$13.20", img: A.bowlAcai, tags: ["Açaí base", "Fan favorite"] },
-  { name: "Blue Lagoon", ingredients: "Pitaya, blue majik, coco love, chia pudding, strawberry, pineapple, coconut.", price: "$13.20", img: A.bowlPitaya, tags: ["Pitaya base"] },
-  { name: "Full Moon", ingredients: "Cacao, vanilla, granola, banana, strawberry, peanut butter, cacao nibs.", price: "$13.20", img: A.bowlNutty, tags: ["Cacao base"] },
+// Signature bowls with a photo (the three bases: açaí, pitaya, cacao).
+const FEATURE_BOWLS = [
+  { name: "Everbowl", ingredients: "Açaí, granola, banana, strawberry, blueberry.", img: A.bowlAcai, tag: "Açaí base" },
+  { name: "Blue Lagoon", ingredients: "Blue majic, pitaya, coco love, chia pudding, strawberry, pineapple, coconut.", img: A.bowlPitaya, tag: "Pitaya base" },
+  { name: "Full Moon", ingredients: "Vanilla, cacao wow, granola, banana, strawberry, peanut butter, cacao nibs.", img: A.bowlNutty, tag: "Cacao base" },
+];
+
+// The full signature bowl lineup.
+const SIGNATURE_BOWLS = [
+  { name: "Everbowl", ingredients: "Açaí, granola, banana, strawberry, blueberry." },
+  { name: "PB Everbowl", ingredients: "Açaí, granola, peanut butter, banana, strawberry, blueberry." },
+  { name: "Berry Boost", ingredients: "Açaí, chia pudding, banana, strawberry, blueberry, goji berry." },
+  { name: "Blue Lagoon", ingredients: "Blue majic, pitaya, coco love, chia pudding, strawberry, pineapple, coconut." },
+  { name: "Pitayum", ingredients: "Açaí, pitaya, coco love, granola, banana, pineapple, kiwi, coconut." },
+  { name: "Mango Majic", ingredients: "Mango, blue majic, granola, pineapple, strawberry, kiwi, coconut." },
+  { name: "Full Moon", ingredients: "Vanilla, cacao wow, granola, banana, strawberry, peanut butter, cacao nibs." },
+  { name: "Nutty Butty", ingredients: "Vanilla, everoats, banana, strawberry, peanut butter, almond butter, almonds, cinnamon." },
+  { name: "Perfect Date", ingredients: "Cacao wow, coco love, granola, peanut butter, banana, blueberry, date." },
+];
+
+const WHATEVER_BOWLS = [
+  { name: "Regular Whatever Bowl", price: "$11.99" },
+  { name: "Large Whatever Bowl", price: "$14.99" },
+  { name: "Kids Bowl", price: "$7.99" },
+  { name: "Chia Pudding Bowl", price: "$7.99" },
+  { name: "Oats Bowl", price: "$7.99" },
+  { name: "Hot Oats (GF)", price: "$7.99" },
 ];
 
 const SMOOTHIES = [
-  { name: "Nannaberry Bliss", ingredients: "Vanilla, strawberry, banana, almond milk.", price: "$10.80" },
-  { name: "PB Cacao Dream", ingredients: "Cacao, banana, peanut butter, cacao nibs, almond milk.", price: "$10.80" },
-  { name: "Pitaya Paradise", ingredients: "Pitaya, coco love, strawberry, pineapple, coconut milk.", price: "$10.80" },
-  { name: "Go Greens", ingredients: "Vanilla, banana, greens powder, almond milk.", price: "$12.00" },
-  { name: "Unbeetable", ingredients: "Blue majik, pineapple, beet root, coconut milk.", price: "$12.00" },
+  { name: "Nanaberry Bliss", ingredients: "Vanilla, banana, strawberry, almond milk." },
+  { name: "PB Cacao Dream", ingredients: "Cacao wow, banana, cacao nibs, peanut butter, almond milk." },
+  { name: "Pitaya Paradise", ingredients: "Pitaya, coco love, strawberry, pineapple, coconut milk." },
+  { name: "Glow Up", ingredients: "Mango, pineapple, apple juice." },
+  { name: "Evergreen", ingredients: "Blue majic, coco love, mango, pineapple, spinach, apple juice." },
+];
+
+const TOASTS = [
+  { name: "Classic Avocado Toast", price: "$6.99", ingredients: "House-made avocado spread, everything seasoning, chili flakes, honey." },
+  { name: "Bruschetta Avocado Toast", price: "$7.99", ingredients: "Avocado spread, marinated tomatoes, basil, balsamic glaze." },
+  { name: "PB Crunch Toast", price: "$6.99", ingredients: "Crunchy peanut butter spread, banana, cacao nibs, honey." },
+  { name: "Whatever Toast", price: "$8.99", ingredients: "Build your own on toasted artisan rustic bread." },
+];
+
+const SIPS = [
+  "Strawberry Lemonade", "Dragon Fruit Lemonade", "Cold Brew",
+  "Cold Brew + Cinnamon Cold Foam", "Cold Brew + Cacao Cold Foam", "Cold Brew + PB Cold Foam",
+  "Cinnamon Ice Blended Coffee", "Cacao Ice Blended Coffee", "PB Protein Ice Blended Coffee",
+  "Iced Matcha", "Iced Strawberry Matcha", "Ice Blended Matcha", "Ice Blended Strawberry Matcha",
 ];
 
 const PILLARS = [
@@ -33,7 +70,7 @@ const PILLARS = [
 const MARQUEE = ["Fuel for movement", "Eat good vibes", "We unevolve", "Real fruit only", "Açaí · Pitaya · Cacao"];
 const IG_TILES = [A.bowlAcai, A.bowlPitaya, A.smoothies, A.bowlNutty];
 
-// Placeholder Spokane details — swap for the real location's info before launch.
+// Real Spokane details. Order / catering / app links are still placeholders.
 const ORDER_URL = "https://www.everbowl.com/";
 const CATERING_URL = "https://www.everbowl.com/acai-bowl-catering-near-me";
 const PHONE = "(509) 555-0142";
@@ -204,7 +241,7 @@ export default function App() {
           <div className="hidden items-center gap-6 md:flex">
             <a href="#menu" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Bowls</a>
             <a href="#smoothies" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Smoothies</a>
-            <a href="#catering" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Catering</a>
+            <a href="#toast" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Toast</a>
             <a href="#location" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Visit</a>
           </div>
           <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="eb-btn-order text-sm">Order online</a>
@@ -240,56 +277,70 @@ export default function App() {
         </div>
       </section>
 
-      {/* Menu */}
+      {/* Menu: bowls */}
       <section id="menu" className="scroll-mt-20 bg-eb-bone-soft">
         <div className="mx-auto max-w-6xl px-5 py-20">
           <div className="mb-12 flex flex-wrap items-end justify-between gap-4">
             <div>
               <p className="mb-2 font-display text-sm font-semibold uppercase tracking-wide text-eb-green-deep">The bowls</p>
-              <h2 className="max-w-[16ch] font-display text-4xl font-extrabold leading-none tracking-tight text-eb-ink md:text-6xl">Piled high, blended fresh.</h2>
+              <h2 className="max-w-[16ch] font-display text-4xl font-extrabold leading-none tracking-tight text-eb-ink md:text-6xl">
+                Piled high, blended fresh.
+              </h2>
             </div>
-            <p className="max-w-[34ch] text-base leading-relaxed text-eb-muted">Signature bowls, or build your own Whatever Bowl from the base up. Every one is made when you order it.</p>
+            <p className="max-w-[34ch] text-base leading-relaxed text-eb-muted">
+              Every signature bowl comes <span className="font-semibold text-eb-ink">Regular $11.99</span> or <span className="font-semibold text-eb-ink">Large $14.99</span>. Made to order, every time.
+            </p>
           </div>
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-12">
-            <article className="eb-card overflow-hidden rounded-3xl bg-eb-bone md:col-span-7">
-              <div className="relative aspect-[4/3] w-full overflow-hidden">
-                <img src={BOWLS[0].img} alt={BOWLS[0].name} className="h-full w-full object-cover" />
-                <span className="absolute left-5 top-5 rounded-full bg-eb-green px-3 py-1 font-display text-sm font-bold text-eb-plum-deep">{BOWLS[0].price}</span>
-              </div>
-              <div className="p-7">
-                <div className="mb-2 flex flex-wrap gap-2">{BOWLS[0].tags.map((t) => <span key={t} className="eb-tag">{t}</span>)}</div>
-                <h3 className="font-display text-3xl font-extrabold tracking-tight text-eb-ink">{BOWLS[0].name}</h3>
-                <p className="mt-2 max-w-[42ch] text-base leading-relaxed text-eb-muted">{BOWLS[0].ingredients}</p>
-              </div>
-            </article>
-            <article className="flex flex-col justify-between rounded-3xl bg-eb-plum p-7 text-eb-bone md:col-span-5">
-              <div>
-                <p className="font-display text-sm font-semibold text-eb-green">Build your own</p>
-                <h3 className="mt-3 font-display text-3xl font-extrabold leading-tight tracking-tight">The Whatever Bowl</h3>
-                <p className="mt-3 text-base leading-relaxed text-eb-muted-light">Pick your bases, load your fruit, stack your superfoods. Your bowl, your rules.</p>
-              </div>
-              <div className="mt-6 flex items-end gap-6">
-                <div><p className="font-display text-2xl font-extrabold text-eb-green">$13.20</p><p className="text-xs text-eb-muted-light">Regular</p></div>
-                <div><p className="font-display text-2xl font-extrabold text-eb-green">$16.80</p><p className="text-xs text-eb-muted-light">Large</p></div>
-              </div>
-            </article>
-            {BOWLS.slice(1).map((b, i) => (
-              <article key={b.name} className={"eb-card overflow-hidden rounded-3xl bg-eb-bone " + (i === 0 ? "md:col-span-5" : "md:col-span-7")}>
-                <div className="flex h-full flex-col sm:flex-row">
-                  <div className="relative aspect-[4/3] w-full overflow-hidden sm:aspect-auto sm:w-1/2">
-                    <img src={b.img} alt={b.name} className="h-full w-full object-cover" />
-                  </div>
-                  <div className="flex flex-1 flex-col justify-center p-6">
-                    <div className="mb-2 flex flex-wrap items-center gap-2">
-                      {b.tags.map((t) => <span key={t} className="eb-tag">{t}</span>)}
-                      <span className="font-display text-lg font-extrabold text-eb-green-deep">{b.price}</span>
-                    </div>
-                    <h3 className="font-display text-2xl font-extrabold tracking-tight text-eb-ink">{b.name}</h3>
-                    <p className="mt-2 text-sm leading-relaxed text-eb-muted">{b.ingredients}</p>
-                  </div>
+
+          {/* Feature trio (the three bases) */}
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+            {FEATURE_BOWLS.map((b) => (
+              <article key={b.name} className="eb-card overflow-hidden rounded-3xl bg-eb-bone">
+                <div className="relative aspect-[4/3] w-full overflow-hidden">
+                  <img src={b.img} alt={b.name} className="h-full w-full object-cover" />
+                  <span className="absolute left-4 top-4 eb-tag">{b.tag}</span>
+                </div>
+                <div className="p-6">
+                  <h3 className="font-display text-2xl font-extrabold tracking-tight text-eb-ink">{b.name}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-eb-muted">{b.ingredients}</p>
                 </div>
               </article>
             ))}
+          </div>
+
+          {/* Full signature lineup */}
+          <h3 className="mb-6 mt-16 font-display text-2xl font-extrabold tracking-tight text-eb-ink">All signature bowls</h3>
+          <div className="grid grid-cols-1 gap-x-12 gap-y-6 sm:grid-cols-2">
+            {SIGNATURE_BOWLS.map((b) => (
+              <div key={b.name} className="flex justify-between gap-4 border-t border-eb-bone-line pt-4">
+                <div>
+                  <h4 className="font-display text-lg font-bold text-eb-ink">{b.name}</h4>
+                  <p className="mt-1 text-sm leading-relaxed text-eb-muted">{b.ingredients}</p>
+                </div>
+                <span className="shrink-0 font-display text-sm font-bold text-eb-green-deep">$11.99+</span>
+              </div>
+            ))}
+          </div>
+
+          {/* Build your own / Whatever Bowls */}
+          <div className="mt-14 rounded-3xl bg-eb-plum p-8 text-eb-bone md:p-10">
+            <div className="flex flex-wrap items-end justify-between gap-4">
+              <div>
+                <p className="font-display text-sm font-semibold text-eb-green">Build your own</p>
+                <h3 className="mt-2 font-display text-3xl font-extrabold tracking-tight">The Whatever Bowl</h3>
+                <p className="mt-2 max-w-[44ch] text-base leading-relaxed text-eb-muted-light">
+                  Pick your bases, load your fruit, stack your superfoods. Plus kids, chia, oats and hot-oats bowls.
+                </p>
+              </div>
+            </div>
+            <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-3 sm:grid-cols-3">
+              {WHATEVER_BOWLS.map((w) => (
+                <div key={w.name} className="flex items-baseline justify-between gap-3 border-t border-eb-violet/30 pt-3">
+                  <span className="text-sm font-medium text-eb-bone">{w.name}</span>
+                  <span className="font-display text-sm font-bold text-eb-green">{w.price}</span>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -303,7 +354,9 @@ export default function App() {
             <div>
               <p className="mb-2 font-display text-sm font-semibold uppercase tracking-wide text-eb-green">Sip the superfoods</p>
               <h2 className="font-display text-4xl font-extrabold leading-none tracking-tight text-eb-bone md:text-6xl">Smoothies that actually move.</h2>
-              <p className="mt-4 max-w-[38ch] text-base leading-relaxed text-eb-muted-light">Blended thick with real fruit and superfood boosts. Grab one to go and keep the day rolling.</p>
+              <p className="mt-4 max-w-[38ch] text-base leading-relaxed text-eb-muted-light">
+                Blended thick with real fruit and superfood boosts. <span className="font-semibold text-eb-bone">Regular $9.99 / Large $10.99</span>, or build your own Whatever Smoothie.
+              </p>
               <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="eb-btn-rewards mt-7">Order online</a>
             </div>
             <div className="overflow-hidden rounded-3xl"><img src={A.smoothies} alt="Everbowl smoothies to go" className="h-full w-full object-cover" /></div>
@@ -311,12 +364,45 @@ export default function App() {
           <div className="mt-12 flex snap-x gap-5 overflow-x-auto pb-4">
             {SMOOTHIES.map((s) => (
               <div key={s.name} className="w-64 shrink-0 snap-start rounded-2xl border border-eb-violet/40 bg-eb-plum-deep/70 p-6">
-                <div className="flex items-baseline justify-between">
-                  <h3 className="font-display text-xl font-bold text-eb-bone">{s.name}</h3>
-                  <span className="font-display text-base font-extrabold text-eb-green">{s.price}</span>
-                </div>
+                <h3 className="font-display text-xl font-bold text-eb-bone">{s.name}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-eb-muted-light">{s.ingredients}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Toast */}
+      <section id="toast" className="scroll-mt-20 bg-eb-bone">
+        <div className="mx-auto max-w-6xl px-5 py-20">
+          <div className="mb-10">
+            <p className="mb-2 font-display text-sm font-semibold uppercase tracking-wide text-eb-green-deep">Toast</p>
+            <h2 className="font-display text-4xl font-extrabold leading-none tracking-tight text-eb-ink md:text-6xl">On artisan rustic bread.</h2>
+          </div>
+          <div className="grid grid-cols-1 gap-x-12 gap-y-6 sm:grid-cols-2">
+            {TOASTS.map((t) => (
+              <div key={t.name} className="flex justify-between gap-4 border-t border-eb-bone-line pt-4">
+                <div>
+                  <h4 className="font-display text-lg font-bold text-eb-ink">{t.name}</h4>
+                  <p className="mt-1 text-sm leading-relaxed text-eb-muted">{t.ingredients}</p>
+                </div>
+                <span className="shrink-0 font-display text-sm font-bold text-eb-green-deep">{t.price}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Sips */}
+      <section id="sips" className="bg-eb-bone-soft">
+        <div className="mx-auto max-w-6xl px-5 py-16">
+          <div className="mb-8">
+            <p className="mb-2 font-display text-sm font-semibold uppercase tracking-wide text-eb-green-deep">Sips</p>
+            <h2 className="font-display text-3xl font-extrabold tracking-tight text-eb-ink md:text-4xl">Lemonades, cold brew &amp; matcha.</h2>
+          </div>
+          <div className="flex flex-wrap gap-2.5">
+            {SIPS.map((s) => (
+              <span key={s} className="rounded-full border border-eb-bone-line bg-eb-bone px-4 py-2 text-sm font-medium text-eb-ink">{s}</span>
             ))}
           </div>
         </div>
@@ -459,6 +545,7 @@ export default function App() {
                 <ul className="space-y-2 text-eb-muted-light">
                   <li><a href="#menu" className="transition-colors hover:text-eb-bone">Bowls</a></li>
                   <li><a href="#smoothies" className="transition-colors hover:text-eb-bone">Smoothies</a></li>
+                  <li><a href="#toast" className="transition-colors hover:text-eb-bone">Toast &amp; Sips</a></li>
                   <li><a href="#catering" className="transition-colors hover:text-eb-bone">Catering</a></li>
                 </ul>
               </div>
@@ -482,7 +569,7 @@ export default function App() {
           </div>
           <div className="mt-12 flex flex-col gap-2 border-t border-eb-violet/30 pt-6 text-xs text-eb-muted-light">
             <p>© 2026 Everbowl Spokane. Fuel for movement.</p>
-            <p>Menu items and pricing reflect Everbowl's national menu. Spokane address, phone, hours, and ordering / catering links are placeholders for this concept site.</p>
+            <p>Menu and pricing based on Everbowl's Mission Valley online ordering. Phone and ordering / catering links are placeholders for this concept site.</p>
           </div>
         </div>
       </footer>
