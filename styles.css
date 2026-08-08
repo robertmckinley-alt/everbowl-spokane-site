@@ -1,0 +1,276 @@
+@import "tailwindcss";
+
+/* ============================================================
+ * EVERBOWL SPOKANE — brand tokens + runtime variant palettes.
+ * Tailwind color utilities (bg-eb-plum, text-eb-green, ...) resolve to
+ * runtime CSS vars, so switching [data-variant] on <html> re-themes live.
+ * ============================================================ */
+@theme {
+  --color-eb-bone: var(--eb-bone);
+  --color-eb-bone-soft: var(--eb-bone-soft);
+  --color-eb-bone-line: var(--eb-bone-line);
+  --color-eb-plum: var(--eb-plum);
+  --color-eb-plum-deep: var(--eb-plum-deep);
+  --color-eb-ink: var(--eb-ink);
+  --color-eb-green: var(--eb-green);
+  --color-eb-green-deep: var(--eb-green-deep);
+  --color-eb-violet: var(--eb-violet);
+  --color-eb-blush: var(--eb-blush);
+  --color-eb-muted: var(--eb-muted);
+  --color-eb-muted-light: var(--eb-muted-light);
+
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter Tight", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ---- Variant: Fuel for Movement (default) ---- */
+:root,
+[data-variant="fuel"] {
+  --eb-bone: #f7f2e9;
+  --eb-bone-soft: #efe6d5;
+  --eb-bone-line: #ddd1bd;
+  --eb-plum: #211037;
+  --eb-plum-deep: #170a28;
+  --eb-ink: #2a1342;
+  --eb-green: #35c25e;
+  --eb-green-deep: #1f9a45;
+  --eb-violet: #6e2e9c;
+  --eb-blush: #f4c9d2;
+  --eb-muted: #6c5a7a;
+  --eb-muted-light: #cdbcdc;
+  --eb-accent: #35c25e;
+  --eb-accent-strong: #43d16c;
+  --eb-accent-label: #0f2a19;
+}
+
+/* ---- Variant: Back to the Wild (loud tropical) ---- */
+[data-variant="wild"] {
+  --eb-bone: #fbf1e7;
+  --eb-bone-soft: #f6e4d6;
+  --eb-bone-line: #e7c9b8;
+  --eb-plum: #2a0b33;
+  --eb-plum-deep: #1c0624;
+  --eb-ink: #34103a;
+  --eb-green: #ff3e9a;
+  --eb-green-deep: #d61f74;
+  --eb-violet: #7b2ff2;
+  --eb-blush: #ffd6e6;
+  --eb-muted: #8a5a76;
+  --eb-muted-light: #f0c4dc;
+  --eb-accent: #ff3e9a;
+  --eb-accent-strong: #ff5aa9;
+  --eb-accent-label: #2a0b33;
+}
+
+/* ---- Variant: Fresh (bright, green-forward) ---- */
+[data-variant="fresh"] {
+  --eb-bone: #fbfaf4;
+  --eb-bone-soft: #eef3e6;
+  --eb-bone-line: #d3e0c6;
+  --eb-plum: #123a2b;
+  --eb-plum-deep: #0c2a1f;
+  --eb-ink: #14322a;
+  --eb-green: #22c55e;
+  --eb-green-deep: #16924a;
+  --eb-violet: #0f766e;
+  --eb-blush: #d1fae0;
+  --eb-muted: #4b6b5b;
+  --eb-muted-light: #bfe3cd;
+  --eb-accent: #22c55e;
+  --eb-accent-strong: #34d372;
+  --eb-accent-label: #0a2417;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--eb-bone);
+}
+body {
+  font-family: var(--font-body);
+  color: var(--eb-ink);
+}
+
+/* ---- bespoke CTAs ---- */
+.eb-btn-order {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--eb-accent);
+  color: var(--eb-accent-label);
+  font-family: var(--font-display);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  padding: 0.75rem 1.4rem;
+  border-radius: 999px;
+  transition: transform 0.15s ease, background 0.2s ease;
+}
+.eb-btn-order:hover { background: var(--eb-accent-strong); }
+.eb-btn-order:active { transform: translateY(1px) scale(0.985); }
+
+.eb-btn-rewards {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border: 2px solid color-mix(in srgb, var(--eb-bone) 55%, transparent);
+  color: var(--eb-bone);
+  font-family: var(--font-display);
+  font-weight: 600;
+  padding: 0.8rem 1.5rem;
+  border-radius: 14px;
+  transition: border-color 0.2s ease, background 0.2s ease, transform 0.15s ease;
+}
+.eb-btn-rewards:hover {
+  border-color: var(--eb-accent);
+  background: color-mix(in srgb, var(--eb-accent) 14%, transparent);
+}
+.eb-btn-rewards:active { transform: translateY(1px) scale(0.99); }
+
+.eb-link-arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-display);
+  font-weight: 600;
+  color: var(--eb-bone);
+  border-bottom: 2px solid var(--eb-accent);
+  padding-bottom: 2px;
+  transition: gap 0.2s ease, color 0.2s ease;
+}
+.eb-link-arrow:hover { gap: 0.7rem; color: var(--eb-accent); }
+
+.eb-link-pin {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 600;
+  color: var(--eb-green-deep);
+  transition: gap 0.2s ease;
+}
+.eb-link-pin:hover { gap: 0.65rem; }
+
+.eb-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.85rem;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+
+.eb-tag {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: var(--eb-green-deep);
+  background: color-mix(in srgb, var(--eb-accent) 12%, transparent);
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+}
+
+/* ---- brand marquee ---- */
+.eb-marquee { overflow: hidden; white-space: nowrap; }
+.eb-marquee__track {
+  display: inline-flex;
+  gap: 2.5rem;
+  align-items: center;
+  animation: eb-marquee 26s linear infinite;
+  will-change: transform;
+}
+@keyframes eb-marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* ---- card lift ---- */
+.eb-card { transition: transform 0.25s ease, box-shadow 0.25s ease; }
+.eb-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 26px 50px -28px color-mix(in srgb, var(--eb-ink) 45%, transparent);
+}
+
+/* ---- variant switcher chips ---- */
+.eb-swatch {
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 999px;
+  border: 2px solid color-mix(in srgb, var(--eb-bone) 40%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .eb-marquee__track { animation: none; }
+  .eb-card { transition: none; }
+  .eb-btn-order:active, .eb-btn-rewards:active, .eb-card:hover { transform: none; }
+}
+
+/* ---- compact scroll-scrub hero ---- */
+.eb-hero { position: relative; background: #0c0512; }
+.eb-hero__sticky {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+}
+.eb-hero__video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.eb-hero__scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(to top, rgba(12, 5, 18, 0.85) 0%, rgba(12, 5, 18, 0.15) 45%, rgba(12, 5, 18, 0.35) 100%),
+    linear-gradient(to right, rgba(12, 5, 18, 0.6) 0%, rgba(12, 5, 18, 0) 55%);
+}
+.eb-hero__stage {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+}
+.eb-hero__inner {
+  width: 100%;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 1.25rem 4.5rem;
+  position: relative;
+}
+.eb-hero__chapter {
+  position: absolute;
+  bottom: 4.5rem;
+  left: 1.25rem;
+  right: 1.25rem;
+  max-width: 40rem;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.eb-hero__progress {
+  position: absolute;
+  bottom: 2rem;
+  left: 1.25rem;
+  display: flex;
+  gap: 0.4rem;
+}
+.eb-hero__dot {
+  width: 1.75rem;
+  height: 0.28rem;
+  border-radius: 999px;
+  background: rgba(247, 242, 233, 0.28);
+  transition: background 0.3s ease;
+}
+.eb-hero__dot--on { background: var(--eb-accent); }
+.eb-hero__hint {
+  position: absolute;
+  bottom: 2rem;
+  right: 1.25rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(247, 242, 233, 0.6);
+}
+@media (prefers-reduced-motion: reduce) {
+  .eb-hero__chapter { transition: none; }
+}
