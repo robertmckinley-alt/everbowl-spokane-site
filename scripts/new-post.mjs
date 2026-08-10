@@ -30,5 +30,8 @@ if (args[0] === "--list") {
 } else {
   const next = q.topics.find((t) => !t.used);
   if (!next) { console.log("Queue empty — add more topics to topic-queue.json."); process.exit(0); }
+  console.log("EDITORIAL RULES (every post must follow):");
+  (q._editorial_rules || []).forEach((r) => console.log("  - " + r));
+  console.log("\nNEXT TOPIC:");
   console.log(JSON.stringify(next, null, 2));
 }
