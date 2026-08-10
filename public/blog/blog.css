@@ -1,0 +1,125 @@
+/* Everbowl Spokane — Journal (static blog) styles.
+   Standalone CSS (the blog lives outside the Vite/Tailwind build) using the
+   same brand tokens as the main site. */
+:root {
+  --eb-bone: #f7f2e9;
+  --eb-bone-soft: #efe6d5;
+  --eb-bone-line: #ddd1bd;
+  --eb-plum: #211037;
+  --eb-plum-deep: #170a28;
+  --eb-ink: #2a1342;
+  --eb-green: #35c25e;
+  --eb-green-deep: #1f9a45;
+  --eb-violet: #6e2e9c;
+  --eb-muted: #6c5a7a;
+  --eb-muted-light: #cdbcdc;
+  --font-display: "Unbounded", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--eb-ink);
+  background: var(--eb-bone);
+  line-height: 1.65;
+  font-size: 18px;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--eb-green-deep); }
+
+/* Header / nav */
+.eb-nav {
+  position: sticky; top: 0; z-index: 50;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; padding: 0.85rem 1.25rem;
+  background: rgba(33, 16, 55, 0.9);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(110, 46, 156, 0.3);
+}
+.eb-brand { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
+.eb-brand img { width: 30px; height: 30px; border-radius: 8px; }
+.eb-brand span {
+  font-family: var(--font-display); font-weight: 800; font-size: 1.05rem;
+  letter-spacing: -0.02em; color: var(--eb-bone); text-transform: lowercase;
+}
+.eb-brand .g { color: var(--eb-green); }
+.eb-nav-links { display: flex; gap: 1.25rem; align-items: center; }
+.eb-nav-links a { color: var(--eb-muted-light); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
+.eb-nav-links a:hover { color: var(--eb-bone); }
+.eb-nav-cta {
+  background: var(--eb-green); color: var(--eb-plum-deep) !important;
+  padding: 0.5rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.85rem;
+}
+
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 1.25rem; }
+.wrap-wide { max-width: 1040px; margin: 0 auto; padding: 0 1.25rem; }
+
+/* Article */
+.post-header { padding: 3.5rem 0 1.5rem; }
+.kicker {
+  font-family: var(--font-display); font-weight: 700; font-size: 0.8rem;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--eb-green-deep); margin: 0 0 0.75rem;
+}
+h1 {
+  font-family: var(--font-display); font-weight: 800; letter-spacing: -0.02em;
+  line-height: 1.05; font-size: clamp(2rem, 5vw, 3.2rem); margin: 0 0 1rem;
+}
+.post-meta { color: var(--eb-muted); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; align-items: center; }
+.post-hero { margin: 2rem 0; border-radius: 20px; overflow: hidden; border: 1px solid var(--eb-bone-line); aspect-ratio: 16 / 9; }
+.post-hero img { width: 100%; height: 100%; object-fit: cover; }
+article h2 {
+  font-family: var(--font-display); font-weight: 800; letter-spacing: -0.01em;
+  font-size: clamp(1.4rem, 3vw, 1.9rem); margin: 2.5rem 0 0.75rem; line-height: 1.15;
+}
+article h3 { font-family: var(--font-display); font-weight: 700; font-size: 1.2rem; margin: 1.75rem 0 0.5rem; }
+article p { margin: 0 0 1.15rem; }
+article ul, article ol { margin: 0 0 1.15rem; padding-left: 1.3rem; }
+article li { margin: 0 0 0.5rem; }
+article strong { color: var(--eb-ink); }
+blockquote {
+  margin: 1.75rem 0; padding: 1rem 1.4rem; border-left: 4px solid var(--eb-green);
+  background: var(--eb-bone-soft); border-radius: 0 12px 12px 0; font-size: 1.05rem;
+}
+.callout {
+  margin: 2rem 0; padding: 1.5rem 1.75rem; border-radius: 18px;
+  background: var(--eb-plum); color: var(--eb-bone);
+}
+.callout h3 { color: var(--eb-bone); margin-top: 0; }
+.callout p { color: var(--eb-muted-light); margin-bottom: 1rem; }
+.btn {
+  display: inline-block; background: var(--eb-green); color: var(--eb-plum-deep);
+  padding: 0.7rem 1.4rem; border-radius: 999px; text-decoration: none; font-weight: 700;
+  font-family: var(--font-display); font-size: 0.95rem;
+}
+.disclaimer { font-size: 0.82rem; color: var(--eb-muted); border-top: 1px solid var(--eb-bone-line); margin-top: 3rem; padding-top: 1.25rem; }
+
+/* Blog index */
+.hero-index { background: var(--eb-plum); color: var(--eb-bone); padding: 4rem 0 3.5rem; }
+.hero-index h1 { color: var(--eb-bone); }
+.hero-index p { color: var(--eb-muted-light); max-width: 52ch; font-size: 1.1rem; }
+.post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.75rem; padding: 3rem 0 4rem; }
+.card {
+  display: flex; flex-direction: column; background: #fff; border: 1px solid var(--eb-bone-line);
+  border-radius: 20px; overflow: hidden; text-decoration: none; color: inherit; transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(33, 16, 55, 0.12); }
+.card-img { aspect-ratio: 16 / 10; overflow: hidden; }
+.card-img img { width: 100%; height: 100%; object-fit: cover; }
+.card-body { padding: 1.25rem 1.4rem 1.5rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.card-cat { font-family: var(--font-display); font-weight: 700; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--eb-green-deep); }
+.card h2 { font-family: var(--font-display); font-weight: 800; font-size: 1.2rem; line-height: 1.2; margin: 0; }
+.card p { color: var(--eb-muted); font-size: 0.95rem; margin: 0; }
+.card time { color: var(--eb-muted); font-size: 0.8rem; margin-top: 0.25rem; }
+
+/* Footer */
+.eb-foot { background: var(--eb-plum-deep); color: var(--eb-muted-light); padding: 2.5rem 0; margin-top: 2rem; font-size: 0.9rem; }
+.eb-foot a { color: var(--eb-green); text-decoration: none; }
+.eb-foot .row { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: space-between; }
+
+@media (max-width: 640px) {
+  .eb-nav-links { gap: 0.9rem; }
+  .eb-nav-links a:not(.eb-nav-cta) { display: none; }
+}

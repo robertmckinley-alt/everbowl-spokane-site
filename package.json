@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "blog": "node scripts/generate-blog.mjs",
+    "new-post": "node scripts/new-post.mjs",
+    "prebuild": "node scripts/generate-blog.mjs",
+    "build": "vite build && vite build --ssr entry-server.tsx --outDir dist-ssr && node prerender.js",
     "preview": "vite preview"
   },
   "dependencies": {

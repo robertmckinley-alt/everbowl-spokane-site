@@ -86,9 +86,13 @@ function ScrubHero() {
   const sectionRef = useRef<HTMLDivElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [active, setActive] = useState(0);
-  const reduced =
-    typeof window !== "undefined" &&
-    window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+  // Start false so SSR and the client's first render match (hydration-safe),
+  // then read the real preference after mount.
+  const [reduced, setReduced] = useState(false);
+
+  useEffect(() => {
+    setReduced(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false);
+  }, []);
 
   useEffect(() => {
     if (reduced) return;
@@ -161,9 +165,15 @@ function ScrubHero() {
                 <p className="font-display text-sm font-semibold uppercase tracking-wide" style={{ color: "var(--eb-accent)" }}>
                   {c.kicker}
                 </p>
-                <h1 className="mt-2 font-display text-5xl font-extrabold leading-[0.95] tracking-tight text-eb-bone md:text-7xl">
-                  {c.title}
-                </h1>
+                {i === 0 ? (
+                  <h1 className="mt-2 font-display text-5xl font-extrabold leading-[0.95] tracking-tight text-eb-bone md:text-7xl">
+                    {c.title}
+                  </h1>
+                ) : (
+                  <p className="mt-2 font-display text-5xl font-extrabold leading-[0.95] tracking-tight text-eb-bone md:text-7xl" role="heading" aria-level={2}>
+                    {c.title}
+                  </p>
+                )}
                 <p className="mt-4 max-w-[42ch] text-lg leading-relaxed text-eb-muted-light">{c.body}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {c.tags.map((t) => (
@@ -243,6 +253,7 @@ export default function App() {
             <a href="#smoothies" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Smoothies</a>
             <a href="#toast" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Toast</a>
             <a href="#location" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Visit</a>
+            <a href="/blog/" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Journal</a>
           </div>
           <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="eb-btn-order text-sm">Order online</a>
         </nav>
@@ -560,6 +571,7 @@ export default function App() {
               <div>
                 <p className="mb-3 font-display font-bold text-eb-green">More</p>
                 <ul className="space-y-2 text-eb-muted-light">
+                  <li><a href="/blog/" className="transition-colors hover:text-eb-bone">Journal</a></li>
                   <li><a href="#order" className="transition-colors hover:text-eb-bone">Rewards</a></li>
                   <li><a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-eb-bone">Order online</a></li>
                   <li><a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-eb-bone">Instagram</a></li>
