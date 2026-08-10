@@ -216,4 +216,172 @@ export const POSTS = [
       <p>The best training plan is the one you look forward to. Pairing your favorite trail with a stop for something genuinely good to eat is a simple way to keep showing up. Hit the trail, then come refuel at <a href="/#menu">Everbowl Spokane</a> — we're built for exactly this.</p>
     `,
   },
+
+  {
+    slug: "late-summer-heat-hydrating-bowls-spokane",
+    title: "Beat the Late-Summer Heat: Hydrating Bowls for Spokane's Hottest Weeks",
+    description:
+      "When Spokane Valley hits the 90s, a cold superfood bowl does double duty — fuel and hydration. Here's how to eat (and order) smart through the last hot stretch of summer.",
+    category: "Spokane & Movement",
+    date: "2026-08-09",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "Bright pink pitaya bowl with fresh fruit, cold and hydrating",
+    keywords: ["spokane summer heat", "hydrating bowl", "pitaya bowl spokane", "summer nutrition"],
+    body: `
+      <p>Late July and August are when the Inland Northwest really turns up the thermostat. Spokane Valley regularly pushes into the 90s, the pavement radiates heat off Sprague well into the evening, and anyone training outside — or just running errands — is losing more water than they realize. The good news: a cold, blended superfood bowl is one of the most pleasant ways to rehydrate and refuel at the same time.</p>
+
+      <h2>Why hydration is really about food, too</h2>
+      <p>We tend to think of hydration as "drink more water," but roughly 20% of most people's daily fluid comes from food. Water-rich fruit — pitaya, pineapple, strawberry, coconut — carries fluid <em>plus</em> the electrolytes and natural sugars that help your body actually hold onto it. On a hot day, a bowl or smoothie can do more for you than a bottle of water alone.</p>
+      <ul>
+        <li><strong>Pitaya (dragon fruit)</strong> is especially hydrating and light — perfect when the heat kills your appetite for anything heavy.</li>
+        <li><strong>Coconut</strong> adds a little natural electrolyte content and healthy fat so the energy lasts.</li>
+        <li><strong>Cold temperature</strong> itself helps — a chilled bowl lowers your core temp a touch and is far easier to get down than a hot meal when it's 95 out.</li>
+      </ul>
+
+      <h2>What to order when it's roasting</h2>
+      <p>Lean pink and fruit-forward. Our <a href="/#smoothies">Pitaya Paradise smoothie</a> (pitaya, coco love, strawberry, pineapple, coconut milk) is basically hydration in a cup. If you want something to spoon, the <a href="/#menu">Blue Lagoon</a> bowl layers pitaya and coco love with chia, strawberry, pineapple, and coconut — cooling, light, and loaded with real fruit. Both are easy on a hot-weather stomach and won't sit heavy the way a burger and fries would.</p>
+
+      <blockquote>Rule of thumb for a Spokane heat wave: the hotter it is, the more fruit-forward and cold you want your fuel. Save the peanut-butter-heavy bowls for cooler mornings.</blockquote>
+
+      <h2>Timing it around the heat</h2>
+      <p>If you exercise in summer, shift the hard stuff to early morning or after the sun drops behind the hills — and hydrate <em>before</em> you feel thirsty. A light smoothie an hour beforehand tops off your tank; a bigger bowl afterward replaces what you sweated out. Watching kids at a park all afternoon or working outside counts too: those are exactly the days a mid-afternoon cold bowl keeps everyone from wilting.</p>
+
+      <h2>Skip the line, skip the heat</h2>
+      <p>On the worst days, you don't even have to stand outside. <a href="/#order">Order ahead online</a>, park for two minutes, and grab it cold. We're at <strong>13324 E Sprague Ave, Suite 101 in Spokane Valley</strong> — an easy stop on the way home from the river, the gym, or the office. Stay cool, stay fueled, and let the fruit do the work.</p>
+    `,
+  },
+
+  {
+    slug: "wildfire-smoke-recovery-nutrition-inland-northwest",
+    title: "Wildfire Smoke Days: Eating Well When You Can't Train Outside",
+    description:
+      "Smoke season is part of Inland Northwest summers. Here's how antioxidant-rich, hydrating food supports you when the air quality keeps you indoors.",
+    category: "Health",
+    date: "2026-08-09",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "Deep purple açaí bowl rich in antioxidants",
+    keywords: ["wildfire smoke spokane", "air quality nutrition", "antioxidants", "smoke season"],
+    body: `
+      <p>If you've lived through a few Spokane and Coeur d'Alene summers, you know the drill: a stretch of blue-sky perfection, and then the smoke rolls in and the mountains disappear behind a beige haze. When the AQI climbs, the smart move is to take training indoors and be a little kinder to your body — and what you eat is part of that.</p>
+
+      <h2>What smoke does, briefly</h2>
+      <p>Wildfire smoke carries fine particulate that irritates airways and adds temporary oxidative stress. This isn't a call for panic or magic cures — the real protection is limiting exposure (stay in, filter your air, mask up outside on the worst days). But a diet heavy in colorful, antioxidant-rich whole foods is a sensible, food-first way to support your body during a rough-air week.</p>
+
+      <h2>Eat the colors</h2>
+      <p>The pigments that make superfoods look incredible are the same compounds associated with fighting oxidative stress:</p>
+      <ul>
+        <li><strong>Açaí and blueberries</strong> — deep purple anthocyanins.</li>
+        <li><strong>Pitaya and strawberry</strong> — pink and red antioxidants plus vitamin C.</li>
+        <li><strong>Leafy greens</strong> — folate and vitamins blended right in where you won't taste them.</li>
+      </ul>
+      <p>Our <a href="/#menu">Everbowl</a> (açaí, granola, banana, strawberry, blueberry) is a straightforward antioxidant hit, and the <a href="/#smoothies">Evergreen smoothie</a> sneaks blue majic, mango, pineapple, and spinach into something that actually tastes like a treat — an easy way to get greens on a day you don't feel like cooking.</p>
+
+      <blockquote>You can't out-eat bad air, but a colorful, hydrating diet is a genuinely good habit to lean on during smoke season — and it beats reaching for chips on the couch.</blockquote>
+
+      <h2>Hydration matters more than usual</h2>
+      <p>Smoky, dry air pulls moisture from you fast. Blended fruit and coconut help you stay hydrated when plain water gets boring, and staying hydrated keeps airways more comfortable. A cold bowl or smoothie is an easy win on a day the workout got cancelled.</p>
+
+      <h2>An indoor-day routine</h2>
+      <p>Move your session indoors, keep it moderate, then refuel with something antioxidant-dense and cold. If you'd rather not be out in it at all, <a href="/#order">order online</a> and make it a quick grab at <strong>13324 E Sprague Ave in Spokane Valley</strong>. When the smoke finally clears — and it always does — you'll be ready to get back after it. Reminder: this is general wellness info, not medical advice; if smoke aggravates a health condition, follow your doctor's and local air-quality guidance.</p>
+    `,
+  },
+
+  {
+    slug: "coeur-dalene-lake-day-fuel",
+    title: "A Coeur d'Alene Lake Day, Fueled: What to Eat Before and After the Water",
+    description:
+      "Paddleboarding, swimming, or floating on Lake CdA burns more than you'd think. Here's a simple before-and-after fueling plan built around real superfood bowls.",
+    category: "Spokane & Movement",
+    date: "2026-08-09",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "Everbowl smoothies lined up and ready to go for a lake day",
+    keywords: ["coeur dalene lake", "lake day food", "paddleboard fuel", "summer smoothie"],
+    body: `
+      <p>A day on Coeur d'Alene Lake looks relaxing from the shore, but anyone who's paddled from Tubbs Hill or spent hours swimming and hauling gear knows the truth: sun, water, and constant low-grade activity quietly drain your tank. Fuel it right and you'll feel great at sunset instead of fried.</p>
+
+      <h2>Before the water: light and quick</h2>
+      <p>You don't want a heavy meal sloshing around before you paddle out or jump in. Aim for easy-to-digest carbs that give you steady energy without weighing you down. A smoothie is close to perfect here — liquid, fast, and gentle on the stomach. Our <a href="/#smoothies">Nanaberry Bliss</a> (vanilla, banana, strawberry, almond milk) or a bright <a href="/#smoothies">Glow Up</a> (mango, pineapple, apple juice) gets you going without the mid-morning crash.</p>
+
+      <h2>Hydrate before you're thirsty</h2>
+      <p>Sun plus water activity is sneaky — you sweat even while you're wet, and the reflected sun off the lake dehydrates you faster than a normal day. Start the morning topped off with something water-rich, keep a bottle going all day, and plan a real refuel for the drive home.</p>
+
+      <h2>After: refill and rebuild</h2>
+      <p>Once you're back on dry land, your body wants carbohydrate to restock what you burned and a little protein to help you recover for tomorrow. This is bowl territory. The <a href="/#menu">PB Everbowl</a> (açaí, granola, peanut butter, banana, strawberry, blueberry) hits the carb-plus-protein sweet spot, while the fruit and coconut help you rehydrate on top of water.</p>
+      <ul>
+        <li><strong>Carbs:</strong> banana, granola, berries to refill the tank.</li>
+        <li><strong>Protein:</strong> peanut butter, oats, or an added protein boost.</li>
+        <li><strong>Fluids:</strong> blended fruit and coconut for extra hydration.</li>
+      </ul>
+
+      <blockquote>The lake takes more out of you than it feels like. A light smoothie going out, a protein-topped bowl coming back — that's the whole plan.</blockquote>
+
+      <h2>Right on the way home</h2>
+      <p>Coming back toward Spokane from CdA, we're an easy pull-off in the Valley at <strong>13324 E Sprague Ave, Suite 101</strong>. <a href="/#order">Order ahead</a> from the beach and it'll be waiting cold when you roll through. Sun-tired but well-fed beats sun-tired and hangry every time.</p>
+    `,
+  },
+
+  {
+    slug: "inland-northwest-farmers-market-berries",
+    title: "Inland Northwest Farmers Market Season Meets the Everbowl",
+    description:
+      "Late-summer is peak market season across Spokane and Kootenai County. Here's how local berries and our superfood bowls make the perfect weekend pairing.",
+    category: "Nutrition",
+    date: "2026-08-09",
+    readMins: 4,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "Açaí bowl piled with fresh berries and granola",
+    keywords: ["spokane farmers market", "local berries", "kootenai county market", "seasonal eating"],
+    body: `
+      <p>Few things say Inland Northwest late summer like a Saturday at the farmers market. Whether you're at the Spokane Farmers' Market, the Kootenai County Farmers' Market in Hayden, or a neighborhood stand, this is the stretch when the berries are at their absolute best — and it's a great reminder of why we build our bowls the way we do.</p>
+
+      <h2>Why local and seasonal actually matters</h2>
+      <p>Fruit picked in season and eaten soon after tends to be higher in flavor and nutrients than out-of-season produce that traveled thousands of miles. It's also just better — a ripe August strawberry doesn't need any help. Eating with the seasons is one of the simplest upgrades you can make to how you eat, and late summer makes it easy.</p>
+
+      <h2>From the market stand to the bowl</h2>
+      <p>Our whole philosophy is real fruit and ancestral superfoods, nothing fake — the same instinct that draws you to a market stand. When you're not stocking your own kitchen, we do the layering for you. The <a href="/#menu">Berry Boost</a> (açaí, chia pudding, banana, strawberry, blueberry, goji berry) is basically a market haul in a bowl, and the classic <a href="/#menu">Everbowl</a> keeps it simple with açaí, granola, banana, and berries.</p>
+
+      <blockquote>Make it a ritual: market in the morning, a bowl to cap it off. Local produce and a superfood bowl are the same idea from two directions.</blockquote>
+
+      <h2>What the superfoods add</h2>
+      <p>On top of great fruit, a bowl layers in things that are harder to grab at a stand — açaí's antioxidants, chia's fiber and omega-3s, goji berries' vitamin A. It's a nutrient-dense way to enjoy the season without any work.</p>
+
+      <h2>Make a morning of it</h2>
+      <p>Hit your market, then swing by <strong>13324 E Sprague Ave, Suite 101 in Spokane Valley</strong> to round out the morning — or <a href="/#order">order ahead</a> so it's ready when you're done browsing. Peak berry season doesn't last long around here. Enjoy it while it's this good.</p>
+    `,
+  },
+
+  {
+    slug: "back-to-school-breakfast-spokane",
+    title: "Back-to-School Breakfast: Fast, Balanced Mornings for Spokane Families",
+    description:
+      "The school-year rush is back. Here's how to build a quick breakfast that keeps kids (and parents) steady until lunch — no sugar crash required.",
+    category: "Nutrition",
+    date: "2026-08-09",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "Peanut butter and cacao bowl with banana, a balanced breakfast",
+    keywords: ["back to school breakfast", "spokane valley breakfast", "kids nutrition", "balanced breakfast"],
+    body: `
+      <p>School is back in session across Spokane Valley, and with it comes the great morning scramble — permission slips, missing shoes, and the eternal question of what to feed everyone before the bus. Breakfast is where a lot of families lose the nutrition battle, usually to something sugary and beige. It doesn't have to be that way, and it doesn't have to be slow.</p>
+
+      <h2>Why breakfast composition matters</h2>
+      <p>A breakfast that's mostly refined sugar spikes blood sugar and then drops it, which is exactly the wrong setup for a kid trying to focus through second period — or a parent powering through a morning of meetings. The fix is simple: pair carbohydrate with <strong>fiber, protein, and a little fat</strong> so energy releases slowly and steadily.</p>
+      <ul>
+        <li><strong>Fiber</strong> from whole fruit, oats, and chia slows the sugar rush.</li>
+        <li><strong>Protein and fat</strong> from nut butter or oats keep everyone full to lunch.</li>
+        <li><strong>Real fruit</strong> beats fruit-flavored anything, every time.</li>
+      </ul>
+
+      <h2>Kid-friendly, parent-approved</h2>
+      <p>Our <a href="/#menu">Kids Bowl</a> is a right-sized way to get real fruit and superfoods into a picky eater without a fight, and a <a href="/#toast">Classic Avocado Toast</a> gives older kids and parents healthy fats and fiber with a little honey to make it fun. For a grab-and-run option, a <a href="/#smoothies">Nanaberry Bliss</a> smoothie is breakfast you can drink in the car line.</p>
+
+      <blockquote>The best breakfast is the one that actually gets eaten. Something balanced and portable beats a perfect meal nobody has time for.</blockquote>
+
+      <h2>Beat the morning rush</h2>
+      <p>On the mornings that go sideways, let us handle it. <a href="/#order">Order online</a> on the drive and grab it on the way to school — we're at <strong>13324 E Sprague Ave, Suite 101 in Spokane Valley</strong>, minutes from Valley schools. A steady, real-food breakfast is one of the easiest wins of the school year. (General wellness info, not medical or dietary advice — every kid is different.)</p>
+    `,
+  },
 ];
