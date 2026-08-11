@@ -384,4 +384,41 @@ export const POSTS = [
       <p>On the mornings that go sideways, let us handle it. <a href="/#order">Order online</a> on the drive and grab it on the way to school — we're at <strong>13324 E Sprague Ave, Suite 101 in Spokane Valley</strong>, minutes from Valley schools. A steady, real-food breakfast is one of the easiest wins of the school year. (General wellness info, not medical or dietary advice — every kid is different.)</p>
     `,
   },
+
+  {
+    slug: "green-bluff-harvest-season-superfood-bowls",
+    title: "Green Bluff to the Bowl: Making the Most of Harvest Season",
+    description:
+      "Green Bluff's u-pick season is ramping up. Here's how to turn a day of peaches and early apples into a genuinely nourishing routine — bowl included.",
+    category: "Nutrition",
+    date: "2026-08-11",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "Cacao and peanut butter bowl with banana and fresh fruit",
+    keywords: ["green bluff", "harvest season spokane", "u-pick", "seasonal eating inland northwest"],
+    body: `
+      <p>Up on Green Bluff, just northeast of Spokane, harvest season is getting underway. Late summer brings peaches, huckleberries, and the first early apples; the orchards and farm stands fill up with families, and it becomes one of the best weekend traditions the Inland Northwest has to offer. It's also a perfect excuse to talk about eating with the seasons — something we're a little obsessed with.</p>
+
+      <h2>Why a Green Bluff haul is good for you</h2>
+      <p>Freshly picked, in-season fruit tends to be higher in flavor and nutrients than produce that's traveled across the country. Peaches bring vitamin C and fiber; apples add gut-friendly pectin; huckleberries are packed with the same antioxidant pigments that make our açaí bowls so deeply purple. Filling a bag straight from the tree is about as close to the source as food gets.</p>
+
+      <h2>Balance the day out</h2>
+      <p>A day at the Bluff often ends with cider donuts and a caramel apple — and that's part of the fun, no guilt here. The trick is balance: pair the treats with real, fiber-and-protein-forward food so your blood sugar isn't on a roller coaster all afternoon. That's where a bowl fits perfectly on the drive up or the way home.</p>
+      <ul>
+        <li><strong>Before you go:</strong> a fruit-forward, easy-to-digest smoothie keeps energy steady while you're walking rows of trees.</li>
+        <li><strong>On the way home:</strong> a protein-topped bowl balances out the day's sweeter snacks.</li>
+      </ul>
+
+      <h2>What to order</h2>
+      <p>To lean into the season's flavors, our <a href="/#menu">Full Moon</a> bowl (vanilla, cacao wow, granola, banana, strawberry, peanut butter, cacao nibs) brings a rich, harvest-y depth with far less sugar than a caramel apple — plus real protein from the peanut butter. For the ride up, a bright <a href="/#smoothies">Glow Up</a> smoothie (mango, pineapple, apple juice) is all fruit, all energy. Prefer to build your own around what's in season? The <a href="/#menu">Whatever Bowl</a> lets you stack exactly the fruit you love.</p>
+
+      <blockquote>Green Bluff and a superfood bowl are the same idea from two directions: real, seasonal fruit, close to the source. Make a day of both.</blockquote>
+
+      <h2>Keep the season going at home</h2>
+      <p>You'll inevitably come home with more peaches and apples than you can eat before they turn. Freeze the extras for smoothies, slice apples with nut butter for a snack that mirrors what we do on our <a href="/#toast">PB Crunch Toast</a>, and lean on whole fruit over anything processed while the picking's this good. Late-summer produce this fresh only lasts a few weeks.</p>
+
+      <h2>Refuel on the way back through the Valley</h2>
+      <p>Green Bluff makes for a full day, and everyone's ready for something real by the time you're heading home. We're an easy stop at <strong>13324 E Sprague Ave, Suite 101 in Spokane Valley</strong> — <a href="/#order">order ahead online</a> and grab it cold and ready. Enjoy the harvest; it's one of the best things about living here. (General wellness info, not medical or dietary advice.)</p>
+    `,
+  },
 ];
