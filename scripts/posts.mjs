@@ -1,7 +1,7 @@
 // Everbowl Spokane — blog content source.
 // Each entry renders to /public/blog/<slug>.html via generate-blog.mjs.
 // To add a post: append an object here (or use scripts/new-post.mjs) and rebuild.
-export const SITE = "https://everbowl-spokane-site.vercel.app";
+export const SITE = "https://everbowlspokane.com";
 export const CDN = "https://d2ol7oe51mr4n9.cloudfront.net/user_3EYPmwtztSzZFM0MKDfVfBshbpu";
 
 export const POSTS = [
@@ -419,6 +419,57 @@ export const POSTS = [
 
       <h2>Refuel on the way back through the Valley</h2>
       <p>Green Bluff makes for a full day, and everyone's ready for something real by the time you're heading home. We're an easy stop at <strong>13324 E Sprague Ave, Suite 101 in Spokane Valley</strong> — <a href="/#order">order ahead online</a> and grab it cold and ready. Enjoy the harvest; it's one of the best things about living here. (General wellness info, not medical or dietary advice.)</p>
+    `,
+  },
+  {
+    slug: "antioxidants-explained-colors-in-your-bowl",
+    title: "Antioxidants, Explained: What the Colors in Your Bowl Actually Do",
+    description:
+      "Smoke season has everyone asking about antioxidants. Here's a plain-English look at what they do, why the colors matter, and what's fair to claim.",
+    category: "Nutrition",
+    date: "2026-08-20",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "Bright pitaya bowl topped with berries, showing deep natural color",
+    keywords: ["antioxidants", "anthocyanins", "acai nutrition", "spokane valley acai", "wildfire smoke season"],
+    body: `
+      <p>Late August in the Inland Northwest has a particular look to it: hazy afternoons, a sun that turns orange by dinnertime, and that faint campfire smell that isn't a campfire. Smoke season and the tail end of real heat tend to overlap here, and both of them send people searching for the word "antioxidant." It's one of the most used and least understood terms in nutrition, so here's the plain-English version — what these compounds actually do, why the colors in a bowl matter, and what's honest to claim about them.</p>
+
+      <h2>What an antioxidant actually is</h2>
+      <p>Normal metabolism — breathing, digesting, training hard — produces reactive molecules called free radicals. Environmental exposures like smoke, pollution, and UV light add more on top. In excess, these molecules can damage cells through a process called oxidative stress. Antioxidants are compounds that neutralize them, and your body runs on a mix of the ones it makes itself and the ones you eat.</p>
+      <p>Now the honest framing, because this is where marketing usually runs off the rails: eating antioxidant-rich food is a sensible part of a good diet. It is <strong>not</strong> a shield against wildfire smoke, and it is not a treatment for anything. On genuinely bad air-quality days in Spokane, what actually protects you is staying indoors, running a decent filter, and moving the workout inside. Food plays a supporting role here, not a starring one.</p>
+
+      <h2>The colors are the point</h2>
+      <p>Here's the genuinely useful part. The pigments that make plant foods vividly colored are, in many cases, the antioxidant compounds themselves. Color isn't decoration — it's a rough readout of what's in there.</p>
+      <ul>
+        <li><strong>Deep purple and blue</strong> — anthocyanins, the pigments in açaí, blueberries, blackberries, and elderberry.</li>
+        <li><strong>Hot pink and magenta</strong> — betalains, which give pitaya (dragon fruit) and beets their color.</li>
+        <li><strong>Orange and red</strong> — carotenoids, found in mango, papaya, and sweet potato.</li>
+        <li><strong>Deep green</strong> — chlorophyll alongside lutein and vitamin C, in spinach, kale, and matcha.</li>
+        <li><strong>Dark and bitter</strong> — flavanols, concentrated in cacao.</li>
+      </ul>
+      <p>Different pigment families behave differently in the body, which is the real argument for variety. "Eat the rainbow" sounds like a poster in a school cafeteria, but the reasoning holds up: no single compound covers everything, so range beats intensity.</p>
+
+      <h2>Whole fruit beats an extract</h2>
+      <p>You'll see antioxidant capsules and mega-dose powders marketed hard in August, right when everyone is thinking about smoke. Be skeptical. Isolated high-dose antioxidant supplements have a mixed research record, while whole foods deliver these compounds alongside fiber, water, and a long list of others that appear to work in concert. Food-first is the defensible position.</p>
+      <p>Be equally skeptical of ORAC-score marketing. That lab measure was used for years to rank foods by antioxidant capacity, and the USDA eventually withdrew its ORAC database because the values didn't reliably predict what happens inside a human being. Anyone still leading with an ORAC number is selling you something.</p>
+
+      <h2>Building a bowl worth eating</h2>
+      <p>This is where a superfood bowl earns its keep — it's a practical way to get several different pigment families into one sitting. Our <a href="/#menu">Everbowl</a> is built on an açaí base, which puts anthocyanins front and center, and the berry and banana toppings stack more on top. For the pink end of the spectrum, <a href="/#menu">Blue Lagoon</a> and <a href="/#menu">Pitayum</a> bring pitaya's betalains into the mix — a genuinely different family of compounds, not just a different flavor.</p>
+      <p>Want to cover more ground in one stop? Add cacao nibs for flavanols, or pair a bowl with an <a href="/#sips">Iced Matcha</a> for the green side. A <a href="/#smoothies">Pitaya Paradise</a> smoothie does something similar in a form you can drink on the way to work.</p>
+
+      <h2>What to actually do this week</h2>
+      <ol>
+        <li>Aim for several different colors across the day rather than a lot of one.</li>
+        <li>Choose whole fruit over juice or extract when you have the choice — the fiber matters.</li>
+        <li>On smoke days, sort out air quality first. Treat food as maintenance, not defense.</li>
+        <li>Keep hydrating. Heat and dry smoke both raise what you lose without noticing.</li>
+      </ol>
+
+      <blockquote>The simplest antioxidant strategy is also the oldest one: eat a variety of real, colorful plants, most days, in ordinary amounts.</blockquote>
+
+      <h2>Come find the colorful version</h2>
+      <p>If your late-summer eating has drifted beige, a bowl is an easy reset. We're at <strong>13324 E Sprague Ave, Suite 101 in Spokane Valley</strong> — <a href="/#order">order ahead online</a> and pick it up cold, or come in and build something with every color on it. (General wellness info, not medical or dietary advice.)</p>
     `,
   },
 ];

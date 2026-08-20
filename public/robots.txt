@@ -13,4 +13,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://everbowl-spokane-site.vercel.app/sitemap.xml
+Sitemap: https://everbowlspokane.com/sitemap.xml
