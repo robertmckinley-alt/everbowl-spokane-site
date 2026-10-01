@@ -45,7 +45,7 @@ const CTA = `
 
 function postHtml(p) {
   const url = `${SITE}/blog/${p.slug}.html`;
-  const hero = p.image ? `${CDN}/${p.image}` : `${CDN}/6ba26f97-d429-4d26-badf-9f5e631c7da6.png`;
+  const hero = p.image ? (p.image.startsWith("/") ? `${SITE}${p.image}` : `${CDN}/${p.image}`) : `${CDN}/6ba26f97-d429-4d26-badf-9f5e631c7da6.png`;
   const jsonld = {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -134,7 +134,7 @@ function postHtml(p) {
 function indexHtml(posts) {
   const cards = posts
     .map((p) => {
-      const hero = p.image ? `${CDN}/${p.image}` : `${CDN}/6ba26f97-d429-4d26-badf-9f5e631c7da6.png`;
+      const hero = p.image ? (p.image.startsWith("/") ? `${SITE}${p.image}` : `${CDN}/${p.image}`) : `${CDN}/6ba26f97-d429-4d26-badf-9f5e631c7da6.png`;
       return `      <a class="card" href="/blog/${p.slug}.html">
         <div class="card-img"><img src="${hero}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" /></div>
         <div class="card-body">

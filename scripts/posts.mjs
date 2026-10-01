@@ -13,8 +13,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-08-09",
     readMins: 5,
-    image: "1b4287ce-c312-4b57-b34d-43e13a35a10b.jpg",
-    imageAlt: "Everbowl topped with banana, blueberries, strawberries, and almond-butter drizzle",
+    image: "/blog-img/pb-everbowl.jpg",
+    imageAlt: "PB Everbowl with açaí, peanut butter, granola, banana, strawberry, and blueberry",
     keywords: ["acai bowl recovery", "post workout nutrition", "spokane acai", "workout fuel"],
     body: `
       <p>You just finished a lift, a long run along the Centennial Trail, or a climbing session — and a cold, thick açaí bowl sounds perfect. Good news: it's not just a treat. Built the right way, an açaí bowl hits most of the boxes sports nutrition research cares about after exercise. Built the wrong way, it's basically dessert. Here's the difference.</p>
@@ -57,8 +57,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-08-08",
     readMins: 6,
-    image: "203ecf6f-b8d8-4ad7-b35c-e38b88ec0220.jpg",
-    imageAlt: "Custom-built Everbowl with fruit and granola toppings",
+    image: "1e2cd827-18ce-4c1b-adf2-c08bcd354e00.jpg",
+    imageAlt: "Five Everbowl bowls with fresh fruit toppings, seen from above",
     keywords: ["superfoods", "acai nutrition", "pitaya benefits", "chia seeds", "cacao"],
     body: `
       <p>"Superfood" isn't a scientific category — it's a marketing word. But some foods really do pack an outsized amount of nutrition per bite, and several of them live in your bowl. Here's what each one actually brings to the table, minus the hype.</p>
@@ -141,8 +141,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-08-06",
     readMins: 6,
-    image: "0d0d3e7a-efe2-4f1d-abfd-646e86bfb3aa.jpg",
-    imageAlt: "Pitaya and chia Everbowl in a branded cup, held up outdoors",
+    image: "/blog-img/everbowl.jpg",
+    imageAlt: "The signature Everbowl: açaí base with granola, banana, strawberry, and blueberry",
     keywords: ["are acai bowls healthy", "acai bowl calories", "acai bowl sugar", "healthy acai bowl"],
     body: `
       <p>Açaí bowls have a bit of a split reputation: health food to some, sugar bomb to others. The honest answer is that <strong>it depends entirely on how the bowl is built</strong>. Let's look at the real numbers and how to order well.</p>
@@ -185,8 +185,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-08-05",
     readMins: 5,
-    image: "79c7f603-0851-449d-b318-f2180c0b2101.jpg",
-    imageAlt: "Açaí bowl topped with fresh berries and granola",
+    image: "0d0d3e7a-efe2-4f1d-abfd-646e86bfb3aa.jpg",
+    imageAlt: "Pitaya and chia Everbowl in a branded cup, held up outdoors",
     keywords: ["spokane trails", "spokane hikes", "post hike food", "spokane valley acai"],
     body: `
       <p>Spokane is spoiled for places to move. Basalt cliffs, pine forest, river trails, and lakes are all within a short drive. Here are five favorites — and why a cold, hydrating bowl is the ideal reward when you're done. (Always check current trail conditions and bring water; a Spokane summer is no joke.)</p>
@@ -260,8 +260,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-08-09",
     readMins: 5,
-    image: "79c7f603-0851-449d-b318-f2180c0b2101.jpg",
-    imageAlt: "Açaí bowl topped with fresh berries and granola",
+    image: "/blog-img/berry-boost.jpg",
+    imageAlt: "Berry Boost bowl with açaí, chia pudding, banana, berries, and goji",
     keywords: ["wildfire smoke spokane", "air quality nutrition", "antioxidants", "smoke season"],
     body: `
       <p>If you've lived through a few Spokane and Coeur d'Alene summers, you know the drill: a stretch of blue-sky perfection, and then the smoke rolls in and the mountains disappear behind a beige haze. When the AQI climbs, the smart move is to take training indoors and be a little kinder to your body — and what you eat is part of that.</p>
@@ -296,8 +296,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-08-09",
     readMins: 5,
-    image: "75433944-05fe-46c7-8c4a-a08aba6e2bc9.jpg",
-    imageAlt: "Vibrant pitaya bowl with tropical fruit toppings",
+    image: "/blog-img/blue-lagoon.jpg",
+    imageAlt: "Blue Lagoon bowl with blue majik, pitaya, chia pudding, and fresh fruit",
     keywords: ["coeur dalene lake", "lake day food", "paddleboard fuel", "summer smoothie"],
     body: `
       <p>A day on Coeur d'Alene Lake looks relaxing from the shore, but anyone who's paddled from Tubbs Hill or spent hours swimming and hauling gear knows the truth: sun, water, and constant low-grade activity quietly drain your tank. Fuel it right and you'll feel great at sunset instead of fried.</p>
@@ -361,8 +361,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-08-09",
     readMins: 5,
-    image: "629bd73a-a3df-457b-aadd-571f6c321d1b.jpg",
-    imageAlt: "Fresh smoothies lined up on the counter at Everbowl",
+    image: "/blog-img/kids-bowl.jpg",
+    imageAlt: "The Everbowl Kids Bowl with fruit toppings",
     keywords: ["back to school breakfast", "spokane valley breakfast", "kids nutrition", "balanced breakfast"],
     body: `
       <p>School is back in session across Spokane Valley, and with it comes the great morning scramble — permission slips, missing shoes, and the eternal question of what to feed everyone before the bus. Breakfast is where a lot of families lose the nutrition battle, usually to something sugary and beige. It doesn't have to be that way, and it doesn't have to be slow.</p>
@@ -429,8 +429,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-08-20",
     readMins: 5,
-    image: "1e2cd827-18ce-4c1b-adf2-c08bcd354e00.jpg",
-    imageAlt: "Five Everbowl bowls with fresh fruit toppings, seen from above",
+    image: "/blog-img/pitayum.jpg",
+    imageAlt: "Pitayum bowl layering açaí, pitaya, and coco love with pineapple and kiwi",
     keywords: ["antioxidants", "anthocyanins", "acai nutrition", "spokane valley acai", "wildfire smoke season"],
     body: `
       <p>Late August in the Inland Northwest has a particular look to it: hazy afternoons, a sun that turns orange by dinnertime, and that faint campfire smell that isn't a campfire. Smoke season and the tail end of real heat tend to overlap here, and both of them send people searching for the word "antioxidant." It's one of the most used and least understood terms in nutrition, so here's the plain-English version — what these compounds actually do, why the colors in a bowl matter, and what's honest to claim about them.</p>
@@ -481,8 +481,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-01",
     readMins: 5,
-    image: "79c7f603-0851-449d-b318-f2180c0b2101.jpg",
-    imageAlt: "Açaí bowl topped with fresh berries and granola",
+    image: "/blog-img/nutty-butty.jpg",
+    imageAlt: "Nutty Butty bowl with banana, strawberry, peanut and almond butter, and cinnamon",
     keywords: ["tubbs hill fall", "mineral ridge hike", "coeur d'alene hiking", "fall hikes spokane", "post hike food"],
     body: `
       <p>Summer crowds are gone, the smoke has cleared, and the larch and aspen around Lake Coeur d'Alene are starting to turn. If you only hike one month a year in the Inland Northwest, make it October — and make it these two trails.</p>
@@ -519,8 +519,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-02",
     readMins: 5,
-    image: "4a41ab95-ab59-468a-a662-65a9c7cd98f7.jpg",
-    imageAlt: "Top-down view of an Everbowl topped with kiwi, blueberries, banana, and hemp seeds",
+    image: "/blog-img/oats-whatever-bowl.jpg",
+    imageAlt: "Warm oats Whatever Bowl ready for fall toppings",
     keywords: ["hot oats", "oatmeal benefits", "fall breakfast spokane", "slow carbs", "beta glucan"],
     body: `
       <p>There's a specific morning every fall in Spokane when you walk outside, see your breath for the first time, and your usual breakfast suddenly feels wrong. It usually lands in early October. That's the morning hot oats start making sense again.</p>
@@ -554,8 +554,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-03",
     readMins: 5,
-    image: "75433944-05fe-46c7-8c4a-a08aba6e2bc9.jpg",
-    imageAlt: "Vibrant pitaya bowl with tropical fruit toppings",
+    image: "79c7f603-0851-449d-b318-f2180c0b2101.jpg",
+    imageAlt: "Açaí bowl topped with fresh berries and granola",
     keywords: ["green bluff apple festival", "u-pick apples spokane", "green bluff october", "fall activities spokane"],
     body: `
       <p>Green Bluff in October is peak Spokane: a loop of family farms twenty-five minutes north of town, orchard rows heavy with apples, pumpkin fields open for wandering, and half the county showing up for it on Saturday afternoon. It's worth the trip every single year. It's also worth doing smart.</p>
@@ -589,8 +589,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-04",
     readMins: 5,
-    image: "0d0d3e7a-efe2-4f1d-abfd-646e86bfb3aa.jpg",
-    imageAlt: "Pitaya and chia Everbowl in a branded cup, held up outdoors",
+    image: "629bd73a-a3df-457b-aadd-571f6c321d1b.jpg",
+    imageAlt: "Fresh smoothies lined up on the counter at Everbowl",
     keywords: ["smoothie vs bowl", "pre workout food", "post workout smoothie", "training nutrition spokane"],
     body: `
       <p>It's a real question we hear at the counter: "I just worked out — smoothie or bowl?" They're built from the same bases and fruit, so the nutrition labels look like cousins. But texture changes how food behaves, and that makes each one better at a different job.</p>
@@ -621,8 +621,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-05",
     readMins: 4,
-    image: "203ecf6f-b8d8-4ad7-b35c-e38b88ec0220.jpg",
-    imageAlt: "Custom-built Everbowl with fruit and granola toppings",
+    image: "75433944-05fe-46c7-8c4a-a08aba6e2bc9.jpg",
+    imageAlt: "Vibrant pitaya bowl with tropical fruit toppings",
     keywords: ["appleway trail", "spokane valley walking", "paved trails spokane", "daily steps", "walk after eating"],
     body: `
       <p>The flashy trails get the Instagram posts, but the trail that actually changes your health is the one you can reach in five minutes on a Tuesday. In Spokane Valley, that's the Appleway Trail — a flat, paved path running along the old rail corridor just south of Sprague, block after block of easy miles through the middle of town.</p>
@@ -650,8 +650,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-06",
     readMins: 6,
-    image: "e122709c-fabe-47e1-bc9d-194eedcf464d.jpg",
-    imageAlt: "Two colorful Everbowl creations topped with granola and fresh strawberries",
+    image: "/blog-img/pb-protein-ice-blended-coffee.jpg",
+    imageAlt: "Peanut Butter Protein Ice Blended Coffee from Everbowl",
     keywords: ["how much protein", "protein per day", "protein active adults", "muscle protein synthesis"],
     body: `
       <p>Protein might be the most argued-about number in nutrition, which is funny, because the research is actually pretty settled. Here's the honest version, without a supplement to sell you.</p>
@@ -688,8 +688,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-07",
     readMins: 5,
-    image: "629bd73a-a3df-457b-aadd-571f6c321d1b.jpg",
-    imageAlt: "Fresh smoothies lined up on the counter at Everbowl",
+    image: "/blog-img/glow-up.jpg",
+    imageAlt: "Glow Up smoothie in a branded Everbowl cup",
     keywords: ["vitamin d winter", "spokane gray season", "vitamin d foods", "seasonal wellness"],
     body: `
       <p>Spokane sits at about 47.7 degrees north — roughly the same latitude as northern Maine. From mid-October through early March, the sun never climbs high enough here for your skin to make meaningful vitamin D, no matter how many crisp bluebird days you spend outside. Welcome to the gray season. Let's plan for it instead of just enduring it.</p>
@@ -723,8 +723,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-08",
     readMins: 5,
-    image: "1b4287ce-c312-4b57-b34d-43e13a35a10b.jpg",
-    imageAlt: "Everbowl topped with banana, blueberries, strawberries, and almond-butter drizzle",
+    image: "/blog-img/cold-brew.jpg",
+    imageAlt: "Everbowl cold brew coffee over ice",
     keywords: ["caffeine performance", "cold brew workout", "matcha vs coffee", "caffeine timing sleep"],
     body: `
       <p>Caffeine is the rare supplement with decades of consistent evidence behind it: it reliably improves endurance, power output, and perceived effort. It's also the easiest good thing to use badly. Here's the field guide.</p>
@@ -758,8 +758,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-09",
     readMins: 5,
-    image: "22383a3a-c141-496c-b371-82dfb961b765.jpg",
-    imageAlt: "Spread of Everbowl bowls, smoothies, and avocado toast",
+    image: "203ecf6f-b8d8-4ad7-b35c-e38b88ec0220.jpg",
+    imageAlt: "Custom-built Everbowl with fruit and granola toppings",
     keywords: ["dishman hills", "iller creek trail", "rocks of sharon", "spokane valley hikes", "fall hiking"],
     body: `
       <p>Ask someone in Spokane Valley where they hike and half will name somewhere forty minutes away — while the Dishman Hills sit right there, a wild green wedge rising straight out of the neighborhood grid. October is when this backyard range shows off.</p>
@@ -788,8 +788,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-10",
     readMins: 5,
-    image: "1a7c4832-72e3-40d2-9ad6-ff4c0fe1c4c8.jpg",
-    imageAlt: "Layered Everbowl with pitaya, açaí, kiwi, pineapple, and banana",
+    image: "/blog-img/chia-pudding-whatever-bowl.jpg",
+    imageAlt: "Chia pudding Whatever Bowl, a fiber-rich base ready for toppings",
     keywords: ["gut health", "prebiotic foods", "fiber benefits", "microbiome diet"],
     body: `
       <p>The gut-health aisle would love to sell you something complicated. The research keeps saying something simple: the trillions of bacteria in your gut mostly eat one thing — fiber — and most Americans feed them about half of what they need. The average intake hovers around 15 grams a day against a 25-to-38-gram recommendation. That gap explains a lot.</p>
@@ -822,8 +822,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-11",
     readMins: 5,
-    image: "1e2cd827-18ce-4c1b-adf2-c08bcd354e00.jpg",
-    imageAlt: "Five Everbowl bowls with fresh fruit toppings, seen from above",
+    image: "/blog-img/regular-whatever-bowl.jpg",
+    imageAlt: "A regular Whatever Bowl built with fruit and granola",
     keywords: ["bowl and pitcher", "riverside state park", "spokane river trails", "october hiking spokane"],
     body: `
       <p>Every Spokane landmark has its month, and for Bowl and Pitcher it's October. The crowds thin, the rattlesnake-season heat is gone, and the cottonwoods along the Spokane River turn a gold that makes the dark basalt formations look staged for a postcard. If you've been saving a Riverside State Park trip, stop saving it.</p>
@@ -852,8 +852,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-12",
     readMins: 4,
-    image: "79c7f603-0851-449d-b318-f2180c0b2101.jpg",
-    imageAlt: "Açaí bowl topped with fresh berries and granola",
+    image: "/blog-img/classic-avocado-toast.jpg",
+    imageAlt: "Classic Avocado Toast with everything seasoning and chili flakes",
     keywords: ["avocado toast healthy", "avocado nutrition", "balanced breakfast", "monounsaturated fat"],
     body: `
       <p>Somewhere around 2017, avocado toast stopped being food and became a generational argument. Let's rescue it, because underneath the memes is one of the more defensible breakfasts you can order.</p>
@@ -882,8 +882,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-13",
     readMins: 5,
-    image: "4a41ab95-ab59-468a-a662-65a9c7cd98f7.jpg",
-    imageAlt: "Top-down view of an Everbowl topped with kiwi, blueberries, banana, and hemp seeds",
+    image: "/blog-img/strawberry-lemonade.jpg",
+    imageAlt: "Everbowl Strawberry Lemonade, a vitamin C-packed sip",
     keywords: ["immune support foods", "vitamin c", "cold season nutrition", "zinc immune"],
     body: `
       <p>Spokane's first real cold snap usually lands in mid-to-late October — frost on the windshield, furnace smell in the house, and the season's first round of colds making the office rounds. No food makes you immune to any of it. But your immune system is a metabolically expensive machine, and what you eat genuinely affects how well it runs. Here's the evidence-respecting version.</p>
@@ -918,8 +918,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-14",
     readMins: 5,
-    image: "75433944-05fe-46c7-8c4a-a08aba6e2bc9.jpg",
-    imageAlt: "Vibrant pitaya bowl with tropical fruit toppings",
+    image: "/blog-img/nanaberry-bliss.jpg",
+    imageAlt: "Nanaberry Bliss smoothie, a pre-run favorite",
     keywords: ["fall running", "cold weather running nutrition", "running fuel", "spokane running"],
     body: `
       <p>Ask Spokane runners their favorite month and October wins in a landslide: 40-degree mornings, firm trails, no smoke, no ice. It's also the month the spring-race people quietly start building their base — Bloomsday is seven months out, and seven months is exactly how long a good base takes. Cold-weather running has its own fueling logic. Here it is.</p>
@@ -948,8 +948,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-15",
     readMins: 4,
-    image: "0d0d3e7a-efe2-4f1d-abfd-646e86bfb3aa.jpg",
-    imageAlt: "Pitaya and chia Everbowl in a branded cup, held up outdoors",
+    image: "/blog-img/acai-base-pint.jpg",
+    imageAlt: "Everbowl açaí base pint for take-home meal prep",
     keywords: ["meal prep fall", "healthy freezer meals", "base pints", "busy family nutrition"],
     body: `
       <p>Nobody's nutrition falls apart in a vacuum. It falls apart on a Wednesday in October — practice at 5:30, homework after, dark by 6:30, and suddenly the drive-through is making the family's decisions. Meal prep is the boring superpower against that Wednesday. Here's a version that survives real life.</p>
@@ -981,8 +981,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-16",
     readMins: 4,
-    image: "203ecf6f-b8d8-4ad7-b35c-e38b88ec0220.jpg",
-    imageAlt: "Custom-built Everbowl with fruit and granola toppings",
+    image: "/blog-img/blue-majic-base-pint.jpg",
+    imageAlt: "Blue Majik base pint, Everbowl spirulina blend to take home",
     keywords: ["blue majik", "spirulina benefits", "phycocyanin", "blue spirulina bowl"],
     body: `
       <p>First-timers always ask about the blue. Fair — nothing in nature seems like it should be that color, and the assumption is usually food coloring. It isn't. The electric blue in bowls like our <a href="/#menu">Blue Lagoon</a> comes from one of the oldest organisms still being eaten on this planet.</p>
@@ -1011,8 +1011,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-17",
     readMins: 5,
-    image: "e122709c-fabe-47e1-bc9d-194eedcf464d.jpg",
-    imageAlt: "Two colorful Everbowl creations topped with granola and fresh strawberries",
+    image: "/blog-img/whatever-smoothie.jpg",
+    imageAlt: "A build-your-own Whatever Smoothie from Everbowl",
     keywords: ["youth sports nutrition", "kids athlete food", "spokane valley youth sports", "post practice snacks"],
     body: `
       <p>If you're a Spokane Valley parent in October, your minivan already knows the route: soccer fields at Mirabeau Point and Plante's Ferry, volleyball and basketball tournaments at the HUB in Liberty Lake, flag football somewhere with exactly one working porta-potty. Sideline season is wonderful and completely unhinged, and somewhere in it, kids need to actually eat. Here's the realistic version.</p>
@@ -1046,8 +1046,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-18",
     readMins: 5,
-    image: "629bd73a-a3df-457b-aadd-571f6c321d1b.jpg",
-    imageAlt: "Fresh smoothies lined up on the counter at Everbowl",
+    image: "/blog-img/mango-majic.jpg",
+    imageAlt: "Mango Majic bowl with mango, blue majik, pineapple, strawberry, and kiwi",
     keywords: ["superfood myths", "nutrition claims", "health marketing", "evidence based nutrition"],
     body: `
       <p>Let's do something slightly dangerous for a superfood shop: tell you the truth about the word superfood. It has no scientific or regulatory definition. None. It's a marketing term — one we use too, because it communicates "nutrient-dense plant" in one word. But since the word sells everything from açaí to gummy vitamins, you deserve a filter for separating dense foods from dense claims.</p>
@@ -1079,8 +1079,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-19",
     readMins: 5,
-    image: "1b4287ce-c312-4b57-b34d-43e13a35a10b.jpg",
-    imageAlt: "Everbowl topped with banana, blueberries, strawberries, and almond-butter drizzle",
+    image: "/blog-img/vanilla-base-pint.jpg",
+    imageAlt: "Everbowl vanilla base pint, an evening-friendly take-home treat",
     keywords: ["sleep and recovery", "circadian rhythm fall", "meal timing sleep", "spokane daylight"],
     body: `
       <p>Every October, Spokane sheds daylight at an almost alarming rate — close to three minutes a day, sunsets sliding from 6:30 toward 4:30 by Thanksgiving. You can mourn it, or you can notice that human sleep biology was built for exactly this and cash the check. Sleep is where training adapts, immunity consolidates, and appetite hormones reset. Fall is the sleep season. Here's how to claim it.</p>
@@ -1113,8 +1113,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-20",
     readMins: 4,
-    image: "22383a3a-c141-496c-b371-82dfb961b765.jpg",
-    imageAlt: "Spread of Everbowl bowls, smoothies, and avocado toast",
+    image: "/blog-img/cinnamon-ice-blended-coffee.jpg",
+    imageAlt: "Cinnamon Ice Blended Coffee, Everbowl fall sip",
     keywords: ["pumpkin spice nutrition", "fall flavors healthy", "cinnamon benefits", "seasonal eating fall"],
     body: `
       <p>Every September, fall flavors descend on America like weather, and by October they're inescapable. Here's the fun secret: several of autumn's icons are genuinely good for you. The problem is they usually arrive buried in 50 grams of sugar. Let's sort the flavors from the vehicles.</p>
@@ -1144,8 +1144,8 @@ export const POSTS = [
     category: "Sports & Movement",
     date: "2026-10-21",
     readMins: 5,
-    image: "1a7c4832-72e3-40d2-9ad6-ff4c0fe1c4c8.jpg",
-    imageAlt: "Layered Everbowl with pitaya, açaí, kiwi, pineapple, and banana",
+    image: "/blog-img/pitaya-paradise.jpg",
+    imageAlt: "Pitaya Paradise smoothie in a branded Everbowl cup",
     keywords: [
       "Centennial Trail Spokane",
       "fall cycling Spokane",
@@ -1174,8 +1174,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-22",
     readMins: 6,
-    image: "1e2cd827-18ce-4c1b-adf2-c08bcd354e00.jpg",
-    imageAlt: "Five Everbowl bowls with fresh fruit toppings, seen from above",
+    image: "1b4287ce-c312-4b57-b34d-43e13a35a10b.jpg",
+    imageAlt: "Everbowl topped with banana, blueberries, strawberries, and almond-butter drizzle",
     keywords: [
       "anti-inflammatory diet",
       "berries antioxidants",
@@ -1206,8 +1206,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-23",
     readMins: 5,
-    image: "79c7f603-0851-449d-b318-f2180c0b2101.jpg",
-    imageAlt: "Açaí bowl topped with fresh berries and granola",
+    image: "/blog-img/pb-cacao-dream.jpg",
+    imageAlt: "PB Cacao Dream smoothie with peanut butter and cacao",
     keywords: [
       "peanut butter nutrition",
       "healthy fats",
@@ -1238,8 +1238,8 @@ export const POSTS = [
     category: "Sports & Movement",
     date: "2026-10-24",
     readMins: 5,
-    image: "4a41ab95-ab59-468a-a662-65a9c7cd98f7.jpg",
-    imageAlt: "Top-down view of an Everbowl topped with kiwi, blueberries, banana, and hemp seeds",
+    image: "/blog-img/full-moon.jpg",
+    imageAlt: "Full Moon bowl with vanilla, cacao wow, granola, banana, strawberry, and cacao nibs",
     keywords: [
       "Liberty Lake hike",
       "Liberty Lake Regional Park",
@@ -1268,8 +1268,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-25",
     readMins: 5,
-    image: "75433944-05fe-46c7-8c4a-a08aba6e2bc9.jpg",
-    imageAlt: "Vibrant pitaya bowl with tropical fruit toppings",
+    image: "/blog-img/perfect-date.jpg",
+    imageAlt: "Perfect Date bowl with cacao wow, coco love, peanut butter, and dates",
     keywords: [
       "acai bowl winter",
       "cold food cold weather",
@@ -1298,8 +1298,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-26",
     readMins: 6,
-    image: "0d0d3e7a-efe2-4f1d-abfd-646e86bfb3aa.jpg",
-    imageAlt: "Pitaya and chia Everbowl in a branded cup, held up outdoors",
+    image: "/blog-img/cacao-ice-blended-coffee.jpg",
+    imageAlt: "Cacao Ice Blended Coffee, cold-weather fuel from Everbowl",
     keywords: [
       "ski conditioning",
       "Mt Spokane ski season",
@@ -1328,8 +1328,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-27",
     readMins: 5,
-    image: "203ecf6f-b8d8-4ad7-b35c-e38b88ec0220.jpg",
-    imageAlt: "Custom-built Everbowl with fruit and granola toppings",
+    image: "/blog-img/iced-matcha.jpg",
+    imageAlt: "Everbowl iced matcha, steady study-session caffeine",
     keywords: [
       "study food focus",
       "brain food students",
@@ -1358,8 +1358,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-28",
     readMins: 5,
-    image: "e122709c-fabe-47e1-bc9d-194eedcf464d.jpg",
-    imageAlt: "Two colorful Everbowl creations topped with granola and fresh strawberries",
+    image: "/blog-img/large-whatever-bowl.jpg",
+    imageAlt: "A large Whatever Bowl stacked with fruit and granola",
     keywords: [
       "rest day nutrition",
       "recovery day eating",
@@ -1388,8 +1388,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-29",
     readMins: 5,
-    image: "629bd73a-a3df-457b-aadd-571f6c321d1b.jpg",
-    imageAlt: "Fresh smoothies lined up on the counter at Everbowl",
+    image: "/blog-img/dragon-fruit-lemonade.jpg",
+    imageAlt: "Vivid pink Dragon Fruit Lemonade from Everbowl",
     keywords: [
       "eat the rainbow",
       "phytonutrients",
@@ -1418,8 +1418,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-30",
     readMins: 5,
-    image: "1b4287ce-c312-4b57-b34d-43e13a35a10b.jpg",
-    imageAlt: "Everbowl topped with banana, blueberries, strawberries, and almond-butter drizzle",
+    image: "/blog-img/vanilla-everwich.jpg",
+    imageAlt: "Vanilla Everwich, the Everbowl frozen sandwich treat",
     keywords: [
       "Halloween candy kids",
       "sugar and kids",
