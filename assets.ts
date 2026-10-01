@@ -3,8 +3,11 @@
 const B = "https://d2ol7oe51mr4n9.cloudfront.net/user_3EYPmwtztSzZFM0MKDfVfBshbpu";
 
 export const A = {
-  heroVideo: `${B}/21543c3d-f191-48be-af1e-97801f65be31.mp4`,
-  heroPoster: `${B}/2102700c-7b68-42f4-baf8-764f24dedd11.png`,
+  // 1280w scrub-optimized encode (mobile / small screens)
+  heroVideo: `${B}/c5dd964d-ebdf-426d-97ec-00225814f512.mp4`,
+  // 2560w AI-upscaled encode (desktop / high-DPI screens)
+  heroVideoHD: `${B}/503245ab-abd6-4201-9e97-618feb0b3f04.mp4`,
+  heroPoster: `${B}/aab8c7b2-a07c-42d5-8eee-1036fe64834c.jpg`,
   bowlAcai: `${B}/79c7f603-0851-449d-b318-f2180c0b2101.jpg`,
   bowlPitaya: `${B}/75433944-05fe-46c7-8c4a-a08aba6e2bc9.jpg`,
   bowlCustom: `${B}/203ecf6f-b8d8-4ad7-b35c-e38b88ec0220.jpg`,

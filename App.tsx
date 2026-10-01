@@ -89,9 +89,14 @@ function ScrubHero() {
   // Start false so SSR and the client's first render match (hydration-safe),
   // then read the real preference after mount.
   const [reduced, setReduced] = useState(false);
+  // Pick the hero source after mount: the 2560w HD encode for large screens,
+  // the lighter 1280w encode for phones. SSR renders the light one.
+  const [heroSrc, setHeroSrc] = useState(A.heroVideo);
 
   useEffect(() => {
     setReduced(window.matchMedia?.("(prefers-reduced-motion: reduce)").matches ?? false);
+    const w = window.innerWidth * Math.min(window.devicePixelRatio || 1, 2);
+    if (w > 1280) setHeroSrc(A.heroVideoHD);
   }, []);
 
   useEffect(() => {
@@ -128,7 +133,7 @@ function ScrubHero() {
       window.removeEventListener("resize", onScroll);
       if (raf) cancelAnimationFrame(raf);
     };
-  }, [reduced]);
+  }, [reduced, heroSrc]);
 
   return (
     <section
@@ -140,7 +145,7 @@ function ScrubHero() {
         <video
           ref={videoRef}
           className="eb-hero__video"
-          src={A.heroVideo}
+          src={heroSrc}
           poster={A.heroPoster}
           muted
           playsInline
