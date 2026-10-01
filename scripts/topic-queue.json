@@ -51,21 +51,21 @@
       "angle": "Green Bluff u-pick season; harvest fruit + fiber; feature Full Moon (cacao) + Glow Up smoothie; refuel at the shop after a day up on the Bluff."
     },
     {
-      "used": false,
+      "used": true,
       "title": "Fall Foliage Hikes at Tubbs Hill & Mineral Ridge: A Post-Trail Refuel Guide",
       "category": "Spokane & Movement",
       "season": "October",
       "angle": "CdA fall color hikes; cooler temps, shorter days; post-hike carbs + protein; feature Nutty Butty + Pitayum; find us in Spokane Valley on the way home."
     },
     {
-      "used": false,
+      "used": true,
       "title": "Cooler Mornings, Warmer Fuel: Why Hot Oats Belong in Your Fall Routine",
       "category": "Nutrition",
       "season": "October",
       "angle": "First frosts in the Inland NW; warm breakfast for cold mornings; feature Hot Oats (GF) + PB Crunch Toast + Iced or hot Matcha; visit before work."
     },
     {
-      "used": false,
+      "used": true,
       "title": "Immune-Supporting Foods for the Inland Northwest's First Cold Snap",
       "category": "Health",
       "season": "November",
@@ -170,7 +170,7 @@
       "angle": "Mid-summer heat fatigue; electrolytes + water-rich foods + easy-to-digest calories; feature Pitayum + Iced Strawberry Matcha; cool down at the shop."
     },
     {
-      "used": false,
+      "used": true,
       "title": "How Much Protein Do You Actually Need? A Guide for Active Inland NW Folks",
       "category": "Nutrition",
       "season": "any",
@@ -184,39 +184,81 @@
       "angle": "Evergreen science piece tied to smoke/sun exposure common locally; anthocyanins in açaí + pitaya; feature Everbowl + Blue Lagoon; visit the Valley shop for the real thing."
     },
     {
-      "used": false,
+      "used": true,
       "title": "Smoothie vs. Bowl: Which to Order Before and After Your Workout",
       "category": "Fitness & Recovery",
       "season": "any",
       "angle": "Digestion speed + use cases; feature Nanaberry Bliss (pre) + Nutty Butty (post); order ahead online and skip the line at 13324 E Sprague."
     },
     {
-      "used": false,
+      "used": true,
       "title": "Gut Health 101: Fiber and Prebiotics from Everyday Superfoods",
       "category": "Health",
       "season": "any",
       "angle": "Fiber/microbiome basics; chia, oats, whole fruit; feature Chia Pudding Bowl + Berry Boost; easy daily fiber from the Valley shop."
     },
     {
-      "used": false,
+      "used": true,
       "title": "Avocado Toast, Reconsidered: A Genuinely Balanced Inland NW Breakfast",
       "category": "Nutrition",
       "season": "any",
       "angle": "Healthy fats + fiber + protein add-ons; feature Classic + Bruschetta Avocado Toast + Iced Matcha; a real breakfast stop in Spokane Valley."
     },
     {
-      "used": false,
+      "used": true,
       "title": "Caffeine and Performance: Cold Brew, Matcha, and Timing Done Right",
       "category": "Fitness & Recovery",
       "season": "any",
       "angle": "Dose/timing, matcha L-theanine; feature Cold Brew + Ice Blended Matcha + PB Protein Ice Blended Coffee; your pre-workout stop in the Valley."
     },
     {
-      "used": false,
+      "used": true,
       "title": "Superfood Marketing vs. Science: How to Read Health Claims Honestly",
       "category": "Nutrition",
       "season": "any",
       "angle": "Critical-thinking, food-first; honest take builds trust; feature Everbowl + Pitaya Paradise as whole-food examples; come taste the difference in Spokane Valley."
+    },
+    {
+      "used": false,
+      "title": "Thanksgiving Week Without the Food Guilt: A Balanced Inland NW Game Plan",
+      "category": "Health",
+      "season": "November",
+      "angle": "Holiday eating psychology, no-restriction approach; keep normal meals around the feast; feature Everbowl + Glow Up for the days around Thanksgiving; order online during the busy week."
+    },
+    {
+      "used": false,
+      "title": "Treadmill Season: Keeping Your Running Base Through a Spokane Winter",
+      "category": "Fitness & Recovery",
+      "season": "November",
+      "angle": "Dark/icy streets push runs indoors; maintaining base + indoor fueling; feature Nanaberry Bliss (pre) + PB Everbowl (post); quick stop on Sprague between gym and home."
+    },
+    {
+      "used": false,
+      "title": "Citrus Season Starts Now: Winter Vitamin C, the Delicious Way",
+      "category": "Nutrition",
+      "season": "December",
+      "angle": "Peak citrus arrives as local produce disappears; vitamin C + flavonoids; feature Strawberry Lemonade + Blue Lagoon; brighten a gray Valley day."
+    },
+    {
+      "used": false,
+      "title": "Short Days, Steady Mood: Food, Light, and Energy in the Darkest Weeks",
+      "category": "Health",
+      "season": "December",
+      "angle": "Winter solstice darkness; omega-3s, vitamin D foods, regular meals, morning light walks; feature Chia Pudding Bowl + Evergreen; a bright stop at 13324 E Sprague."
+    },
+    {
+      "used": false,
+      "title": "Holiday Party Survival: Eating Well in December Without Being That Person",
+      "category": "Nutrition",
+      "season": "December",
+      "angle": "Party-season balance, protein-first, no moralizing; feature Everbowl + PB Cacao Dream as between-party resets; order ahead online."
+    },
+    {
+      "used": false,
+      "title": "Snowshoe & Nordic Days: Fueling Mt. Spokane State Park Winter Trails",
+      "category": "Spokane & Movement",
+      "season": "December",
+      "angle": "Snowshoe/XC at Mt Spokane Nordic area; cold-weather endurance fueling; feature Hot Oats + Full Moon; warm up in the Valley after the trails."
     }
   ]
 }

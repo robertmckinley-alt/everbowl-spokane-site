@@ -201,11 +201,22 @@ ${cards}
 }
 
 // --- run ---
-const sorted = [...POSTS].sort((a, b) => (a.date < b.date ? 1 : -1));
+// Date gate: only publish posts whose date has arrived in Pacific time.
+// Future-dated posts stay in posts.mjs and go live automatically on the
+// first build on/after their date (a scheduled daily rebuild handles this).
+const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
+const published = POSTS.filter((p) => p.date <= TODAY);
+const sorted = [...published].sort((a, b) => (a.date < b.date ? 1 : -1));
 for (const p of sorted) {
   fs.writeFileSync(path.join(BLOG_DIR, `${p.slug}.html`), postHtml(p));
 }
 fs.writeFileSync(path.join(BLOG_DIR, "index.html"), indexHtml(sorted));
+
+// Remove stale pages (e.g. renamed slugs) so unpublished posts never leak.
+const keep = new Set([...sorted.map((p) => `${p.slug}.html`), "index.html", "blog.css"]);
+for (const f of fs.readdirSync(BLOG_DIR)) {
+  if (f.endsWith(".html") && !keep.has(f)) fs.unlinkSync(path.join(BLOG_DIR, f));
+}
 
 // sitemap
 const smUrls = [
@@ -221,4 +232,4 @@ fs.writeFileSync(
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${smUrls.join("\n")}\n</urlset>\n`,
 );
 
-console.log(`Generated ${sorted.length} posts + blog index + sitemap.xml`);
+console.log(`Generated ${sorted.length}/${POSTS.length} posts (date-gated at ${TODAY} Pacific) + blog index + sitemap.xml`);
