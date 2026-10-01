@@ -1,14 +1,15 @@
 // All media hosted on a public CDN (CORS-enabled) so the site deploys as a
-// tiny code-only bundle. Swap these for your own CDN/S3 URLs anytime.
+// tiny code-only bundle. Bowl/spread photos are real Everbowl brand photography.
 const B = "https://d2ol7oe51mr4n9.cloudfront.net/user_3EYPmwtztSzZFM0MKDfVfBshbpu";
 
 export const A = {
   heroVideo: `${B}/21543c3d-f191-48be-af1e-97801f65be31.mp4`,
   heroPoster: `${B}/2102700c-7b68-42f4-baf8-764f24dedd11.png`,
-  bowlAcai: `${B}/9a971840-0b65-4f07-ab00-54336a4f0f74.jpg`,
-  bowlPitaya: `${B}/b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg`,
-  bowlNutty: `${B}/ee557844-fb66-41b2-8d32-c78a539eb48b.jpg`,
-  smoothies: `${B}/b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg`,
+  bowlAcai: `${B}/79c7f603-0851-449d-b318-f2180c0b2101.jpg`,
+  bowlPitaya: `${B}/75433944-05fe-46c7-8c4a-a08aba6e2bc9.jpg`,
+  bowlCustom: `${B}/203ecf6f-b8d8-4ad7-b35c-e38b88ec0220.jpg`,
+  smoothies: `${B}/629bd73a-a3df-457b-aadd-571f6c321d1b.jpg`,
+  spread: `${B}/22383a3a-c141-496c-b371-82dfb961b765.jpg`,
   plate: `${B}/a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg`,
   monogram: `${B}/d786c528-0377-4f20-9f7a-05b7308b91d7.png`,
   iconLeaf: `${B}/b074d48a-f573-4f1e-90bb-7030e7f12f51.png`,

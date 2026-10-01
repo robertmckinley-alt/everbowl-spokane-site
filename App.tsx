@@ -14,7 +14,7 @@ const VARIANTS: { id: Variant; label: string; swatch: string }[] = [
 const FEATURE_BOWLS = [
   { name: "Everbowl", ingredients: "Açaí, granola, banana, strawberry, blueberry.", img: A.bowlAcai, tag: "Açaí base" },
   { name: "Blue Lagoon", ingredients: "Blue majic, pitaya, coco love, chia pudding, strawberry, pineapple, coconut.", img: A.bowlPitaya, tag: "Pitaya base" },
-  { name: "Full Moon", ingredients: "Vanilla, cacao wow, granola, banana, strawberry, peanut butter, cacao nibs.", img: A.bowlNutty, tag: "Cacao base" },
+  { name: "The Whatever Bowl", ingredients: "Your bases, your fruit, your superfoods. Built from scratch, your rules.", img: A.bowlCustom, tag: "Build your own" },
 ];
 
 // The full signature bowl lineup.
@@ -68,7 +68,7 @@ const PILLARS = [
 ];
 
 const MARQUEE = ["Fuel for movement", "Eat good vibes", "We unevolve", "Real fruit only", "Açaí · Pitaya · Cacao"];
-const IG_TILES = [A.bowlAcai, A.bowlPitaya, A.smoothies, A.bowlNutty];
+const IG_TILES = [A.bowlAcai, A.bowlPitaya, A.smoothies, A.bowlCustom];
 
 // Real Spokane details. Order / catering / app links are still placeholders.
 const ORDER_URL = "https://www.everbowl.com/";
@@ -423,7 +423,7 @@ export default function App() {
       <section id="catering" className="scroll-mt-20 bg-eb-bone">
         <div className="mx-auto max-w-6xl px-5 py-20">
           <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2">
-            <div className="overflow-hidden rounded-3xl"><img src={A.bowlAcai} alt="Everbowl catering spread" className="h-full w-full object-cover" /></div>
+            <div className="overflow-hidden rounded-3xl"><img src={A.spread} alt="Everbowl catering spread" className="h-full w-full object-cover" /></div>
             <div>
               <p className="mb-2 font-display text-sm font-semibold uppercase tracking-wide text-eb-green-deep">Catering</p>
               <h2 className="font-display text-4xl font-extrabold leading-none tracking-tight text-eb-ink md:text-6xl">Feed the whole crew.</h2>
