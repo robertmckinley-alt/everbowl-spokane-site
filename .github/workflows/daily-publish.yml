@@ -1,0 +1,17 @@
+name: Daily publish tick
+on:
+  schedule:
+    - cron: "23 13 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          git config user.name "everbowl-journal-bot"
+          git config user.email "actions@github.com"
+          git commit --allow-empty -m "Journal: daily publish tick"
+          git push
