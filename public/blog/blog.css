@@ -13,8 +13,8 @@
   --eb-violet: #6e2e9c;
   --eb-muted: #6c5a7a;
   --eb-muted-light: #cdbcdc;
-  --font-display: "Unbounded", ui-sans-serif, system-ui, sans-serif;
-  --font-body: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "BrandonFont", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Proxima Nova", ui-sans-serif, system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
