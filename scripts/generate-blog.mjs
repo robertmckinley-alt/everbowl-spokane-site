@@ -95,11 +95,9 @@ function postHtml(p) {
   <meta name="twitter:title" content="${esc(p.title)}" />
   <meta name="twitter:description" content="${esc(p.description)}" />
   <meta name="twitter:image" content="${hero}" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&display=swap" />
-  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
-  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" />
+  <link rel="preload" href="/fonts/brandonfont-black.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/Proxima-Nova-Regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/fonts/fonts.css" />
   <link rel="stylesheet" href="/blog/blog.css" />
   <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
   <script type="application/ld+json">${JSON.stringify(crumb)}</script>
@@ -173,11 +171,9 @@ function indexHtml(posts) {
   <meta property="og:url" content="${SITE}/blog/" />
   <meta property="og:image" content="${CDN}/6ba26f97-d429-4d26-badf-9f5e631c7da6.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;600;700;800;900&display=swap" />
-  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
-  <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" />
+  <link rel="preload" href="/fonts/brandonfont-black.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/fonts/Proxima-Nova-Regular.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="stylesheet" href="/fonts/fonts.css" />
   <link rel="stylesheet" href="/blog/blog.css" />
   <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
 </head>
