@@ -377,9 +377,9 @@ export default function App() {
             </div>
             <div className="overflow-hidden rounded-3xl"><img src={A.smoothies} alt="Everbowl smoothies to go" className="h-full w-full object-cover" /></div>
           </div>
-          <div className="mt-12 flex snap-x gap-5 overflow-x-auto pb-4">
+          <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {SMOOTHIES.map((s) => (
-              <div key={s.name} className="w-64 shrink-0 snap-start rounded-2xl border border-eb-violet/40 bg-eb-plum-deep/70 p-6">
+              <div key={s.name} className="rounded-2xl border border-eb-violet/40 bg-eb-plum-deep/70 p-6">
                 <h3 className="font-display text-xl font-bold text-eb-bone">{s.name}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-eb-muted-light">{s.ingredients}</p>
               </div>
