@@ -274,3 +274,20 @@ body {
 @media (prefers-reduced-motion: reduce) {
   .eb-hero__chapter { transition: none; }
 }
+
+/* ---- Apply form ---- */
+.eb-input {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid color-mix(in srgb, var(--eb-violet) 40%, transparent);
+  background: color-mix(in srgb, var(--eb-plum-deep) 60%, black 10%);
+  color: var(--eb-bone);
+  padding: 0.7rem 0.9rem;
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+.eb-input::placeholder { color: color-mix(in srgb, var(--eb-muted-light) 60%, transparent); }
+.eb-input:focus { border-color: var(--eb-green); }
+select.eb-input { appearance: none; }

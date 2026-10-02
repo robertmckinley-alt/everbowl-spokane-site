@@ -48,11 +48,21 @@ const SMOOTHIES = [
 ];
 
 const TOASTS = [
-  { name: "Classic Avocado Toast", price: "$6.99", ingredients: "House-made avocado spread, everything seasoning, chili flakes, honey." },
-  { name: "Bruschetta Avocado Toast", price: "$7.99", ingredients: "Avocado spread, marinated tomatoes, basil, balsamic glaze." },
-  { name: "PB Crunch Toast", price: "$6.99", ingredients: "Crunchy peanut butter spread, banana, cacao nibs, honey." },
-  { name: "Whatever Toast", price: "$8.99", ingredients: "Build your own on toasted artisan rustic bread." },
+  { name: "Classic Avocado Toast", price: "$6.99", ingredients: "House-made avocado spread, everything seasoning, chili flakes, honey.", image: "/blog-img/classic-avocado-toast.jpg" },
+  { name: "Bruschetta Avocado Toast", price: "$7.99", ingredients: "Avocado spread, marinated tomatoes, basil, balsamic glaze.", image: "/blog-img/bruschetta-avocado-toast.jpg" },
+  { name: "PB Crunch Toast", price: "$6.99", ingredients: "Crunchy peanut butter spread, banana, cacao nibs, honey.", image: "/img/pb-crunch-toast.jpg" },
+  { name: "Whatever Toast", price: "$8.99", ingredients: "Build your own on toasted artisan rustic bread.", image: "/img/toast-trio.jpg" },
 ];
+
+const SMOOTHIE_IMG: Record<string, string> = {
+  "Nanaberry Bliss": "/blog-img/nanaberry-bliss.jpg",
+  "PB Cacao Dream": "/blog-img/pb-cacao-dream.jpg",
+  "Pitaya Paradise": "/blog-img/pitaya-paradise.jpg",
+  "Glow Up": "/blog-img/glow-up.jpg",
+  "Evergreen": "/blog-img/evergreen.jpg",
+};
+
+const APPLY_EMAIL = "queenpanda@growopfarms.com";
 
 const SIPS = [
   "Strawberry Lemonade", "Dragon Fruit Lemonade", "Cold Brew",
@@ -258,6 +268,7 @@ export default function App() {
             <a href="#smoothies" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Smoothies</a>
             <a href="#toast" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Toast</a>
             <a href="#location" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Visit</a>
+            <a href="#apply" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Jobs</a>
             <a href="/blog/" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Journal</a>
           </div>
           <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="eb-btn-order text-sm">Order online</a>
@@ -375,13 +386,18 @@ export default function App() {
               </p>
               <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="eb-btn-rewards mt-7">Order online</a>
             </div>
-            <div className="overflow-hidden rounded-3xl"><img src={A.smoothies} alt="Everbowl smoothies to go" className="h-full w-full object-cover" /></div>
+            <div className="overflow-hidden rounded-3xl bg-white"><img src="/img/smoothies-lineup.jpg" alt="Everbowl smoothies: Nanaberry Bliss, Pitaya Paradise, and Glow Up" className="h-full w-full object-cover" /></div>
           </div>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
             {SMOOTHIES.map((s) => (
-              <div key={s.name} className="rounded-2xl border border-eb-violet/40 bg-eb-plum-deep/70 p-6">
-                <h3 className="font-display text-xl font-bold text-eb-bone">{s.name}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-eb-muted-light">{s.ingredients}</p>
+              <div key={s.name} className="overflow-hidden rounded-2xl border border-eb-violet/40 bg-eb-plum-deep/70">
+                <div className="aspect-square w-full bg-white">
+                  <img src={SMOOTHIE_IMG[s.name]} alt={`${s.name} smoothie`} loading="lazy" className="h-full w-full object-cover" />
+                </div>
+                <div className="p-5">
+                  <h3 className="font-display text-xl font-bold text-eb-bone">{s.name}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-eb-muted-light">{s.ingredients}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -395,14 +411,19 @@ export default function App() {
             <p className="mb-2 font-display text-sm font-semibold uppercase tracking-wide text-eb-green-deep">Toast</p>
             <h2 className="font-display text-4xl font-extrabold leading-none tracking-tight text-eb-ink md:text-6xl">On artisan rustic bread.</h2>
           </div>
-          <div className="grid grid-cols-1 gap-x-12 gap-y-6 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {TOASTS.map((t) => (
-              <div key={t.name} className="flex justify-between gap-4 border-t border-eb-bone-line pt-4">
-                <div>
-                  <h4 className="font-display text-lg font-bold text-eb-ink">{t.name}</h4>
-                  <p className="mt-1 text-sm leading-relaxed text-eb-muted">{t.ingredients}</p>
+              <div key={t.name} className="overflow-hidden rounded-2xl border border-eb-bone-line bg-white">
+                <div className="aspect-square w-full bg-white">
+                  <img src={t.image} alt={t.name} loading="lazy" className="h-full w-full object-cover" />
                 </div>
-                <span className="shrink-0 font-display text-sm font-bold text-eb-green-deep">{t.price}</span>
+                <div className="p-5">
+                  <div className="flex items-start justify-between gap-3">
+                    <h4 className="font-display text-lg font-bold leading-tight text-eb-ink">{t.name}</h4>
+                    <span className="shrink-0 font-display text-sm font-bold text-eb-green-deep">{t.price}</span>
+                  </div>
+                  <p className="mt-1.5 text-sm leading-relaxed text-eb-muted">{t.ingredients}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -438,6 +459,81 @@ export default function App() {
                 <a href={PHONE_HREF} className="eb-link-pin self-center">Call {PHONE}</a>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Apply to work here */}
+      <section id="apply" className="scroll-mt-20 bg-eb-plum">
+        <div className="mx-auto max-w-6xl px-5 py-20">
+          <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
+            <div>
+              <p className="mb-2 font-display text-sm font-semibold uppercase tracking-wide text-eb-green">Join the crew</p>
+              <h2 className="font-display text-4xl font-extrabold leading-none tracking-tight text-eb-bone md:text-6xl">Apply to work here.</h2>
+              <p className="mt-5 max-w-[46ch] text-base leading-relaxed text-eb-muted-light">
+                We're building the opening team for Everbowl Spokane Valley — bowl builders, smoothie slingers, and shift leads who bring good energy. No experience needed, just hustle and a love of good food.
+              </p>
+              <ul className="mt-6 space-y-2 text-base text-eb-muted-light">
+                <li className="flex items-center gap-2"><span className="text-eb-green">+</span> Flexible scheduling around school and sports</li>
+                <li className="flex items-center gap-2"><span className="text-eb-green">+</span> Free shift bowl or smoothie</li>
+                <li className="flex items-center gap-2"><span className="text-eb-green">+</span> Grow with a brand-new location</li>
+              </ul>
+              <p className="mt-6 text-sm text-eb-muted-light">
+                Prefer email? Send your info to{" "}
+                <a href={`mailto:${APPLY_EMAIL}?subject=Everbowl%20Spokane%20application`} className="font-semibold text-eb-green hover:underline">{APPLY_EMAIL}</a>
+              </p>
+            </div>
+            <form
+              className="rounded-3xl border border-eb-violet/40 bg-eb-plum-deep/70 p-7"
+              onSubmit={(e) => {
+                e.preventDefault();
+                const d = new FormData(e.currentTarget);
+                const subject = `Everbowl Spokane application — ${d.get("name")}`;
+                const body = [
+                  `Name: ${d.get("name")}`,
+                  `Email: ${d.get("email")}`,
+                  `Phone: ${d.get("phone")}`,
+                  `Position: ${d.get("position")}`,
+                  `Availability: ${d.get("availability")}`,
+                  "",
+                  `${d.get("message")}`,
+                ].join("\n");
+                window.location.href = `mailto:${APPLY_EMAIL}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+              }}
+            >
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <label className="block">
+                  <span className="mb-1.5 block font-display text-xs font-bold uppercase tracking-wide text-eb-muted-light">Name</span>
+                  <input name="name" required className="eb-input" placeholder="Your name" />
+                </label>
+                <label className="block">
+                  <span className="mb-1.5 block font-display text-xs font-bold uppercase tracking-wide text-eb-muted-light">Phone</span>
+                  <input name="phone" type="tel" className="eb-input" placeholder="(509) 555-0100" />
+                </label>
+                <label className="block sm:col-span-2">
+                  <span className="mb-1.5 block font-display text-xs font-bold uppercase tracking-wide text-eb-muted-light">Email</span>
+                  <input name="email" type="email" required className="eb-input" placeholder="you@example.com" />
+                </label>
+                <label className="block">
+                  <span className="mb-1.5 block font-display text-xs font-bold uppercase tracking-wide text-eb-muted-light">Position</span>
+                  <select name="position" className="eb-input">
+                    <option>Team member</option>
+                    <option>Shift lead</option>
+                    <option>Either / whatever's open</option>
+                  </select>
+                </label>
+                <label className="block">
+                  <span className="mb-1.5 block font-display text-xs font-bold uppercase tracking-wide text-eb-muted-light">Availability</span>
+                  <input name="availability" className="eb-input" placeholder="Weekdays after 3, weekends" />
+                </label>
+                <label className="block sm:col-span-2">
+                  <span className="mb-1.5 block font-display text-xs font-bold uppercase tracking-wide text-eb-muted-light">Why Everbowl?</span>
+                  <textarea name="message" rows={4} className="eb-input" placeholder="Tell us a little about yourself..." />
+                </label>
+              </div>
+              <button type="submit" className="eb-btn-order mt-6 w-full justify-center">Send application</button>
+              <p className="mt-3 text-center text-xs text-eb-muted-light">Opens your email app with the application filled in, addressed to our hiring team.</p>
+            </form>
           </div>
         </div>
       </section>
@@ -569,6 +665,7 @@ export default function App() {
                 <p className="mb-3 font-display font-bold text-eb-green">Visit</p>
                 <ul className="space-y-2 text-eb-muted-light">
                   <li><a href="#location" className="transition-colors hover:text-eb-bone">Location</a></li>
+                  <li><a href="#apply" className="transition-colors hover:text-eb-bone">Jobs</a></li>
                   <li><a href={MAPS_URL} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-eb-bone">Directions</a></li>
                   <li><a href={PHONE_HREF} className="transition-colors hover:text-eb-bone">Call us</a></li>
                 </ul>
