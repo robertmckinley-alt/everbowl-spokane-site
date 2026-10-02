@@ -19,8 +19,8 @@
   --color-eb-muted: var(--eb-muted);
   --color-eb-muted-light: var(--eb-muted-light);
 
-  --font-display: "Unbounded", ui-sans-serif, system-ui, sans-serif;
-  --font-body: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "BrandonFont", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Proxima Nova", ui-sans-serif, system-ui, sans-serif;
 }
 
 /* ---- Variant: Fuel for Movement (default) ---- */
