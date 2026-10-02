@@ -1,0 +1,66 @@
+/* Everbowl brand fonts — self-hosted, matching everbowl.com
+ * BrandonFont (Brandon Grotesque): display / headlines
+ * Proxima Nova: body text */
+@font-face {
+  font-family: "BrandonFont";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/brandonfont-light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BrandonFont";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/brandonfont-regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BrandonFont";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/brandonfont-medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BrandonFont";
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: swap;
+  src: url("/fonts/brandonfont-bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "BrandonFont";
+  font-style: normal;
+  font-weight: 800 900;
+  font-display: swap;
+  src: url("/fonts/brandonfont-black.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/Proxima-Nova-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url("/fonts/Proxima-Nova-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: swap;
+  src: url("/fonts/Proxima-Nova-Semibold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 800 900;
+  font-display: swap;
+  src: url("/fonts/Proxima-Nova-Extrabold.woff2") format("woff2");
+}
