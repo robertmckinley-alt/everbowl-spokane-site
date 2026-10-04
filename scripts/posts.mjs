@@ -1440,4 +1440,44 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "daylight-saving-time-ends-reset",
+    title: "Daylight Saving Time Ends: A November 1st Reset for Spokane Valley",
+    description:
+      "Clocks fall back and evenings go dark by 5pm across the Inland Northwest. Here's how to use food, light, and a little intention to protect your energy and mood.",
+    category: "Health",
+    date: "2026-11-01",
+    readMins: 5,
+    image: "/blog-img/evergreen.jpg",
+    imageAlt: "Evergreen green smoothie with spinach, pineapple, and banana in a cup",
+    keywords: [
+      "daylight saving time ends",
+      "early darkness fall",
+      "spokane valley winter mood",
+      "fall nutrition reset",
+      "seasonal energy",
+    ],
+    body: `
+      <p>Somewhere around 2am last night, clocks across Spokane Valley and Coeur d'Alene fell back an hour, and daylight saving time quietly ended for another year. The extra hour of sleep is nice. What follows it is less nice: by this week, the sun will be down before 5pm, commutes both ways happen in the dark, and the Inland Northwest settles into its long, gray stretch toward the solstice. After a month of Halloween candy and Green Bluff cider, today is a genuinely useful day to reset.</p>
+
+      <h2>Why the Inland Northwest feels this one hard</h2>
+      <p>Spokane sits far enough north that the seasonal daylight swing is dramatic — roughly nine hours of daylight in early November versus nearly sixteen in June. That's a real shift in light exposure, and light exposure helps regulate circadian rhythm, alertness, and mood. Add in clouds and the first hard frosts, and it's no surprise this stretch of the calendar is when a lot of people notice their energy and motivation quietly dipping.</p>
+
+      <h2>What actually helps (food-first, not medical advice)</h2>
+      <ul>
+        <li><strong>Get outside early, even briefly.</strong> Morning light exposure — a walk along the Appleway Trail or just coffee on the porch — helps anchor your body clock when the sun is doing less of the work on its own.</li>
+        <li><strong>Keep meals regular.</strong> Skipping meals and then catching up at night is an easy habit to fall into as schedules shift with the time change. Steady meals support steadier energy.</li>
+        <li><strong>Lean on color when produce gets quieter.</strong> Local farm stands are winding down, so this is a good month to let a bowl do some of that work — açaí, pitaya, and berries carry the same antioxidant pigments year-round, frozen or fresh.</li>
+        <li><strong>Don't skip protein at breakfast.</strong> A protein-forward morning is one of the simplest levers for steady energy through a dark afternoon.</li>
+      </ul>
+
+      <p>Our <a href="/#smoothies">Evergreen smoothie</a> — spinach, pineapple, and banana blended thick — is built for exactly this stretch: it sneaks in a serving of greens without tasting like one, and it travels well if your schedule just got reshuffled by the time change. On a colder, darker morning, <a href="/#menu">Hot Oats</a> is the other move — warm, filling, and a steadier release of energy than something sugary grabbed on the way out the door.</p>
+
+      <blockquote>You can't negotiate with the sun. But you can control what's in your bowl, when you eat it, and whether you get outside before it disappears.</blockquote>
+
+      <p>None of this is about forcing positivity through a gray Tuesday — some mornings in November just feel heavier here, and that's normal. But small, repeatable habits (regular meals, a little morning light, real food with color in it) genuinely help more than people expect, and they're a lot easier to keep up than a resolution.</p>
+
+      <p>If today's extra hour went straight into snoozing the alarm, that's a fair trade. Swing by <a href="/#location">13324 E Sprague Ave, Suite 101</a> on the way into the new schedule, or place an <a href="/#order">order online</a> before you lose the light — either way, consider it the first small win of the dark half of the year.</p>
+    `,
+  },
 ];
