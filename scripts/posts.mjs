@@ -1480,4 +1480,52 @@ export const POSTS = [
       <p>If today's extra hour went straight into snoozing the alarm, that's a fair trade. Swing by <a href="/#location">13324 E Sprague Ave, Suite 101</a> on the way into the new schedule, or place an <a href="/#order">order online</a> before you lose the light — either way, consider it the first small win of the dark half of the year.</p>
     `,
   },
+
+  {
+    slug: "spokane-turkey-trot-fuel",
+    title: "Spokane Turkey Trot Fuel: What to Eat Before and After the Thanksgiving 5K",
+    description:
+      "Running a Turkey Trot in Spokane or Coeur d'Alene this Thanksgiving? Here's how to fuel the cold morning 5K and refuel before the big meal, with real menu picks.",
+    category: "Fitness & Recovery",
+    date: "2026-11-02",
+    readMins: 5,
+    image: "/blog-img/nanaberry-bliss.jpg",
+    imageAlt: "Nanaberry Bliss smoothie, a cold-morning pre-race favorite",
+    keywords: [
+      "turkey trot fuel",
+      "thanksgiving 5k nutrition",
+      "spokane turkey trot",
+      "race day breakfast",
+      "post race recovery",
+    ],
+    body: `
+      <p>Thanksgiving morning in the Inland Northwest has its own ritual: a few thousand people in costumes and ugly sweaters lining up for a Turkey Trot before anyone touches a dinner plate. Whether you're doing the community 5K that winds through Spokane neighborhoods or the Coeur d'Alene version along the lake, running a race before a feast creates a genuinely odd fueling puzzle — you need enough in the tank for 3.1 cold miles, without sitting down to stuffing and pie on a stomach that's still working through breakfast. Here's how to handle both ends of the morning.</p>
+
+      <h2>The cold-morning start line problem</h2>
+      <p>Turkey Trots start early and start cold — often in the 20s and 30s here in late November — which means two things working against you: your body burns a little more fuel fighting the chill, and cold, dry air blunts your thirst signal even though you're still losing fluid. Add pre-race nerves and a kitchen full of relatives asking if you've eaten yet, and it's easy to either skip fuel entirely or overdo it on something heavy twenty minutes before the gun.</p>
+
+      <h2>Before you trot</h2>
+      <ul>
+        <li><strong>60–90 minutes out:</strong> keep it light and mostly carbs. A smoothie sits easier pre-run than solid food — our <a href="/#smoothies">Nanaberry Bliss</a> is banana, berries, and a little natural sweetness blended thin enough to go down fast without weighing you down at mile two.</li>
+        <li><strong>Skip the heavy fats and fiber overload</strong> right before the start — the granola-and-nut-butter combo that's perfect most mornings can sit like a rock when you're about to run.</li>
+        <li><strong>Hydrate deliberately.</strong> Cold air hides how much you're sweating, so drink water with breakfast even if you don't feel thirsty. If you want caffeine, our <a href="/#sips">Cold Brew</a> is a gentler option than a second cup of drip coffee on a stomach that's already a little keyed up about race time.</li>
+      </ul>
+
+      <h2>Dress for 30 degrees, not for the costume contest</h2>
+      <p>Turkey Trots are famous for the costumes — turkey hats, pilgrim buckles, inflatable drumsticks — and that's half the fun. But underneath the costume, dress like you're running, not like you're standing at the start line. You'll warm up fast once the gun goes, and the biggest mistake is layering for how cold it feels at 8am instead of how warm you'll be at minute ten. A thin base layer under the costume, gloves you can stuff in a pocket, and shoes that have already seen a few miles (not brand-new ones) will matter more to how you feel than the fuel itself.</p>
+
+      <h2>Crossing the finish line (and facing the feast)</h2>
+      <p>This is the part most Turkey Trot guides skip: what you eat in the hour after the race directly affects how the rest of your day feels, including dinner. A 5K at an easy-to-moderate effort isn't a marathon, but it still burns through glycogen and leaves you dehydrated enough that showing up to Thanksgiving dinner depleted is a real way to end up overeating out of genuine hunger rather than tradition.</p>
+
+      <blockquote>Refuel properly after the race and you walk into dinner satisfied and social instead of starving and inhaling the rolls before grace is even said.</blockquote>
+
+      <p>A <a href="/#menu">PB Everbowl</a> — açaí, peanut butter, banana, granola — covers the three things your body is asking for right after a race: carbohydrate to restock glycogen, protein and healthy fat to start repair, and real fruit to replace some of what the cold air pulled out of you. It's also just genuinely satisfying in a way that takes the edge off "I could eat an entire turkey by myself" before you've even gotten home to carve one.</p>
+
+      <h2>Make it a Turkey Trot tradition</h2>
+      <p>Plenty of Inland Northwest families already treat the trot as the unofficial start of Thanksgiving — pile the kids and grandparents into costumes, do the 5K (or the fun walk, no shame in that distance), and then regroup. Make the stop at Everbowl part of that tradition: we're at 13324 E Sprague Ave, Suite 101 in Spokane Valley, open and ready for the post-race rush, or <a href="/#order">order ahead online</a> so your bowl is ready the second your group crosses the finish line and makes the short drive over.</p>
+
+      <h2>The bottom line</h2>
+      <p>A Turkey Trot is a genuinely great way to earn the day's indulgence instead of dreading it. Fuel light and fast before the start, rehydrate deliberately in the cold, and give your body a real recovery bowl afterward — then go eat the turkey with a clear conscience and an actual appetite instead of a stomach already full of stress-eaten bagel.</p>
+    `,
+  },
 ];
