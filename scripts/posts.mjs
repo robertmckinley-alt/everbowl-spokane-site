@@ -1528,4 +1528,51 @@ export const POSTS = [
       <p>A Turkey Trot is a genuinely great way to earn the day's indulgence instead of dreading it. Fuel light and fast before the start, rehydrate deliberately in the cold, and give your body a real recovery bowl afterward — then go eat the turkey with a clear conscience and an actual appetite instead of a stomach already full of stress-eaten bagel.</p>
     `,
   },
+
+  {
+    slug: "apple-cider-vs-whole-fruit-fiber",
+    title: "Cider Press vs. Whole Fruit: The Fiber Difference Worth Knowing This Fall",
+    description:
+      "Green Bluff's cider presses are running and grocery shelves are stacked with fall apple juice. Here's what pressing fruit actually removes, and how to get the whole-fruit benefit back.",
+    category: "Nutrition",
+    date: "2026-10-05",
+    readMins: 5,
+    image: "/blog-img/chia-pudding-whatever-bowl.jpg",
+    imageAlt: "Chia pudding Whatever Bowl, a fiber-rich alternative to pressed apple cider",
+    keywords: [
+      "apple cider vs apple",
+      "fiber inland northwest",
+      "green bluff cider",
+      "fall nutrition spokane",
+      "whole fruit fiber",
+    ],
+    body: `
+      <p>Drive out to Green Bluff most October weekends and you'll hear the cider press running before you see it — that slow mechanical crunch turning crates of fresh-picked apples into jugs of cloudy, still-warm cider. It's one of the best smells of fall in the Inland Northwest, and grocery stores from Spokane Valley to Coeur d'Alene are stocking the same thing by the gallon through Halloween. Cider deserves its spot in the season. It also deserves an honest look at what the press leaves behind.</p>
+
+      <h2>What pressing actually removes</h2>
+      <p>An apple's fiber lives almost entirely in its flesh and skin — the part that gets pulped and strained out during pressing. What flows out the other side is mostly water, natural sugar, and whatever vitamins and polyphenols dissolved into the liquid. A medium apple has roughly four grams of fiber; a glass of cider from that same apple has close to none. The sugar content barely changes in the process. What changes is how fast your body handles it.</p>
+
+      <p>Fiber is what slows sugar absorption down, so eating a whole apple produces a gentler, more gradual rise in blood sugar than drinking the juice pressed from it. That's not a reason to feel guilty about cider — it's a seasonal treat, not a daily beverage, and nobody's handing out medals for virtue at a pumpkin patch. It's just useful to know which version is which, especially if cider is showing up next to donuts, caramel apples, and whatever else is on the Green Bluff table that day.</p>
+
+      <h2>Where whole fruit (and fiber in general) earns its keep</h2>
+      <ul>
+        <li><strong>Slower digestion, steadier energy.</strong> Fiber delays how quickly your stomach empties, which is part of why a whole apple keeps you fuller longer than the equivalent calories in juice.</li>
+        <li><strong>Gut bacteria actually eat it.</strong> Soluble fiber — the pectin concentrated in apple skin, along with the fiber in chia, oats, and berries — feeds the bacteria living in your gut, which is a genuinely active area of nutrition research right now.</li>
+        <li><strong>It's filling per calorie.</strong> Whole, fiber-intact food generally takes more chewing and more stomach volume to deliver the same calories as a liquid version, which matters if you're trying to eat enough without overdoing it.</li>
+      </ul>
+
+      <blockquote>The rule of thumb we tell people at the counter: when fruit still looks like fruit, your gut gets to do its job the way it's built to. The moment it's pressed into a liquid, that job gets skipped.</blockquote>
+
+      <h2>Getting the fiber back without giving up the season</h2>
+      <p>The good news is you don't have to choose between fall flavors and fiber — you just have to pick the right vehicle. A <a href="/#menu">Chia Pudding Bowl</a> is one of the highest-fiber things on our menu, built on a base that's doing the exact opposite of a cider press: whole chia seeds, fruit, and granola, all still intact. The <a href="/#menu">Berry Boost</a> works the same way, layering açaí and chia with real berries instead of squeezing the fiber out of them. Both deliver the kind of slow, steady fullness a glass of juice simply can't.</p>
+
+      <p>If you're after something closer to a drink, a smoothie still beats juice on this front — blending keeps the fiber suspended in the drink instead of straining it out, so a <a href="/#smoothies">Glow Up</a> smoothie carries real fruit fiber along for the ride even though it comes through a straw.</p>
+
+      <h2>Make the Bluff trip a full-circle day</h2>
+      <p>None of this is an argument against a cup of warm cider at Green Bluff — go enjoy it, that's what October is for around here. It's just a good excuse to balance the day: pick apples, sip cider at the orchard, and then make the short drive south into Spokane Valley and stop at Everbowl, 13324 E Sprague Ave, Suite 101, for something built from whole fruit on the way home. <a href="/#order">Order ahead online</a> so it's ready when your group rolls in, apple-picking tired and ready for a bowl that puts the fiber back where the press took it out.</p>
+
+      <h2>The bottom line</h2>
+      <p>Cider and whole fruit aren't competitors — they're just different tools. One is a seasonal treat best enjoyed in a cup at the orchard. The other is the steady, fiber-forward choice your gut and your blood sugar notice on an ordinary Tuesday. Knowing the difference just means you get to enjoy both on purpose instead of by accident.</p>
+    `,
+  },
 ];
