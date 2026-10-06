@@ -1575,4 +1575,52 @@ export const POSTS = [
       <p>Cider and whole fruit aren't competitors — they're just different tools. One is a seasonal treat best enjoyed in a cup at the orchard. The other is the steady, fiber-forward choice your gut and your blood sugar notice on an ordinary Tuesday. Knowing the difference just means you get to enjoy both on purpose instead of by accident.</p>
     `,
   },
+
+  {
+    slug: "thanksgiving-week-without-food-guilt",
+    title: "Thanksgiving Week Without the Food Guilt: A Balanced Inland NW Game Plan",
+    description:
+      "Thanksgiving week doesn't have to be a cycle of restriction and overindulgence. Here's a no-guilt, food-first approach for the Spokane/CdA holiday stretch.",
+    category: "Health",
+    date: "2026-11-03",
+    readMins: 5,
+    image: "/blog-img/glow-up.jpg",
+    imageAlt: "Glow Up smoothie, a bright, balanced pick for busy Thanksgiving week mornings",
+    keywords: [
+      "thanksgiving week eating",
+      "holiday food guilt",
+      "balanced holiday eating",
+      "spokane valley thanksgiving",
+      "no restriction holiday nutrition",
+    ],
+    body: `
+      <p>Thanksgiving week in the Inland Northwest has a rhythm all its own: office potlucks, a Friendsgiving or two, kids home from school, relatives rolling in from out of town, and then the big meal itself sitting at the end of it like a finish line. Somewhere in there, a lot of people quietly start a mental tally — skip lunch here, "save up" for dinner there, promise themselves a reset come Black Friday. It's a well-worn pattern, and it rarely works the way people hope. There's a simpler, less exhausting way to get through the week.</p>
+
+      <h2>Why the restrict-then-indulge cycle backfires</h2>
+      <p>Under-eating earlier in the day to "bank" calories for a big dinner sounds logical, but it usually just sets up intense hunger that overrides any plan to eat slowly or stop when satisfied. You show up to the table already running on empty, and normal appetite cues get drowned out. The research on appetite regulation is pretty consistent here: regular, adequately-fueled meals lead to better control around a big meal than skipping ahead of time does. In other words, the thing that feels like discipline (skipping breakfast before a feast) tends to backfire the hardest.</p>
+
+      <h2>A food-first approach for the week</h2>
+      <ul>
+        <li><strong>Eat normally, especially on the big day.</strong> A real breakfast and lunch on Thanksgiving itself — not a "saving room" half-meal — keeps blood sugar steady and makes it far easier to enjoy dinner without overdoing it out of pure hunger.</li>
+        <li><strong>Protein and fiber early, every day.</strong> Busy weeks with packed schedules and travel are exactly when breakfast gets skipped or turned into something sugary grabbed on the way out the door. A protein-and-fiber start keeps energy steadier through back-to-back errands, school pickups, and in-laws.</li>
+        <li><strong>Don't moralize food.</strong> Stuffing, pie, and a second helping of potatoes aren't "bad" — they're once-a-year foods that are part of what makes the holiday feel like the holiday. Guilt doesn't make the meal healthier; it just makes it less enjoyable.</li>
+        <li><strong>Move how you actually like to move.</strong> A walk around Liberty Lake or a loop of the Centennial Trail with family does more for how you feel than any amount of post-meal regret, and it's a nice excuse to get out of a house full of relatives for twenty minutes.</li>
+      </ul>
+
+      <p>This is also the week it helps to have an easy, no-decision-required option in the rotation. An <a href="/#menu">Everbowl</a> — açaí, banana, granola, and berries — is a genuinely balanced meal you don't have to think hard about between the potluck at work and the in-laws' arrival at the airport. It's real fruit, real fiber, and enough substance to actually hold you over, which is the whole point on a week when "I didn't have time to eat" is the norm rather than the exception.</p>
+
+      <blockquote>The goal for Thanksgiving week isn't willpower. It's just not skipping the meals that keep you steady, so the one meal that's supposed to be special actually feels that way.</blockquote>
+
+      <h2>Mornings when the schedule is packed</h2>
+      <p>Between school half-days, travel, and holiday errands around Spokane Valley, breakfast is usually the first thing to get dropped. A <a href="/#smoothies">Glow Up</a> smoothie is built for exactly this — it travels in the cup holder, takes two minutes at the counter, and still delivers real fruit and greens before a day that's otherwise going to be mostly coffee and good intentions. Grab one on the way to the airport pickup or the grocery run for the fifth time that week, and you've covered a real meal instead of running on empty until dinner.</p>
+
+      <h2>The week after matters more than the day itself</h2>
+      <p>One meal, even a genuinely huge one, doesn't undo months of normal eating, and it doesn't need to be "corrected" with restriction the next morning. What actually shapes how you feel through the rest of the darkening Inland Northwest winter is what you do most days — not the one Thursday everyone eats more than usual on purpose. If Friday morning finds you wanting something that feels lighter and more like your normal routine, that's exactly the move, not a punishment lap.</p>
+
+      <p>Stop by Everbowl at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley any morning this week, or <a href="/#order">order online</a> ahead of the holiday rush — we're open through the busy stretch for anyone who wants one steady, no-guilt meal in the middle of all the feasting and family logistics.</p>
+
+      <h2>The bottom line</h2>
+      <p>Thanksgiving week goes a lot smoother with real meals on the normal days and zero moral weight attached to the big one. Eat regularly, move how you like, let the feast be the feast, and keep one easy, balanced option — a bowl or a smoothie — in your back pocket for the mornings that don't leave room for anything else.</p>
+    `,
+  },
 ];
