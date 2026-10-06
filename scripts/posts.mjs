@@ -1623,4 +1623,40 @@ export const POSTS = [
       <p>Thanksgiving week goes a lot smoother with real meals on the normal days and zero moral weight attached to the big one. Eat regularly, move how you like, let the feast be the feast, and keep one easy, balanced option — a bowl or a smoothie — in your back pocket for the mornings that don't leave room for anything else.</p>
     `,
   },
+
+  {
+    slug: "minnehaha-climbing-fuel-october",
+    title: "Last Chance at Minnehaha: Fueling an October Climbing Day Before the Season Turns",
+    description:
+      "Minnehaha Rocks is still dry and climbable this month, but the window is closing. How to fuel a day of bouldering north of Spokane, and where to warm up when winter finally wins.",
+    category: "Spokane & Movement",
+    date: "2026-10-06",
+    readMins: 5,
+    image: "/blog-img/nanaberry-bliss.jpg",
+    imageAlt: "Nanaberry Bliss smoothie with fresh berries and banana",
+    keywords: ["minnehaha rocks", "spokane bouldering", "wild walls climbing gym", "october fitness spokane", "climbing nutrition"],
+    body: `
+      <p>Minnehaha Park, up on Spokane's north side along the Little Spokane River, doesn't look like much from the parking area — just a quiet neighborhood park with picnic shelters. Walk in a few hundred feet, though, and the granite boulders known locally as Minnehaha Rocks rise out of the ponderosa pines, worn smooth and chalky white at the holds from decades of local climbers working the same problems. October is prime time here: the rock is dry, the bugs are gone, and the afternoons are still warm enough to climb in a t-shirt. That window won't last. Once the fall rain moves in, the granite gets slick and the season effectively ends until spring.</p>
+
+      <h2>Why this month is the one to use</h2>
+      <p>Spokane's climbing community treats late September through mid-October as the best stretch of the year at Minnehaha — better than summer, honestly, when the rock gets hot enough to make the smaller crimps feel like sandpaper. Cooler air means better friction, and friction is most of the game in bouldering. If you've been meaning to get out there, or haven't been since last fall, this is the signal to go before the first real soaking rain puts the rock away for the winter.</p>
+
+      <h2>Bouldering is deceptively demanding fuel-wise</h2>
+      <p>It's easy to underestimate a climbing day because you're not running or riding anywhere. But a few hours of bouldering is a few hours of maximal-effort bursts on your forearms, shoulders, and core, with short rests in between — closer to interval training than a casual walk in the park. Grip endurance in particular falls off hard when blood sugar dips, which is exactly when a problem you had wired an hour ago suddenly feels impossible. Climbers who skip food "because it's just bouldering" are usually the ones blaming bad luck for a send that was actually a fueling problem.</p>
+
+      <blockquote>Forearm endurance is one of the first things to go when blood sugar drops — long before most people notice they're hungry.</blockquote>
+
+      <h2>Before you climb</h2>
+      <p>You want something that digests fast and doesn't sit heavy while you're folding yourself around a boulder problem. A <a href="/#smoothies">Nanaberry Bliss</a> smoothie — banana, strawberry, and açaí blended smooth — covers real carbohydrate and a little potassium without the bulk of a full meal. Drink it in the car on the twenty-minute drive up from Spokane Valley and you'll be topped off by the time you're chalking up at the first boulder.</p>
+
+      <h2>After you climb</h2>
+      <p>Forearms that feel like they've been through a workout have, in fact, been through a workout, and they rebuild the same way any other muscle does: with protein and carbohydrate in the hours afterward. A <a href="/#menu">PB Everbowl</a> — açaí, peanut butter, banana, and granola — gives you both in one sitting, and it's a far better finish to a climbing day than whatever's left in your car's cupholder. Loop back down Division, through the Valley, and the drive from Minnehaha to our door at 13324 E Sprague Ave, Suite 101 is about 25 minutes — enough time to talk through which problem you're coming back for next time.</p>
+
+      <h2>When the rock finally goes away</h2>
+      <p>Once the November rain sets in for good, outdoor climbing around Spokane mostly shuts down until spring. That's when local climbers move indoors to Wild Walls Climbing Gym downtown, which keeps grip strength and technique sharp through the gray months without needing dry rock. If you're building a climbing habit rather than just chasing one good weekend, scouting the indoor gym now — before you actually need it — means you're not starting from zero when the season flips.</p>
+
+      <h2>One more trip, done right</h2>
+      <p>Minnehaha isn't going anywhere, but this particular stretch of dry, cool, grippy conditions is temporary. If a climbing day is on the calendar this month, fuel it like the workout it actually is: something easy to digest beforehand, something with real protein and carbs after. Grab both from the Everbowl <a href="/#order">menu online</a> before you head up, or stop in on the way back through the Valley — either way, your forearms will thank you more than they'll thank one more rest day on the couch.</p>
+    `,
+  },
 ];
