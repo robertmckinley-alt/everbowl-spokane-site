@@ -1659,4 +1659,45 @@ export const POSTS = [
       <p>Minnehaha isn't going anywhere, but this particular stretch of dry, cool, grippy conditions is temporary. If a climbing day is on the calendar this month, fuel it like the workout it actually is: something easy to digest beforehand, something with real protein and carbs after. Grab both from the Everbowl <a href="/#order">menu online</a> before you head up, or stop in on the way back through the Valley — either way, your forearms will thank you more than they'll thank one more rest day on the couch.</p>
     `,
   },
+
+  {
+    slug: "green-bluff-pumpkin-patch-day-trip-fuel",
+    title: "Pumpkin Patch Day Trip: Fueling a Family Morning at Green Bluff's Corn Mazes",
+    description:
+      "Green Bluff's corn mazes and pumpkin patches are in full swing this October. How to fuel a half-day of hay rides and hunting for the right pumpkin without the sugar crash on the drive home.",
+    category: "Spokane & Movement",
+    date: "2026-10-07",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "Smoothie with fresh berries, a balanced option for a family fall outing",
+    keywords: ["green bluff pumpkin patch", "spokane corn maze", "fall family activities spokane", "green bluff october", "family day trip fuel"],
+    body: `
+      <p>Every October, the orchards up on Green Bluff — the farming plateau about 20 minutes north of Spokane — swap their apple bins for pumpkin patches, corn mazes, and hay rides. Family favorites like Siemers Family Orchard, Beck's Harvest House, and Walters' Fruit Ranch open up their fields on fall weekends, and by the second half of the month the parking lots are full of minivans and the kind of kids who will absolutely insist on carrying a pumpkin twice their size back to the car. It's one of the best family mornings the Inland Northwest has to offer this time of year — and also one of the easiest to accidentally run on nothing but cider donuts and apple cider.</p>
+
+      <h2>The problem with the typical patch breakfast</h2>
+      <p>A lot of families leave the house early to beat the crowds, skip a real breakfast "because we'll get something up there," and then the first thing everyone eats is a warm cider donut standing in line for the hay wagon. That's not a crime — cider donuts are genuinely one of the better reasons to drive up to the Bluff in October — but a maze, a hay ride, and twenty minutes of kids running flat-out through a pumpkin field on an empty stomach plus straight sugar is a rough combination. You get one good hour of energy and then a meltdown somewhere around the second corn maze attempt.</p>
+
+      <h2>Fuel the morning before you fuel the fun</h2>
+      <p>The fix isn't skipping the cider donut. It's not showing up with an empty tank in the first place.</p>
+      <ul>
+        <li><strong>Eat something with protein before you leave the house.</strong> A quick stop for a <a href="/#menu">Berry Boost</a> bowl — açaí, berries, banana, and granola — gives kids and adults real fuel that lasts through a maze and a hay ride, instead of the 45-minute sugar spike and crash a donut-only breakfast delivers.</li>
+        <li><strong>Bring something that travels in the cup holder.</strong> A <a href="/#smoothies">Nanaberry Bliss</a> smoothie is easy for a toddler to sip in a car seat on the drive up Bruce Road, and it's a lot less messy than most on-the-go fall snacks.</li>
+        <li><strong>Let the treats be treats.</strong> Once breakfast is handled, the cider donut at the patch is just dessert, not the only thing anyone's eaten since 7am. It tastes better that way too.</li>
+      </ul>
+
+      <h2>What actually wears kids (and parents) out up there</h2>
+      <p>Green Bluff in October is deceptively active. A corn maze alone can be a mile or more of walking once you account for every wrong turn, on top of a hay ride, pumpkin hunting across an uneven field, and the inevitable second loop because someone insists they know the way out this time. None of that looks like "exercise" the way a trail run does, but by late morning most families have covered more ground than they planned on, often in whatever cool, damp fall weather the Bluff decides to serve up that day.</p>
+
+      <blockquote>A patch day doesn't need sports nutrition. It needs a real breakfast before you leave and a plan for the drive home — that's most of the battle.</blockquote>
+
+      <h2>The drive home is where it usually falls apart</h2>
+      <p>By the time everyone's back in the car with pumpkins, gourds, and a bag of Green Bluff apples in the trunk, it's usually early afternoon, lunch is overdue, and patience is thin. This is exactly the window where a real meal — not more snacks from the diaper bag — resets the day. Green Bluff sits north of Spokane, and the drive back down through town toward Spokane Valley is a natural spot to stop rather than push through a hangry last twenty minutes home.</p>
+
+      <h2>Make the Valley your stop on the way back</h2>
+      <p>Everbowl is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to the route back from the Bluff to work as a real lunch stop rather than a detour. A build-your-own bowl or a smoothie for the kids is a fast, no-fuss way to turn "we're all starving and cranky" into an actual meal, and it beats scrounging through fast-food drive-through lines on a Saturday when half the Valley had the same idea you did. If the patch trip runs long and you'd rather keep moving, <a href="/#order">order ahead online</a> so it's ready when you pull up.</p>
+
+      <h2>The bottom line</h2>
+      <p>Green Bluff's pumpkin patches and corn mazes are worth the drive every October, and the cider donuts are worth eating. Just don't let them be the only thing anyone eats before a morning of hay rides and maze-wandering. A real breakfast beforehand, something easy to sip in the car, and a proper meal on the way home turn a good family morning into one that doesn't end in a parking-lot meltdown.</p>
+    `,
+  },
 ];
