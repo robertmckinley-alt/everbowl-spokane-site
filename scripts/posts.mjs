@@ -1739,4 +1739,41 @@ export const POSTS = [
       <p>Cross country season at Plantes Ferry is one of the best fall traditions in Spokane Valley, and the fueling part of it doesn't need to be complicated. Something light and familiar before the gun, protein and carbs within the hour after, and real hydration throughout — that's the whole plan. Everything else is just enjoying a crisp October morning watching kids run hard on a course in your own backyard.</p>
     `,
   },
+  {
+    slug: "finch-arboretum-fall-color-walk",
+    title: "Finch Arboretum's Fall Color Walk: A Low-Key Refuel Day for Spokane Families",
+    description:
+      "Finch Arboretum's flat, paved paths and quiet fall color make it Spokane's easiest family walk this October. A simple before-and-after fueling guide for the whole crew.",
+    category: "Spokane & Movement",
+    date: "2026-10-08",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A smoothie ready for an easy post-walk refuel in Spokane",
+    keywords: ["finch arboretum", "spokane fall foliage", "west spokane family walk", "john a finch arboretum", "easy fall walks spokane"],
+    body: `
+      <p>Most of the fall-color advice floating around the Inland Northwest points you toward a hike — Tubbs Hill, Mineral Ridge, Dishman Hills, something with a hill and a view. All worth doing. But if you're pushing a stroller, bringing grandparents along, or just don't feel like a workout today, the John A. Finch Arboretum on the west side of Spokane is the one fall-color spot that almost nobody has to train for. Sixty-five acres along Garden Springs Creek, mostly flat, mostly paved, and in mid-to-late October it's genuinely one of the prettiest free things to do in the city.</p>
+
+      <h2>Why this spot works when the hikes don't</h2>
+      <p>Finch Arboretum isn't a hike in any real sense — it's a collection, built around one of the largest public conifer collections in the Inland Northwest, with maples, oaks, and ornamentals planted in among the evergreens specifically so the color show stands out against all that green. The paths follow Garden Springs Creek with almost no elevation change, which means it works for a toddler just learning to walk, a grandparent who isn't up for Mineral Ridge's switchbacks, or anyone who just wants fall color without sore legs the next day. It's also almost always quieter than Spokane's bigger fall-foliage names, since most people default to the lake-view hikes and never think to drive over to Woodland Boulevard.</p>
+
+      <h2>What the walk actually feels like in October</h2>
+      <p>By mid-October the Japanese maples near the creek turn a deep red that photographs better than almost anything else in the city, while the surrounding conifers stay dark green behind them — the contrast is the whole point of how the arboretum was planted decades ago, and it still works exactly as intended. The full network of paths covers a mile or two depending on how much you wander, which usually comes out to somewhere between 30 minutes and an hour for most families, benches scattered along the creek for anyone who wants to just sit and let the kids run around a flat lawn for a while.</p>
+
+      <blockquote>A flat, unhurried walk still counts as movement — and the body doesn't know the difference between fueling for a mile at the arboretum and fueling for a steeper trail across town.</blockquote>
+
+      <h2>Fuel for an easy walk, not a workout</h2>
+      <p>This isn't a hike that demands sports nutrition, but a little planning still makes the outing better, especially with kids in tow.</p>
+      <ul>
+        <li><strong>Something warm before you go.</strong> An <a href="/#sips">Iced Matcha</a> — or ask for it hot, since October mornings in West Spokane can run cool along the creek — gives you a gentle, steady lift without the crash of a sugary coffee drink before a walk with little ones.</li>
+        <li><strong>Something light after, not a heavy meal.</strong> A short, flat walk doesn't need a huge recovery meal. A <a href="/#menu">Chia Pudding Bowl</a> — chia, coconut, fresh fruit — is satisfying without being so much food that everyone's sluggish for the rest of the afternoon.</li>
+        <li><strong>Bring water even on a mild day.</strong> It's an easy walk, but kids run around more than the pace suggests, and the creek-side shade can make it easy to forget you're still outside working up a thirst.</li>
+      </ul>
+
+      <h2>Make it a loop that ends in the Valley</h2>
+      <p>Finch Arboretum sits on the west side of Spokane, so a walk there pairs naturally with a drive back east on I-90 toward home. Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to the route back that it makes sense as the stop that ends the outing rather than a special trip of its own. If you know your timing, <a href="/#order">order ahead online</a> so bowls and smoothies are ready the moment you pull in, no standing around after a walk that was supposed to be the easy part of the day.</p>
+
+      <h2>The bottom line</h2>
+      <p>Not every fall outing needs to be a trailhead and a water bottle. Finch Arboretum gives Spokane families real October color on paths flat enough for everyone in the group, and a short, simple fueling plan — something warm before, something light after — is all it takes to make the whole afternoon easy. Loop the drive home through Spokane Valley and let Everbowl close out the day.</p>
+    `,
+  },
 ];
