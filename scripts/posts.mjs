@@ -1700,4 +1700,43 @@ export const POSTS = [
       <p>Green Bluff's pumpkin patches and corn mazes are worth the drive every October, and the cider donuts are worth eating. Just don't let them be the only thing anyone eats before a morning of hay rides and maze-wandering. A real breakfast beforehand, something easy to sip in the car, and a proper meal on the way home turn a good family morning into one that doesn't end in a parking-lot meltdown.</p>
     `,
   },
+  {
+    slug: "plantes-ferry-cross-country-season-fuel",
+    title: "District Meet Season at Plantes Ferry: Fueling Young Cross Country Runners",
+    description:
+      "GSL and district cross country meets fill Plantes Ferry Park every October weekend. A practical, non-restrictive fueling guide for young runners and the parents driving them there.",
+    category: "Fitness & Recovery",
+    date: "2026-10-08",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "Smoothie with fresh berries, an easy pre-race option for young runners",
+    keywords: ["plantes ferry cross country", "spokane valley youth running", "cross country fueling", "gsl district meet", "high school xc nutrition"],
+    body: `
+      <p>Every October weekend, Plantes Ferry Park in Spokane Valley turns into one of the busiest spots in the Inland Northwest. Middle and high school cross country teams from across the Greater Spokane League pack the hillside above the Spokane River for district meets, families spread out camp chairs and blankets along the course, and the smell of fall — cut grass, river air, somebody's orange slices — hangs over the whole place. If you've got a kid running this season, or you're the one driving them there before 8am on a Saturday, how everyone eats around race day matters more than most families realize.</p>
+
+      <h2>Race morning isn't the time to experiment</h2>
+      <p>Cross country meets reward whatever a runner's stomach already knows and tolerates — not whatever sounds healthiest in the moment. A big, unfamiliar breakfast two hours before a gun goes off at Plantes Ferry is a good way to spend mile two regretting it. The safer pattern is something light, mostly carbohydrate, low in fat and fiber, eaten about 60-90 minutes before the race. A smoothie fits that window well because it digests fast and doesn't sit heavy. A <a href="/#smoothies">Nanaberry Bliss</a> — banana, strawberry, and açaí blended smooth — is close to the textbook pre-race snack: real sugars for quick energy, nothing greasy, nothing that lingers in the stomach while a kid is trying to hold an 8-minute pace up the first hill.</p>
+
+      <h2>What actually happens on that course</h2>
+      <p>The Plantes Ferry course isn't flat. Runners deal with rolling terrain along the river bluff, uneven turf, and whatever October weather the Inland Northwest decides to serve that morning — anything from crisp and sunny to a cold drizzle that soaks shoes by the first turn. A 5K effort at that intensity burns through glycogen stores fast, especially for younger athletes who haven't built the fueling habits older runners have. That's exactly why what happens in the thirty minutes after the finish line matters almost as much as the warm-up.</p>
+
+      <blockquote>The window right after a race is when the body is primed to restock — protein and carbs together work better than either alone, and waiting until the drive home wastes some of that window.</blockquote>
+
+      <h2>The post-race window, done simply</h2>
+      <ul>
+        <li><strong>Get protein and carbs in within the hour.</strong> A <a href="/#menu">PB Everbowl</a> — açaí, peanut butter, banana, granola — covers both without needing a cooler full of snacks in the trunk.</li>
+        <li><strong>Don't skip rehydrating just because it's cool out.</strong> October mornings at Plantes Ferry can feel mild enough that kids forget they were sweating on that last hill; water or a smoothie after the race still matters.</li>
+        <li><strong>Keep it low-key.</strong> This isn't about optimizing split times with sports science — it's a snack and a meal, timed reasonably, for a kid who just ran hard.</li>
+      </ul>
+
+      <h2>For the parents doing the actual driving</h2>
+      <p>Anyone who's done a GSL meet morning knows the schedule: an early alarm, a cold thermos of coffee, bleacher seats or a folding chair, and a full morning before anyone's eaten a real meal. It's worth fueling yourself with the same logic you're using for your runner — something that travels well and doesn't require a sit-down breakfast nobody has time for before a 7:45 start.</p>
+
+      <h2>Make the stop before or after part of the routine</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, a short drive from Plantes Ferry and an easy stop whether you're grabbing a smoothie for the ride over or a bowl for the whole team after results are posted. Meet mornings move fast, so if you know your start time, <a href="/#order">order ahead online</a> and swing by without losing your spot in the parking scramble. A few teams have started making a post-meet bowl run a standing tradition — it's a low-effort way to celebrate a good race or shake off a rough one.</p>
+
+      <h2>The bottom line</h2>
+      <p>Cross country season at Plantes Ferry is one of the best fall traditions in Spokane Valley, and the fueling part of it doesn't need to be complicated. Something light and familiar before the gun, protein and carbs within the hour after, and real hydration throughout — that's the whole plan. Everything else is just enjoying a crisp October morning watching kids run hard on a course in your own backyard.</p>
+    `,
+  },
 ];
