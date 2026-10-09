@@ -1777,6 +1777,46 @@ export const POSTS = [
     `,
   },
   {
+    slug: "kraziness-in-the-kennel-game-night-fuel",
+    title: "Kraziness in the Kennel: Fueling Your Zag Game-Night Routine",
+    description:
+      "Gonzaga basketball's Kraziness in the Kennel kicks off October nights across Spokane. A practical fueling guide for the watch party, the walk to the Kennel, or the drive home.",
+    category: "Spokane & Movement",
+    date: "2026-10-09",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A Cacao Ice Blended Coffee ready for a Gonzaga game night in Spokane",
+    keywords: ["kraziness in the kennel", "gonzaga basketball spokane", "mccarthey athletic center", "zag game day spokane valley", "gonzaga basketball season fuel"],
+    body: `
+      <p>Every October, Gonzaga basketball announces that another season has arrived with Kraziness in the Kennel — the free, student-driven scrimmage and dunk-contest night at the McCarthey Athletic Center that doubles as Spokane's unofficial start of basketball season. Students start lining up outside the Kennel hours before doors open, the student section is already in full voice before the team even scrimmages, and by the final buzzer half the city is talking about how this year's Zags look. It's one of the few nights where Spokane's college-town energy and its sports-town energy are the exact same thing, and whether you're a student in line at 4pm or a family watching the highlights from home, it's also a night that runs long — which means it's worth thinking about food before the excitement takes over.</p>
+
+      <h2>Why a game night wears you out more than you'd think</h2>
+      <p>Kraziness in the Kennel isn't a workout, but the night around it usually is: a wait in line in the October evening air, a packed, loud arena for a couple of hours, and for a lot of fans, errands and dinner squeezed in beforehand instead of planned around. Add the fact that most arena concession lines move slowly and the options skew toward salty, heavy, or sugary, and it's easy to end the night feeling more drained than the actual basketball should leave you. The fix isn't complicated — it's just rarely the first thing on anyone's mind when tip-off is the only thing they're thinking about.</p>
+
+      <h2>Before you head to the Kennel or the watch party</h2>
+      <p>If you're heading to campus, or just setting up for a watch party at home, give yourself something with real carbohydrate and protein an hour or so beforehand rather than running on excitement and whatever's in the pantry. A <a href="/#menu">Mango Majic</a> bowl — mango, pineapple, banana — is quick enough to eat before you walk out the door and gives you steady energy instead of the sugar spike-and-crash of grabbing candy on the way out. It beats showing up to a loud gym on an empty stomach and regretting it by the second scrimmage team's warm-ups.</p>
+
+      <blockquote>A loud arena and a long line both burn through energy faster than people expect — eating something real beforehand is the difference between feeling sharp through the whole scrimmage and fading by the dunk contest.</blockquote>
+
+      <h2>Make the watch party better than the concession stand</h2>
+      <p>For the fans staying local — and there are a lot of them, since Kraziness in the Kennel streams and clips spread across Spokane the next morning either way — a watch party at home or with friends in Spokane Valley is its own kind of game night. Skip the chip bowl as the only food on the table and build the spread around something with actual substance: an <a href="/#menu">Everbowl</a> or two split a few ways covers real fruit, granola, and protein without anyone having to cook, and a round of <a href="/#sips">Cacao Ice Blended Coffee</a> works as the fun, caffeinated drink that still beats a gas-station energy drink for a night that runs past most people's usual bedtime.</p>
+
+      <h2>After the final buzzer</h2>
+      <p>Whether you're walking back to the dorms, driving home from the Kennel, or just clicking off the stream after the dunk contest, a late-night crash is common after a few hours of noise and adrenaline. Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, and it's an easy stop on the way home from campus or anywhere else around town if you time it before close. <a href="/#order">Order ahead online</a> so it's ready when you pull in — a far better way to close out a Zags night than whatever's still open on the drive-through strip.</p>
+
+      <h2>A few ways to make game-night fueling easy</h2>
+      <ul>
+        <li><strong>Eat something real before tip-off.</strong> A bowl or smoothie an hour ahead beats running on arena nachos alone.</li>
+        <li><strong>Build the watch party around more than chips.</strong> Split a couple of bowls so everyone's got real fuel, not just salt.</li>
+        <li><strong>Plan the after-game stop before you're starving.</strong> Order ahead online if you know you're heading through the Valley once it's over.</li>
+        <li><strong>Save the energy drink for emergencies.</strong> A Cacao Ice Blended Coffee gives you the caffeine without the crash halfway through overtime.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Kraziness in the Kennel is one of the best free nights on Spokane's fall calendar, and it's easy to let the excitement run the whole evening without a thought for food. A real bowl or smoothie before tip-off, a better spread for the watch party, and a stop in Spokane Valley on the way home turn a loud night into one that actually leaves you feeling good the next morning, Zags record included.</p>
+    `,
+  },
+  {
     slug: "scarywood-nights-silverwood-fuel-guide",
     title: "Scarywood Nights at Silverwood: How to Fuel a Haunt Without the Candy Crash",
     description:
