@@ -1776,4 +1776,45 @@ export const POSTS = [
       <p>Not every fall outing needs to be a trailhead and a water bottle. Finch Arboretum gives Spokane families real October color on paths flat enough for everyone in the group, and a short, simple fueling plan — something warm before, something light after — is all it takes to make the whole afternoon easy. Loop the drive home through Spokane Valley and let Everbowl close out the day.</p>
     `,
   },
+  {
+    slug: "scarywood-nights-silverwood-fuel-guide",
+    title: "Scarywood Nights at Silverwood: How to Fuel a Haunt Without the Candy Crash",
+    description:
+      "Silverwood's Scarywood Nights run every October weekend near Coeur d'Alene. A practical fueling guide for the drive up, the hours on your feet, and the ride home through Spokane Valley.",
+    category: "Spokane & Movement",
+    date: "2026-10-09",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A smoothie ready for the drive up to Silverwood's Scarywood Nights",
+    keywords: ["scarywood nights", "silverwood theme park october", "coeur d'alene haunt season", "spokane valley fall fuel", "athol idaho scarywood"],
+    body: `
+      <p>Every Friday, Saturday, and Sunday night in October, Silverwood Theme Park in Athol, Idaho trades roller coasters for fog machines and turns into Scarywood Nights — one of the Inland Northwest's biggest haunt-season traditions. Families from Spokane and Coeur d'Alene make the drive up US-95 all month, and by the time the gates open at dusk, the parking lot is full of people bundled in jackets for a night of haunted houses, scare zones, and the handful of rides still running after dark. It's a great night out. It's also, physically, a long one: hours on your feet, cold October air, late bedtimes, and a snack stand lineup that leans hard into funnel cake and candy. None of that is a problem if you plan the actual eating part of the night a little better than most people do.</p>
+
+      <h2>Why a haunt night is harder on the body than it looks</h2>
+      <p>Scarywood Nights don't involve much running, but they're still a workout by the numbers that matter — several hours of standing in lines, walking between scare zones, and a fair amount of adrenaline spiking and dropping every time something jumps out of the fog. Add in October nighttime temperatures that routinely dip into the 40s at Silverwood's elevation, and you've got a recipe for the kind of low-grade fatigue that makes the last hour of the night feel a lot longer than the first. Most people blame the cold or the crowds. Often it's just that nobody ate anything with real substance since lunch, and the body's been running on adrenaline and parking-lot nerves for three hours.</p>
+
+      <h2>Before you leave Spokane Valley</h2>
+      <p>The drive from Spokane Valley to Silverwood is about 45 minutes, which is exactly enough time for a smoothie to settle before a night of walking. A <a href="/#smoothies">Nanaberry Bliss</a> — banana, strawberry, and açaí blended smooth — is a good call here: real carbohydrate for sustained energy, nothing heavy enough to sit badly while you're standing in a haunted house line an hour later. It beats showing up on an empty stomach and letting the first funnel cake stand you pass do all the deciding for you.</p>
+
+      <blockquote>Adrenaline burns through blood sugar fast — a steady snack before a haunt night does more for how you feel at 9pm than anything you can grab once you're already there.</blockquote>
+
+      <h2>Skip the all-candy strategy</h2>
+      <p>There's nothing wrong with grabbing a treat once you're inside the gates — it's part of the night. The mistake is treating sugar as the entire dinner plan, which is how most people end up crashing somewhere around the third haunted house, cold and suddenly exhausted with no real fuel behind the shaking-off-the-scare adrenaline. A better pattern is simple: eat something with actual protein and carbs before you go, treat yourself to one thing once you're there, and don't let a funnel cake be the only calories between lunch and midnight.</p>
+
+      <h2>The drive home is where it falls apart</h2>
+      <p>By the time Scarywood lets out, it's late, everyone's cold, and the easiest decision in the world is drive-through food on the way back down US-95. It works, but it's also the point in the night when a better option is barely any further out of the way. Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close to the route back from Athol and open late enough on weekend nights to make it a real stop, not a detour. A <a href="/#menu">PB Everbowl</a> — açaí, peanut butter, banana, granola — covers the protein and carbs a body actually wants after hours on its feet, and it tastes a lot better at 10pm than another bag of fast food does.</p>
+
+      <h2>A few ways to make haunt-night fueling easy</h2>
+      <ul>
+        <li><strong>Eat a real pre-haunt snack, not just coffee.</strong> A smoothie or light bowl before you leave beats showing up running on empty.</li>
+        <li><strong>Dress for the cold and drink water anyway.</strong> It's easy to forget to hydrate when the air feels chilly instead of hot, but a night of walking still adds up.</li>
+        <li><strong>Pick one treat inside the gates, not five.</strong> Enjoy the funnel cake — just don't let it be the whole meal.</li>
+        <li><strong>Plan the stop on the way home before you're starving.</strong> If you know your group's heading back through the Valley, <a href="/#order">order ahead online</a> so it's ready when you pull in, tired and ready to sit down.</li>
+        <li><strong>Warm up with something other than more sugar.</strong> A hot or iced <a href="/#sips">Strawberry Lemonade</a> or matcha makes a nice reset if the candy's already caught up with everyone in the car.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Scarywood Nights are one of the best reasons to make the drive up to Athol every October, and a few minutes of planning around food is the difference between a night that ends with everyone cold, cranky, and sugar-crashed versus one that ends well. Fuel up before you leave the Valley, keep the candy as a treat instead of dinner, and let Everbowl be the stop that closes out the night on the way home.</p>
+    `,
+  },
 ];
