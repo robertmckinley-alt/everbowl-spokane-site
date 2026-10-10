@@ -1857,4 +1857,45 @@ export const POSTS = [
       <p>Scarywood Nights are one of the best reasons to make the drive up to Athol every October, and a few minutes of planning around food is the difference between a night that ends with everyone cold, cranky, and sugar-crashed versus one that ends well. Fuel up before you leave the Valley, keep the candy as a treat instead of dinner, and let Everbowl be the stop that closes out the night on the way home.</p>
     `,
   },
+  {
+    slug: "beacon-hill-camp-sekani-fall-mtb-fuel",
+    title: "Last Dry Singletrack: Fueling a Fall Mountain Bike Day at Beacon Hill and Camp Sekani",
+    description:
+      "Mid-October is prime time on Spokane's Beacon Hill and Camp Sekani trails, before mud and snow shut the singletrack down. A practical fueling guide for riders based in Spokane Valley.",
+    category: "Spokane & Movement",
+    date: "2026-10-10",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "An acai bowl ready for refueling after a fall mountain bike ride at Beacon Hill",
+    keywords: ["beacon hill mountain biking", "camp sekani spokane", "fall mountain bike fuel", "spokane valley trail fuel", "spokane river mtb trails"],
+    body: `
+      <p>If you ride mountain bikes in Spokane, you already know the calendar is working against you this time of year. The window between "trails are tacky and fast" and "trails are a frozen, rutted mess" is short, and right now — mid-October, before the first real cold snap turns the dirt to ice overnight — is about as good as singletrack gets. Beacon Hill and the connected Camp Sekani trail network along the Spokane River, just off Upriver Drive on the city's northeast side, are two of the busiest spots in town for exactly this reason: dry, grippy dirt, basalt rock features, river views through thinning tree cover, and a trail system built and maintained largely by the local riding community. It's a short drive from Spokane Valley, and this stretch of fall is when it's worth making the trip before the weather turns.</p>
+
+      <h2>Why a fall MTB day asks more of you than it looks like</h2>
+      <p>Technical trail riding burns through glycogen in bursts — short, hard efforts climbing or powering through a rock garden, followed by recovery on the descents, repeated for an hour or two. Add cooler October air, which blunts the thirst signal that usually reminds you to drink, and it's easy to finish a Beacon Hill loop more depleted and more dehydrated than you realized mid-ride. Riders tend to notice the forearm pump and the tired legs; they notice the low blood sugar and the dehydration a lot less, right up until the drive home feels foggier than it should.</p>
+
+      <h2>Before you load up the bike</h2>
+      <p>A ride at Beacon Hill rewards showing up with something in the tank rather than riding on coffee alone. A smoothie an hour or so before you roll out — something like a <a href="/#smoothies">PB Cacao Dream</a> — gives you real carbohydrate plus a solid hit of protein and fat, which digests easier before a technical ride than a heavy meal and holds up better than a granola bar alone. If you're an early-morning rider beating the rest of the day's traffic to the trailhead, an <a href="/#sips">Iced Matcha</a> or <a href="/#sips">Cold Brew</a> on the way over covers the caffeine without the jittery spike-and-crash that a gas-station energy drink tends to deliver halfway up the first climb.</p>
+
+      <blockquote>Technical singletrack punishes a flat battery more than flat ground does — a rider running low on fuel loses line choice and reaction time well before they feel genuinely tired.</blockquote>
+
+      <h2>Hydration doesn't get a season off</h2>
+      <p>The biggest mistake riders make once the weather cools is treating hydration like a summer-only problem. You're still sweating under a helmet and gloves, you're still breathing harder on the climbs, and 50-degree air just makes it easier to ignore. Bring water on the bike the same way you would in August, and don't let a cool day convince you that one bottle is plenty for a two-hour loop.</p>
+
+      <h2>After the ride: real recovery, not just a snack</h2>
+      <p>Once you're back at the truck with dirt on your shins and that particular kind of good-tired that a technical ride leaves you with, the next hour matters. A bowl with real protein and carbohydrate — the <a href="/#menu">PB Everbowl</a> or the <a href="/#menu">Everbowl</a> itself, açaí with banana, granola, and a nut butter — covers glycogen refill and muscle repair a lot better than whatever's left in your jersey pocket. Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, a quick drive back from the Beacon Hill trailheads, and <a href="/#order">ordering ahead online</a> means it's ready by the time you've racked the bike and changed out of your riding shoes.</p>
+
+      <h2>A few ways to make fall MTB fueling easy</h2>
+      <ul>
+        <li><strong>Eat something real before you load the bike.</strong> A smoothie or light meal an hour out beats riding on coffee and good intentions.</li>
+        <li><strong>Bring water even when it's cool.</strong> The thirst cue is weaker in fall, not the actual fluid loss.</li>
+        <li><strong>Plan the post-ride stop before you're starving.</strong> Order ahead if you know you're heading back through the Valley once the loop is done.</li>
+        <li><strong>Don't skip the recovery window because the ride felt short.</strong> Technical riding taxes you more than the mileage suggests.</li>
+        <li><strong>Watch the forecast, not just the calendar.</strong> Once the mud or the first hard freeze sets in, this window closes fast — ride it while it's here.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Beacon Hill and Camp Sekani are two of Spokane's best fall riding spots, and this stretch of dry October dirt won't last. Fuel up before you roll out, keep drinking even though it's cool, and treat the ride home through Spokane Valley as the start of recovery, not an afterthought — a real bowl or smoothie does more for how you feel that evening than anything from a vending machine at the trailhead.</p>
+    `,
+  },
 ];
