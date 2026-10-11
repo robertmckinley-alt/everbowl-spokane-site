@@ -1898,4 +1898,45 @@ export const POSTS = [
       <p>Beacon Hill and Camp Sekani are two of Spokane's best fall riding spots, and this stretch of dry October dirt won't last. Fuel up before you roll out, keep drinking even though it's cool, and treat the ride home through Spokane Valley as the start of recovery, not an afterthought — a real bowl or smoothie does more for how you feel that evening than anything from a vending machine at the trailhead.</p>
     `,
   },
+  {
+    slug: "antoine-peak-spokane-valley-fall-hike",
+    title: "Antoine Peak: The Fall Hike Hiding in Spokane Valley's Backyard",
+    description:
+      "Antoine Peak Conservation Area sits minutes from Everbowl Spokane, with open meadow views over the Valley at their best in October. A fueling guide for the hike next door.",
+    category: "Spokane & Movement",
+    date: "2026-10-11",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "An acai bowl ready for a post-hike refuel after Antoine Peak",
+    keywords: ["antoine peak conservation area", "spokane valley hiking", "fall hikes spokane valley", "mica peak conservation area", "spokane valley trails"],
+    body: `
+      <p>Every fall hiking list in the Inland Northwest points toward the same handful of names — Tubbs Hill, Mineral Ridge, Liberty Lake, Dishman Hills. They're all worth the drive. But the trail a lot of Spokane Valley residents overlook is the one closest to home: Antoine Peak Conservation Area, a Spokane County property tucked between Forker Road and the north side of the Valley, with over 1,200 acres of ponderosa pine, open bunchgrass meadow, and a summit loop that clears the trees just enough to lay out the whole Valley floor below. In October, with the grass gone gold and the air finally cool enough to climb without overheating, it's one of the best short hikes around — and one of the few that doesn't require planning a whole afternoon around the drive.</p>
+
+      <h2>Close enough to be a Tuesday hike, not just a weekend trip</h2>
+      <p>What sets Antoine Peak apart isn't dramatic scenery — it's proximity. The main trailhead off Fairview Lane and Evergreen Road is a short drive from most of Spokane Valley, which makes the 3-to-5-mile summit loop realistic after work, not just on a Saturday. That changes how you should think about fueling it. A hike you treat as a quick after-work reset doesn't need the elaborate pre-loading some all-day trips call for — but it still deserves more than showing up running on an afternoon's worth of coffee and nothing else.</p>
+
+      <h2>What the climb actually asks of you</h2>
+      <p>The loop to the summit gains a few hundred feet through open meadow and scattered timber, with enough exposed, south-facing grassland that an October afternoon can still feel warmer than the forecast suggests. It's not a grind, but it's steady enough that showing up under-fueled turns the back half of the loop into more of a slog than it needs to be — especially once the sun starts dropping and the Valley lights start coming on below the summit.</p>
+
+      <blockquote>A short, steady climb on an empty stomach still runs on empty — the length of a hike matters less than whether you actually ate something before you started it.</blockquote>
+
+      <h2>Before you head up Fairview</h2>
+      <p>Since this is the kind of hike you can fold into a normal afternoon, the easiest fix is routing through Everbowl Spokane on the way. A <a href="/#smoothies">Nanaberry Bliss</a> — banana, strawberry, açaí — gives you real carbohydrate that digests fast and doesn't sit heavy on a climb, which beats grabbing something out of a gas station cooler on the way past Sullivan. If you're making it an evening hike and want a little lift for the last light of the day, an <a href="/#sips">Iced Matcha</a> covers steady caffeine without the crash that hits halfway up the meadow.</p>
+
+      <h2>The payoff at the top, and the stop after</h2>
+      <p>The summit view is the reason people keep coming back — a wide, open look at the Valley, the Spokane River corridor, and on a clear fall evening, the kind of light that makes the whole short trip worth it. Once you're back at the car, though, is when the hike actually gets paid for. A loop like this, done after a full day of work, leaves you more depleted than the modest mileage suggests, and a real bowl does more for how you feel that evening than whatever's left in the pantry. Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to the Antoine Peak trailhead that it's a natural stop on the way home rather than a detour, and a <a href="/#menu">PB Everbowl</a> — açaí, peanut butter, banana, granola — covers the protein and carbohydrate your legs are asking for.</p>
+
+      <h2>A few ways to make it an easy habit</h2>
+      <ul>
+        <li><strong>Treat it like the quick hike it is.</strong> A smoothie beforehand is plenty — you don't need to overthink fueling a 3-to-5-mile loop.</li>
+        <li><strong>Watch the clock, not just the trail.</strong> October daylight disappears fast; start the loop with enough margin to summit and descend before dusk.</li>
+        <li><strong>Bring water even on a short loop.</strong> The open meadow sections get more sun exposure than the shaded parts of the trail suggest.</li>
+        <li><strong>Make the stop after part of the plan, not an afterthought.</strong> If you know you're heading back down Fairview toward Sprague, <a href="/#order">order ahead online</a> so it's ready when you pull in.</li>
+        <li><strong>Use it as your go-to when you don't have time for a bigger trail.</strong> Antoine Peak is the hike you can actually fit in on a weekday, which makes it worth adding to the regular rotation.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Antoine Peak doesn't get the attention Tubbs Hill or Liberty Lake get, but for Spokane Valley residents, it might be the most useful fall hike on the list simply because it's so close. Fuel up with something real before you climb, take in the view while the fall light lasts, and let Everbowl be the easy stop that turns a weekday hike into a full reset.</p>
+    `,
+  },
 ];
