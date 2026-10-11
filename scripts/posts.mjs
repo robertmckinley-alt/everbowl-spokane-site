@@ -1939,4 +1939,48 @@ export const POSTS = [
       <p>Antoine Peak doesn't get the attention Tubbs Hill or Liberty Lake get, but for Spokane Valley residents, it might be the most useful fall hike on the list simply because it's so close. Fuel up with something real before you climb, take in the view while the fall light lasts, and let Everbowl be the easy stop that turns a weekday hike into a full reset.</p>
     `,
   },
+  {
+    slug: "long-weekend-columbus-day-spokane-valley-fuel",
+    title: "A Long October Weekend: Fueling the Extra Day Off in Spokane Valley",
+    description:
+      "Indigenous Peoples' Day/Columbus Day gives much of Spokane Valley an unplanned Monday off. A practical guide to using the extra day well, instead of letting it run on coffee and snacks.",
+    category: "Health",
+    date: "2026-10-11",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "An acai bowl, an easy way to start an unplanned day off in Spokane Valley",
+    keywords: ["columbus day spokane", "indigenous peoples day inland northwest", "three day weekend spokane valley", "fall long weekend spokane", "spokane valley day off ideas"],
+    body: `
+      <p>The second Monday of October sneaks up on a lot of Spokane Valley households. Banks close, many schools and government offices are out, and plenty of local employers give the day as a floating holiday — and suddenly you've got an unplanned Monday where the usual 6 a.m. routine just doesn't apply. It's a small gift of a day, but it's also an easy one to waste: no alarm, no plan, and somehow it's 1 p.m. and all you've eaten is the second half of a coffee you made four hours ago.</p>
+
+      <h2>An unstructured day needs more of a plan than a structured one</h2>
+      <p>This is the part people get backwards. On a normal workday, meals happen because the schedule more or less forces them — a lunch break, a dinner time everyone in the house agrees on. On a day off with nothing on the calendar, those anchors disappear, and it's remarkably easy to drift from coffee to "I'll eat something eventually" to a 3 p.m. crash that wrecks whatever you were planning to do with the rest of the afternoon. A long weekend is worth protecting, and that starts with treating breakfast like it still matters even though nobody's making you clock in.</p>
+
+      <blockquote>A day with no schedule doesn't need less food structure than a workday — it needs more, because nothing else is reminding you to eat.</blockquote>
+
+      <h2>Whatever you're doing with the day, start it the same way</h2>
+      <p>Whether the plan is yard work before the first hard freeze, a slow morning catching up on sleep, or finally getting out to see the color along the Spokane River corridor, the first real meal of the day sets the tone for all of it. A <a href="/#toast">Classic Avocado Toast</a> covers fat, fiber, and enough staying power that you're not hunting for a snack by 10 a.m., and an <a href="/#sips">Iced Matcha</a> gives you steady energy without the jittery spike a second or third cup of drip coffee tends to bring on a day when you're moving at your own pace.</p>
+
+      <h2>If the day turns into a day trip</h2>
+      <p>A lot of Spokane Valley residents use this particular Monday for exactly the kind of outing a normal weekday doesn't allow — a walk along Mirabeau Point or the Centennial Trail while the leaves are still turning, a drive up to Coeur d'Alene to see Tubbs Hill before the color's gone, or just a longer loop than you'd normally have time for. If you're heading out the door for a few hours on your feet, a <a href="/#smoothies">Nanaberry Bliss</a> before you go gives you real carbohydrate that digests easily and won't sit heavy on a walk or a hike. When you're back, a bowl with actual protein and carbs — the <a href="/#menu">PB Everbowl</a> or the <a href="/#menu">Everbowl</a> itself — does more to refill the tank than whatever's left over in the pantry from the weekend.</p>
+
+      <h2>If the day turns into chores instead</h2>
+      <p>Not every extra day off is scenic. For plenty of people, the second Monday of October is the day the gutters finally get cleared, the garden beds get put to rest before winter, or the garage gets reorganized before it's too cold to want to. That kind of physical work on and off a ladder for a few hours adds up just as much as a hike does, and it's just as easy to shortchange because it doesn't feel like "exercise." Treat it the same way — real food before you start, water within reach, and a proper meal once you're done rather than finishing the day on crackers because you're too tired to cook.</p>
+
+      <h2>Make the stop part of the day, not an afterthought</h2>
+      <p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, easy to fold into either version of the day — a stop on the way out if you're heading toward the river or up to Coeur d'Alene, or a reward on the way home once the yard work's done. If your plans are loose enough that you don't know exactly when you'll want it, <a href="/#order">ordering ahead online</a> means you're not standing around waiting once you've decided you're hungry.</p>
+
+      <h2>A few ways to actually use the day off</h2>
+      <ul>
+        <li><strong>Eat breakfast even without an alarm.</strong> A day with no schedule still needs a first meal — it just won't remind you on its own.</li>
+        <li><strong>Match the fuel to the activity.</strong> A smoothie before a walk, a full bowl after physical work — don't run a chore day on coffee alone.</li>
+        <li><strong>Plan the stop before you're starving.</strong> A loose schedule is exactly when it helps to order ahead.</li>
+        <li><strong>Don't let "unstructured" mean "unfed."</strong> The crash from skipping meals on a day off feels the same as it does on a workday.</li>
+        <li><strong>Use the extra daylight hours while October still has them.</strong> Evenings are getting shorter fast; a morning start gets more out of the day.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>However you end up spending the second Monday of October, it's worth treating like the actual day off it is rather than letting it run on fumes. Eat something real to start it, match your fuel to whatever you end up doing, and let a stop at Everbowl in Spokane Valley be the easy part of a day that otherwise has no plan.</p>
+    `,
+  },
 ];
