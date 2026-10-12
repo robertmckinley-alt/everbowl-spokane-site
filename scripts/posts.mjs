@@ -1983,4 +1983,45 @@ export const POSTS = [
       <p>However you end up spending the second Monday of October, it's worth treating like the actual day off it is rather than letting it run on fumes. Eat something real to start it, match your fuel to whatever you end up doing, and let a stop at Everbowl in Spokane Valley be the easy part of a day that otherwise has no plan.</p>
     `,
   },
+  {
+    slug: "treadmill-season-indoor-running-fuel",
+    title: "Treadmill Season Starts Now: Keeping Your Running Base Through a Spokane Fall",
+    description:
+      "As Spokane Valley mornings turn dark and cold, outdoor runs start sliding indoors. How to protect your running base through the shift without losing fuel or motivation.",
+    category: "Fitness & Recovery",
+    date: "2026-10-12",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A smoothie ready to fuel an early, dark Spokane Valley run before work",
+    keywords: ["treadmill training spokane", "indoor running fall", "spokane valley running", "fall running fuel", "running base inland northwest"],
+    body: `
+      <p>Mid-October is when the shift actually happens for most Spokane Valley runners. It's not the first snow that pushes people inside — that's still weeks away — it's the mornings. Sunrise keeps sliding later, the pre-dawn temperature keeps dropping into the 30s and 40s, and the easy 6 a.m. loop around the neighborhood that felt effortless in August starts needing a headlamp, a jacket, and a little more willpower than it used to. Somewhere around now, a lot of runners quietly start trading some outdoor miles for the treadmill at the gym, and the base they built all summer is genuinely at risk if the transition isn't handled on purpose.</p>
+
+      <h2>The base doesn't disappear — but it does get neglected</h2>
+      <p>Treadmill running isn't a downgrade. Mechanically it's close enough to the road that a well-run indoor plan keeps your aerobic base intact through the darkest, coldest stretch of the year. The real risk isn't the machine — it's the habit drift that comes with it. Outdoor runs have built-in accountability: you're already outside, already moving, already past the hardest part. Treadmill runs require a drive to the gym, a locker, and a decision you have to make fresh every single time. That's where fall training plans quietly fall apart, usually around week three.</p>
+
+      <blockquote>A treadmill doesn't ruin a running base. Skipping the session because getting to the treadmill felt like too much effort does.</blockquote>
+
+      <h2>Fuel the transition, not just the run</h2>
+      <p>One thing that does change when you move indoors is timing. An outdoor sunrise run often happens on momentum — you're up, you're out the door, you figure out breakfast after. A gym session usually means more lead time: getting dressed, driving, warming up on a machine instead of just starting to jog. That gap is exactly where a lot of runners either skip fuel entirely or grab whatever's fastest, and neither serves a real training effort. A <a href="/#smoothies">Nanaberry Bliss</a> — banana, strawberry, açaí — is built for this window: real carbohydrate that digests quickly, nothing heavy sitting in your stomach for mile three on the belt.</p>
+
+      <h2>What a treadmill session actually demands afterward</h2>
+      <p>Indoor running can feel easier because there's no wind, no hills to speak of, and the pace is set for you — but a controlled, consistent pace and zero elevation change usually means a tempo run or set of intervals is more honest on a treadmill than people expect. The muscles don't know the difference between a hard effort indoors and one on the Centennial Trail; they still need to refuel the same way. A bowl with real protein and carbohydrate matters just as much after a gym session as after a trail run, even though it can feel less "earned" when you never left the building.</p>
+
+      <h2>Make the gym-to-bowl stop part of the routine</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to most of the Valley's gyms that it folds naturally into a morning routine rather than adding a detour. After a treadmill session, a <a href="/#menu">PB Everbowl</a> — açaí, peanut butter, banana, granola — covers the protein and carbs your legs are asking for, and it's a lot more satisfying at 7 a.m. than talking yourself into a protein bar from the gym vending machine. If you're trying to get in and out before work, <a href="/#order">ordering ahead online</a> means it's ready by the time you've showered and changed.</p>
+
+      <h2>A few ways to protect the base through the transition</h2>
+      <ul>
+        <li><strong>Decide the night before, not the morning of.</strong> "Treadmill or outside" is a much easier call made at 9 p.m. than at 5:45 a.m. in the dark.</li>
+        <li><strong>Keep a gym bag packed and in the car.</strong> Removing one decision point removes one excuse to skip the session.</li>
+        <li><strong>Fuel before, not just after.</strong> A quick smoothie beats running on empty just because the drive to the gym delayed breakfast.</li>
+        <li><strong>Don't undersell the effort.</strong> A hard treadmill session deserves the same real recovery meal as a hard outdoor one.</li>
+        <li><strong>Use daylight while it's still around.</strong> Weekend long runs can still happen outside for a while yet — save the treadmill for the dark weekday mornings.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>The move indoors doesn't have to cost Spokane Valley runners the base they spent all summer building. Treat the treadmill as a tool rather than a compromise, fuel the session the same way you'd fuel a run on the trail, and let a stop at Everbowl be the easy part of keeping the routine going once the mornings turn dark.</p>
+    `,
+  },
 ];
