@@ -2068,4 +2068,48 @@ export const POSTS = [
       <p>Whether you're running the full, the half, or walking the 5K with the family, Spokane Marathon weekend goes smoother with a plan that matches the effort — familiar fuel beforehand, something light and fast on race morning, and real recovery once you're done. Make the stop at Everbowl in Spokane Valley part of that plan, before the gun goes off or after you've earned the finish.</p>
     `,
   },
+  {
+    slug: "turnbull-wildlife-refuge-fall-birding-walk",
+    title: "Turnbull National Wildlife Refuge: Fueling a Fall Birding Walk Near Cheney",
+    description:
+      "Fall waterfowl migration peaks at Turnbull National Wildlife Refuge near Cheney in October. A simple fueling plan for a slow, cold-morning walk — before and after.",
+    category: "Spokane & Movement",
+    date: "2026-10-13",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "Two Everbowl smoothies and a bowl, the kind of pre- and post-walk fuel for a fall morning at Turnbull",
+    keywords: ["turnbull national wildlife refuge", "spokane fall birding", "cheney washington hiking", "fall nature walk fuel", "spokane valley smoothie"],
+    body: `
+      <p>October is when Turnbull National Wildlife Refuge, just southwest of Cheney, really earns the trip. The channeled scablands fill with migrating waterfowl heading south, the aspens along the auto tour route turn gold, and the mornings carry that first real bite of fall cold before the day warms up. It's one of the quieter outdoor mornings in the Inland Northwest — more binoculars than trekking poles — but a slow, cold walk still asks something of your body, and it's easy to under-fuel something that doesn't feel like "exercise."</p>
+
+      <h2>A refuge morning isn't a workout, but it isn't nothing</h2>
+      <p>Turnbull's trails — the Pine Lakes Loop, the Bluebird Trail, the auto tour route if you're walking sections of it — are mostly flat and easy underfoot. That's exactly why people skip breakfast before heading out: it doesn't feel strenuous enough to need fuel. But you're often out for two or three hours, standing still for long stretches scanning a pond for swans or sandhill cranes, and standing still in 35-degree air burns through body heat and blood sugar in a way a brisk hike wouldn't. Showing up under-fueled on a cold morning is how a pleasant walk turns into a shivery, cranky one by the second hour.</p>
+
+      <blockquote>The goal for a Turnbull morning isn't carb-loading — it's not getting cold and hungry before you've even seen the swans.</blockquote>
+
+      <h2>Before you head out: something warm and fast</h2>
+      <p>Cheney is a short drive from Spokane Valley, so there's time for a real pre-walk stop rather than a granola bar eaten in the car. A <a href="/#smoothies">Nanaberry Bliss</a> — banana, strawberry, açaí — is easy on a stomach that isn't fully awake yet and gives you fruit sugar your body can use within the first thirty minutes on the trail, which matters more at the refuge than it sounds, since there's no coffee stand waiting at the Pine Lakes trailhead. If the morning is genuinely cold, an <a href="/#sips">Iced Matcha</a> or hot alternative brings caffeine with a steadier lift than coffee alone, useful for an early start before sunrise light brings the birds out.</p>
+
+      <h2>What to actually watch for in October</h2>
+      <p>Turnbull's fall draw is the waterfowl — ducks, geese, and if you're lucky, migrating sandhill cranes passing through on their way south. Mornings are best: birds are more active, the light is better for spotting them across the ponds, and the parking lot isn't yet full of the midday dog-walking crowd. Bring binoculars if you have them, dress in layers you can shed as the sun climbs, and budget more time than you think — a "quick loop" at Turnbull has a way of turning into ninety minutes once you stop to watch a flock lift off a pond.</p>
+
+      <h2>After the walk: refuel before the drive back</h2>
+      <p>Two or three hours of standing and walking in cold air is a bigger ask on your body's energy stores than it feels like in the moment, and the drive back into Spokane Valley is the natural point to refuel rather than waiting until you're home and the hunger hits hard. A <a href="/#menu">Chia Pudding Bowl</a> is a good match for this specific outing — it's already made, doesn't need a spoon fight with frozen toppings, and the chia's fiber and slow-digesting carbs hold you over if lunch is still a while off. If you want something heartier, the <a href="/#menu">Everbowl</a> covers real carbohydrate and a cold-weather mood boost in one order.</p>
+
+      <h2>Make it part of the loop, not an afterthought</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to Cheney that stopping on the way out or the way back barely adds to the drive. If you're heading out before the shop opens, <a href="/#order">order ahead online</a> the night before so a smoothie's waiting the moment you're back in the car, hands still cold from holding binoculars.</p>
+
+      <h2>A simple Turnbull fueling plan</h2>
+      <ul>
+        <li><strong>Before:</strong> A fast-digesting smoothie or a warm sip — something that works on a stomach that isn't fully awake.</li>
+        <li><strong>On the trail:</strong> Layer up; standing still in cold air burns more than it feels like.</li>
+        <li><strong>Timing:</strong> Go early for better bird activity and better light, not just a quieter parking lot.</li>
+        <li><strong>After:</strong> Refuel on the drive back rather than waiting until you're home and starving.</li>
+        <li><strong>Plan ahead:</strong> Order online if you're leaving before the shop opens.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Turnbull National Wildlife Refuge in October rewards patience more than effort, but cold mornings and long stretches on your feet still call for real fuel, before and after. A smoothie before you watch the first flock lift off the water, and a bowl waiting in Spokane Valley once you're back in the car, makes the whole morning better — not just the birding part.</p>
+    `,
+  },
 ];
