@@ -2157,4 +2157,48 @@ export const POSTS = [
       <p>Friday night football is one of the best fall traditions Spokane Valley has, and it doesn't have to run on nachos and whatever's left in the pantry. A quick stop at Everbowl before you head to Central Valley, University, or West Valley gives players and families real fuel for four quarters — and a reason to come back once the final whistle blows.</p>
     `,
   },
+
+  {
+    slug: "oktoberfest-weekend-spokane-coeur-dalene-fuel",
+    title: "Oktoberfest Weekend: Enjoying Spokane's Beer Gardens Without Wrecking Your Week",
+    description:
+      "October means Oktoberfest-style releases at Spokane and Coeur d'Alene breweries. A realistic food-first plan for the beer garden and the morning after.",
+    category: "Health",
+    date: "2026-10-14",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "Two Everbowl smoothies, the kind of before-and-after fuel for an Oktoberfest weekend in Spokane",
+    keywords: ["spokane oktoberfest", "coeur d'alene breweries fall", "beer garden food plan", "spokane valley smoothie", "fall weekend recovery"],
+    body: `
+      <p>October is peak brewery season in the Inland Northwest. Taprooms around Spokane and Coeur d'Alene — No-Li Brewhouse, Iron Goat Brewing, Selkirk Abbey out in Airway Heights — lean hard into Oktoberfest-style releases this time of year: malty lagers, pretzels the size of steering wheels, and beer gardens that spill outside while the weather still allows it. It's a genuinely fun fall tradition. It's also one that tends to leave people foggy, dehydrated, and regretting Saturday by the time Monday rolls around. None of that is really about the beer — it's about showing up to a beer garden on an empty stomach and letting pretzels and bratwurst be the only food in the picture all day.</p>
+
+      <h2>Why beer-garden days hit harder than a normal night out</h2>
+      <p>An Oktoberfest afternoon is a different animal than a quick happy hour. You're often outside for hours in cooling fall air, standing or walking between booths, drinking steadily over a long stretch rather than one or two rounds, and snacking on salty, starchy festival food that doesn't bring much else to the table nutritionally. Alcohol is a diuretic on its own; add cool, dry fall air and a few hours on your feet, and dehydration sneaks up faster than it would on a summer patio. The headache and low-energy slump people blame entirely on "too much beer" the next day is often just as much about under-eating and under-hydrating during the day itself.</p>
+
+      <blockquote>You don't need to skip the beer garden to feel decent on Monday. You need something real in your stomach before you get there.</blockquote>
+
+      <h2>Before you head out: real food, not a snack</h2>
+      <p>The biggest mistake is treating the hours before an Oktoberfest outing as a time to "save room" — skipping lunch to leave space for bratwurst later. That backfires; it just means you're drinking on an empty stomach by mid-afternoon. A <a href="/#menu">PB Everbowl</a> a couple hours before you head out brings real protein, banana, and peanut butter — the kind of meal that slows how fast alcohol hits and keeps you from running on pretzels alone by hour three. If you're tight on time, a <a href="/#smoothies">Nanaberry Bliss</a> on the way out the door at least gets fruit and fiber in before the first pour.</p>
+
+      <h2>During: water counts as much as beer</h2>
+      <p>Nobody wants to be the person counting ounces at a beer garden, but a simple rule works: a glass of water between rounds, especially outdoors where the cool air hides how dehydrated you're actually getting. If the lineup includes a long walk between stops — plenty of Oktoberfest crawls around Spokane and Coeur d'Alene hop between two or three taprooms — that's extra reason to stay ahead of it rather than catching up once you're already behind.</p>
+
+      <h2>The morning after: protein beats another coffee</h2>
+      <p>The instinct the next morning is usually more caffeine and maybe a greasy breakfast. A better move is protein and real fruit sugar, which does more to settle a rough morning than caffeine alone — coffee can make dehydration headaches worse before it makes them better. A <a href="/#menu">Berry Boost</a> bowl brings antioxidant-rich berries and real carbohydrate without the grease, and a <a href="/#sips">Cold Brew</a> on the side covers the caffeine without skipping the food that should come with it. Both are a quick stop on the way into a Saturday that still has plans, rather than a wasted day on the couch.</p>
+
+      <h2>Make Everbowl part of the plan, not an afterthought</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley — close enough to fit into an Oktoberfest day whether you're fueling up before heading into town or resetting the morning after. If your weekend is already packed with taproom stops, <a href="/#order">order ahead online</a> so the pre-game bowl or the next-morning smoothie is ready the moment you want it, no waiting around while the rest of the day gets away from you.</p>
+
+      <h2>A simple beer-garden plan</h2>
+      <ul>
+        <li><strong>Before:</strong> A real meal with protein, not a skipped lunch "to save room."</li>
+        <li><strong>During:</strong> Water between rounds, especially in cool fall air that hides dehydration.</li>
+        <li><strong>After:</strong> Protein and fruit over straight caffeine the next morning.</li>
+        <li><strong>Plan ahead:</strong> Order online if the weekend's already full of taproom stops.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Oktoberfest season is one of the better excuses to get outside in Spokane before winter settles in, and enjoying it fully doesn't require skipping it or overdoing it — just eating like the day matters before, during, and after. A bowl before you go and a smoothie the morning after go a long way toward making the whole weekend better, not just the beer garden part of it.</p>
+    `,
+  },
 ];
