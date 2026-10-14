@@ -2112,4 +2112,49 @@ export const POSTS = [
       <p>Turnbull National Wildlife Refuge in October rewards patience more than effort, but cold mornings and long stretches on your feet still call for real fuel, before and after. A smoothie before you watch the first flock lift off the water, and a bowl waiting in Spokane Valley once you're back in the car, makes the whole morning better — not just the birding part.</p>
     `,
   },
+
+  {
+    slug: "friday-night-lights-high-school-football-fuel",
+    title: "Friday Night Lights: Fueling Game Nights at CV, University, and West Valley",
+    description:
+      "October Friday nights mean high school football across Spokane Valley. A realistic plan for feeding players and families well before, during, and after kickoff.",
+    category: "Spokane & Movement",
+    date: "2026-10-14",
+    readMins: 5,
+    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
+    imageAlt: "A spread of Everbowl bowls and toppings, ready to share before a Friday night football game",
+    keywords: ["spokane valley high school football", "friday night lights fuel", "central valley bears", "university titans", "west valley eagles", "pre game nutrition"],
+    body: `
+      <p>October Friday nights in Spokane Valley have a rhythm to them: the sun drops behind the ridge by six, the stadium lights at Central Valley, University, and West Valley High Schools flicker on, and half the Valley seems to funnel toward one of three parking lots. Football season here isn't a backdrop — it's the plan for the evening, for players, marching band, student section, and the parents who've been rearranging dinner around a kickoff time all week. The trouble is that "rearranging dinner around a kickoff time" usually means not really eating dinner at all, just grabbing whatever's fastest on the way out the door.</p>
+
+      <h2>Why Friday nights are a nutrition trap</h2>
+      <p>Game day for a player means an early release from classes, a team meal that's often heavier on carbs than anything else, pads on by five, and adrenaline doing a lot of the work that food should be doing by kickoff. For the family in the stands, it's worse: you're standing or sitting on aluminum bleachers for two-plus hours in 40-something-degree air, and the only food options are a concession stand selling nachos and hot chocolate. Neither situation is really "eating well" — it's getting by. A little planning on the way to the stadium fixes both.</p>
+
+      <blockquote>You don't need a perfect pre-game meal. You need something that beats "nothing until the drive home."</blockquote>
+
+      <h2>For players: carbs now, protein after</h2>
+      <p>If you've got a player heading to practice or a game, the two-to-three-hour window before kickoff calls for carbohydrate that digests easily — not a heavy, fatty meal that sits like a brick through warmups. A smoothie works better here than a big plate of food: the <a href="/#smoothies">Nanaberry Bliss</a> brings banana and strawberry for fast-digesting fuel without the stomach weight of a sit-down dinner. Save the protein push for afterward, once the adrenaline's worn off and muscles actually need the repair work. A <a href="/#menu">PB Everbowl</a> after the final whistle — peanut butter, banana, granola — covers protein and carbohydrate in one order, and it beats the gas station run most players end up making on the drive home instead.</p>
+
+      <h2>For the stands: something that survives bleacher seating</h2>
+      <p>Parents and student sections have a different problem: nothing to eat that isn't a hot dog. The fix is simple — stop by Everbowl Spokane at <a href="/#location">13324 E Sprague Ave, Suite 101</a> on the way to the stadium, not after. A <a href="/#menu">Chia Pudding Bowl</a> travels well in a car cupholder-adjacent tray and doesn't need a spoon fight once it's cold, which matters when you're eating it one-handed while cheering on third down. If you'd rather sip than eat in the stands, a hot <a href="/#sips">Iced Matcha</a> swapped for its warm version, or a <a href="/#sips">Cacao Ice Blended Coffee</a> earlier in the evening, gives you caffeine and a little steadiness through a long, cold second half without the sugar crash a hot chocolate leaves you with by the fourth quarter.</p>
+
+      <h2>Beat the line, not just the clock</h2>
+      <p>Everyone in Spokane Valley has the same idea at the same time on a Friday — leave work or school, grab something, get to the stadium before the lot fills. That means the five minutes before a CV or University kickoff are the worst possible time to be waiting on a to-go order. <a href="/#order">Order ahead online</a> earlier in the afternoon and swing by on your actual route to the game; it's the difference between rolling up to the gate with time to find parking and missing the coin toss because you were still waiting on a bowl.</p>
+
+      <h2>It's not just the players who need fuel</h2>
+      <p>It's easy to think of game-night nutrition as a players-only conversation, but the band kids marching at halftime, the siblings who tag along to every game, and the parents who've been running since 6 a.m. are all asking the same thing of their bodies that night: stay alert, stay warm, make it through four quarters without crashing. None of that requires anything elaborate — just real food eaten on purpose instead of whatever's left over once everyone's already in their seats.</p>
+
+      <h2>A simple Friday night plan</h2>
+      <ul>
+        <li><strong>Players, before:</strong> Easy-digesting carbs 2–3 hours out — a smoothie beats a heavy meal.</li>
+        <li><strong>Players, after:</strong> Protein and carbs together once the game's over, not whatever's fastest on the drive home.</li>
+        <li><strong>Families, before:</strong> Stop on the way to the stadium, not after — the lot fills fast.</li>
+        <li><strong>Families, during:</strong> Something that travels — a chia bowl or a hot sip beats concession-stand defaults.</li>
+        <li><strong>Everyone:</strong> Order ahead online if you're cutting it close to kickoff.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Friday night football is one of the best fall traditions Spokane Valley has, and it doesn't have to run on nachos and whatever's left in the pantry. A quick stop at Everbowl before you head to Central Valley, University, or West Valley gives players and families real fuel for four quarters — and a reason to come back once the final whistle blows.</p>
+    `,
+  },
 ];
