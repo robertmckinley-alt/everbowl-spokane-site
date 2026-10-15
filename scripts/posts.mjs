@@ -2245,4 +2245,45 @@ export const POSTS = [
       <p>A fall color cruise on Lake Coeur d'Alene is one of the easiest ways to catch the Inland Northwest at its best without a single mile of hiking — but "easy" and "low-effort on your body" aren't the same thing once you're a couple hours into open water and cooling fall air. Eating like the day counts, before and after, is what turns a chilly boat ride into a genuinely great fall afternoon.</p>
     `,
   },
+
+  {
+    slug: "what-is-pitaya-dragon-fruit-explained",
+    title: "What Is Pitaya? The Dragon Fruit Behind the Pink, Explained",
+    description:
+      "That hot-pink base in your bowl isn't dye or flavoring — it's dragon fruit. What pitaya actually is, what's in it, and why it's one of the better things to order when Spokane's produce aisle goes gray.",
+    category: "Nutrition",
+    date: "2026-10-15",
+    readMins: 4,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "A bright magenta pitaya smoothie bowl topped with fruit and granola",
+    keywords: ["what is pitaya", "dragon fruit benefits", "pitaya bowl spokane", "pitaya paradise smoothie", "everbowl spokane valley"],
+    body: `
+      <p>New customers ask about it almost as often as they ask about the blue one: what exactly is the hot-pink stuff underneath the granola? It isn't food coloring, and it isn't flavored syrup. It's pitaya — better known by its market name, dragon fruit — and it's been the base of some of the menu's most popular builds, like the <a href="/#menu">Pitayum</a> bowl and the <a href="/#menu">Blue Lagoon</a>, since before most of Spokane Valley had heard the word.</p>
+
+      <h2>What pitaya actually is</h2>
+      <p>Dragon fruit grows on a climbing cactus — not a tree — mostly in Central America and Southeast Asia, where it's harvested, pureed, and frozen into the smooth pink base you see in a bowl. The fruit itself has pale, speckled flesh with tiny black seeds scattered through it, similar in texture to a kiwi. Blended, those seeds add a faint crunch and a little extra fiber without changing the flavor much. The flavor itself is mild: lightly sweet, a little floral, closer to a melon-kiwi cross than anything tropical and punchy. That's exactly why it works so well as a base — it carries whatever fruit you blend it with instead of competing for attention.</p>
+
+      <h2>Where the pink comes from</h2>
+      <p>The color is real pigment, not dye. Pitaya gets its magenta hue from betalains, the same family of pigments that make beets so deeply red. Betalains are antioxidants, meaning they help neutralize the free radicals your body generates through normal activity, exercise, and everyday stress. Research on betalains specifically is still developing, so we won't oversell it — but pitaya also brings genuine, well-established nutrition on its own: it's a source of vitamin C, magnesium, and fiber, and it's mostly water, which makes it naturally light and hydrating compared to a lot of other smoothie bases.</p>
+
+      <blockquote>Honest version: pitaya isn't a miracle fruit, and anyone claiming otherwise is selling something. It's a genuinely nutritious, low-sugar, antioxidant-rich base that happens to look incredible in a bowl. Both things are true at once.</blockquote>
+
+      <h2>Why it's a smart order once the weather turns</h2>
+      <p>By mid-October, Spokane's farmers-market tables have mostly packed up, the trees along the Centennial Trail have dropped their color, and the produce aisle starts leaning heavily on apples, squash, and not much else. That's exactly when a pitaya bowl earns its keep — it's a way to get real fruit, fiber, and antioxidants into a gray week without needing anything that was grown locally this month. The <a href="/#smoothies">Pitaya Paradise</a> smoothie blends it with strawberry, pineapple, and coconut milk for something that tastes like a much warmer month, which is honestly half the appeal when the sky outside is the color of a parking lot.</p>
+
+      <h2>How to actually taste it</h2>
+      <p>If you've only had pitaya buried under granola, nut butter, and five toppings, you've mostly tasted the toppings. To actually notice the fruit, try it simpler: the Pitayum keeps the base fruit-forward with coco love and pineapple instead of burying it, and the Blue Lagoon pairs it with blue majik and chia for a build that leans on color and texture more than a pile of add-ons. Either way, you're tasting the fruit itself, not just what's on top of it.</p>
+
+      <h2>Come try it in Spokane Valley</h2>
+      <p>You don't need a tropical vacation to try dragon fruit — just a stop at <a href="/#location">Everbowl Spokane at 13324 E Sprague Ave, Suite 101</a>. If your week is already full, <a href="/#order">order ahead online</a> and a Pitayum or Pitaya Paradise will be ready when you swing through. It's a small, easy way to eat something genuinely good for you on a week when the rest of the produce aisle isn't offering much.</p>
+
+      <h2>The short version</h2>
+      <ul>
+        <li><strong>What it is:</strong> Dragon fruit, a cactus fruit with mild, lightly sweet flavor and tiny edible seeds.</li>
+        <li><strong>Why it's pink:</strong> Betalains — the same antioxidant pigment family found in beets.</li>
+        <li><strong>What's in it:</strong> Vitamin C, magnesium, fiber, and a high water content that makes it naturally hydrating.</li>
+        <li><strong>Where to try it:</strong> The Pitayum bowl or the Pitaya Paradise smoothie at Everbowl Spokane Valley.</li>
+      </ul>
+    `,
+  },
 ];
