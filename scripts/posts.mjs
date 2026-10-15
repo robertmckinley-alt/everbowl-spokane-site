@@ -2201,4 +2201,48 @@ export const POSTS = [
       <p>Oktoberfest season is one of the better excuses to get outside in Spokane before winter settles in, and enjoying it fully doesn't require skipping it or overdoing it — just eating like the day matters before, during, and after. A bowl before you go and a smoothie the morning after go a long way toward making the whole weekend better, not just the beer garden part of it.</p>
     `,
   },
+
+  {
+    slug: "lake-coeur-dalene-fall-color-cruise-fuel",
+    title: "Fall Color on the Water: Fueling a Lake Coeur d'Alene Cruise Day",
+    description:
+      "October's fall color cruises on Lake Coeur d'Alene mean a long day outdoors on the water. Here's how to eat so you actually enjoy the ride.",
+    category: "Spokane & Movement",
+    date: "2026-10-15",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "A vibrant pitaya smoothie bowl, bright fuel for a fall color cruise day on Lake Coeur d'Alene",
+    keywords: ["lake coeur d'alene fall color", "coeur d'alene fall activities", "spokane valley smoothie bowl", "fall boat day food", "everbowl spokane valley"],
+    body: `
+      <p>Late October is prime time for watching the hillsides around Lake Coeur d'Alene turn — the tamaracks go gold along the shoreline, the cottonwoods flare yellow near Wolf Lodge Bay, and a scenic cruise out of downtown Coeur d'Alene becomes one of the better low-effort ways to see it without lacing up boots. It's an easy day to plan: drive over, grab a ticket, stand on the deck for an hour or two, maybe wander the floating boardwalk or grab coffee downtown afterward. The part people don't plan for is that a few hours on open water in October air is colder and more tiring than it looks from the dock, and showing up without real food in your stomach turns a relaxing afternoon into a shivery, cranky one.</p>
+
+      <h2>Water days burn more than you'd think</h2>
+      <p>Standing on a boat deck doesn't feel like exercise, but your body is working the whole time — bracing against wind, holding posture against the boat's motion, and generating extra heat to stay warm as the temperature drops over open water. Add the glare and dry air that come with a clear fall day, and dehydration shows up the same way it does on a hike: a dull headache, a short temper, and a sudden crash of fatigue right when you're trying to enjoy the view. None of that is really about the cruise being too long. It's about treating "a relaxing boat ride" as a reason to skip real food, when your body is quietly working the entire time.</p>
+
+      <blockquote>A boat deck in October asks more of your body than a couch does. Feed it like that's true.</blockquote>
+
+      <h2>Before you board: something warm and substantial</h2>
+      <p>Cruises out of Coeur d'Alene often depart mid-morning or early afternoon, which lands right in the gap between breakfast and lunch — exactly when people skip eating because they're "about to do something fun" instead of something that counts as a meal. A <a href="/#menu">Full Moon</a> bowl before you head over the state line brings real carbohydrate, fruit, and a bit of staying power, so you're not running on an empty stomach by the time the boat pulls away from the dock. Short on time before the drive to Coeur d'Alene? A <a href="/#smoothies">PB Cacao Dream</a> smoothie travels well in the cupholder and still delivers protein and healthy fat instead of just sugar.</p>
+
+      <h2>On the water: water, not just coffee</h2>
+      <p>It's tempting to bring only coffee or hot cocoa on a cool-weather boat day, and there's nothing wrong with either — but plain water still matters, maybe more than usual, since cold air makes people underestimate how much they're losing to wind and dry conditions. Pack a bottle. If the cruise has a snack bar, treat it as a backup, not the plan; festival-boat food tends to be salty and short on anything that actually sustains you through a two-hour ride.</p>
+
+      <h2>After you dock: refuel before the drive home</h2>
+      <p>By the time you're back on the boardwalk in downtown Coeur d'Alene, cold air and a few hours on your feet usually mean you're hungrier than you expected — and the 45-minute drive back to Spokane Valley is a bad time to realize that. Make <a href="/#location">Everbowl Spokane at 13324 E Sprague Ave, Suite 101</a> your last stop before you're officially off duty for the day. A <a href="/#menu">Nutty Butty</a> bowl or a <a href="/#sips">Cacao Ice Blended Coffee</a> covers both the real food and the caffeine boost without needing a sit-down dinner first.</p>
+
+      <h2>Make it easy on a busy fall Saturday</h2>
+      <p>Fall weekends in the Inland Northwest fill up fast between cruise tickets, kids' sports, and everything else October throws at a calendar. If your morning is already tight, <a href="/#order">order ahead online</a> so your pre-cruise bowl is ready the second you swing through Spokane Valley on the way to Coeur d'Alene — no standing in line while the clock runs down to departure time.</p>
+
+      <h2>A simple fall cruise day plan</h2>
+      <ul>
+        <li><strong>Before:</strong> A real bowl or smoothie with protein, not just coffee, before you board.</li>
+        <li><strong>During:</strong> Water alongside anything warm — cold air hides how dehydrated you're getting.</li>
+        <li><strong>After:</strong> Refuel before the drive home instead of white-knuckling it back to Spokane Valley hungry.</li>
+        <li><strong>Plan ahead:</strong> Order online if your Saturday is already packed tight.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>A fall color cruise on Lake Coeur d'Alene is one of the easiest ways to catch the Inland Northwest at its best without a single mile of hiking — but "easy" and "low-effort on your body" aren't the same thing once you're a couple hours into open water and cooling fall air. Eating like the day counts, before and after, is what turns a chilly boat ride into a genuinely great fall afternoon.</p>
+    `,
+  },
 ];
