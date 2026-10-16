@@ -2330,4 +2330,48 @@ export const POSTS = [
       <p>Fall yard work in Spokane Valley doesn't look like training, but a long day of raking, hauling, and ladder work puts real demand on your body — and deserves real fuel on both ends. Eat like the day counts, and the Sunday-morning soreness will be the only reminder you worked for it.</p>
     `,
   },
+
+  {
+    slug: "spokane-chiefs-game-night-fuel",
+    title: "Spokane Chiefs Game Night: Fueling a Cold Evening at the Arena",
+    description:
+      "WHL hockey season is in full swing downtown. A practical plan for eating well before and after a Spokane Chiefs game at the Arena, instead of running on nachos.",
+    category: "Spokane & Movement",
+    date: "2026-10-16",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A warm cacao drink and acai bowl, fuel for a cold night of Spokane Chiefs hockey downtown",
+    keywords: ["spokane chiefs game night", "whl hockey spokane", "spokane arena fuel", "downtown spokane dinner before game", "everbowl spokane valley"],
+    body: `
+      <p>Mid-October means Spokane Chiefs hockey is back in full swing at the Spokane Arena, and on a game night the whole routine downtown follows a familiar shape: leave work or school with just enough time to find parking, grab something fast, and get into your seat before the puck drops. The trouble is that "something fast" near the Arena usually means a hot dog in line or nothing until intermission — and three periods of WHL hockey, cheering included, asks more of your body than most people plan for on a weeknight.</p>
+
+      <h2>A hockey game is a longer night than it looks</h2>
+      <p>Between warmups, three periods, two intermissions, and the walk from your car or the STA Plaza, a Chiefs game is easily a three-hour night out, often starting right after work with no real dinner in between. The arena itself runs cold — rink-side air is a different kind of chill than an outdoor October evening — and between the cold air and the energy of a packed crowd, it's easy to not notice you're both hungry and a little dehydrated until the drive home, when all that sounds good is whatever's closest and greasiest.</p>
+
+      <blockquote>You don't need a pre-game feast. You need something real in your stomach before the anthem, not just whatever's left in the car console.</blockquote>
+
+      <h2>Before puck drop: eat on the way, not after you park</h2>
+      <p>The smartest move on a game night is building Everbowl into the route instead of treating dinner as an afterthought once you're already circling for parking near the Arena. A stop at <a href="/#location">Everbowl Spokane at 13324 E Sprague Ave, Suite 101</a> on your way across town gives you a real meal before the lot fills up and the lines start — a <a href="/#menu">Full Moon</a> bowl brings dark berries and granola for sustained energy through a long sit on arena seating, while a <a href="/#smoothies">PB Cacao Dream</a> smoothie is easy to drink in the car and still delivers protein and real fruit instead of just caffeine.</p>
+
+      <h2>Beating the pre-game rush</h2>
+      <p>Everyone heading to a Chiefs game has the same fifteen-minute window in mind, which means the counter gets busy right as puck drop approaches. <a href="/#order">Order ahead online</a> earlier in the afternoon and pick it up on your actual drive downtown — it's the difference between eating a real meal at a table for five minutes and eating cold fries out of a bag at your seat because the concession line never moved.</p>
+
+      <h2>Staying warm without the sugar crash</h2>
+      <p>Arena seating is cold enough that a hot drink does real work, and it doesn't have to be hot chocolate loaded with sugar that leaves you flat by the third period. A <a href="/#sips">Cacao Ice Blended Coffee</a> or a warm <a href="/#sips">Iced Matcha</a> swapped hot gives you caffeine, a little steadiness, and something to hold onto between your hands during a cold second period — closer to what you'd want on the walk back to the car than another sugary concession-stand cup.</p>
+
+      <h2>After the final horn: don't skip the recovery meal</h2>
+      <p>If you cheered through three periods of a close game, you burned more nervous energy than you'd think, and showing up home starving at 9:30 p.m. usually ends with whatever's fastest instead of what you actually need. A <a href="/#menu">PB Everbowl</a> ordered for pickup on the way home — peanut butter, banana, granola on an açaí base — covers protein and carbohydrate without requiring you to cook anything once you're finally home and ready to crash.</p>
+
+      <h2>A simple game-night plan</h2>
+      <ul>
+        <li><strong>Before:</strong> Eat a real meal on the way downtown, not after you've already parked.</li>
+        <li><strong>Order ahead:</strong> Beat the pre-game rush so you're not stuck in a concession line at puck drop.</li>
+        <li><strong>During:</strong> A warm sip beats sugary hot chocolate for staying steady through a cold third period.</li>
+        <li><strong>After:</strong> Protein and carbs on the way home, not whatever's left in the fridge at 10 p.m.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Chiefs hockey is one of the best reasons to be downtown on a cold October night, and it runs a lot better on a real meal than on concession-stand defaults. Build a stop at Everbowl into your route before or after the game, and you'll make it through three periods — and the drive home — actually fueled.</p>
+    `,
+  },
 ];
