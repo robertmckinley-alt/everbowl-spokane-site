@@ -2286,4 +2286,48 @@ export const POSTS = [
       </ul>
     `,
   },
+
+  {
+    slug: "leaf-raking-weekend-yard-work-fuel-spokane-valley",
+    title: "Leaf-Raking Weekend: Fueling a Day of Fall Yard Work in Spokane Valley",
+    description:
+      "Raking, bagging, gutter-clearing, and putting the garden to bed for winter is real physical work. Here's how to eat around a long Inland Northwest yard-work Saturday.",
+    category: "Health",
+    date: "2026-10-16",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "A fresh acai bowl with banana, granola, and berries, fuel for a fall yard work day",
+    keywords: ["fall yard work fuel", "spokane valley yard work", "leaf raking workout", "fall chores nutrition", "everbowl spokane valley"],
+    body: `
+      <p>By mid-October, the maples and tamaracks that made Spokane Valley look so good for photos are doing the opposite to your lawn. Between the leaves piling up along Sprague and Appleway, the last mow before the ground gets soggy, and gutters that need clearing before the first real storm, most Inland Northwest driveways have a full Saturday of yard work queued up before winter settles in. Nobody plans a nutrition strategy around raking leaves — but a full day of bagging, hauling, and ladder-climbing burns more than people expect, and skipping real food through it is exactly how a yard-work Saturday turns into a Saturday evening spent sore on the couch with a headache.</p>
+
+      <h2>Yard work is a workout, even if it doesn't feel like one</h2>
+      <p>Raking is repetitive, low-intensity cardio with a strong upper-body and core component. Hauling bagged leaves to the curb adds load-bearing carries. Up and down a ladder clearing gutters adds balance and grip demand on top of everything else. None of it spikes your heart rate like a run, so it's easy to underestimate — but strung together over three or four hours, it adds up to a real training load, especially for anyone who spent the summer mostly sitting at a desk. The soreness that shows up Sunday morning isn't random; it's your body telling you it worked harder than you gave it credit for.</p>
+
+      <blockquote>You wouldn't skip breakfast before a long hike. A four-hour yard-work day deserves the same respect — it's just less photogenic.</blockquote>
+
+      <h2>Before you start: don't skip the morning meal</h2>
+      <p>Cool October mornings make it tempting to just grab coffee and get straight to it, but starting a physical day on an empty stomach means you're running on fumes by the second hour. A bowl of <a href="/#menu">Hot Oats</a> brings warm, slow-digesting carbohydrate that holds steadier than a pastry would, and it pairs well with a <a href="/#sips">Cold Brew</a> if you need the caffeine to get moving on a 40-degree morning. If you're headed out the door in a hurry, a <a href="/#smoothies">Nanaberry Bliss</a> smoothie travels in the truck cupholder and still delivers real fruit and a bit of protein instead of just sugar and caffeine.</p>
+
+      <h2>Mid-morning: water matters more than you'd think</h2>
+      <p>Cold air hides thirst the same way it does on a fall hike or a lake cruise — you're sweating under a jacket, breathing dry autumn air, and not noticing either one the way you would on a hot July afternoon. Keep a water bottle on the porch steps or the tailgate, not just a travel mug of coffee, and take a few sips between piles. A short ten-minute break with real water and something small to eat will do more for your energy than pushing through to "finish the front yard first."</p>
+
+      <h2>After the last bag hits the curb: recovery food, not just dinner</h2>
+      <p>By the time the leaves are bagged, the gutters are clear, and the mower is put away for the season, you've put in a legitimate day of physical labor — sore shoulders and a tired lower back included. That's worth treating like you would after any hard workout: protein and real carbohydrate within an hour or two, not just whatever's easiest to microwave once you've showered. A <a href="/#menu">PB Everbowl</a> covers both with peanut butter, banana, and granola on an açaí base, and it's a lot more satisfying after a cold afternoon outside than another bag of chips on the couch.</p>
+
+      <h2>Make the Valley stop part of the plan</h2>
+      <p>If your Saturday yard-work list runs long, build a stop at <a href="/#location">Everbowl Spokane at 13324 E Sprague Ave, Suite 101</a> into the day rather than treating it as an afterthought — grab a bowl on the way to the hardware store for more lawn bags, or make it the reward once the driveway is finally clear. Running short on time between raking and everything else the weekend holds? <a href="/#order">Order ahead online</a> so it's ready the moment you pull in, leaf bits still stuck to your jacket.</p>
+
+      <h2>A simple fall yard-work day plan</h2>
+      <ul>
+        <li><strong>Before:</strong> A warm, real breakfast — Hot Oats or a smoothie, not just coffee on an empty stomach.</li>
+        <li><strong>During:</strong> Water on a schedule, not just when you notice you're thirsty; cold air masks dehydration.</li>
+        <li><strong>After:</strong> Protein and carbs within an hour or two — treat it like post-workout recovery, because it is.</li>
+        <li><strong>Plan ahead:</strong> Order online so refueling doesn't compete with the rest of a packed Saturday.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Fall yard work in Spokane Valley doesn't look like training, but a long day of raking, hauling, and ladder work puts real demand on your body — and deserves real fuel on both ends. Eat like the day counts, and the Sunday-morning soreness will be the only reminder you worked for it.</p>
+    `,
+  },
 ];
