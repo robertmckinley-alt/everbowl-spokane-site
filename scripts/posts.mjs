@@ -2412,4 +2412,40 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "spokane-ski-swap-weekend-fuel",
+    title: "Ski Swap Weekend: Fueling a Long Morning Hunting Gear at the Fairgrounds",
+    description:
+      "The Inland Northwest's annual ski and snowboard swap means an early, cold morning in line and hours hauling gear through crowded aisles. Here's how to eat for it.",
+    category: "Spokane & Movement",
+    date: "2026-11-05",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A warm Cacao Ice Blended Coffee from Everbowl Spokane, fuel for a cold ski swap morning",
+    keywords: [
+      "Spokane ski swap",
+      "Spokane Mountaineers ski swap",
+      "winter gear Spokane Valley",
+      "ski season prep Inland Northwest",
+    ],
+    body: `<p>Every November, the Spokane County Fair and Expo Center fills up with skis, boards, boots, and bins of winter gear for the Inland Northwest's annual ski and snowboard swap. It's become a local institution — a chance to pick up good gear for the kids who grew two sizes since last season, finally replace boots that never fit right, or sell off the pair of skis gathering dust in the garage before Mt. Spokane, Schweitzer, Silver Mountain, and 49 Degrees North open for the year. It's also, less obviously, a genuine physical event: an early, cold morning standing in line, followed by hours of digging through crowded tables and hauling gear across a parking lot.</p>
+
+<h2>Standing in line is a workout nobody counts</h2>
+<p>The good deals go early, which means a lot of people are outside the doors before sunrise in a Spokane Valley November — easily in the 30s, sometimes colder. Standing still in cold air for an hour or more burns more energy than people expect, and it's exactly the kind of morning where skipping breakfast "because I'll just grab something later" backfires. Add in weaving through packed aisles, trying on boots, and carrying an armful of gear back to the car, and swap day adds up to more steps and more standing than most people's actual workouts that week.</p>
+
+<h2>Fuel before you leave the house</h2>
+<p>If the doors open early, you want something warm and steady, not something that runs out by the time you're through the first row of tables. Our <a href="/#menu">Hot Oats</a> bowl — oats, banana, and a swirl of peanut butter — is built for exactly this kind of cold-morning errand: real carbohydrate and a little protein that holds through a long wait outside. Pair it with a <a href="/#sips">Cacao Ice Blended Coffee</a> for caffeine and warmth in one cup, something worth holding onto with both hands while you wait for the doors.</p>
+
+<p>If mornings are tight and you're headed straight from the house, a <a href="/#smoothies">Nanaberry Bliss</a> smoothie travels well in the cup holder and still gets real fruit and carbohydrate into you before you're on your feet for the next few hours.</p>
+
+<blockquote>Treat swap day like the long errand it is, not a race — the people who eat something real before they leave the house are the ones still having fun by the third table of boots.</blockquote>
+
+<h2>The post-swap reset</h2>
+<p>By the time you've hauled a new-to-you pair of skis or a box of boots back to the car, you've put in real work, and the recovery window matters just as much as it would after a trail day. A <a href="/#menu">PB Everbowl</a> — açaí, peanut butter, granola, and banana — covers both the protein to recover from a few hours of lifting and carrying, and the carbohydrate to replace what a cold morning standing outside actually burned. It's a better reset than the drive-through on the way home, and it tastes like a reward for scoring a deal instead of a consolation prize.</p>
+
+<h2>The bottom line</h2>
+<p>Ski swap weekend is one of the best deals in the Inland Northwest if you plan for the morning it actually is — cold, long, and more physical than people expect. Everbowl Spokane at <a href="/#location">13324 E Sprague Ave, Suite 101</a> is just minutes from the fairgrounds in Spokane Valley, so swing by for a warm bowl or sip before you get in line, or order ahead online for a <a href="/#order">pickup</a> on the way home once the gear is loaded up.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
