@@ -2374,4 +2374,42 @@ export const POSTS = [
       <p>Chiefs hockey is one of the best reasons to be downtown on a cold October night, and it runs a lot better on a real meal than on concession-stand defaults. Build a stop at Everbowl into your route before or after the game, and you'll make it through three periods — and the drive home — actually fueled.</p>
     `,
   },
+  {
+    slug: "shoulder-season-gap-training-fuel",
+    title: "The Shoulder Season: Fueling the Gap Between Fall Trails and Ski Season",
+    description:
+      "Fall hiking season is winding down and the lifts aren't spinning yet. A practical nutrition plan for the awkward early-November gap, built around indoor training in Spokane Valley.",
+    category: "Fitness & Recovery",
+    date: "2026-11-04",
+    readMins: 5,
+    image: "/blog-img/pb-protein-ice-blended-coffee.jpg",
+    imageAlt: "PB Protein Ice Blended Coffee, a pre-gym pick-me-up from Everbowl",
+    keywords: [
+      "shoulder season Spokane",
+      "indoor training Inland Northwest",
+      "Mt Spokane ski season prep",
+      "November fitness Spokane Valley",
+    ],
+    body: `<p>Right now the Inland Northwest is stuck in its yearly in-between. The clocks fell back last weekend, the good dirt on Iller Creek and Liberty Lake Loop is turning to mud and ice, and the lifts at Mt. Spokane, Schweitzer, Silver Mountain, and 49 Degrees North are still weeks from spinning. It's not quite hiking season and not yet ski season — just three or four gray, dark weeks that trip up a lot of otherwise consistent training plans.</p>
+
+<p>That gap matters more than people expect. The sudden 5pm sunset strips away the easy after-work trail run or hike that carried a lot of people's fitness through September and October. Without a deliberate plan B, "I'll get back to it when the snow comes" quietly turns into three weeks of nothing, and opening day at the resort arrives with legs that have lost the conditioning October's dryland work built.</p>
+
+<h2>Move the training indoors, on purpose</h2>
+<p>Spokane Valley has more indoor options than people use. The HUB Sports Center and Plantes Ferry Fieldhouse both run open gym and indoor track time once the weather turns. The YMCA pools are a low-impact way to keep aerobic fitness up without pounding joints on icy sidewalks. Wild Walls Climbing Gym keeps the single-leg balance and grip strength that skiing and scrambling both depend on. None of it has to be fancy — the goal for this stretch is simply staying in the habit of showing up, so the jump back outside (onto snow, or back onto spring trails) doesn't start from zero.</p>
+
+<h2>Fueling a darker, colder routine</h2>
+<p>Training indoors after dark changes the fueling rhythm a little. Mornings arrive colder and less motivating, so a fast, warm breakfast matters more than it did in September — our <a href="/#menu">Hot Oats</a> bowl, with banana and a swirl of peanut butter, is built for exactly this: real carbohydrate and a little protein before a gym session, without standing over a stove at 6am. For an afternoon gap between work and a workout, a <a href="/#sips">PB Protein Ice Blended Coffee</a> does double duty as caffeine and a protein top-up, which is useful on the days daylight runs out before your to-do list does.</p>
+
+<p>Protein consistency matters even more once training moves indoor and becomes more strength-focused than trail-mileage-focused. Spreading roughly 20 to 30 grams across each meal supports the muscle-building and -maintaining work that climbing, lifting, and pool laps all demand, and it's a lot easier to hit with a <a href="/#menu">PB Everbowl</a> after a session than to assemble from scratch on a weeknight. Granola and banana on an açaí base cover the carbohydrate side of recovery at the same time, so one stop handles both halves of the window.</p>
+
+<blockquote>The shoulder season isn't a reason to pause — it's just a reason to change venues.</blockquote>
+
+<h2>Don't skip the outdoor minutes you still have</h2>
+<p>Even with mud and ice creeping in, clear cold mornings are still worth a loop around the Appleway Trail or a flatter walk through Mirabeau Point before the ground fully locks up. Layer up, treat it as the bonus it is, and let the indoor sessions carry the rest of the load. The point isn't choosing one or the other — it's not letting a few gray weeks erase the base that got built all fall.</p>
+
+<h2>The bottom line</h2>
+<p>The weeks between the last good hike and the first good ski day are the ones that decide whether opening day feels strong or starts from scratch. Keep moving indoors, keep the protein and carbs consistent through the darker schedule, and build a stop at 13324 E Sprague Ave, Suite 101, Spokane Valley into the routine — in person after a gym session, or ordered ahead online when daylight (and time) are both running short.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
