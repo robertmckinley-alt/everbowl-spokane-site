@@ -2448,4 +2448,50 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "fall-allergy-rebound-ragweed-mold-spokane",
+    title: "Fall Allergy Rebound: Ragweed's Last Stand and the Rise of Leaf Mold in Spokane",
+    description:
+      "Ragweed season is finally fading across the Inland Northwest, but wet, decomposing leaves bring a second wave of allergens right behind it. What's happening and how to eat through it.",
+    category: "Health",
+    date: "2026-10-18",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "An Evergreen greens smoothie from Everbowl Spokane, a fall allergy season pick-me-up",
+    keywords: [
+      "fall allergies Spokane",
+      "ragweed season Inland Northwest",
+      "mold allergy fall",
+      "seasonal allergies October",
+      "Spokane Valley wellness",
+    ],
+    body: `<p>If your sinuses have been acting up this week, you're not imagining it, and it's not a cold. Mid-October in the Inland Northwest is a genuine allergy handoff: ragweed, which has been needling allergy sufferers since late summer, is finally dying back after the season's first hard frosts — but the wet, matted leaves piling up along the Centennial Trail, in yards across Spokane Valley, and under every maple on the South Hill are starting to grow mold as the fall rain sets in. For a lot of people, that means the sneezing doesn't actually stop when ragweed does. It just changes shape.</p>
+
+<h2>Why your nose doesn't know the calendar says fall</h2>
+<p>Ragweed pollen is typically the last big outdoor allergen of the year in our region, and a good hard frost is usually what finally shuts it down — which is exactly what's happened or is about to happen across Spokane and Coeur d'Alene over the past couple of weeks. The relief is often short-lived, though. Once leaves come down and sit wet on the ground, mold spores start colonizing the pile within days, and raking, bagging, or just walking through a deep drift of damp leaves can kick enough spores into the air to trigger the same runny nose, itchy eyes, and low-grade fatigue that ragweed caused a month ago. It's a real, well-documented pattern here — not a coincidence of bad luck.</p>
+
+<h2>Food isn't a treatment, but it isn't nothing either</h2>
+<p>To be clear: nothing in a bowl replaces an antihistamine, a saline rinse, or a conversation with your doctor if symptoms are dragging on you. But diet does play a supporting role in how your body handles seasonal inflammation, and it's one of the easiest levers to pull on a day when you already feel run down. A few things worth leaning into this time of year:</p>
+<ul>
+  <li><strong>Vitamin C–rich fruit</strong> — citrus, strawberry, and pitaya are commonly associated with healthy immune and respiratory function.</li>
+  <li><strong>Colorful polyphenols</strong> — the anthocyanins in açaí, blueberry, and dragon fruit are the same plant compounds behind their deep purple and pink color, and a diet rich in them is generally linked to lower markers of inflammation.</li>
+  <li><strong>Steady hydration</strong> — thinner mucus is easier for your body to clear than thick, dehydrated mucus, and it's easy to under-drink once summer's heat is gone.</li>
+  <li><strong>Leafy greens</strong> — spinach and kale bring folate and additional antioxidants that round out an already fruit-heavy fall diet.</li>
+</ul>
+
+<blockquote>You can't out-smoothie a bad allergy season, but a body that's well-hydrated and well-fed generally has an easier time riding one out than a body running on coffee and skipped meals.</blockquote>
+
+<h2>Building an allergy-season bowl</h2>
+<p>This is a good month to lean on the menu items built around exactly the ingredients above. Our <a href="/#smoothies">Evergreen</a> smoothie blends spinach, kale, and pineapple into something genuinely drinkable — real greens without pretending to be a salad. On the bowl side, <a href="/#menu">Berry Boost</a> stacks açaí with blueberry, strawberry, and blackberry for a heavier dose of the same anthocyanins, and if pitaya's vitamin C is more your target, the <a href="/#menu">Blue Lagoon</a> bowl or a <a href="/#smoothies">Pitaya Paradise</a> smoothie both deliver it in a form that actually tastes like a treat instead of a chore.</p>
+
+<p>If you spent the weekend raking leaves off your own lawn — or anyone else's — treat the after-effects like you would any other outdoor exposure: rinse off, change clothes if you were really in it, and don't skip rehydrating just because it wasn't technically a workout. Breathing mold spores for an hour while you bag leaves taxes your system even if your legs aren't sore afterward.</p>
+
+<h2>Stop by the Valley on your way through the gray</h2>
+<p>Everbowl Spokane is right at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, an easy stop whether you're coming from a Centennial Trail walk through the fallen leaves or just need something real after a sneezy afternoon indoors. Build a bowl around the anti-inflammatory basics above, grab a smoothie to go, or <a href="/#order">order ahead online</a> and skip the line on a day when standing around sounds like the last thing you want to do.</p>
+
+<h2>The bottom line</h2>
+<p>Ragweed's exit and mold's entrance overlap just enough in the Inland Northwest that a lot of people never get a clean break between them. You can't fix that with a bowl, but keeping hydration and antioxidant-rich food in the rotation through this transition is a genuinely useful, low-effort thing to control while everything outside is out of your hands.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
