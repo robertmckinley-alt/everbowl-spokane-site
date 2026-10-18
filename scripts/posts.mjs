@@ -2494,4 +2494,50 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "first-frost-garden-harvest-spokane-valley",
+    title: "First Frost in the Inland Northwest: Fueling Your Last Garden Harvest Weekend",
+    description:
+      "Spokane's first hard frost usually lands right around now. Here's how to get the last of your garden in before it hits, and how to refuel after a weekend of digging and hauling.",
+    category: "Spokane & Movement",
+    date: "2026-10-18",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "An Everbowl açaí bowl, a post-garden-cleanup refuel in Spokane Valley",
+    keywords: [
+      "first frost Spokane",
+      "garden harvest Inland Northwest",
+      "fall gardening Spokane Valley",
+      "October frost warning Spokane",
+      "Coeur d'Alene gardening fall",
+    ],
+    body: `<p>If you grow anything in Spokane Valley, you already know the rhythm of mid-October: the nights get sharp, the morning grass goes crunchy and white, and somewhere on NOAA's forecast a frost advisory shows up for the first time since spring. The Inland Northwest's average first freeze typically lands in the first half of October for outlying areas and can hold off a bit longer in town, but by now most of us have either already lost a tomato plant to a surprise cold night or are racing to get the last of the garden in before it happens. Either way, this is the weekend a lot of Spokane Valley yards turn into a short, frantic harvest.</p>
+
+<h2>What first frost actually does to your garden</h2>
+<p>A hard frost ruptures plant cells, which is why a tomato vine that looked fine at sunset can be black mush by nine the next morning. Tender crops — tomatoes, peppers, basil, squash vines, dahlias — are the first to go. Root vegetables like carrots and beets, along with cold-hardy greens like kale and chard, actually improve after a light frost, since the plant converts starch to sugar as a kind of natural antifreeze. That's why a lot of Green Bluff and backyard Spokane gardeners treat the first frost warning less as an ending and more as a deadline: pick the tender stuff now, and let the hardy stuff ride a little longer.</p>
+
+<h2>A weekend of real physical work</h2>
+<p>Garden teardown is deceptively demanding. Hauling vine clippings to the compost pile, pulling spent tomato cages, digging the last of the potatoes, and getting raised beds covered before a freeze adds up to hours of bending, lifting, and kneeling — the kind of unglamorous labor that leaves your lower back and forearms sore the next day, even if you never broke a sweat. Treat it like the workout it actually is:</p>
+<ul>
+  <li><strong>Eat something substantial before you start</strong> — this isn't a quick five-minute chore, so don't go out on an empty stomach.</li>
+  <li><strong>Hydrate even though it's cold</strong> — cool fall air masks how much water you're losing through exertion and breath.</li>
+  <li><strong>Protein for the cleanup, afterward</strong> — your hands and forearms will thank you the next day if you refuel with real protein instead of just coffee.</li>
+  <li><strong>Don't skip the carbs</strong> — digging and hauling burns through glycogen the same way a long walk does.</li>
+</ul>
+
+<blockquote>A frost deadline turns gardening into an endurance chore for an afternoon — the same fueling rules that apply to a long hike apply just as well to a long dig.</blockquote>
+
+<h2>Refueling after the last harvest</h2>
+<p>Once the beds are cleared and the tender crops are picked, pulled, or raked up off the ground, a real meal does more for you than another cup of coffee. The <a href="/#menu">PB Everbowl</a> pairs açaí with peanut butter and banana for a dense mix of carbs and protein that actually replaces what a few hours of digging and hauling takes out of you, and it tastes like dessert while doing it. If you want something warmer to hold against cold hands, the <a href="/#sips">Cacao Ice Blended Coffee</a> brings caffeine and real cacao together for a treat that still functions as an afternoon pick-me-up once the yard work is done.</p>
+
+<p>For the root vegetables and greens you're bringing in from the garden, lean into them the same week — a diet already heavy in colorful produce only gets better with fresh carrots, beets, and kale added on top, and there's something satisfying about eating your own harvest alongside a bowl built from someone else's.</p>
+
+<h2>Stop by the Valley shop on your way in from the yard</h2>
+<p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, a quick stop whether you're coming straight from a dirt-covered garden teardown or just need a real meal after a long outdoor Saturday. Grab a bowl to eat on the patio while your hands warm back up, or <a href="/#order">order ahead online</a> so it's ready the moment you walk in, muddy boots and all.</p>
+
+<h2>The bottom line</h2>
+<p>First frost isn't a tragedy — it's just the Inland Northwest's annual reminder that outdoor season has a deadline. Get the tender crops in, let the hardy ones sweeten up a little longer, and treat the work of closing down your garden with the same fueling respect you'd give any other hard afternoon outside.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
