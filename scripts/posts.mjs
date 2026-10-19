@@ -2540,4 +2540,52 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "deer-season-opener-hunting-fuel-spokane-valley",
+    title: "Opening Weekend: Fueling Pre-Dawn Hunts Across the Inland Northwest",
+    description:
+      "Washington and Idaho's general deer season is underway. How to eat before a 4 a.m. alarm, carry real food into the field, and refuel after a long day on the mountain.",
+    category: "Spokane & Movement",
+    date: "2026-10-19",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A Full Moon acai bowl with cacao from Everbowl Spokane, a pre-dawn hunting season breakfast",
+    keywords: [
+      "deer season Spokane",
+      "hunting season Inland Northwest",
+      "pre-dawn breakfast fuel",
+      "Spokane Valley hunting",
+      "Idaho Washington deer opener",
+    ],
+    body: `<p>Trucks with rifle racks have been pulling out of Spokane Valley driveways well before sunrise all week, and anyone who grew up around here knows exactly why: general deer season is open across most of Washington and North Idaho, and for a lot of Inland Northwest households, mid-to-late October means alarms set for 4 a.m. and a long day somewhere up toward the Selkirks, the Palouse breaks, or the timber east of Coeur d'Alene. It's one of the most quietly consistent seasonal rhythms in this part of the state — and one of the easiest to fuel badly, because almost nobody wants to cook a real breakfast at 4 a.m.</p>
+
+<h2>The problem with a 4 a.m. alarm</h2>
+<p>A pre-dawn hunt asks more of your body than it looks like on paper. You're awake and alert hours before your normal schedule, often standing still in cold, damp air for long stretches, then hiking in and out over uneven ground carrying a pack, and doing it all on whatever you managed to choke down in the dark before you left the house. Coffee alone doesn't cut it — caffeine without fuel just means you're wired and hungry by 8 a.m., right around when you need steady focus the most.</p>
+
+<h2>What actually works before first light</h2>
+<ul>
+  <li><strong>Something warm, not just something fast</strong> — a warm breakfast at 4 a.m. is a genuinely different experience than a cold granola bar, and it's easier to get down when your appetite hasn't caught up with your alarm clock yet.</li>
+  <li><strong>Slow-digesting carbs</strong> — oats and whole fruit release energy over hours instead of spiking and crashing an hour into the sit.</li>
+  <li><strong>Protein that travels</strong> — nut butter and cacao hold up in a pack better than eggs do, and they don't need a cooler.</li>
+  <li><strong>Caffeine with food attached</strong> — black coffee on an empty stomach by itself is rough on a cold morning; pairing it with real calories smooths that out.</li>
+</ul>
+
+<blockquote>The goal isn't a fancy breakfast at 4 a.m. — it's enough warm, slow-burning fuel that you're still sharp and steady six hours later, not running on fumes and cold coffee.</blockquote>
+
+<h2>A grab-and-go plan from the Valley</h2>
+<p>This is exactly the kind of morning our menu was built for. A bowl of <a href="/#menu">Hot Oats</a> — gluten-free, warm, and loaded with slow-digesting carbs — travels well in a thermos-style container if you're eating in the truck on the drive out, and it holds you far longer than a granola bar ever will. For the caffeine side, a <a href="/#sips">Cacao Ice Blended Coffee</a> brings real cacao and coffee together into something that still feels like a treat at an hour when nothing else does. If you're loading up the night before and need something that won't take ten minutes to eat before you leave, the <a href="/#menu">Full Moon</a> bowl's cacao and banana combination is dense enough to carry you a long way into the morning.</p>
+
+<p>Pack smart for the field, too. A second round of fuel for the stand or the glassing knob matters more than people think — a handful of whatever you're carrying that's heavy on carbs and light on mess beats a sandwich that's gone soggy by 9 a.m.</p>
+
+<h2>Coming back down the mountain</h2>
+<p>Whether the day ends with a tag filled or just a long walk back to the truck, the hours of hiking, glassing, and hauling gear add up to a real physical workload — treat the end of the day like the end of any long hike. Protein and carbs together help your body recover faster than coffee and adrenaline alone, and the <a href="/#menu">PB Everbowl</a> covers both in a form that actually tastes good after a cold day outside.</p>
+
+<h2>Stop by the Valley before or after the hunt</h2>
+<p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, right on the way to a lot of the routes out toward North Idaho and the Palouse. <a href="/#order">Order ahead online</a> the night before so a warm bowl is ready when you swing by before sunrise, or stop in after you're back down the mountain for a real meal instead of whatever's left in the truck.</p>
+
+<h2>The bottom line</h2>
+<p>Opening weekend and the weeks that follow are a genuine Inland Northwest tradition, and the hunters who feel sharp by mid-morning are usually the ones who ate something real before they left the house, not just the ones who got the earliest start. Fuel the 4 a.m. alarm like you would any other long day outside, and the rest of the hunt takes care of itself.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
