@@ -2681,4 +2681,54 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "fall-steelhead-fishing-fuel-inland-northwest",
+    title: "Fall Steelhead Season: Fueling a Pre-Dawn Drive to the Clearwater",
+    description:
+      "Steelhead season has Inland Northwest anglers up before 4 a.m. and driving south toward the Clearwater River. How to eat for a long, cold day on the water and the drive home.",
+    category: "Spokane & Movement",
+    date: "2026-10-21",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "A bright pitaya smoothie bowl from Everbowl Spokane, fuel for a fall steelhead fishing day",
+    keywords: [
+      "fall steelhead fishing",
+      "clearwater river steelhead",
+      "spokane valley anglers",
+      "inland northwest fishing season",
+      "everbowl spokane",
+    ],
+    body: `<p>Every October, a certain kind of Spokane and Coeur d'Alene local starts setting an alarm for the low 4 a.m.'s again. Boats come off blocks in driveways, waders get pulled out of garages, and trucks start pointing south toward the Clearwater River around Orofino and Kooskia for the fall steelhead run. It's one of the Inland Northwest's quieter seasonal traditions — no festival, no finish line, just cold water, gray light, and a couple hours of drive time before the fishing even starts. It's also one of the easier seasons to fuel badly, because the whole day runs on a schedule that fights against eating well.</p>
+
+<h2>Why steelhead season is its own fueling problem</h2>
+<p>A steelhead day isn't a quick outing. Add up the pre-dawn wake-up, the one-and-a-half to two-hour drive down Highway 12 along the Clearwater, several hours of wading or drift-boat fishing in genuinely cold water, and the drive home in the dark, and you're looking at a 12- to 14-hour day that starts before most grocery stores open. Standing in cold water burns through body heat and calories faster than people expect, and a lot of anglers under-eat simply because nothing's open yet and gas-station coffee feels like enough. It isn't — not for a day this long and this cold.</p>
+
+<h2>What actually goes wrong</h2>
+<ul>
+  <li><strong>Skipping real food before the drive.</strong> Coffee alone doesn't carry you through two hours behind the wheel plus a full morning in the water.</li>
+  <li><strong>Underestimating the cold.</strong> Standing in October river water pulls heat out of your body all day; that costs real energy, even if you're not moving much.</li>
+  <li><strong>Packing snacks instead of a meal.</strong> Gas-station jerky and energy drinks get you to lunch, not through it.</li>
+  <li><strong>Forgetting the drive home.</strong> A tired, cold, hungry driver on Highway 12 after dark is a worse risk than most anglers plan for.</li>
+</ul>
+
+<blockquote>The anglers who fish well into the afternoon are rarely the ones with the best gear — they're the ones who ate like the day was going to be long before it actually felt long.</blockquote>
+
+<h2>Fuel the drive, not just the fishing</h2>
+<p>Everbowl Spokane opens early enough to be the last real stop before Highway 12 takes over, right at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley. A bowl of <a href="/#menu">Hot Oats</a> is the single best pre-dawn order on the menu for this trip specifically — warm, filling, and built to hold you through a long cold morning without the sugar crash a drive-thru pastry gives you an hour south of town. Pair it with a <a href="/#sips">Cacao Ice Blended Coffee</a> for the drive itself; it's real caffeine with enough substance to actually function as part of breakfast, not just a jolt that wears off before you've even rigged a rod.</p>
+
+<p>If you're loading a boat or packing a drift-boat cooler the night before, <a href="/#order">order ahead online</a> so breakfast is sitting ready at 4:30 a.m. instead of one more thing slowing down a departure that's already earlier than anyone wants.</p>
+
+<h2>What to pack for streamside</h2>
+<p>Whatever you bring into the boat or waders needs to survive cold hands and not require a stove. Trail mix with real nuts, a couple of pieces of fruit, and a thermos of something warm all do better than candy bars, which spike and crash exactly when you need steady energy for careful wading and casting. Water matters too — cold weather dulls thirst even though you're still losing fluid standing in a river all day, so drink on a schedule rather than waiting to feel thirsty.</p>
+
+<h2>The drive home is part of the trip</h2>
+<p>By the time most anglers are back in the truck, it's been a 12-plus-hour day, often ending in the dark on a two-lane highway. That's exactly the wrong moment to be running on gas-station coffee and whatever's left in the cooler. A real refuel before the drive north — something with protein and carbohydrate, not just sugar — keeps you alert for the drive instead of fighting to stay awake through Lewiston and up the grade.</p>
+
+<p>Back in Spokane Valley, a <a href="/#smoothies">Pitaya Paradise</a> smoothie is a good way to close out the day: real fruit, antioxidants, and enough substance to actually count as dinner if you're too wiped out to cook after a day on the water.</p>
+
+<h2>The bottom line</h2>
+<p>Fall steelhead season asks a lot of the people who chase it — early mornings, cold water, long drives — and it rewards the ones who treat food as part of the gear list, not an afterthought. Load up at Everbowl before you point the truck south, pack real food for the water, and plan one more stop on the way home. The fish don't care how you fueled the day, but you will, somewhere around hour eleven.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
