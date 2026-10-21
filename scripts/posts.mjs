@@ -2633,4 +2633,52 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "trick-or-treat-week-fuel-spokane-valley",
+    title: "Trick-or-Treat Week: Fueling Spokane Valley Families Before a Night of Halloween Walking",
+    description:
+      "Halloween is closing in across Spokane Valley. How to feed kids and parents before a few miles of trick-or-treating, plus a candy-bucket plan that doesn't end in a sugar crash.",
+    category: "Spokane & Movement",
+    date: "2026-10-21",
+    readMins: 5,
+    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
+    imageAlt: "A spread of smoothie bowls and toast from Everbowl Spokane for a Halloween trick-or-treat night",
+    keywords: [
+      "halloween spokane valley",
+      "trick or treat fuel",
+      "spokane valley family night",
+      "halloween candy kids",
+      "inland northwest halloween",
+    ],
+    body: `<p>Costume racks are thinning out at every store along Sprague Avenue, pumpkins are showing up on porches from Liberty Lake to the South Hill, and Halloween is close enough now that Spokane Valley families are starting to plan the actual night: who's walking with the kids, which neighborhood loop you're doing, and whether anyone's handing out candy from the garage with a fire pit going. It's one of the most purely fun nights of the fall calendar — and also one of the easiest to get backwards, because almost every part of a trick-or-treat evening pushes toward sugar and nothing else, hours before anyone's actually eaten a real meal.</p>
+
+<h2>Why Halloween night wrecks everyone's energy</h2>
+<p>A trick-or-treat loop through a Spokane Valley neighborhood is a longer physical outing than people give it credit for. Kids are walking a mile or two in costumes that are often too warm or not warm enough for an Inland Northwest October evening, parents are on their feet the whole time managing crosswalks and strollers, and everyone's grazing on candy from the first house to the last. Add that most families try to squeeze trick-or-treating in after a full school and work day, on an empty stomach, and you get the two most common Halloween-night complaints: kids melting down halfway through the block, and adults dragging by house twelve.</p>
+
+<h2>The fix is dinner before costumes, not after</h2>
+<ul>
+  <li><strong>Eat a real dinner before you leave the house</strong> — even a quick one. A kid who starts the walk already fed treats the candy in the bucket as a bonus, not dinner.</li>
+  <li><strong>Protein and fiber beat an empty stomach plus candy</strong> — pairing real food with the sugar that's coming anyway smooths out the inevitable crash instead of amplifying it.</li>
+  <li><strong>Hydrate before you bundle up</strong> — costumes and layers in brisk fall air are more dehydrating than people expect, especially for kids running block to block.</li>
+  <li><strong>Let the candy bucket be dessert, not the whole night</strong> — nobody needs a ban on Halloween candy, but it lands easier on top of a real meal than on top of nothing.</li>
+</ul>
+
+<blockquote>The families still having fun by the last block are usually the ones who ate a real dinner before the first doorbell, not the ones who tried to outlast the candy on an empty stomach.</blockquote>
+
+<h2>A Valley-friendly Halloween dinner plan</h2>
+<p>Everbowl Spokane is a quick stop at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley on the way home from school or work, before costumes go on. A <a href="/#menu">PB Everbowl</a> gives kids real protein and fiber from peanut butter, granola, and banana in a bowl that still feels like a treat — an easy way to get a genuine meal into a kid who's already thinking about candy instead of dinner. For parents handing out candy from the driveway all evening or walking the whole loop, a <a href="/#smoothies">Nanaberry Bliss</a> smoothie is fast enough to drink in the car between the store and the first house, and substantial enough to actually count as dinner rather than a snack squeezed in between errands.</p>
+
+<p>If you're organizing the family's whole pre-Halloween week — costume shopping, pumpkin carving, a Green Bluff pumpkin run before the patches close for the season — <a href="/#order">order ahead online</a> so dinner is ready the moment you walk in, instead of adding one more stop to an already packed October evening.</p>
+
+<h2>For the adults manning the candy bowl</h2>
+<p>Standing at the end of a driveway for two or three hours handing out candy is its own kind of long, slow evening, and it's tempting to just eat from the bowl you're handing out of. A real dinner beforehand — or a <a href="/#toast">Classic Avocado Toast</a> eaten standing up at the kitchen counter before the first trick-or-treaters show up — means you're not relying on fun-size candy bars to get through the night.</p>
+
+<h2>The day after matters too</h2>
+<p>However the candy bucket shakes out, the morning after Halloween tends to go better with a real breakfast instead of picking up where the candy left off. A bowl with actual fruit and protein resets the morning faster than coffee and leftover chocolate, and it's a good habit to build before the holiday stretch that follows gets even busier.</p>
+
+<h2>The bottom line</h2>
+<p>Halloween in Spokane Valley is a genuinely great night for families, and it doesn't take much to fuel it well. A real dinner before the costumes go on, water before the walk, and a quick stop at Everbowl on the way home keep the night fun from the first doorbell to the last block.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
