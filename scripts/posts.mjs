@@ -2779,4 +2779,52 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "weeknight-rec-league-fuel-spokane-valley",
+    title: "Rec League Season: Fast Fuel Before Weeknight Volleyball, Hoops, or Pickleball",
+    description:
+      "Fall rec league season fills gyms like the HUB Sports Center and local YMCA courts on weeknights. How Spokane Valley players can eat fast before a game without running out of gas mid-match.",
+    category: "Spokane & Movement",
+    date: "2026-10-22",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A bright smoothie from Everbowl Spokane, quick fuel before a weeknight rec league game",
+    keywords: [
+      "rec league nutrition spokane",
+      "HUB sports center liberty lake",
+      "pickleball fuel spokane valley",
+      "volleyball league dinner fuel",
+      "everbowl spokane",
+    ],
+    body: `<p>As daylight shrinks and the evenings turn cold, a certain kind of Spokane Valley weeknight starts repeating itself: leave work, scramble to eat something, and get to the gym before the first serve. Fall is peak season for adult rec leagues across the Inland Northwest — volleyball and basketball at the HUB Sports Center in Liberty Lake, pickleball and hoops at the YMCA, church-league and co-ed teams filling courts all over Spokane Valley. It's a great way to stay active once hiking and biking season winds down, but it creates a real fueling problem: most people only have 30 to 60 minutes between work and warm-up, and that's exactly the window where it's easiest to either skip food entirely or grab something that sits like a brick for the first two sets.</p>
+
+<h2>Why league night is a different problem than a workout</h2>
+<p>A solo run or lift lets you control the clock — you eat when it works for you. A league game doesn't. Warm-up starts at a fixed time whether or not you've eaten, and showing up either empty or stuffed both backfire. Too little food and you're flat by the second game, reaching for the bench instead of a dig. Too much, too close to tip-off, and you're playing defense against your own stomach instead of the other team. The sweet spot is a meal with real carbohydrate and a moderate amount of protein, eaten 60 to 90 minutes out — which is almost never how the actual evening unfolds.</p>
+
+<h2>What goes wrong on a typical league night</h2>
+<ul>
+  <li><strong>Working until the last minute.</strong> A 5:30 end-of-day meeting becomes a 6:45 tip-off with nothing eaten in between.</li>
+  <li><strong>Grabbing fast food on the drive.</strong> Heavy, greasy drive-thru food close to game time tends to sit instead of digest, especially once you start moving hard.</li>
+  <li><strong>Skipping dinner and "eating after."</strong> Playing an hour-plus of volleyball or full-court basketball on an empty tank leads to cramping, poor focus late in the game, and a much worse night's sleep after.</li>
+  <li><strong>Relying on an energy drink alone.</strong> Caffeine can sharpen focus, but without real carbohydrate behind it, the crash often lands right in the third set.</li>
+</ul>
+
+<blockquote>The players who are still moving well in the final game of the night usually aren't the fittest ones in the gym — they're the ones who actually ate something real on the way in.</blockquote>
+
+<h2>The fast pre-game stop that actually works</h2>
+<p>Everbowl Spokane sits right at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley — close enough to swing by on the way from work to the HUB or the Y without burning the only free half hour you have. A <a href="/#smoothies">Nanaberry Bliss</a> smoothie is built for exactly this: real banana and berries for quick-digesting carbohydrate, blended smooth so it won't sit heavy once you're sprinting the baseline or diving for a ball. If you've got a little more time before warm-up, the <a href="/#menu">Berry Boost</a> bowl adds antioxidants and a bit more substance without tipping into "too full to move."</p>
+
+<p>Running from a meeting straight to the gym with zero minutes to spare, <a href="/#order">order ahead online</a> so your smoothie's ready to grab on the way through rather than waiting in line while your warm-up window disappears.</p>
+
+<h2>Don't forget the second half of the night</h2>
+<p>An hour of competitive volleyball, basketball, or pickleball in a warm gym is a real workout, even if it doesn't feel like "training." Bring water to sip between games — gym air is dry and it's easy to finish a match more dehydrated than you realize. Afterward, a bit of protein alongside carbohydrate helps you recover before the next league night rolls around, especially if you're playing on back-to-back evenings during a busy fall schedule.</p>
+
+<h2>Plan the whole week, not just one night</h2>
+<p>If your league runs weekly through the fall, the players who stay consistent are usually the ones who've made the Everbowl stop part of the routine rather than a scramble they figure out each time. Keep a go-to order in mind — smoothie when you're tight on time, a bowl when you've got a few extra minutes — so game night decision-making is already done before you've even left work.</p>
+
+<h2>The bottom line</h2>
+<p>Fall rec league season asks you to be fed, hydrated, and ready to move on a schedule you don't control. A quick stop at Everbowl on the way to the gym solves the actual problem — real carbohydrate, easy to eat fast, gentle on a stomach about to start moving hard — so the only thing left to worry about is whether your serve is working.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
