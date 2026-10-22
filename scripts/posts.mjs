@@ -2731,4 +2731,52 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "orionid-meteor-shower-stargazing-fuel-spokane",
+    title: "Orionid Meteor Shower Weekend: Fueling a Late-Night Stargazing Trip Near Spokane",
+    description:
+      "The Orionid meteor shower peaks in late October, right as Spokane's skies turn clear and cold. How to eat and dress for a pre-dawn stargazing trip without wrecking your sleep schedule.",
+    category: "Spokane & Movement",
+    date: "2026-10-22",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A cacao smoothie bowl from Everbowl Spokane, warm fuel for a late-night stargazing trip",
+    keywords: [
+      "orionid meteor shower spokane",
+      "stargazing spokane valley",
+      "late night snacks spokane",
+      "fall night sky inland northwest",
+      "everbowl spokane",
+    ],
+    body: `<p>Late October brings one of the Inland Northwest's quieter annual events, and it has nothing to do with candy or costumes: the Orionid meteor shower, which peaks around October 20–22 every year as Earth passes through dust left behind by Halley's Comet. Spokane and Coeur d'Alene sit far enough from major light pollution that a short drive out of town — toward Mount Spokane State Park, the open fields near Fishtrap, or just a dark stretch past the edge of the valley — can turn into a genuinely good show, especially in the pre-dawn hours when the shower's radiant point climbs highest. It's also an easy night to fuel badly, because the whole plan runs backward from a normal day: you eat dinner at the usual time, then stay up or wake up in the coldest, darkest hours to go stand outside and do nothing but watch the sky.</p>
+
+<h2>Why a stargazing night fights your body's clock</h2>
+<p>Meteor-shower viewing is unusual as outdoor activities go: there's no hiking, no pedaling, nothing to generate body heat. You're standing or sitting still in late-October air that's already dropped into the 30s after dark, often for an hour or more, while your body's normal signals — getting sleepy, cooling down for the night — are working against you instead of for you. That combination of stillness, cold, and a disrupted sleep window is exactly when people either eat too little (because it's late and nothing sounds good) or reach for sugary gas-station snacks that spike and crash before the best meteors even show up.</p>
+
+<h2>What actually goes wrong</h2>
+<ul>
+  <li><strong>Heading out on an empty stomach.</strong> A thin dinner hours earlier doesn't hold you through a cold night outside with no movement to keep you warm.</li>
+  <li><strong>Relying on caffeine alone to stay awake.</strong> Coffee without food keeps you wired but doesn't keep you warm, and it can make the eventual crash worse.</li>
+  <li><strong>Underdressing for "just standing around."</strong> Stillness in 30-degree air cools you faster than a hike at the same temperature.</li>
+  <li><strong>Skipping water.</strong> Cold, dry fall air is dehydrating even when you're not sweating, and dehydration makes you feel the cold more.</li>
+</ul>
+
+<blockquote>The difference between a miserable 45 minutes outside and an actually enjoyable one is almost never the sky. It's whether you ate, dressed, and hydrated like the plan was real.</blockquote>
+
+<h2>Fuel before you head out, not after you're already cold</h2>
+<p>Stop at Everbowl Spokane on the way out of town, right at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, and build a dinner that actually lasts. The <a href="/#menu">Full Moon</a> bowl is the obvious — if slightly ironic — order for a meteor-shower night: a bright moon actually washes out fainter meteors, so the darkest, moonless stretches are the best viewing, and a bowl named for the one thing you're hoping stays out of the way makes for a good excuse either way. Pair it with a warm <a href="/#sips">Cacao Ice Blended Coffee</a> for the drive out; it carries real caffeine alongside enough substance to function like a second course, not just a jolt that fades before the shower peaks.</p>
+
+<p>Headed out with a group or kids who'll want a thermos each, <a href="/#order">order ahead online</a> so everyone's bowl and drink are ready before you load the car and lose the light.</p>
+
+<h2>Dress and pack like you're standing still</h2>
+<p>Layer for stillness, not activity: a base layer, an insulated mid-layer, and a windproof shell will outperform one heavy coat once you've been standing in one spot for twenty minutes. Bring a blanket or two to sit on or wrap up in, hand warmers if you run cold, and a thermos of something warm to sip between meteors. Water still matters even in the cold — bring a bottle, and don't let the lack of thirst fool you into skipping it.</p>
+
+<h2>The early-morning version works too</h2>
+<p>If a late night isn't realistic on a school or work week, the Orionids are just as visible — arguably better — in the hour or two before dawn, when the radiant point is highest in the sky. Set an early alarm instead of staying up late, and treat it like any other early start: a real breakfast before you go, not just coffee. A bowl of <a href="/#menu">Hot Oats</a> is built exactly for this, warm and filling enough to get you through a cold, dark hour outside before the sun actually comes up.</p>
+
+<h2>The bottom line</h2>
+<p>The Orionid meteor shower is one of the Inland Northwest's best free shows, and it asks almost nothing of you except to be awake, warm, and fed at an hour when you're usually none of those things. Load up at Everbowl before you head out — or before you head out the door at 5 a.m. — dress for standing still in the cold, and let the sky do the rest.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
