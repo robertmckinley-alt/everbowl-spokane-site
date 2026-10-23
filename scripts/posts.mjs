@@ -2872,4 +2872,50 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "collagen-coffee-trend-explained",
+    title: "Collagen in Your Coffee? What the Trend Actually Does (and Doesn't)",
+    description:
+      "Collagen powders are showing up in everything from gas-station coffee to Spokane coffee stands this fall. An honest look at what collagen can and can't do, and better whole-food options.",
+    category: "Nutrition",
+    date: "2026-10-23",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A blended protein coffee drink from Everbowl Spokane, topped and ready to go",
+    keywords: [
+      "collagen coffee",
+      "collagen supplement nutrition",
+      "protein coffee spokane",
+      "fall nutrition inland northwest",
+      "everbowl spokane",
+    ],
+    body: `<p>Walk into pretty much any coffee stand in Spokane or Coeur d'Alene this fall and you'll see it on the menu board: a scoop of collagen, offered as an add-in for a dollar or two, usually right next to the sugar-free syrups. As the weather cools and people reach for warmer, richer drinks instead of iced everything, collagen has become the trendy upgrade of the season — marketed for skin, joints, hair, and vague "wellness." Some of that is real. A lot of it is marketing doing more work than the ingredient itself.</p>
+
+<h2>What collagen actually is</h2>
+<p>Collagen is a structural protein — it's what gives skin, tendons, cartilage, and connective tissue their shape. Supplemental collagen is usually "hydrolyzed," meaning it's broken into smaller pieces (peptides) so it dissolves in a hot drink instead of turning it into gelatin. Your body does use collagen, but when you eat or drink it, your digestive system breaks those peptides down into individual amino acids, just like it does with any other protein. There's no guarantee that a collagen peptide from your coffee gets reassembled specifically into skin collagen rather than being used as generic amino acid building blocks for whatever your body needs that day.</p>
+
+<h2>What the evidence actually supports</h2>
+<ul>
+  <li><strong>Skin hydration and elasticity:</strong> Some smaller clinical trials on hydrolyzed collagen show modest improvements in skin hydration after consistent daily use over several weeks. The effect size is real but modest, not dramatic.</li>
+  <li><strong>Joint comfort:</strong> A few studies in athletes and older adults suggest collagen may support joint comfort over time, though the research base is still thinner than supplement marketing implies.</li>
+  <li><strong>"Boosts protein":</strong> This one is mostly true, but collagen is an <strong>incomplete protein</strong> — it's missing or low in some essential amino acids your body can't make on its own. A scoop in your coffee adds grams of protein to a label, but it isn't a substitute for complete protein sources like dairy, eggs, or a well-built bowl.</li>
+</ul>
+
+<blockquote>Collagen isn't a scam, but it's also not magic. It's one modest tool in a kit that whole food already covers better for most people.</blockquote>
+
+<h2>The whole-food case, especially this time of year</h2>
+<p>Here's the part most collagen marketing skips: your body needs <strong>vitamin C</strong> to actually synthesize collagen from amino acids, whatever the source. Pitaya, strawberries, and citrus — all things that show up heavily in a real fruit bowl — carry meaningful vitamin C, which makes them arguably more useful to your skin and joints than the collagen powder itself. Pair that with a genuinely complete protein source, and you're covering more ground than a one-dollar coffee add-in ever will.</p>
+
+<p>That's the logic behind building a fall routine around real ingredients instead of powder add-ins. A <a href="/#menu">Chia Pudding Bowl</a> brings plant protein, fiber, and omega-3s that support the same connective tissue collagen marketing targets, and it pairs well with berries for the vitamin C piece. If you want the warm, cozy, cooler-weather version of the trend without the upsell, our <a href="/#sips">PB Protein Ice Blended Coffee</a> blends real coffee with a complete protein base — no isolated peptide needed to call it a protein drink.</p>
+
+<p>Either way, it's a quick stop on Sprague Ave: Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, between most routes to work or the gym. Grabbing something on the way means you're not standing at a coffee stand deciding whether a mystery scoop is worth the extra charge — you already know what's in the cup. Mornings get busier as the days get shorter, so if you want it ready when you walk in, <a href="/#order">order ahead online</a> and skip the line.</p>
+
+<h2>So should you skip collagen add-ins entirely?</h2>
+<p>Not necessarily — if you enjoy it and it fits your budget, a modest daily dose isn't harmful for most healthy adults. The point isn't to villainize the ingredient; it's to stop treating it as a shortcut that replaces the basics. Vitamin C-rich fruit, a real protein source, and consistent sleep do more for skin and joints over a season than any single scoop will, trend or not.</p>
+
+<h2>The bottom line</h2>
+<p>Collagen in your coffee is a modest, reasonable add-in — not a wellness miracle, and not a replacement for whole food. If you want the actual nutrients collagen marketing promises, a vitamin-C-rich bowl and a complete protein source do more of the real work, and they taste better than a powder.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
