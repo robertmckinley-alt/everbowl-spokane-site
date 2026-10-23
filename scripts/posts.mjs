@@ -2827,4 +2827,49 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "flu-shot-season-immune-support-spokane",
+    title: "Flu Shot Season in the Inland Northwest: Feeding Your Immune System While You're At It",
+    description:
+      "Pharmacies and clinics across Spokane and Coeur d'Alene push flu shots hard every October. What food can and can't do for your immune system around vaccination day.",
+    category: "Health",
+    date: "2026-10-23",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "A pitaya smoothie bowl from Everbowl Spokane, bright fuel for flu shot season",
+    keywords: [
+      "flu shot season spokane",
+      "immune support food spokane valley",
+      "vaccine day nutrition",
+      "fall health inland northwest",
+      "everbowl spokane",
+    ],
+    body: `<p>Every October, the same reminders start stacking up around Spokane and Coeur d'Alene: Rosauers, Yoke's, Costco, and the Spokane Regional Health District all run flu shot clinics, work places set up on-site vaccination days, and most of us put it off for a week or two before finally rolling up a sleeve. It's a genuinely useful habit in a region where flu season tends to run hard from November through February, overlapping with ski season, holiday travel, and the first real cold snap. But a flu shot is only one half of a sensible fall health routine — what you're eating in the weeks around it matters too, even if it can't do what the vaccine does.</p>
+
+<h2>What a flu shot actually does, and what food doesn't</h2>
+<p>It's worth being precise here, because wellness marketing loves to blur this line: a flu shot trains your immune system to recognize specific strains of influenza ahead of time, which is a very different job than anything a smoothie or a bowl of fruit can do. No food, supplement, or "immune-boosting" drink replaces vaccination, and nothing in this article should be read as a substitute for a flu shot or your doctor's advice. What food actually supports is the broader, everyday function of your immune system — the baseline it's working from when it does eventually need to respond to something, vaccine-trained or not.</p>
+
+<h2>Where real food genuinely helps</h2>
+<ul>
+  <li><strong>Vitamin C from whole fruit.</strong> Pitaya, strawberries, and citrus all carry meaningful vitamin C, which supports normal immune cell function. The research case for vitamin C preventing colds in most people is modest, but a diet consistently low in it is a real disadvantage, not just a missed bonus.</li>
+  <li><strong>Antioxidants from colorful fruit.</strong> Açaí and pitaya are both dense in anthocyanins, the same pigment family found in blueberries, which help manage the oxidative stress that builds up with poor sleep, travel, and the general grind of a busy fall.</li>
+  <li><strong>Sleep-supporting consistency, not any single nutrient.</strong> Immune function is closely tied to sleep and stress, more than to any one "superfood." Regular meals and decent sleep do more heavy lifting than people expect.</li>
+  <li><strong>Hydration.</strong> Dry fall air plus indoor heating kicking back on dries out the nasal passages that are your first line of defense. Water and fluids matter more this time of year than most people give them credit for.</li>
+</ul>
+
+<blockquote>Think of food as supporting the system that does the work, not as a substitute for the shot that actually trains it.</blockquote>
+
+<h2>A sensible stop before or after your appointment</h2>
+<p>If your flu shot is on the calendar this week — or you're one of the many people who gets it done on a lunch break at a Spokane Valley pharmacy — Everbowl is a two-minute detour from most routes along Sprague. The shop sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a>, and a <a href="/#menu">Blue Lagoon</a> bowl, built around pitaya and butterfly pea, leans into exactly the vitamin C and antioxidant combination worth having more of this time of year. If you'd rather sip something on the way to or from the appointment, the <a href="/#smoothies">Pitaya Paradise</a> smoothie covers the same ground without needing a spoon.</p>
+
+<p>Setting up a whole family's worth of flu shots at once — kids after school, a partner on their way home — <a href="/#order">order ahead online</a> so bowls and smoothies are ready the moment everyone regroups, rather than making a hungry crowd wait at the counter.</p>
+
+<h2>The habits that actually move the needle this fall</h2>
+<p>Beyond any single ingredient, the pattern that tends to hold up through flu season in the Inland Northwest is boring and consistent: regular meals instead of skipped ones, real fruit instead of relying on supplements, enough sleep even as evenings get shorter, and washing your hands like it's still 2020 — because the basics still work. A flu shot covers the specific threat; the rest of your habits cover the general baseline your immune system runs on all winter.</p>
+
+<h2>The bottom line</h2>
+<p>Get the flu shot — that's the part with the actual evidence behind it for preventing the flu specifically. Then treat the weeks around it as a good excuse to tighten up the basics: real fruit, real hydration, real sleep. Stop by Everbowl Spokane on the way to or from your appointment and get a head start on the second half of that plan.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
