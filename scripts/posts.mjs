@@ -2965,4 +2965,49 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "steptoe-butte-palouse-harvest-drive-fuel",
+    title: "Steptoe Butte in Late October: Fueling a Palouse Harvest Drive from Spokane",
+    description:
+      "Steptoe Butte and the Palouse's golden hills are at their best this week. A fueling guide for the drive south from Spokane Valley, with easy grab-and-go stops before you go.",
+    category: "Spokane & Movement",
+    date: "2026-10-24",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "A fresh açaí bowl from Everbowl Spokane, ready to pack for a Palouse road trip",
+    keywords: [
+      "steptoe butte spokane",
+      "palouse fall drive",
+      "spokane valley road trip food",
+      "everbowl spokane",
+      "inland northwest fall drive",
+    ],
+    body: `<p>Late October is one of the best windows all year to make the hour-plus drive south from Spokane Valley to Steptoe Butte, where the Palouse's rolling wheat country turns gold, rust, and deep brown after harvest. The light is lower in the sky, the air is crisp instead of smoky, and the famous patchwork hills photograph better right now than almost any other week of the year. It's a long day of driving, walking the summit road, and stopping at pullouts for photos — which means it's also a day where what you eat before you leave town matters more than people expect.</p>
+
+<h2>Why this drive is a fueling problem, not just a scenic one</h2>
+<p>A Steptoe Butte day usually breaks down the same way: an early start from Spokane Valley, close to ninety minutes of driving each way, a steep but short climb up the butte's summit road, and long stretches where the nearest real food options are gas-station snacks in Colfax or Palouse. There's no quick bowl shop out there. That means your fueling decisions happen before you ever get on the highway, and a heavy, greasy breakfast that feels fine at 7 a.m. can leave you sluggish by the time you're parked at the summit overlook two hours later.</p>
+
+<ul>
+  <li><strong>Protein and fiber beat sugar for a long car day.</strong> A sugary pastry spikes energy fast and drops it faster, right around the time you're navigating gravel switchbacks. A base that digests slowly keeps you steady through the whole loop.</li>
+  <li><strong>Hydrate before you're thirsty.</strong> Fall air is deceptively dry, and it's easy to forget water on a cool day the way you wouldn't in July. Start the drive already hydrated rather than catching up at a gas station.</li>
+  <li><strong>Pack something that survives a cooler.</strong> Whatever you bring needs to handle a drive-and-stop day without turning into a mess on the passenger seat.</li>
+</ul>
+
+<blockquote>The Palouse doesn't have a bowl shop between Spokane Valley and the butte — so whatever you grab before you leave is what you're running on for the whole day.</blockquote>
+
+<h2>What to grab before you head south</h2>
+<p>This is exactly the kind of morning our <a href="/#menu">Everbowl</a> was built for: açaí, banana, and real fruit over a base with enough staying power to carry you through a long drive and a summit climb without a mid-morning crash. If you want something heavier on protein for the stretch of the trip, the <a href="/#menu">PB Everbowl</a> adds peanut butter to the mix, which pairs well with the slower, steadier energy a road-trip day actually needs. Both travel reasonably well in a cooler bag if you want to eat the second half at a pullout overlooking the hills instead of in the parking lot.</p>
+
+<p>If you're driving instead of riding, a smoothie is the easier call — something you can drink one-handed on Highway 195 south of Spokane. Our <a href="/#smoothies">Nanaberry Bliss</a> smoothie covers fruit and a steady carbohydrate base without feeling heavy, and it travels in a cupholder better than almost anything else on the menu. Either way, round it out with water, not just coffee, since the drive and the walk up the butte both add up over a full day outdoors.</p>
+
+<p>The easiest way to handle all of this is to make Everbowl Spokane your actual first stop, not an afterthought. We're at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, which sits conveniently close to the routes most people take toward Highway 195 and Colfax. If you're leaving before the shop opens its doors to a line, <a href="/#order">order ahead online</a> the night before and pick it up on your way out of town — one less stop between you and the first overlook.</p>
+
+<h2>Timing the drive around the light</h2>
+<p>Late October days are short, and the Palouse's best photo light tends to hit mid-morning and again in the hour before sunset, with harsher flat light in between. A lot of visitors make the mistake of leaving too late, fueling with something quick and sugary on the way out the door, and running out of energy right as the light gets good again in the afternoon. Eating something substantial before you leave — rather than planning to "grab something" once you're out there — is what actually lets you stay out until that second light window instead of heading home early and hungry.</p>
+
+<h2>The bottom line</h2>
+<p>Steptoe Butte and the surrounding Palouse hills are worth the drive this week, but the drive itself is the part people underestimate. Fuel like you're heading out for a full day outdoors, not just a short errand, grab something from Everbowl Spokane on your way out of the Valley, and you'll actually get to enjoy both light windows instead of running out of steam by lunch.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
