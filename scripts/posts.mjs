@@ -2918,4 +2918,51 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "pumpkin-spice-decoded-latte-vs-real-pumpkin",
+    title: "Pumpkin Spice, Decoded: What's Actually in That Latte vs. What's Actually in a Pumpkin",
+    description:
+      "Pumpkin spice is everywhere at Spokane and Coeur d'Alene coffee stands this October. Here's what's actually in the cup, what real pumpkin brings to the table, and how to get the flavor without the sugar crash.",
+    category: "Nutrition",
+    date: "2026-10-24",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A warm cacao Everbowl Spokane bowl with fall spices, an alternative to a sugary pumpkin spice drink",
+    keywords: [
+      "pumpkin spice latte nutrition",
+      "pumpkin spice myth",
+      "fall coffee spokane",
+      "everbowl spokane",
+      "healthy fall drinks inland northwest",
+    ],
+    body: `<p>By late October, pumpkin spice has taken over every coffee stand from Sprague Ave to Sherman Avenue in Coeur d'Alene — big orange cups, limited-time menu boards, the whole seasonal production. It's easy to assume a "pumpkin" drink is doing you some kind of favor, nutritionally, just because it shares a name with a vegetable the Green Bluff farm stands were selling by the truckload a few weeks ago. It's worth asking what's actually in the cup, because the answer surprises most people.</p>
+
+<h2>What's actually in a pumpkin spice latte</h2>
+<p>Here's the part the name doesn't tell you: most pumpkin spice drinks contain little to no actual pumpkin. What you're tasting is a syrup built from sugar and a spice blend — typically cinnamon, nutmeg, clove, and ginger — sometimes with a trace of pumpkin puree or "natural flavor" for color and scent, but rarely enough to count as a meaningful serving of the vegetable. A standard large pumpkin spice latte can carry 45-50 grams of sugar once you add whipped cream, which is more sugar than most people would choose to drink in one sitting if it weren't disguised as a fall tradition.</p>
+<ul>
+  <li><strong>The syrup:</strong> sugar, water, and spice extracts — flavor and color, minimal nutrition.</li>
+  <li><strong>The spices:</strong> real cinnamon, nutmeg, clove, and ginger do carry trace antioxidants, but in the tiny amounts used for flavoring, not in a dose that moves the needle.</li>
+  <li><strong>The dairy or cream:</strong> this is actually where most of the drink's protein and calcium come from — not the "pumpkin" part at all.</li>
+</ul>
+
+<h2>What real pumpkin brings to the table</h2>
+<p>Actual pumpkin, the kind still sitting in bins at Green Bluff orchards and Spokane Valley grocery stores this month, is genuinely good food. It's low in calories, high in fiber, and loaded with beta-carotene — the orange pigment your body converts to vitamin A, important for vision and immune function heading into the gray months ahead. It also carries a solid dose of potassium, often overlooked next to banana's reputation for the same mineral. None of that shows up in a latte that never contained much pumpkin to begin with.</p>
+
+<blockquote>The flavor of pumpkin spice is real and genuinely enjoyable. The nutrition story attached to it is almost entirely marketing — the spices are along for the ride, not doing the heavy lifting.</blockquote>
+
+<h2>How to get the flavor without the sugar crash</h2>
+<p>You don't have to give up the season's favorite flavor combination — you just have to get it from something with more substance behind it. Our <a href="/#menu">Hot Oats</a> bowl is naturally built for this: warm rolled oats, banana, and cinnamon in a base that holds up to the same nutmeg-and-clove flavor profile people are chasing in a latte, minus the syrup pump. If you want something richer, the <a href="/#menu">Full Moon</a> bowl leans into cacao's deep, warming flavor and its own antioxidant profile, which pairs naturally with fall spices without needing added sugar to taste indulgent.</p>
+
+<p>For the coffee itself, swap the syrup-heavy seasonal special for our <a href="/#sips">Cacao Ice Blended Coffee</a> — real coffee blended with cacao for a rich, cold-weather-appropriate drink that doesn't rely on a flavor pump to taste like fall. It's proof the "cozy" flavor people want this time of year doesn't have to come with 50 grams of sugar attached.</p>
+
+<p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, an easy stop whether you're running errands on Sprague or picking kids up from school as the afternoons get shorter. Busy week? <a href="/#order">Order ahead online</a> and grab a genuinely fall-flavored bowl or drink without waiting in a seasonal-menu line.</p>
+
+<h2>So is pumpkin spice "bad"?</h2>
+<p>Not inherently — an occasional seasonal treat is fine for most people, and nobody needs to feel guilty about enjoying a tradition that shows up once a year. The point is just knowing what you're actually drinking: a sugar-and-spice flavor experience, not a vegetable-forward health drink. If you want the actual nutrition that pumpkin itself offers — fiber, vitamin A, potassium — you're better off eating roasted pumpkin or squash from this month's harvest than looking for it in a seasonal cup.</p>
+
+<h2>The bottom line</h2>
+<p>Pumpkin spice season is genuinely fun, and the flavor combination earns its popularity. Just don't confuse it with a nutrition win. Get your real pumpkin from the produce aisle or Green Bluff, get your warming fall flavor from a bowl built on real oats and cacao, and save the seasonal latte for an occasional treat rather than a daily habit.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
