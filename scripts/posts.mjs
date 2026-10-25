@@ -3056,4 +3056,51 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "winterizing-car-nutrition-early-snow-spokane",
+    title: "Early Snow, Early Prep: Winterizing Your Car and Your Nutrition Together",
+    description:
+      "The first real snow usually lands in the Inland Northwest in November, sometimes sooner. A guide to tackling car winterizing day and resetting cold-weather eating at the same time.",
+    category: "Health",
+    date: "2026-10-25",
+    readMins: 5,
+    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
+    imageAlt: "A spread of fresh superfood bowls and toast from Everbowl Spokane, ready for a winterizing errand day",
+    keywords: [
+      "spokane winterizing car",
+      "inland northwest first snow",
+      "cold weather nutrition spokane",
+      "everbowl spokane",
+      "spokane valley winter prep",
+    ],
+    body: `<p>Somewhere between now and the first real snowfall, most Inland Northwest households run through the same mental checklist: swap the all-seasons for winter tires, top off the washer fluid with something that won't freeze, dig the ice scraper out of the garage, and maybe throw a blanket and a flashlight in the trunk. The Inland Northwest's first real snow usually shows up in November, but in Spokane Valley it isn't unusual for a cold front to drop an inch or two in late October while the leaves are still half on the trees. Winterizing day tends to get scheduled the same way every year: an open Saturday, a to-do list, and a lot of running between the auto parts store, the garage, and whatever errands got pushed off all fall.</p>
+
+<h2>Why winterizing day wrecks your eating, too</h2>
+<p>A car-prep Saturday has a specific rhythm that works against good habits. You're up early because daylight is shorter now, you're moving between cold garages and colder parking lots, and the whole day is built around quick stops rather than sit-down meals. That's exactly the kind of day where coffee and a gas-station pastry quietly become breakfast, lunch gets skipped until you're starving at 2 p.m., and by evening you're running on fumes and reaching for whatever's fastest. The problem isn't that winterizing takes effort — it's that the day has no natural break built in for eating something that actually holds up.</p>
+
+<ul>
+  <li><strong>Cold exposure burns through energy faster than people expect.</strong> Standing around a driveway checking tire tread or topping off fluids in 40-degree air takes more out of you than the same hour spent indoors, even without heavy labor.</li>
+  <li><strong>Short daylight shrinks the window for "catching up."</strong> If you don't eat something real by midday, there's less daylight left to recover from a sluggish afternoon than there was in September.</li>
+  <li><strong>Errand-day food defaults to whatever's fastest, not whatever's best.</strong> Drive-thru lines and gas-station shelves are the path of least resistance when you're bouncing between four stops.</li>
+</ul>
+
+<blockquote>Winterizing the car takes one Saturday. Resetting how you eat through the cold months is the habit that actually needs to outlast it.</blockquote>
+
+<h2>Starting the day fueled, not caffeinated</h2>
+<p>The easiest fix for a winterizing-day slump is treating breakfast as part of the checklist, not an afterthought squeezed in around it. Our <a href="/#menu">Hot Oats</a> bowl is built for mornings exactly like this one: warm rolled oats with banana and a swirl of peanut butter give you slow-digesting carbohydrate and a little protein that actually holds through a few hours of standing around a cold driveway, instead of the quick spike-and-crash you get from a pastry. Pair it with a <a href="/#sips">Cacao Ice Blended Coffee</a> and you've covered caffeine and a real food component in one cup — useful on a morning when you don't want to stand at a stove, but also don't want coffee to be the only thing in your stomach until noon.</p>
+
+<p>If your winterizing list has you running between the tire shop, the hardware store, and the grocery store all before lunch, a smoothie is the better move than a sit-down meal you don't have time for. Our <a href="/#smoothies">Nanaberry Bliss</a> smoothie travels fine in a cupholder between stops and still delivers real fruit and fiber instead of just sugar and caffeine, which matters when the rest of the day is running on quick decisions.</p>
+
+<h2>Make the stop part of the route, not a detour</h2>
+<p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to most of the auto parts stores and garages along Sprague and Pines that it fits naturally into a winterizing-day loop rather than adding one more stop out of the way. If your Saturday starts earlier than you'd like, <a href="/#order">order ahead online</a> the night before so your Hot Oats or smoothie is ready the moment you walk in, rather than waiting in a line while the clock on your other errands keeps running.</p>
+
+<h2>The habit that outlasts the checklist</h2>
+<p>Winterizing the car is a one-day project with a clear finish line — once the tires are swapped and the scraper's in the glovebox, you're done until spring. Eating well through a Spokane winter doesn't work that way; it's the thing you have to keep choosing on every short, cold, low-daylight day between now and March. Using winterizing Saturday as the reset point is a decent trick: if you can get through that one errand-heavy day without defaulting to gas-station food, you've already proven the harder days ahead are manageable too.</p>
+
+<h2>The bottom line</h2>
+<p>The first snow is coming, maybe sooner than the calendar suggests, and the Saturday you spend getting the car ready is as good a day as any to get your cold-weather eating habits ready too. Build the morning around something warm and real from Everbowl Spokane, keep a smoothie in the cupholder for the in-between stops, and you'll finish winterizing day with your tires swapped and your energy intact — which is more than most people can say by the time they're done.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
