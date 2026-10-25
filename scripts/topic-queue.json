@@ -34,7 +34,7 @@
       "title": "Wildfire Smoke Days: Eating for Recovery When You Can't Train Outside",
       "category": "Health",
       "season": "August",
-      "angle": "Inland NW smoke season; antioxidants + hydration when AQI is high and workouts move indoors; tie in a\u00e7a\u00ed antioxidants, Evergreen greens smoothie; grab-and-go at the Sprague Ave shop."
+      "angle": "Inland NW smoke season; antioxidants + hydration when AQI is high and workouts move indoors; tie in açaí antioxidants, Evergreen greens smoothie; grab-and-go at the Sprague Ave shop."
     },
     {
       "used": true,
@@ -104,14 +104,14 @@
       "title": "Last Chance at Minnehaha: Fueling an October Climbing Day Before the Season Turns",
       "category": "Spokane & Movement",
       "season": "October",
-      "angle": "Minnehaha Rocks bouldering season closes once fall rain starts; pre-climb Nanaberry Bliss smoothie + post-climb PB Everbowl; mention Wild Walls Climbing Gym as the winter indoor alternative. (Original topic written outside the queue order because no queued topic matched October \u2014 both queued October slots were already used; the queued November/December topics remain for their seasons.)"
+      "angle": "Minnehaha Rocks bouldering season closes once fall rain starts; pre-climb Nanaberry Bliss smoothie + post-climb PB Everbowl; mention Wild Walls Climbing Gym as the winter indoor alternative. (Original topic written outside the queue order because no queued topic matched October — both queued October slots were already used; the queued November/December topics remain for their seasons.)"
     },
     {
       "used": true,
       "title": "Pumpkin Patch Day Trip: Fueling a Family Morning at Green Bluff's Corn Mazes",
       "category": "Spokane & Movement",
       "season": "October",
-      "angle": "Green Bluff pumpkin patches/corn mazes (Siemers, Beck's, Walters') peak in October; avoiding an all-cider-donut breakfast before a maze + hay ride; feature Berry Boost bowl + Nanaberry Bliss smoothie; refuel in Spokane Valley on the drive back down from the Bluff. (Original topic written outside the queue order because no queued topic matched October \u2014 all queued October and 'any' slots were already used; the queued December ski-season topic remains for its season.)"
+      "angle": "Green Bluff pumpkin patches/corn mazes (Siemers, Beck's, Walters') peak in October; avoiding an all-cider-donut breakfast before a maze + hay ride; feature Berry Boost bowl + Nanaberry Bliss smoothie; refuel in Spokane Valley on the drive back down from the Bluff. (Original topic written outside the queue order because no queued topic matched October — all queued October and 'any' slots were already used; the queued December ski-season topic remains for its season.)"
     },
     {
       "used": true,
@@ -279,7 +279,7 @@
       "title": "Antioxidants, Explained: What the Colors in Your Bowl Actually Do",
       "category": "Nutrition",
       "season": "any",
-      "angle": "Evergreen science piece tied to smoke/sun exposure common locally; anthocyanins in a\u00e7a\u00ed + pitaya; feature Everbowl + Blue Lagoon; visit the Valley shop for the real thing."
+      "angle": "Evergreen science piece tied to smoke/sun exposure common locally; anthocyanins in açaí + pitaya; feature Everbowl + Blue Lagoon; visit the Valley shop for the real thing."
     },
     {
       "used": true,
@@ -441,6 +441,41 @@
       "category": "Nutrition",
       "season": "October",
       "angle": "Pumpkin spice drinks dominate Inland NW coffee menus in late October despite containing little real pumpkin; honest myth-busting on the syrup vs. real pumpkin's fiber/vitamin A/potassium; feature Hot Oats + Full Moon bowl + Cacao Ice Blended Coffee; stop in Spokane Valley for the real-food version of the flavor. (Original topic written outside the queue order because no queued topic matched October -- all queued October and 'any' slots were already used; the queued December-onward topics remain for their seasons.)"
+    },
+    {
+      "used": false,
+      "title": "Spokane Fall Folk Festival Fuel: A Grab-and-Go Guide for a Day at The Bing",
+      "category": "Spokane & Movement",
+      "season": "November",
+      "angle": "Spokane Fall Folk Festival (early Nov at The Bing Crosby Theater); quick fuel before a day of music and dance workshops; feature Classic Avocado Toast + Iced Matcha; easy stop downtown-adjacent commuters from the Valley."
+    },
+    {
+      "used": false,
+      "title": "Election Day Fuel: Grab-and-Go Energy for Poll Workers and Volunteers",
+      "category": "Health",
+      "season": "November",
+      "angle": "Early November general election; long 12+ hour days for poll workers and campaign volunteers; steady energy without a sugar crash; feature Full Moon bowl + Cold Brew; order ahead before a long shift."
+    },
+    {
+      "used": false,
+      "title": "Veterans Day Weekend: A Thank-You Guide to Fueling Up in Spokane Valley",
+      "category": "Spokane & Movement",
+      "season": "November",
+      "angle": "Veterans Day (Nov 11) parades and events in Spokane/CdA; family outings in cold weather; feature Perfect Date bowl + Iced Matcha; warm up with a stop in the Valley after a parade."
+    },
+    {
+      "used": false,
+      "title": "Early Snow, Early Prep: Winterizing Your Car and Your Nutrition Together",
+      "category": "Health",
+      "season": "November",
+      "angle": "First real snow usually lands in November in the Inland Northwest; tying car winterization errands to better cold-weather eating habits; feature Hot Oats + Cacao Ice Blended Coffee; stop in before winterizing day."
+    },
+    {
+      "used": false,
+      "title": "Thanksgiving Week Travel Through GEG: Airport-Smart Snacking",
+      "category": "Health",
+      "season": "November",
+      "angle": "Thanksgiving travel week through Spokane International Airport; packing better snacks than terminal vending machines; feature Chia Pudding Bowl + Evergreen smoothie; grab one on the way to GEG."
     }
   ]
 }

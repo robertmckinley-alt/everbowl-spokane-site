@@ -3010,4 +3010,50 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "gonzaga-basketball-tipoff-watch-party-fuel",
+    title: "Zag Nation Tip-Off: Fueling Up for Gonzaga Basketball Watch Parties",
+    description:
+      "Gonzaga hoops season is starting and Spokane is turning its attention back indoors. A grab-and-go fueling guide for watch parties, pregame dinners, and McCarthey nights.",
+    category: "Spokane & Movement",
+    date: "2026-10-25",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A smoothie and toast from Everbowl Spokane, ready for a Gonzaga basketball watch party",
+    keywords: [
+      "gonzaga basketball spokane",
+      "zags watch party food",
+      "spokane valley game day food",
+      "everbowl spokane",
+      "mccarthey athletic center fans",
+    ],
+    body: `<p>Once the Palouse wheat is in and the Steptoe Butte leaves start dropping, Spokane's attention turns indoors to the thing this city builds its winter around: Gonzaga basketball. Exhibition games and tip-off week are here, which means watch parties, pregame dinners, and the first McCarthey Athletic Center sellouts of the season are all back on the calendar. Whether you're actually in the stands downtown or packed onto a couch in Spokane Valley with the game on, how you eat beforehand decides whether you're locked in for a full forty minutes or fading by the second half.</p>
+
+<h2>Game night is its own kind of fueling problem</h2>
+<p>A typical Zags watch party runs long — pregame coverage, a full game, overtime if you're unlucky (or lucky, depending how you look at it), and plenty of standing around a kitchen island eating chips before anyone sits down for a real meal. That pattern is exactly how people end up running on salt and sugar through tip-off and crashing by the under-12 timeout in the second half. The fix isn't complicated: eat something with real substance before puck — er, tip-off — drops, instead of letting game snacks be the whole dinner.</p>
+
+<ul>
+  <li><strong>Eat before the opening whistle, not during the first timeout.</strong> Starting the game already fueled beats trying to catch up with chips at halftime.</li>
+  <li><strong>Balance the salty snacks with something that actually has protein and fiber.</strong> A bowl or smoothie alongside the chips and queso keeps the whole night from being empty calories.</li>
+  <li><strong>Grab-and-go matters on a weeknight tip-off.</strong> Early-season games often fall on school and work nights, so the fastest path from your car to the couch wins.</li>
+</ul>
+
+<blockquote>The goal isn't to skip the game-night snacks — it's to make sure something on the table before tip-off actually has staying power.</blockquote>
+
+<h2>What to order before the opening tip</h2>
+<p>If you're hosting or heading to a watch party straight from work, our <a href="/#toast">Classic Avocado Toast</a> or <a href="/#toast">Bruschetta Avocado Toast</a> make an easy pregame plate — real fat and fiber that holds you through a full game without weighing you down on the couch. Want something you can sip through the first half instead of a full plate? Our <a href="/#smoothies">PB Cacao Dream</a> smoothie leans into cacao and peanut butter for a dessert-adjacent flavor that still brings real protein to the table, which is more than you can say for a second bag of chips.</p>
+
+<p>For bowl fans, the <a href="/#menu">Nutty Butty</a> and <a href="/#menu">Full Moon</a> both travel well in a to-go container if you're bringing something to a friend's watch party instead of eating at home — just ask for it packed to go and it'll hold up fine for the drive across town. And if the game's got you needing a late-night pick-me-up through a tight finish, our <a href="/#sips">Cacao Ice Blended Coffee</a> splits the difference between dessert and caffeine without the crash that a gas-station energy drink brings.</p>
+
+<p>Make Everbowl Spokane your stop on the way to tip-off. We're at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley — close enough to swing by on your way home from work before the pregame coverage even starts. Running short on time on a weeknight? <a href="/#order">Order ahead online</a> and skip straight to pickup so you're on the couch, not in line, when the ball goes up.</p>
+
+<h2>Building a better watch party spread</h2>
+<p>If you're hosting, the easiest move is pairing your usual chips-and-dip table with a couple of bowls or smoothies people can actually treat like a meal. It turns game night from "snacks only" into something that holds people over properly, and it gives the non-chip-eaters in your group something real to reach for. Early-season games are also a good gut check on your own habits before the deep winter slate — Mt. Spokane and Schweitzer open soon too, and the same "fuel before you need it" instinct carries straight over to ski days once the snow shows up.</p>
+
+<h2>The bottom line</h2>
+<p>Zag Nation runs on more than nerves and arena noise — the nights you actually feel good through a full game are usually the ones where you ate something real before tip-off. Swing by Everbowl Spokane on your way to the couch or the arena, build your watch party spread around something with real protein and fiber, and you'll make it to the final buzzer without needing a second trip to the pantry.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
