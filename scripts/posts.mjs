@@ -3148,4 +3148,48 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "election-day-fuel-poll-workers-volunteers-spokane",
+    title: "Election Day Fuel: Grab-and-Go Energy for Poll Workers and Volunteers",
+    description:
+      "Election Day in the Inland Northwest means long shifts for poll workers, ballot processors, and campaign volunteers. Here's how to eat smart and fast.",
+    category: "Spokane & Movement",
+    date: "2026-10-26",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "Pitaya Paradise smoothie from Everbowl Spokane, grab-and-go fuel for a long Election Day shift",
+    keywords: [
+      "election day spokane",
+      "poll worker fuel",
+      "spokane valley grab and go",
+      "everbowl spokane",
+      "volunteer shift snacks",
+    ],
+    body: `<p>Election Day lands on Tuesday, November 3rd this year, and across Spokane County and over the state line in Kootenai County, it means one of the longest workdays of the year for a lot of people. Idaho poll workers at Coeur d'Alene-area precincts are typically on their feet from before 7 a.m. to well after polls close at 8 p.m. In Washington, where voting runs by mail, the long shifts happen at the Spokane County Elections office and local Voter Service Centers, where staff and volunteers verify signatures, process ballots, and help last-minute voters register or drop off a ballot in person. Add campaign volunteers knocking doors and poll watchers logging a full shift, and it's a day built on standing, waiting, and running on whatever's within arm's reach.</p>
+
+      <h2>Why Election Day shifts wreck normal eating habits</h2>
+      <p>A 13-hour shift at a vote center or precinct doesn't come with a lunch break the way an office job does. You're covering a table, watching a line, or walking a neighborhood with a clipboard, and food becomes whatever someone brought in a bag that morning. That usually means a lot of coffee, a donut somewhere around 9 a.m., and then nothing substantial until the shift ends — which is exactly the pattern that leads to a 3 p.m. crash right when lines are picking back up after people get off work to vote.</p>
+
+      <ul>
+        <li><strong>Long standing shifts burn through a thin breakfast fast.</strong> Being on your feet for hours, even without much movement, uses more energy than a desk day.</li>
+        <li><strong>Coffee without food just masks fatigue.</strong> Caffeine on an empty stomach can make the afternoon crash feel worse once it wears off.</li>
+        <li><strong>Grabbing whatever's nearby usually means vending-machine food.</strong> Chips and candy bars spike and drop blood sugar fast — rough timing for a shift that doesn't end until the polls close.</li>
+      </ul>
+
+      <blockquote>The goal for a shift like this isn't a big meal you don't have time for. It's fuel that travels well, doesn't need a fork, and actually holds steady for hours.</blockquote>
+
+      <h2>Fuel that survives a 13-hour shift</h2>
+      <p>Our <a href="/#smoothies">Pitaya Paradise</a> smoothie is built exactly for this kind of day — it's cold, portable, and sippable one-handed while you're checking IDs or signing people in, with real fruit and fiber instead of a sugar rush that fades in an hour. If you've got five minutes to sit at a table between voters, our <a href="/#menu">Everbowl</a> gives you açaí, granola, and fruit with enough staying power to carry you from an early shift start through a packed afternoon without needing a second food stop. Both travel well in a cooler bag if you're setting up at a precinct or vote center for the day.</p>
+
+      <h2>Make it part of your route, not an extra errand</h2>
+      <p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, which puts it on the way for a lot of Valley precincts, the county elections office, and volunteers working Sprague-corridor neighborhoods. If your shift starts early, <a href="/#order">order ahead online</a> the night before or first thing in the morning so breakfast is ready the second you walk in — no standing in line waiting on a blender when you've got a shift to get to. Grabbing a smoothie or a bowl on your way to a 6:45 a.m. check-in is a much better start than whatever's left in the break room by the time you get there.</p>
+
+      <h2>Pace yourself through the afternoon lull</h2>
+      <p>Most election workers describe the same pattern: a steady morning, a quiet midday lull, and then a surge after work lets out around 5 or 6 p.m. that doesn't slow down until close. That lull is the moment to eat something real, not push through on coffee alone, because the evening rush is when you actually need steady energy and a clear head for signature checks or long lines. A second stop for a smoothie or a quick bowl mid-afternoon tends to make the last few hours of a shift feel far more manageable than trying to run the whole day on an early breakfast.</p>
+
+      <h2>Thank-you food, not guilt food</h2>
+      <p>Whether you're a county employee working the elections office, a volunteer poll watcher, or a campaign worker who's been knocking doors all week, a 13-plus hour Election Day is a genuine service to the community, and it deserves better fuel than whatever's closest. Planning two real food stops — one before the shift starts, one through the afternoon lull — is a small habit that makes a long civic day easier to get through, whether you're counting ballots in Spokane or checking in voters in Coeur d'Alene.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
