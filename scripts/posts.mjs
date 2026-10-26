@@ -3103,4 +3103,49 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "veterans-day-weekend-fuel-spokane-valley",
+    title: "Veterans Day Weekend: A Thank-You Guide to Fueling Up in Spokane Valley",
+    description:
+      "Downtown Spokane's Veterans Day Parade and cold family outings call for real fuel, not vending-machine snacks. A practical guide to eating well before, during, and after the weekend.",
+    category: "Spokane & Movement",
+    date: "2026-11-06",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "Perfect Date bowl from Everbowl Spokane, ready for a Veterans Day thank-you stop",
+    keywords: [
+      "veterans day spokane",
+      "spokane veterans day parade",
+      "spokane valley family outing",
+      "everbowl spokane",
+      "cold weather family fuel",
+    ],
+    body: `<p>Spokane takes Veterans Day seriously. The downtown Veterans Day Parade is one of the largest in the country for a city this size, drawing families from Spokane Valley, Liberty Lake, and across the state line in Coeur d'Alene to line the streets and say thank you to the veterans and active-duty service members who turn out for it. Fairchild Air Force Base out in Airway Heights adds its own open houses and community events around the same week, and smaller ceremonies pop up at schools, VFW posts, and city parks all over the Inland Northwest. It's a genuinely good weekend to get the family out of the house — it's also, by November 11th, usually a cold one.</p>
+
+      <h2>Why a parade morning needs more planning than a summer outing</h2>
+      <p>Standing on a downtown sidewalk for an hour while a parade passes is a different kind of tiring than people expect. You're not moving much, which means you're not generating heat the way you would on a hike or a bike ride, but you're still out in 30-to-40-degree November air for longer than a quick errand. Add kids who want hot chocolate and a packed schedule that might include a ceremony, a parade, and a stop at a relative's house afterward, and it's easy to end up running on coffee and whatever's in the diaper bag by early afternoon.</p>
+
+      <ul>
+        <li><strong>Standing still in the cold still costs energy.</strong> Your body works to maintain core temperature even when you're not moving, which quietly burns through the fuel from breakfast faster than a warm November afternoon would.</li>
+        <li><strong>Parade-day schedules don't leave room for a sit-down lunch.</strong> Between parking, finding a curb spot, and getting everyone back to the car, meals tend to get pushed later and later.</li>
+        <li><strong>Kids crash fast on cold mornings.</strong> A thin breakfast plus an hour of standing in the cold is a reliable recipe for a meltdown somewhere around 11 a.m.</li>
+      </ul>
+
+      <blockquote>The goal isn't a fancy breakfast. It's one that's still working for you two hours later, when you're still standing on a cold curb waiting for the color guard.</blockquote>
+
+      <h2>Fuel before you head downtown</h2>
+      <p>Our <a href="/#menu">Hot Oats</a> bowl is built for exactly this kind of morning — warm rolled oats, banana, and a swirl of peanut butter give you slower-digesting carbohydrate and a little protein that actually holds up through standing around in the cold, instead of the quick crash you get from a pastry on the way out the door. If the family's in a hurry, our <a href="/#menu">Perfect Date bowl</a> travels well and still gives kids and adults real fruit and fiber instead of just sugar. Pair either one with a hot <a href="/#sips">Iced Matcha</a> swapped for its warm version, or a Cold Brew for the adults who need the caffeine more than the kids need the chocolate.</p>
+
+      <h2>Make the thank-you stop part of the route</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, which makes it an easy stop on the way into downtown for the parade or on the way back out afterward — especially if your family's loop runs along Sprague toward Liberty Lake or back toward the valley from Fairchild's events. If the morning is tight, <a href="/#order">order ahead online</a> so breakfast is ready the moment you walk in rather than adding another wait to an already packed schedule. It's a small thing, but a warm bowl in hand before a cold parade morning is one less thing to manage.</p>
+
+      <h2>After the parade: resetting, not rewarding</h2>
+      <p>By the time the parade wraps and everyone's back in the car, it's tempting to treat the rest of the day as a free pass — but a cold morning of standing and walking plus a skipped lunch usually means everyone's more tired than they realize. A simple reset works better than a big reward meal: real food, something warm, and a few minutes to sit down before the rest of the weekend's plans take over. If your family's Veterans Day tradition includes visiting a grandparent who served or stopping by a local VFW event, building in one unhurried stop for food first tends to make the rest of the day go smoother for everyone, especially the kids.</p>
+
+      <h2>The bottom line</h2>
+      <p>Veterans Day weekend in the Inland Northwest is worth doing right — the downtown parade, the ceremonies, the chance to actually say thank you in person. Standing out in November cold for an hour takes more out of a family than it looks like it should, so treat breakfast and a midday reset as part of the plan rather than an afterthought. A warm bowl from Everbowl Spokane before you head out, and another stop on the way home, makes the whole day easier to enjoy.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
