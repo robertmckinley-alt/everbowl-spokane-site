@@ -3236,4 +3236,48 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "spokane-fall-folk-festival-fuel-the-bing",
+    title: "Spokane Fall Folk Festival Fuel: A Grab-and-Go Guide for a Day at The Bing",
+    description:
+      "The Spokane Fall Folk Festival fills The Bing Crosby Theater with music, dancing, and crowds all weekend. Here's how to eat smart before and between sets.",
+    category: "Spokane & Movement",
+    date: "2026-10-27",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "A refreshing Pitaya Paradise smoothie bowl, ready for a day at the Spokane Fall Folk Festival",
+    keywords: [
+      "spokane fall folk festival",
+      "the bing crosby theater",
+      "downtown spokane events",
+      "everbowl spokane",
+      "spokane valley smoothies",
+    ],
+    body: `<p>Every November, downtown Spokane gets a little louder and a lot more musical when the Spokane Fall Folk Festival takes over the Bing Crosby Theater for a weekend of fiddles, dance callers, workshops, and jam sessions that spill out into the hallways between sets. It's one of the most community-driven events in the city — strangers end up dancing contra lines together by the second hour — and it draws people in from across the Inland Northwest, including plenty of folks making the drive from Spokane Valley and Coeur d'Alene. If you're planning a day (or a full weekend) of wandering between stages, how you eat beforehand matters more than you'd think.</p>
+
+      <h2>Why a day at The Bing is more physical than it looks</h2>
+      <p>Folk festival days don't feel like a workout, but they add up like one. You're standing through workshops, dancing sets that run longer than you expect, climbing stairs between the theater's different rooms, and often skipping a proper sit-down meal because you don't want to miss the next act. Add a chilly November walk from parking downtown, and a lot of festival-goers end up running on coffee and whatever's at the concession table by mid-afternoon — which is exactly when the energy crash hits and the day starts to feel like a slog instead of a celebration.</p>
+
+      <ul>
+        <li><strong>Dancing burns more than you think.</strong> A couple of contra dance sets is genuine cardio, even if it doesn't feel like "exercise" in the moment.</li>
+        <li><strong>Standing all day is its own kind of tiring.</strong> Workshops and jam circles mean a lot of standing or perching on folding chairs, which fatigues your legs and back differently than sitting at a desk.</li>
+        <li><strong>Festival snacking tends to be sugar-heavy.</strong> Hot cider, baked goods, and coffee are festival staples, and they're fine in moderation — but a whole day running on them leaves you foggy by evening.</li>
+      </ul>
+
+      <blockquote>The best festival fuel is the kind you forget you ate — something that holds you over for hours without needing a refill every time the music stops.</blockquote>
+
+      <h2>Fuel up before you find parking</h2>
+      <p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, which makes it an easy stop if you're coming from the Valley or driving in from Coeur d'Alene before heading downtown for the festival. A <a href="/#menu">Berry Boost</a> bowl loaded with açaí, granola, and real fruit gives you a mix of fiber and slow-digesting carbs that holds steadier than a pastry and a coffee, and it won't leave you crashing halfway through the first set. If you're in a hurry to find parking near The Bing, order ahead and the bowl's ready when you walk in.</p>
+
+      <h2>Pack something for the lull between sets</h2>
+      <p>Folk festivals run in waves — a packed room for a popular act, then a quieter stretch while the next workshop sets up. That lull is the right time to eat, not scroll your phone in the lobby. A <a href="/#smoothies">Pitaya Paradise</a> smoothie travels well in a to-go cup and gives you real hydration plus natural sugars that won't spike and crash the way a vending machine candy bar will. If you're staying for the full weekend and know you'll want an afternoon pick-me-up, grabbing a <a href="/#sips">Cold Brew</a> or an <a href="/#sips">Iced Matcha</a> on your way out the door in the morning is a smarter bet than relying on festival coffee alone to get you through a second day of dancing.</p>
+
+      <h2>Make it a Valley tradition, not just a one-off errand</h2>
+      <p>The Fall Folk Festival is the kind of event people build a weekend around — a Saturday dance session, a Sunday workshop, dinner with friends in between. If Everbowl becomes the stop you make on the way downtown (or the stop you make afterward to actually feel human again on the drive home), it's a nice way to turn a one-time festival trip into a small Spokane Valley ritual. The shop isn't going anywhere, and neither is the festival — so there's no reason not to make the pairing a habit next November too.</p>
+
+      <h2>The bottom line</h2>
+      <p>A day at the Spokane Fall Folk Festival is a genuine workout disguised as a music event, and it deserves better fuel than hot cider and a muffin. Start with something that holds steady, like a bowl or smoothie from Everbowl Spokane, and you'll make it through the last dance set actually enjoying yourself instead of counting the minutes until you can sit down.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
