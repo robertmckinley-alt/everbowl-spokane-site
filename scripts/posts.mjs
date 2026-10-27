@@ -3192,4 +3192,48 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "end-of-season-team-party-potluck-fuel-spokane-valley",
+    title: "End-of-Season Team Party: A Parent's Guide to Potluck Fuel for Fall Youth Sports",
+    description:
+      "Soccer, flag football, and cross country seasons are wrapping up across Spokane Valley. Here's how to make the team potluck something that actually fuels kids instead of just sugaring them up.",
+    category: "Spokane & Movement",
+    date: "2026-10-27",
+    readMins: 5,
+    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
+    imageAlt: "A spread of Everbowl Spokane bowls and smoothies, ready for an end-of-season team party",
+    keywords: [
+      "spokane valley youth sports",
+      "team potluck ideas",
+      "end of season party snacks",
+      "everbowl spokane",
+      "fall youth soccer spokane",
+    ],
+    body: `<p>Late October is when fall youth sports across the Inland Northwest start wrapping up. Soccer and flag football leagues are finishing their regular seasons, cross country teams are wrapping up district meets, and somewhere on a team group chat near you, a parent is already organizing the end-of-season party. These parties are a nice tradition — trophies or participation medals, a last round of team photos, and usually a folding table that turns into a landslide of juice boxes, store-bought cupcakes, and a bag of chips someone grabbed on the way. Kids love it. It's also, nutritionally, about the least useful meal of the entire season.</p>
+
+      <h2>Why the end-of-season spread tends to go sideways</h2>
+      <p>It's not anyone's fault — potlucks are built for convenience, not balance, and after ten weeks of early practices and weekend tournaments, nobody organizing the party has much energy left to plan a thoughtful menu. A few things tend to happen at the same time:</p>
+
+      <ul>
+        <li><strong>Everyone brings the easy thing.</strong> When six families all grab "something for the team party" on their way out the door, you end up with six versions of chips, cookies, or juice and almost nothing with real protein or fiber.</li>
+        <li><strong>Kids are already running on empty.</strong> A Saturday morning game or a district meet followed directly by a party means kids are arriving tired and hungry, not just ready for a treat.</li>
+        <li><strong>The sugar rush backfires fast.</strong> A table of frosted cupcakes and fruit punch gives a quick spike, then a crash — which is exactly the wrong note to end a season on, especially with younger kids who still have a car ride home ahead of them.</li>
+      </ul>
+
+      <blockquote>A good team party doesn't need to be a health food event. It just needs one or two things on the table that actually hold kids over, instead of everything being the same kind of sugar.</blockquote>
+
+      <h2>Bring the thing that actually gets eaten first</h2>
+      <p>If you're the parent signed up to bring snacks this time, a tray of mini <a href="/#menu">Everbowl</a> or <a href="/#menu">Chia Pudding Bowl</a> cups — made ahead and portioned into small cups with lids — travels better than you'd expect to a field, a gym, or whoever's backyard is hosting, and it tends to disappear just as fast as the cupcakes because kids genuinely like açaí and granola. For a bigger team, a round of <a href="/#smoothies">Nanaberry Bliss</a> smoothies ordered ahead in a tray of cups gives you real fruit and fiber that both kids and the parents standing around afterward will actually drink. Either one is a better note to end a season on than a sugar crash in the car.</p>
+
+      <h2>Make the pickup part of the plan</h2>
+      <p>Everbowl Spokane is right at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, which makes it an easy stop between a Saturday morning game at one of the valley's rec fields and whatever backyard or park shelter is hosting the party afterward. If you're the one bringing food this week, <a href="/#order">order ahead online</a> so a tray of smoothies or bowl cups is ready to grab on your way, rather than trying to assemble something from three different grocery store aisles the morning of. It's one less thing to coordinate during an already busy final week of the season.</p>
+
+      <h2>It's still a celebration — just a smarter one</h2>
+      <p>Nobody's suggesting you show up with a clipboard and a lecture about added sugar at a nine-year-old's soccer party. The medals, the team photo, the inside jokes from a season of carpools — that's the actual point, and it should stay fun. The easy win is just making sure one or two things on the table give kids real fuel instead of everything being the same kind of empty-calorie treat, so the ride home doesn't end in a meltdown and the season ends on a good note instead of a sugar crash.</p>
+
+      <h2>The bottom line</h2>
+      <p>End-of-season team parties are one of the best parts of fall youth sports in Spokane Valley, and they don't need to be complicated to be better. Bring something with real protein and fiber alongside the usual treats, order it ahead so it's one less errand during a packed week, and let the kids enjoy the party they earned over a long season of early mornings and weekend games.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
