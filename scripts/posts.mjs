@@ -3324,4 +3324,49 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "palisades-park-west-spokane-fall-hike",
+    title: "Palisades Park: West Spokane's Quiet Fall Hike and the Refuel After",
+    description:
+      "Basalt cliffs, open grassland, and sweeping valley views without the crowds — Palisades Park is West Spokane's overlooked fall hike. A trail guide and the refuel plan after.",
+    category: "Spokane & Movement",
+    date: "2026-10-28",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "An acai bowl ready for a post-hike refuel after a day at Palisades Park",
+    keywords: [
+      "palisades park spokane",
+      "west spokane hiking",
+      "rimrock drive trails",
+      "fall hikes spokane",
+      "spokane basalt cliffs",
+    ],
+    body: `<p>Everyone trading fall-hike recommendations around Spokane this time of year points toward the same handful of names on the east side of town — Tubbs Hill, Mineral Ridge, Antoine Peak. Meanwhile, one of the city's most dramatic landscapes sits almost entirely overlooked on the west side: Palisades Park, roughly 900 acres of basalt cliffs, open grassland, and ponderosa pine tucked above Rimrock Drive near Indian Canyon. In late October, with the grasses gone gold-brown and the cliff faces catching low afternoon light, it's a genuinely striking hike that most people driving past on I-90 have never heard of.</p>
+
+      <h2>A different kind of Spokane scenery</h2>
+      <p>Where most of the Inland Northwest's popular trails run through pine forest and lake views, Palisades Park is something else entirely — a stretch of columnar basalt cliffs and canyon rim that looks more like eastern Washington's scablands than a city park. Trails wind along the rim above the gorge, dip past old quarry sites, and open onto wide views north over the Spokane River valley and west toward Five Mile Prairie. It's popular with mountain bikers and dog walkers, but even on a nice fall weekend, it rarely feels crowded the way Tubbs Hill does.</p>
+
+      <h2>What the terrain actually asks of you</h2>
+      <p>Depending on which loop you string together, you're looking at anywhere from a quick 2-mile out-and-back along the rim to a 5-plus-mile network loop through the quarry trails and back. None of it is especially steep, but the footing along the basalt edges demands attention, and the open, exposed sections catch more wind than the sheltered trails on the east side of the valley. Add a brisk late-October breeze off the canyon, and a short hike can leave you more depleted than the mileage alone suggests.</p>
+
+      <blockquote>An exposed trail in a stiff fall wind burns more energy than the same distance on a calm, sheltered path — the effort doesn't always match the mile count.</blockquote>
+
+      <h2>Fuel before you head out to Rimrock Drive</h2>
+      <p>Palisades Park sits about 20 minutes from Spokane Valley via I-90, which makes a stop at Everbowl on the way out a realistic part of the plan rather than a detour. A <a href="/#menu">Chia Pudding Bowl</a> — chia, almond milk, and fruit — digests slowly and gives you steady energy through a couple of hours on exposed, windy terrain, without the quick spike-and-crash of something sugary grabbed on the way out of the Valley.</p>
+
+      <h2>The stop after the rim trail</h2>
+      <p>Once you're back at the car with cold hands and a legitimate appetite, the drive back through Spokane Valley to <a href="/#location">13324 E Sprague Ave, Suite 101</a> is a natural close to the loop. A <a href="/#smoothies">Glow Up</a> smoothie — spinach, pineapple, mango — rehydrates fast and replaces some of what an afternoon of wind and basalt dust takes out of you, without sitting as heavy as a full meal if you're headed straight into evening plans. If you'd rather sit down with something more substantial, swap in a full bowl off the <a href="/#menu">menu</a> instead.</p>
+
+      <h2>A few notes before you go</h2>
+      <ul>
+        <li><strong>Park at the Rimrock Drive trailhead.</strong> It's the most direct access to the cliff-rim views, without a long approach through the quarry trails first.</li>
+        <li><strong>Layer for wind, not just temperature.</strong> The open rim sections are noticeably colder than the sheltered pine stretches, even on a mild fall day.</li>
+        <li><strong>Watch your footing near the cliff edges.</strong> The basalt rim is the whole reason to come, but it deserves real attention, especially with kids or dogs off-leash.</li>
+        <li><strong>Go in the late afternoon if you can.</strong> The low fall light hits the cliff faces best in the hour or two before sunset.</li>
+        <li><strong>Order ahead for the way back.</strong> If you know you're routing back through Sprague Avenue, <a href="/#order">place your order online</a> so it's ready when you pull in.</li>
+      </ul>
+
+      <h2>The bottom line</h2>
+      <p>Palisades Park doesn't get talked about the way Spokane's lake-view and river-corridor trails do, but for anyone willing to drive to the west side, it's one of the more dramatic fall hikes the city has to offer. Fuel up before the wind on the rim catches you off guard, and let Everbowl Spokane be the easy stop that closes out the loop on the way home.</p>`,
+  },
 ];
