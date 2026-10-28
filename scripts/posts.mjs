@@ -3280,4 +3280,48 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "thanksgiving-week-travel-geg-airport-snacking",
+    title: "Thanksgiving Week Travel Through GEG: Airport-Smart Snacking",
+    description:
+      "Flying out of Spokane International for Thanksgiving week? Here's how to eat smart before security, in the terminal, and on the plane without the usual travel-day crash.",
+    category: "Nutrition",
+    date: "2026-10-28",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A Nanaberry Bliss smoothie in a to-go cup, ready for a Spokane International Airport travel day",
+    keywords: [
+      "spokane airport travel snacks",
+      "GEG thanksgiving travel",
+      "thanksgiving week flying",
+      "everbowl spokane",
+      "airport smart snacking",
+    ],
+    body: `<p>Thanksgiving week is one of the busiest stretches of the year at Spokane International Airport. If you've flown out of GEG around this holiday before, you already know the drill — longer security lines, packed short-term parking, and gates that fill up fast with families heading out to see relatives across the state or across the country. It's also one of the easiest weeks to eat badly without meaning to, because travel days quietly strip away most of your normal routine. No kitchen, no regular mealtimes, and a terminal full of pretzel stands and candy racks standing between you and your gate.</p>
+
+      <h2>Why travel days wreck your energy more than you'd expect</h2>
+      <p>It's rarely one bad decision — it's a string of small ones that stack up over a long travel day. A few patterns show up again and again around the holidays:</p>
+
+      <ul>
+        <li><strong>You skip breakfast to beat traffic.</strong> Getting to GEG with enough buffer for Thanksgiving-week security lines often means leaving the house earlier than usual, and breakfast is the first thing to get cut.</li>
+        <li><strong>Terminal food is built for speed, not balance.</strong> Grab-and-go options near the gate tend to be heavy on refined carbs and salt and light on protein or fiber, which is exactly what leaves you crashing an hour into the flight.</li>
+        <li><strong>Dehydration sneaks up on you.</strong> Cabin air is dry, and if you're also skipping water to avoid bathroom lines on a flight, you land dehydrated and foggy before you've even reached the family dinner table.</li>
+      </ul>
+
+      <blockquote>The goal isn't to eat perfectly on a travel day. It's to have one solid thing in your system before you hit security, so the rest of the day doesn't run on vending-machine sugar.</blockquote>
+
+      <h2>Fuel up before you even get to the airport</h2>
+      <p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, which makes it a smart stop on your way toward GEG if your route takes you along Sprague or I-90 before the airport exit. A <a href="/#menu">Blue Lagoon</a> or <a href="/#menu">PB Everbowl</a> gives you real fruit, fiber, and protein in one sitting — the kind of combination that holds steady through a security line and a delayed boarding call, instead of leaving you hunting for a $9 bag of trail mix at the gate. Since bowls don't travel well through security with a spoon in hand, eat it before you go rather than trying to pack it.</p>
+
+      <h2>What to grab for the actual flight</h2>
+      <p>If you need something that travels better than a bowl, order ahead and grab a <a href="/#smoothies">Nanaberry Bliss</a> or <a href="/#smoothies">Glow Up</a> smoothie in a lidded cup on your way out the door. Both are liquid enough to drink down before the TSA checkpoint (liquids over 3.4 oz won't make it through security, so finish it beforehand or treat it as your pre-security fuel) and they give you real hydration plus fruit sugars that sit better than a candy bar from the newsstand. If your flight's early, a quick stop for an <a href="/#sips">Iced Matcha</a> or <a href="/#sips">Cold Brew</a> on the way is a steadier wake-up than a giant gas-station energy drink, especially if you're also trying to adjust to an earlier alarm for a holiday-week flight.</p>
+
+      <h2>Plan for the return trip too</h2>
+      <p>The flight home after Thanksgiving dinner and a few days of travel can be its own kind of rough — heavier food, less sleep, and another early morning at the airport. If Spokane Valley is where you land, swinging by Everbowl on the drive home from GEG is an easy way to reset with something lighter and more hydrating than another round of holiday leftovers, before you're back into your normal week.</p>
+
+      <h2>The bottom line</h2>
+      <p>Thanksgiving week travel through GEG doesn't have to mean running on terminal pretzels and vending machine coffee. A real meal or smoothie before security — ordered ahead so it's ready when you need to be out the door — makes the whole day easier, whether you're headed out to see family or just landing back home in Spokane Valley.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
