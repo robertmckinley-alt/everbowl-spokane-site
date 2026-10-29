@@ -3419,4 +3419,48 @@ export const POSTS = [
       <h2>The bottom line</h2>
       <p>The hour you gain this weekend gets paid back with weeks of earlier dark. You can't control the sunset, but you can control morning light exposure, caffeine timing, and whether breakfast is actually built to hold you — and all three make the transition noticeably easier. Stop by Everbowl Spokane and let the next few weeks of adjustment be a little less rough.</p>`,
   },
+  {
+    slug: "dia-de-los-muertos-cacao-history-spokane",
+    title: "Día de los Muertos and the Real History of Cacao in Your Bowl",
+    description:
+      "As Día de los Muertos altars go up around Spokane this weekend, the cacao in your bowl has a history that goes back further than chocolate itself. Here's the real story.",
+    category: "Nutrition",
+    date: "2026-10-29",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A cacao-rich bowl topped with banana and berries, next to cacao nibs",
+    keywords: [
+      "dia de los muertos spokane",
+      "cacao history",
+      "raw cacao nutrition",
+      "spokane valley fall events",
+      "everbowl spokane",
+    ],
+    body: `<p>This weekend marks Día de los Muertos, the Nov. 1–2 tradition honoring loved ones who have passed, and around Spokane you'll start seeing the signs of it: marigolds in shop windows, community ofrendas going up at places like the Northwest Museum of Arts &amp; Culture, and pan de muerto showing up at local Mexican bakeries. One ingredient tied up in that tradition longer than almost any other is sitting in your bowl right now — cacao. The chocolate aisle version of it is a modern invention. The real story is a lot older and more interesting.</p>
+
+      <h2>Cacao didn't start as candy</h2>
+      <p>Cacao trees are native to Mesoamerica, and the Olmec, Maya, and later Aztec civilizations were drinking cacao — not eating it as a solid bar — for well over two thousand years before Europeans ever encountered it. It was bitter, often spiced with chili and ground corn, and reserved for rulers, warriors, and sacred ceremonies, not an everyday treat. When Swedish botanist Carl Linnaeus formally named the cacao tree in the 1700s, he called it <em>Theobroma cacao</em> — Greek for "food of the gods," a nod to how seriously Mesoamerican cultures already treated it.</p>
+
+      <p>That ceremonial weight is part of why cacao and chocolate show up around Día de los Muertos altars and traditions to this day — offered alongside marigolds, favorite foods, and photos as something genuinely valued, not just something sweet.</p>
+
+      <blockquote>Long before cacao was a candy bar ingredient, it was a ceremonial drink reserved for the most important occasions a culture had. The "food of the gods" name wasn't marketing — people meant it.</blockquote>
+
+      <h2>What raw cacao still brings to the table</h2>
+      <p>Strip away the sugar and milk fat that turn cacao into commercial chocolate, and what's left is genuinely nutrient-dense:</p>
+      <ul>
+        <li><strong>Flavanols</strong> — plant compounds found in meaningfully higher amounts in raw or minimally processed cacao than in most candy-bar chocolate, which loses much of it to heavy processing.</li>
+        <li><strong>Minerals</strong> — cacao is a natural source of magnesium and iron, two minerals a lot of people fall short on.</li>
+        <li><strong>Fiber</strong> — cacao nibs in particular carry fiber along with their deep, slightly bitter chocolate flavor.</li>
+      </ul>
+      <p>None of that makes cacao a cure-all or a substitute for medical advice — it's simply a food with a genuinely strong nutritional profile that happens to also come with thousands of years of cultural weight behind it.</p>
+
+      <h2>Where to actually find it in your bowl</h2>
+      <p>At Everbowl Spokane, raw cacao is the backbone of the <a href="/#menu">Full Moon</a> bowl, where it brings a rich, brownie-like flavor without the sugar load of an actual candy bar. If you want it as a drink instead of a bowl — closer, in spirit, to how it was originally consumed — the <a href="/#sips">Cacao Ice Blended Coffee</a> blends real cacao with cold brew for something that tastes a lot more like dessert than its nutrition panel suggests.</p>
+
+      <h2>Make it part of the week</h2>
+      <p>You don't need an altar or a tradition to appreciate what's in the bowl, but if you're already noticing the marigolds and sugar skulls around Spokane Valley this weekend, it's a good excuse to actually taste the ingredient behind so much of it. Swing by Everbowl Spokane at <a href="/#location">13324 E Sprague Ave, Suite 101</a> and order a Full Moon bowl or a Cacao Ice Blended Coffee in person, or skip the line and <a href="/#order">place your order online</a> ahead of time.</p>
+
+      <h2>The bottom line</h2>
+      <p>Cacao's reputation as a "superfood" isn't a recent marketing invention — it's closer to a rediscovery of what Mesoamerican cultures already knew and treated with real ceremony for thousands of years. This Día de los Muertos weekend, the connection between tradition and what's actually good for you is closer than it looks. Taste it for yourself at Everbowl Spokane.</p>`,
+  },
 ];
