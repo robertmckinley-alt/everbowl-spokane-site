@@ -3369,4 +3369,54 @@ export const POSTS = [
       <h2>The bottom line</h2>
       <p>Palisades Park doesn't get talked about the way Spokane's lake-view and river-corridor trails do, but for anyone willing to drive to the west side, it's one of the more dramatic fall hikes the city has to offer. Fuel up before the wind on the rim catches you off guard, and let Everbowl Spokane be the easy stop that closes out the loop on the way home.</p>`,
   },
+  {
+    slug: "daylight-saving-time-ends-spokane-energy-reset",
+    title: "Daylight Saving Time Ends Sunday: Resetting Your Energy in Spokane Valley",
+    description:
+      "Clocks fall back this weekend and Inland Northwest daylight gets scarce fast. A practical, non-medical guide to steadier mornings, mood, and energy — plus two Everbowl orders built for the shift.",
+    category: "Health",
+    date: "2026-10-29",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A cacao-based bowl, built for steady energy during the daylight saving time change",
+    keywords: [
+      "daylight saving time spokane",
+      "fall back energy",
+      "spokane valley winter mornings",
+      "seasonal energy dip",
+      "everbowl spokane",
+    ],
+    body: `<p>Clocks fall back an hour this Sunday, and in Spokane Valley that means the trade is a lot more noticeable than it sounds on paper. The extra hour of sleep is nice for exactly one morning. What follows is several weeks of sunrise creeping toward 7:30 a.m. and sunset sliding behind the horizon before 4:30 p.m. — a swing steep enough, this far north, that plenty of people feel it in their energy and mood before they've connected it to the clock change at all.</p>
+
+      <p>None of what follows is medical advice, and a lingering, serious mood change is worth talking to an actual doctor about, not a blog post. But for the ordinary, predictable energy dip that comes with losing daylight on both ends of the day, there's a reasonable amount you can do with routine, light, and what you're actually eating.</p>
+
+      <h2>Why the time change hits harder here than it sounds like it should</h2>
+      <p>Spokane sits far enough north that day length moves fast this time of year — losing a few minutes of daylight every single day through late October and November. Add the one-hour shift on top of that, and the drive home from work or the kids' practice at Mirabeau Point Park suddenly happens in full dark instead of dusk. Your body clock takes its cues largely from light exposure, so a sudden, hour-wide jump in when it gets dark is a real input, not just an inconvenience on the calendar.</p>
+
+      <h2>Get outside before the window closes</h2>
+      <p>The single most useful adjustment isn't dietary at all: get outside in daylight earlier in the day, even for ten minutes. A short walk on the Centennial Trail or around Liberty Lake at lunch does more for resetting your internal clock to the new schedule than almost anything else, because morning light exposure is one of the strongest signals your body uses to set its rhythm. If your schedule only allows for it on weekends, that's still worth protecting.</p>
+
+      <h2>Steady energy beats a caffeine spike</h2>
+      <p>The instinct when mornings feel darker and harder is to lean on more caffeine, faster. The better move is steadier caffeine, timed earlier. An <a href="/#sips">Iced Matcha</a> delivers a smoother, longer curve of alertness than a straight coffee hit, thanks to the L-theanine naturally present in matcha, which tends to soften the jittery spike-and-crash a lot of people get from coffee alone on a tired morning. It's a small swap, but on a week where your body is still adjusting to the new light schedule, smoother beats stronger.</p>
+
+      <blockquote>A caffeine spike on top of a disrupted sleep schedule just moves the crash later in the day — it doesn't remove it.</blockquote>
+
+      <h2>Build breakfast like the sun isn't up yet to help you</h2>
+      <p>When breakfast happens in the dark, it has to do more of the work that morning light usually shares. A bowl built with real protein and slow-digesting carbohydrates holds energy steadier for longer than something sugary and fast. The <a href="/#menu">Full Moon</a> bowl — a fitting name for the season — layers in protein and fruit without the quick-burn sugar crash that leaves you reaching for more caffeine by 10 a.m. If you're out the door before you'd normally even think about food, a smoothie covers the same ground faster; the <a href="/#smoothies">Nanaberry Bliss</a> travels well for a commute that now starts and ends in the dark.</p>
+
+      <h2>A few small habits that actually help</h2>
+      <ul>
+        <li><strong>Shift bedtime gradually, not all at once.</strong> Fifteen minutes earlier for a few nights beats trying to force an hour-long jump overnight.</li>
+        <li><strong>Front-load your outdoor time.</strong> Morning light exposure resets your clock more effectively than the same amount of light in the evening.</li>
+        <li><strong>Keep meal timing consistent.</strong> Eating breakfast and lunch at roughly the same clock time each day, even while your body adjusts, helps everything else fall into rhythm faster.</li>
+        <li><strong>Watch the afternoon caffeine creep.</strong> If darker evenings have you reaching for a second or third coffee, that's often what wrecks the following night's sleep, not the time change itself.</li>
+        <li><strong>Order ahead on the darkest mornings.</strong> If a 7 a.m. sunrise has you running later than usual, <a href="/#order">place your order online</a> so breakfast is ready when you swing through Sprague Avenue.</li>
+      </ul>
+
+      <h2>Make the stop part of the new routine</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, on the way for a lot of commutes that are about to start and end in the dark for the next several months. Building a quick stop there into your week — matcha on the way in, a bowl on the way home — is a small, repeatable anchor while your schedule adjusts to the new light pattern. It won't undo the time change, but it gives your body a couple of steady, predictable inputs while the sun figures out the rest.</p>
+
+      <h2>The bottom line</h2>
+      <p>The hour you gain this weekend gets paid back with weeks of earlier dark. You can't control the sunset, but you can control morning light exposure, caffeine timing, and whether breakfast is actually built to hold you — and all three make the transition noticeably easier. Stop by Everbowl Spokane and let the next few weeks of adjustment be a little less rough.</p>`,
+  },
 ];
