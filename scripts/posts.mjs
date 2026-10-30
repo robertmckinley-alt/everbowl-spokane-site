@@ -3463,4 +3463,52 @@ export const POSTS = [
       <h2>The bottom line</h2>
       <p>Cacao's reputation as a "superfood" isn't a recent marketing invention — it's closer to a rediscovery of what Mesoamerican cultures already knew and treated with real ceremony for thousands of years. This Día de los Muertos weekend, the connection between tradition and what's actually good for you is closer than it looks. Taste it for yourself at Everbowl Spokane.</p>`,
   },
+  {
+    slug: "garland-district-halloween-lights-costume-weekend-fuel",
+    title: "Garland District Lights and Costume Parties: Fueling Spokane's Halloween Weekend",
+    description:
+      "Halloween falls on a Saturday this year, which means a full weekend of costume parties and a drive past Spokane's famously decorated Garland District. Here's how to fuel all three days of it.",
+    category: "Spokane & Movement",
+    date: "2026-10-30",
+    readMins: 5,
+    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
+    imageAlt: "A spread of Everbowl bowls and toast, built for a full Halloween weekend in Spokane",
+    keywords: [
+      "garland district halloween spokane",
+      "halloween weekend spokane valley",
+      "costume party fuel",
+      "halloween weekend fueling",
+      "everbowl spokane",
+    ],
+    body: `<p>Halloween lands on a Saturday this year, which turns it from a single night into a full Inland Northwest weekend: a Friday office costume contest today, a Saturday night of parties and the annual pilgrimage up to Spokane's Garland District to see the neighborhood's famously over-the-top decorated houses, and a Sunday that needs to recover from both before Monday shows back up. None of that is candy-focused — this is the grown-up side of Halloween weekend, and it runs on a completely different kind of fuel than a pillowcase of fun-size bars.</p>
+
+      <p>Garland District, up near Garland Avenue and Monroe Street, has built a real reputation for this: certain blocks go all-in on lights, fog machines, and elaborate yard displays, and driving or walking the strip after dark has become one of Spokane's genuine free Halloween traditions. It's also a cold walk in late October, which is exactly the kind of outing that benefits from eating something real beforehand instead of showing up running on black coffee and nerves.</p>
+
+      <h2>Friday: the costume-contest workday</h2>
+      <p>If your office is doing a costume contest or a potluck today, the trap is obvious — a desk full of candy corn and no actual lunch. A fast order built around real protein holds up a lot better through an afternoon in a costume than grazing on the breakroom candy bowl. The <a href="/#menu">PB Everbowl</a> travels well to a desk and has enough staying power to get you through a 2 p.m. costume parade without a crash, and if you're short on time, a <a href="/#smoothies">Pitaya Paradise</a> smoothie covers the same ground in five minutes flat.</p>
+
+      <h2>Saturday: the party, and the Garland District walk</h2>
+      <p>Whether Saturday means a costume party, a round of trick-or-treating with the kids first, or just the Garland District drive-by with cocoa in the cupholders, the same rule applies: eat something with real substance before you head out, not after. Arriving at a party already running on empty makes it a lot easier to overdo the chips-and-dip table or whatever's being poured. A <a href="/#toast">Classic Avocado Toast</a> or <a href="/#toast">Bruschetta Avocado Toast</a> an hour or two before you leave the house does exactly that job — enough fat and fiber to hold you steady through a few hours of standing around in a costume that's probably warmer or colder than you planned for.</p>
+
+      <blockquote>Showing up to a party already fed changes how the whole night goes — you're there for the fun, not foraging for food.</blockquote>
+
+      <h2>Sunday: the reset, and the clocks</h2>
+      <p>Sunday morning after a Halloween Saturday is not the moment for anything heavy or complicated. This is also the weekend daylight saving time ends, so between the late night and the lost hour, a gentle, easy-to-digest breakfast is doing more work than usual. The <a href="/#menu">Chia Pudding Bowl</a> is about as close as the menu gets to a reset button — light, cold, easy on a tired stomach, and nowhere near as sweet as whatever got eaten the night before. Pair it with an <a href="/#sips">Iced Matcha</a> instead of a double espresso; the steadier caffeine curve is kinder to a body that's already adjusting to an extra hour of dark evenings on top of a late night.</p>
+
+      <h2>A few things that make the weekend easier</h2>
+      <ul>
+        <li><strong>Eat before you go, every time.</strong> A costume contest, a party, and a decoration walk all go better on a full stomach than an empty one.</li>
+        <li><strong>Bundle up for Garland District.</strong> Late-October evenings in Spokane run cold fast after dark — the walk is more fun when you're not shivering through it.</li>
+        <li><strong>Hydrate like it's a normal weekend.</strong> Cider, cocoa, and the occasional drink at a party all add up; water in between keeps Sunday from feeling worse than it needs to.</li>
+        <li><strong>Skip the line on a busy weekend.</strong> <a href="/#order">Order ahead online</a> if you're trying to feed a costume-party crew on your way out the door.</li>
+      </ul>
+
+      <h2>Make the stop part of the weekend</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley — an easy stop whether you're fueling up before Friday's office party, grabbing something on the way to Garland District Saturday night, or resetting Sunday morning before the week starts again. It's not candy, and that's rather the point this particular weekend.</p>
+
+      <h2>The bottom line</h2>
+      <p>A three-day Halloween weekend asks more of your actual meals than a single night of trick-or-treating ever did. Eat real food before the costume contest, before the party, and before the Garland District walk, then let Sunday be an easy, gentle reset. Everbowl Spokane can cover all three stops.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
