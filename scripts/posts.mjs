@@ -3608,4 +3608,53 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "trunk-or-treat-saturday-fuel-spokane-valley",
+    title: "Trunk-or-Treat Saturday: Fueling Toddlers (and Parents) for an Afternoon of Parking-Lot Candy Runs",
+    description:
+      "Halloween falls on a Saturday this year, and trunk-or-treats around Spokane Valley start well before trick-or-treating does. Here's how to fuel the whole afternoon without a toddler meltdown.",
+    category: "Spokane & Movement",
+    date: "2026-10-31",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "A kid-friendly Everbowl bowl, built for fueling a Halloween trunk-or-treat afternoon in Spokane Valley",
+    keywords: [
+      "trunk or treat spokane valley",
+      "halloween saturday fuel spokane",
+      "toddler halloween snacks spokane",
+      "family halloween spokane valley",
+      "everbowl spokane",
+    ],
+    body: `<p>With Halloween landing on a Saturday this year, the costumed chaos in Spokane Valley doesn't wait for sunset. Church parking lots, the Spokane Valley Mall concourse, and plenty of local businesses host trunk-or-treat events in the early-to-mid afternoon — a daytime, toddler-friendly warm-up before the classic evening neighborhood walk even starts. It's a great setup for families with little kids who aren't quite ready for an hour of dark sidewalks, but it also means a much longer stretch between breakfast and bedtime, with a lot of walking, waiting in short lines, and candy appearing in tiny hands well before dinner. A little fueling strategy makes the whole day easier on everyone, parents included.</p>
+
+      <h2>Why the daytime version is its own challenge</h2>
+      <p>An evening trick-or-treat loop is short and finishes near dinnertime. A Saturday trunk-or-treat is different: it often starts mid-afternoon, stretches over an hour or more of stroller pushing and parking-lot walking, and lands in that awkward window between lunch and dinner when kids are already prone to getting hangry. Add a costume that's harder to eat in, a sugar sample from trunk number three, and the heat of a car ride between stops, and you've got a real recipe for a meltdown — theirs or yours.</p>
+
+      <h2>Fuel before you leave, not after you arrive</h2>
+      <p>The easiest fix is timing: eat a real, balanced snack or early dinner before you load everyone into the car, not after the first signs of a crash. For kids, something with protein and fruit travels well and doesn't compete with candy for appeal — a <a href="/#menu">Chia Pudding Bowl</a> is naturally sweet, easy to spoon into a small cup for the car, and won't spike blood sugar right before an afternoon of candy sampling. For parents managing strollers, costumes, and a camera roll full of photos, the <a href="/#menu">PB Everbowl</a> is substantial enough to actually count as lunch, so you're not running on coffee and fun-size chocolate by 4 p.m.</p>
+
+      <blockquote>A trunk-or-treat afternoon isn't long on paper, but it's long on your feet, in costume, with a kid whose blood sugar is a moving target. Feed the moving target first.</blockquote>
+
+      <h2>Between stops: smarter than the candy bag</h2>
+      <p>You don't need to compete with the candy — that's a losing game and not really the point of the day. What helps more is having something else on hand so candy isn't the only snack available in the car between venues. A <a href="/#smoothies">Nanaberry Bliss</a> smoothie splits well between a couple of kids in the back seat, and it's cold enough to feel like a treat without being one more thing to unwrap and dispose of while you're driving to the next parking lot. For parents, an <a href="/#sips">Iced Matcha</a> is a steadier lift than a second coffee and won't leave you crashing right as the evening trick-or-treat loop starts.</p>
+
+      <h2>If you're doing both daytime and evening</h2>
+      <p>Plenty of Spokane Valley families will hit a trunk-or-treat in the afternoon and still walk the neighborhood after dark — it's a long day stacked on itself. If that's the plan, treat the trunk-or-treat like the appetizer and keep dinner normal-sized and on schedule in between, rather than letting afternoon candy samples turn into skipping dinner entirely. Kids tend to do much better with a real meal anchoring the middle of a long costumed day than with grazing on treats from noon to 8 p.m.</p>
+
+      <h2>A quick plan for the day</h2>
+      <ul>
+        <li><strong>Early afternoon, before you leave:</strong> A real snack or early lunch — Chia Pudding Bowl for the kids, PB Everbowl for the adults.</li>
+        <li><strong>Between trunk-or-treat stops:</strong> A smoothie to split in the car instead of reaching straight for the candy bag.</li>
+        <li><strong>Dinner, still normal-sized:</strong> Keep it on schedule even if afternoon candy samples happened — it anchors the rest of the night.</li>
+        <li><strong>If you're staying out late:</strong> <a href="/#order">Order ahead online</a> so you're not standing in a kitchen making food at 7:45 p.m. in a costume.</li>
+      </ul>
+
+      <h2>Make the stop part of the route</h2>
+      <p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, an easy detour whether you're headed toward a church-lot trunk-or-treat or looping back home before the evening walk starts. Grab bowls on the way out the door, or place an order ahead so it's ready the moment you need a buffer between "lunch" and "basically all candy."</p>
+
+      <h2>The bottom line</h2>
+      <p>A Saturday Halloween means more hours of costumed activity than a typical weeknight trick-or-treat, split across a daytime trunk-or-treat and an evening neighborhood loop for a lot of Spokane Valley families. Eating a real meal before you leave and keeping a non-candy snack on hand between stops is a small bit of planning that keeps the whole day fun instead of ending in a parking-lot meltdown — yours or theirs.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
