@@ -3559,4 +3559,53 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "end-of-october-fall-wellness-check-in-spokane-valley",
+    title: "October's Last Stretch: A Fall Wellness Check-In Before Spokane Valley Turns to Winter",
+    description:
+      "October is almost gone and the days are shrinking fast. A quick, honest check-in on the habits that carried you through fall — and how to keep them as Spokane Valley turns toward winter.",
+    category: "Nutrition",
+    date: "2026-10-31",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A smoothie and bowl from Everbowl, built for an end-of-fall wellness reset in Spokane Valley",
+    keywords: [
+      "fall wellness check in spokane",
+      "end of october routine spokane valley",
+      "spokane valley winter prep",
+      "healthy habits fall to winter",
+      "everbowl spokane",
+    ],
+    body: `<p>Today is the last day of October, and anyone who has lived through a few Inland Northwest winters already knows what that means: the easy part of the year is ending. The trails at Dishman Hills and Liberty Lake Regional Park are mostly bare now, sunset is sliding toward 5 p.m., and the long stretch of cold, dark months that defines a Spokane Valley winter is right around the corner. Before that shift fully lands, it's worth a few honest minutes checking in on the habits that got you through fall — because the ones that slide first are usually the ones you'll miss most by January.</p>
+
+      <h2>What usually slips first</h2>
+      <p>It's rarely one big thing. It's smaller and sneakier than that: the after-work walk that quietly stops happening once it's dark by 5:30, the water bottle that stays in the car instead of on the desk, the real breakfast that gets replaced by whatever's fastest on a rushed, cold morning. None of that is a failure — it's just what happens when daylight and temperature both work against you at the same time. The useful move isn't guilt. It's naming the one or two habits actually worth protecting on purpose, rather than hoping they survive the season by accident.</p>
+
+      <h2>Pick the habit, not the overhaul</h2>
+      <p>A full winter wellness plan built on October 31st rarely survives to December. A single habit, chosen now and genuinely kept, usually does. For a lot of people that single habit is breakfast — not because it's magic, but because it's the one meal most likely to get skipped once mornings get dark and cold, and the one that sets the tone for how the rest of the day goes. If that's the habit worth protecting, the easiest way to keep it is to make it require zero decisions: the <a href="/#menu">Berry Boost</a> bowl is real fruit, real protein, and ready the moment you walk in, so there's no morning negotiation about whether it's worth the effort.</p>
+
+      <blockquote>The habit that survives winter isn't the most ambitious one. It's the one that asks the least of you on the worst mornings.</blockquote>
+
+      <h2>Hydration doesn't announce itself in the cold</h2>
+      <p>Summer thirst is obvious. Winter thirst isn't, which is exactly why hydration quietly falls apart for most people once the heat is gone. Dry indoor heat, less sweating, and the simple fact that cold water feels less appealing all combine to make it easy to run low without noticing. A <a href="/#smoothies">PB Cacao Dream</a> smoothie is an easy way to sneak real fluid, fruit, and protein into a routine that's about to get busier with shorter days and holiday errands — treat it as an afternoon reset instead of letting a 3 p.m. slump turn into a vending machine run.</p>
+
+      <h2>Look a little further ahead, too</h2>
+      <p>Fall training in Spokane Valley — the last trail runs, the rec league games before the gyms get crowded, the yard work before the first real freeze — has a different rhythm than winter will. Mt. Spokane and Schweitzer won't open for another several weeks, and Silver Mountain isn't far behind, so there's a real gap coming where outdoor momentum can either carry forward into ski season or quietly disappear. Keeping one or two habits solid through November makes it a lot easier to pick ski season back up in December instead of starting from zero.</p>
+
+      <h2>A short, realistic checklist for the turn of the season</h2>
+      <ul>
+        <li><strong>Protect one meal, not the whole day.</strong> Breakfast is the easiest one to make non-negotiable since it sets up everything after it.</li>
+        <li><strong>Put water somewhere you'll actually see it.</strong> Desk, cupholder, counter — visibility matters more than willpower once summer thirst cues disappear.</li>
+        <li><strong>Keep one outdoor habit alive into November.</strong> A shorter walk still counts, and it's easier to keep a small thing going than to restart a big one later.</li>
+        <li><strong>Make the easy choice the healthy one.</strong> <a href="/#order">Order ahead online</a> on the mornings when a real breakfast would otherwise lose to a drive-through.</li>
+      </ul>
+
+      <h2>Make the stop part of the plan</h2>
+      <p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley — an easy stop on the way to or from whatever's left of your fall routine, and a good place to start building the one that carries you into winter. A Berry Boost on the way out the door or a PB Cacao Dream on a slow afternoon isn't a whole new plan. It's just one habit, kept.</p>
+
+      <h2>The bottom line</h2>
+      <p>October ends today, and the habits that matter most going into an Inland Northwest winter are rarely the dramatic ones — they're the one or two ordinary routines you actually keep. Pick one, make it easy on yourself, and let Spokane Valley's short, dark stretch be a little less rough because of it.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
