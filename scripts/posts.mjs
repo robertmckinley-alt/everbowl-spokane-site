@@ -3705,4 +3705,49 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "centerplace-holiday-bazaar-fuel-spokane-valley",
+    title: "Craft Bazaar Season Opens at CenterPlace: Fueling a Morning of Vendor-Hopping",
+    description:
+      "Holiday craft and vendor shows start filling CenterPlace Regional Event Center's calendar in November. Here's how to fuel a long morning of browsing without crashing by noon.",
+    category: "Spokane & Movement",
+    date: "2026-11-02",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A smoothie ready to grab before a morning of holiday craft bazaar shopping in Spokane Valley",
+    keywords: [
+      "centerplace spokane valley craft bazaar",
+      "holiday craft show spokane valley",
+      "mirabeau point vendor event fuel",
+      "november craft fair spokane",
+      "everbowl spokane",
+    ],
+    body: `<p>November barely turns over before the calendar at CenterPlace Regional Event Center at Mirabeau Point Park starts filling with holiday craft and vendor shows — local makers selling everything from soap and pottery to knit hats and jarred jam, all under one roof in Spokane Valley. It's one of the easiest ways to knock out thoughtful gifts without touching a mall, but a good bazaar morning has a way of swallowing three hours without you noticing. You park once, walk a lot of aisles, chat with vendors, circle back for the thing you almost bought, and somewhere in there skip breakfast because you were rushing to beat the crowd. By the time you're back in the car, you're not just tired — you're the kind of hungry that makes you regret every impulse buy in the bag.</p>
+
+      <h2>Why browsing wears you out faster than you'd think</h2>
+      <p>A craft bazaar doesn't look like exercise, but standing and shuffling through packed aisles for a couple of hours adds up to real time on your feet, often in a warm, crowded room that's easy to get dehydrated in without realizing it. Add the mental load of comparing vendors, doing gift math in your head, and making small talk at every table, and it's no surprise people leave these events more drained than a hike half the length. Showing up on an empty stomach just speeds up the crash.</p>
+
+      <h2>Eat something real before you park</h2>
+      <p>The fix is simple: treat bazaar morning like you would a workout and fuel up beforehand instead of planning to "grab something after." A <a href="/#menu">Berry Boost</a> bowl is quick enough to eat before you head out the door and substantial enough to carry you through a few hours of browsing without a mid-morning slump. If you're tighter on time, the <a href="/#smoothies">Pitaya Paradise</a> smoothie travels well in the cup holder and gives you real fruit and fiber instead of the coffee-and-nothing combo a lot of people default to on a Saturday morning.</p>
+
+      <blockquote>A craft bazaar is a slow-moving errand, not a sit-down meal — which is exactly why it's so easy to under-eat before one and over-regret it by the second hour.</blockquote>
+
+      <h2>Pace yourself through a multi-stop morning</h2>
+      <p>If CenterPlace is just one stop on a bigger holiday-shopping loop that also hits a church bazaar or a Spokane Valley Mall pop-up, build in a real refuel between venues rather than pushing through on vendor samples and free cider alone. Something with protein holds you steadier between stops than anything pulled off a sample tray, and it keeps you from making your third gift decision of the day on an empty stomach, which rarely goes well for the budget.</p>
+
+      <ul>
+        <li><strong>Before you leave:</strong> A Berry Boost bowl or a Pitaya Paradise smoothie — real fuel, not just coffee.</li>
+        <li><strong>Mid-morning, between stops:</strong> Keep water or an electrolyte-friendly drink on hand; warm, crowded vendor rooms dehydrate faster than you'd guess.</li>
+        <li><strong>If it's an all-morning loop:</strong> Plan a sit-down refuel rather than grazing on samples the whole way through.</li>
+        <li><strong>On the way home:</strong> <a href="/#order">Order ahead online</a> so lunch is ready the moment you're done unloading bags.</li>
+      </ul>
+
+      <h2>Make the Valley shop part of the route</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, a short detour from Mirabeau Point whether you're heading to CenterPlace or looping back from it. Swing by before you head in to grab something you can eat in the car, or place an order ahead so it's ready the second your bazaar run wraps up and the only thing left to unload is bags full of gifts.</p>
+
+      <h2>The bottom line</h2>
+      <p>Holiday craft bazaar season at CenterPlace and around Spokane Valley runs for weeks, and a good vendor-hopping morning is more physically draining than it looks — standing, walking, and decision-making all add up. Eat something real before you go, keep water on hand through a long browse, and plan a stop for the Valley shop on either end of the trip so the gift list gets shorter without your energy running out first.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
