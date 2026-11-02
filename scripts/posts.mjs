@@ -3750,4 +3750,49 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "first-snow-shoveling-fuel-spokane-valley",
+    title: "First Real Snow: Fueling the Morning You Actually Have to Shovel",
+    description:
+      "The Inland Northwest's first measurable snowfall usually lands in early November. A practical fueling guide for the surprise workout of clearing your driveway and walk before work.",
+    category: "Health",
+    date: "2026-11-07",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "A warm cacao bowl ready before a morning of shoveling the first snow in Spokane Valley",
+    keywords: [
+      "first snow spokane valley",
+      "shoveling snow workout fuel",
+      "november snowfall inland northwest",
+      "cold weather breakfast spokane",
+      "everbowl spokane",
+    ],
+    body: `<p>Most years, Spokane Valley gets away with dry, cold mornings through most of October and into the first days of November before the sky finally drops real, stick-to-the-ground snow. It rarely gives much warning. You wake up, pull back the curtain, and suddenly the driveway, the front walk, and the car windshield are all under a few inches you weren't planning on. Before coffee, before breakfast, before you've really decided how your morning is going to go, you're outside in the cold doing manual labor you didn't put on the calendar.</p>
+
+      <h2>Shoveling is a workout, not a chore</h2>
+      <p>It's easy to think of clearing snow as a five-minute errand on the way to the car, but a real driveway and walkway in Spokane Valley can take fifteen to thirty minutes of steady lifting, twisting, and pushing in cold air — on a body that's barely awake and hasn't eaten yet. That combination of cold temperatures, sudden exertion, and an empty stomach is exactly the setup that leaves people light-headed, sore, or just wiped out for the rest of the morning. Treating it like the workout it actually is, rather than a quick pre-coffee task, changes how the rest of your day goes.</p>
+
+      <h2>Don't shovel on an empty tank</h2>
+      <p>Cold mornings tend to blunt appetite, which makes it tempting to skip straight to caffeine and handle breakfast later. But heading outside into freezing air without any fuel on board means your body is pulling from reserves it hasn't restocked since dinner. A bowl of <a href="/#menu">Hot Oats</a> takes the edge off the cold from the inside and gives you warm carbohydrates that are easy to digest before physical effort — a better call than a sugary pastry that spikes and crashes before you've finished the driveway.</p>
+
+      <blockquote>Cold air makes your body work harder just to stay warm, so the fuel you skip before shoveling gets spent twice: once on staying warm, once on the labor itself.</blockquote>
+
+      <h2>Warm up from the inside, too</h2>
+      <p>If oats feel like too much that early, a <a href="/#sips">Cacao Ice Blended Coffee</a> still gets you caffeine and a dose of real cacao, which beats black coffee alone on a morning when your body is already managing cold stress. Pair it with something that has a little protein and fat — even half a <a href="/#toast">PB Crunch Toast</a> — so you're not running on sugar and caffeine for a physical task in freezing temperatures.</p>
+
+      <ul>
+        <li><strong>Before you grab the shovel:</strong> Hot Oats or half a PB Crunch Toast — something with substance, not just coffee.</li>
+        <li><strong>While you work:</strong> Layer up and take breaks; cold-weather exertion tires you out faster than the same effort on a mild day.</li>
+        <li><strong>After the driveway's clear:</strong> A proper breakfast, not just the granola bar you grabbed on the way out the door.</li>
+        <li><strong>On the way to work:</strong> <a href="/#order">Order ahead online</a> so something warm is ready when you finally get moving.</li>
+      </ul>
+
+      <h2>Make the Valley shop the reward</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to swing by once the driveway's clear and the car's defrosted. Order ahead on your drive in so a warm bowl or smoothie is ready the moment you walk through the door — a small reward for a morning that started with a shovel instead of an alarm clock snooze.</p>
+
+      <h2>The bottom line</h2>
+      <p>The first real snowfall of the season always seems to catch Spokane Valley a little off guard, turning an ordinary morning into unplanned manual labor in the cold. Eat something real before you head outside, dress for the exertion as much as the temperature, and plan a stop at the Valley shop once the driveway's clear so the rest of your morning actually feels like a reward instead of a recovery.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
