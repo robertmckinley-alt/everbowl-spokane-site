@@ -3795,4 +3795,52 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "windstorm-season-no-cook-food-plan-spokane-valley",
+    title: "Windstorm Season Prep: A No-Cook Food Plan for Spokane Valley's Fall Power Outages",
+    description:
+      "Fall and early winter bring the Inland Northwest's windiest stretch of the year. Here's a practical no-cook backup food plan for the next Spokane Valley power outage.",
+    category: "Health",
+    date: "2026-11-08",
+    readMins: 5,
+    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
+    imageAlt: "A spread of no-cook superfood toppings ready for a Spokane Valley power outage food plan",
+    keywords: [
+      "spokane valley power outage food",
+      "inland northwest windstorm season",
+      "no cook emergency food plan",
+      "november wind storm spokane",
+      "everbowl spokane",
+    ],
+    body: `<p>Late fall is when the Inland Northwest earns its reputation for wind. Gusty systems roll through Spokane Valley and the rest of the region from November into winter, and every so often one is strong enough to drop a branch on a line and knock out power to a neighborhood for a few hours — sometimes longer. It's rarely dramatic enough to make you stock a bunker, but it's common enough that having a loose plan for "what do we eat if the stove and fridge are out" is worth more than most people give it credit for.</p>
+
+      <h2>The problem with most "emergency food"</h2>
+      <p>Open most household emergency kits and you'll find crackers, canned soup that needs a stove to be appetizing, and a flashlight. None of that is wrong, exactly, but it's built around calories, not around actually feeling okay. A power outage already comes with its own low-grade stress — kids asking when the lights will come back, a fridge you're trying not to open too often, a phone you're rationing battery on. Eating something that's just carbs and salt on top of that stress doesn't help the way a real meal does.</p>
+
+      <h2>Build around what needs zero power</h2>
+      <p>The easiest fix is keeping a short list of shelf-stable, protein-and-fiber items that taste fine cold and don't ask anything of your kitchen: nut butter, whole fruit, trail mix, shelf-stable milk or protein, and chia seeds you can soak the night before a forecasted windstorm so they're ready to eat straight out of the fridge before it even loses power. None of that requires a stove, a working outlet, or a generator — just a little bit of planning before the gusts show up.</p>
+
+      <p>It's worth doing this prep even for a storm that never actually knocks your power out. Weather forecasts for wind events are reasonably reliable a day or two out, which gives you a real window to soak chia, pick up shelf-stable staples, and charge the small things that matter before the gusts arrive — instead of improvising in the dark with whatever's already in the pantry.</p>
+
+      <blockquote>A no-cook plan isn't about surviving a long emergency. It's about not spending an outage eating crackers and feeling worse than you need to.</blockquote>
+
+      <h2>Let the Valley shop be part of the plan</h2>
+      <p>This is also where it's worth remembering that Everbowl doesn't need your stove to work. If a windstorm takes out power at home, a <a href="/#menu">Chia Pudding Bowl</a> is already made, already cold, and already has real fiber and protein in it — pick one up on your way home and you've solved dinner without lighting a single burner. If you want something warmer to carry you through a chilly, dark evening, a <a href="/#sips">Cold Brew</a> or <a href="/#sips">Cacao Ice Blended Coffee</a> still gives you a lift without needing power at home, and either travels well in a car that's suddenly doing double duty as a warm place to sit.</p>
+
+      <h2>A short checklist worth keeping on the fridge</h2>
+      <ul>
+        <li><strong>Before a windy forecast:</strong> Soak a batch of chia pudding or grab a <a href="/#order">pre-ordered</a> Chia Pudding Bowl so something real is ready cold.</li>
+        <li><strong>Charge small things early:</strong> Phone, a backup battery, and a flashlight — done before the wind picks up, not during.</li>
+        <li><strong>Keep the fridge closed:</strong> Every open-door check during an outage shortens how long your food stays cold.</li>
+        <li><strong>If the power's out at dinnertime:</strong> Everbowl Spokane at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley runs on its own power, so a stop there solves the meal without a single pot or pan.</li>
+      </ul>
+
+      <h2>Visit us before — or during — the next windy stretch</h2>
+      <p>You don't need to overhaul your pantry to be ready for a fall windstorm. A little chia pudding in the fridge, a charged phone, and knowing that a real meal is five minutes away at <a href="/#location">13324 E Sprague Ave, Suite 101</a> covers most of what an ordinary Inland Northwest outage throws at you. <a href="/#order">Order ahead online</a> on a day the forecast looks rough, so if the lights do flicker, dinner is already handled.</p>
+
+      <h2>The bottom line</h2>
+      <p>Windy fall weather is just part of living in the Inland Northwest, and the occasional outage that comes with it doesn't have to mean a bad meal on top of a bad evening. Keep a few no-cook, real-food basics on hand, and let the Valley shop cover the rest when your own kitchen is temporarily out of commission.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
