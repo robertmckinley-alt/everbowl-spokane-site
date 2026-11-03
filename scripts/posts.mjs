@@ -3843,4 +3843,50 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "veterans-day-no-school-kids-fuel-spokane-valley",
+    title: "No School, No Problem: Fueling Spokane Valley Kids on Veterans Day's Midweek Break",
+    description:
+      "Many Inland Northwest schools close for Veterans Day, dropping an unstructured weekday into the middle of November. Here's how to keep kids fueled without the cafeteria schedule.",
+    category: "Health",
+    date: "2026-11-09",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A kid-friendly smoothie and bowl spread for a Veterans Day no-school day in Spokane Valley",
+    keywords: [
+      "veterans day no school spokane",
+      "spokane valley kids snacks",
+      "inland northwest school holiday",
+      "november school break fuel",
+      "everbowl spokane valley",
+    ],
+    body: `<p>Veterans Day lands in the middle of the week this year, and for a lot of Spokane Valley families that means something specific: no school. Many Inland Northwest districts give students the day off while staff use it for professional development, which drops an unplanned weekday smack into the middle of November — no cafeteria lunch line, no bell schedule, and often no real plan for what the kids eat between waking up and whatever the afternoon turns into.</p>
+
+      <h2>Why a day off throws off eating more than you'd think</h2>
+      <p>School days run on built-in structure: breakfast at a set time, lunch at a set time, a predictable gap between them. Take that structure away and it's easy for a day off to turn into a grazing day — a handful of crackers at 9, cereal eaten standing at the counter at 11, nothing resembling an actual meal until dinner. Kids (and let's be honest, parents too) tend to get crankier and lower-energy on these loosely structured days, not because the day off is bad, but because the eating rhythm quietly falls apart.</p>
+
+      <h2>Give the day its own light structure</h2>
+      <p>You don't need a strict schedule — just two or three anchor points so the day doesn't drift. A real breakfast, a real lunch, and a snack window in between covers most of it. The easiest way to hit that without cooking three separate meals is to lean on something that's already built, already balanced, and ready the moment you walk in.</p>
+      <ul>
+        <li><strong>Morning anchor:</strong> A <a href="/#smoothies">Nanaberry Bliss smoothie</a> is an easy sell for kids who'd otherwise skip breakfast on a day with nowhere to be — real fruit, no stovetop required.</li>
+        <li><strong>Midday anchor:</strong> A <a href="/#menu">Berry Boost bowl</a> gives you fruit, fiber, and enough staying power to carry a kid through an afternoon of whatever a day off turns into — a bike ride, a movie, or just restless energy around the house.</li>
+        <li><strong>Parent fuel:</strong> If you're also off work, or working from home while refereeing a no-school day, an <a href="/#sips">Iced Matcha</a> is a steadier lift than another cup of coffee you forgot to finish.</li>
+      </ul>
+
+      <blockquote>A day off doesn't need a strict schedule. It just needs two or three real meals instead of a slow drift of snacks that never quite adds up to one.</blockquote>
+
+      <h2>If the day turns into an outing</h2>
+      <p>Some families use the midweek break for a Veterans Day event, a visit to grandparents, or just a change of scenery before the holiday stretch gets busy. If that's the plan, eat something with actual protein before you leave the house — a smoothie or bowl beats a granola bar for keeping kids steady through a few hours out, especially once the Inland Northwest's short November daylight starts working against everyone's patience by mid-afternoon.</p>
+
+      <p>And if the day stays simple — pajamas, a movie, nowhere to be — that's a fine way to spend a school holiday too. The goal isn't to fill the day with activity, it's just to make sure nobody's running on crackers and goldfish by 2pm.</p>
+
+      <h2>Make the Valley shop part of the day</h2>
+      <p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley — an easy stop whether you're heading out for the day or just need to break up a long one at home. <a href="/#order">Order ahead online</a> so breakfast or lunch is ready the moment you and the kids walk in, no cooking required on a day that's already off-schedule for everyone.</p>
+
+      <h2>The bottom line</h2>
+      <p>A midweek school holiday is a nice break, but it's also the easiest kind of day for real meals to quietly disappear. Pick two or three anchor points, lean on something that's already built and balanced, and let the Valley shop cover the gaps so the day off actually feels restful instead of chaotic.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
