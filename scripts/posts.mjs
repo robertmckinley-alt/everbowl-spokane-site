@@ -3889,4 +3889,49 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "short-days-steady-mood-spokane-valley",
+    title: "Short Days, Steady Mood: Eating Well Through the Darkest Weeks in Spokane Valley",
+    description:
+      "Since the clocks fell back, Spokane is losing daylight fast. Here's a food-first way to keep energy and mood steady through the darkest stretch of the year.",
+    category: "Health",
+    date: "2026-11-04",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "Acai bowl topped with fruit, a mood-steady breakfast for Spokane Valley's short-daylight season",
+    keywords: [
+      "spokane short days",
+      "winter mood food",
+      "daylight saving energy",
+      "seasonal mood nutrition",
+      "everbowl spokane valley",
+    ],
+    body: `<p>Flip the calendar to early November in Spokane Valley and the change is impossible to miss: since the clocks fell back, the sun is setting not long after the afternoon school pickup, and it only gets earlier from here. By the time Mt. Spokane and Schweitzer are opening lifts next month, Spokane will be down to barely nine hours of daylight. That shift affects more than your drive home — it affects energy, appetite, and mood, and the Inland Northwest's long gray stretch has a well-earned reputation for making people feel sluggish before winter even officially starts.</p>
+
+      <h2>Why the dark hits harder here</h2>
+      <p>Spokane sits at roughly 47.7 degrees north, which means the seasonal daylight swing is bigger than it is for most of the country — summer evenings stretch late, but November through January claws a lot of that light back. Less daylight means less natural cue for your body's internal clock, which can nudge energy, sleep timing, and appetite out of their usual rhythm. None of this is a diagnosis or a reason to panic. It's just a real seasonal pattern worth planning around instead of white-knuckling through.</p>
+
+      <h2>Food habits that actually help</h2>
+      <p>There's no single "mood food," and anyone promising one is overselling it. But a few boring, well-supported habits make the darkest weeks noticeably easier to get through:</p>
+      <ul>
+        <li><strong>Eat on a rhythm.</strong> Skipping meals when motivation dips and then over-eating at night is the fastest way to feel worse. Regular meal timing helps steady the energy dips that shorter days already make more noticeable.</li>
+        <li><strong>Don't skip the morning meal.</strong> A protein-and-fiber breakfast before the sun is even fully up gives your body something steadier to run on than coffee alone, especially on the mornings it's still dark at 7am.</li>
+        <li><strong>Lean on omega-3s and color.</strong> Fatty fish, walnuts, chia, and a wide range of fruit show up again and again in research on mood-supportive eating patterns. You don't need a supplement aisle to get there — a bowl built around real fruit and seeds covers a lot of ground.</li>
+        <li><strong>Pair food with light when you can.</strong> A short walk at lunch, even on an overcast Spokane Valley day, does more for afternoon energy than another espresso shot. Bring breakfast or a smoothie with you and make the walk the whole routine.</li>
+      </ul>
+
+      <blockquote>You can't control how early it gets dark in Spokane Valley in November. You can control whether your body is running on a steady rhythm or a sugar-crash rollercoaster while it happens.</blockquote>
+
+      <h2>Two easy ways to build the habit</h2>
+      <p>The simplest way to keep any of this consistent is to make the "good" choice also the easy one. A <a href="/#menu">Chia Pudding Bowl</a> is a make-ahead, fiber-and-omega-3-rich option that's ready before you are on a dark, slow-moving morning — no stove, no decision fatigue. On the days you need something you can drink on the walk out the door, an <a href="/#smoothies">Evergreen smoothie</a> packs greens and real fruit into five minutes, which beats skipping breakfast entirely because the kitchen felt like too much before 7am.</p>
+
+      <h2>Make the Valley shop your bright spot</h2>
+      <p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, and it's a genuinely easy stop to build into a short-daylight routine — on the way to work while it's still dark out, or as a midday reset when the gray outside starts to drag on you. <a href="/#order">Order ahead online</a> so a Chia Pudding Bowl or Evergreen smoothie is ready the moment you walk in, no extra decision required on a morning that already feels like it started at midnight.</p>
+
+      <h2>The bottom line</h2>
+      <p>The sun isn't giving Spokane Valley any favors for the next few months, and that's just the deal every November through January. Keep meals regular, lean on real food with some omega-3s and fiber in it, and pair it with light when you can get it. It won't change how early the sun sets, but it makes a real difference in how steady you feel while you wait for it to come back.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
