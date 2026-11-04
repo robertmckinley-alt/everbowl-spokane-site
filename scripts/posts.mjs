@@ -3934,4 +3934,48 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "winter-sports-tryouts-fuel-spokane-valley",
+    title: "Winter Sports Tryouts: Fueling Spokane Valley Student-Athletes Through November's Practice Grind",
+    description:
+      "Basketball, wrestling, and swim tryouts are underway at Central Valley, University, and West Valley. A practical fueling plan for two-hour practices on a school-night schedule.",
+    category: "Fitness & Recovery",
+    date: "2026-11-04",
+    readMins: 5,
+    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
+    imageAlt: "A fruit-topped smoothie from Everbowl Spokane, quick pre-practice fuel for a winter sports athlete",
+    keywords: [
+      "winter sports nutrition spokane valley",
+      "high school basketball fuel",
+      "wrestling season nutrition",
+      "student athlete fueling",
+      "everbowl spokane valley",
+    ],
+    body: `<p>November flips a switch in Spokane Valley gyms. Fall sports wrap up, and within a week or two, basketball, wrestling, and swim programs at Central Valley, University, and West Valley High School are running tryouts and the first weeks of preseason practice. It's a different kind of demanding than fall ball ever was — two-hour practices after a full school day, five or six nights a week, often ending after dark with a drive home and homework still waiting. For a lot of families, this is the point in the year where the fueling routine either holds together or quietly falls apart.</p>
+
+      <h2>Why early winter season is its own problem</h2>
+      <p>Fall sports usually have a game clock parents can plan around. Preseason tryouts and early practices are messier: start times can shift night to night, cuts and roster-building add stress on top of the physical load, and the short November daylight means kids are doing conditioning drills and full-court sprints in a gym that was dark outside before practice even started. Add a school night on the other end, and "what's for dinner" becomes a real logistics question around 5pm, not a relaxed one.</p>
+
+      <h2>A fueling plan that survives a real Tuesday</h2>
+      <ul>
+        <li><strong>After school, before practice:</strong> a small carb-forward snack an hour or two out — not a full meal right before sprint lines. Toast, fruit, or a smoothie all beat a vending machine candy bar for steady energy through a two-hour session.</li>
+        <li><strong>During long tryouts:</strong> water, consistently, especially for wrestlers managing effort in a warm room or swimmers who don't feel how much they're sweating in the pool.</li>
+        <li><strong>Right after practice:</strong> this is the window that actually matters most on a school night — carbs to refill what got burned, plus protein to support recovery, ideally within the hour so a tired kid isn't running on fumes for homework.</li>
+        <li><strong>Don't skip the actual dinner.</strong> A recovery smoothie or bowl is a great bridge, not a replacement for a real meal once everyone's home.</li>
+      </ul>
+
+      <blockquote>The best practice-night food is the food that's actually ready when the car pulls in. A perfect meal plan that never gets executed on a Tuesday at 7:45pm doesn't help anybody.</blockquote>
+
+      <h2>Make the stop between school and the gym</h2>
+      <p>This is exactly the gap a quick stop at Everbowl Spokane is built for. A <a href="/#smoothies">Nanaberry Bliss smoothie</a> is easy to drink in the car on the way from school to the locker room, giving a tryout-ready athlete real fruit energy without sitting heavy through a full practice. After the final whistle, a <a href="/#menu">PB Everbowl</a> brings peanut butter protein and real carbohydrate together in one bowl — a legitimate recovery meal, not just a snack, for a kid who still has homework ahead of them.</p>
+
+      <h2>Build it into the family routine</h2>
+      <p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to Central Valley, University, and West Valley that it fits naturally into a practice-night loop without adding a detour. On the busiest nights, <a href="/#order">order ahead online</a> so it's ready the moment your athlete gets in the car — one less decision on a day that's already full of them.</p>
+
+      <h2>The bottom line</h2>
+      <p>Winter tryout season asks a lot of young athletes in a short window: new coaches, new expectations, and real physical load layered on top of a full school day. Food isn't going to make the cut list or the lineup, but a kid who's actually fueled shows up to the gym with more in the tank — and that's worth building a simple, repeatable routine around before the season gets any busier.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
