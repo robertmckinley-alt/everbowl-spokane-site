@@ -4023,4 +4023,52 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "diabetes-awareness-month-blood-sugar-friendly-breakfast-spokane",
+    title: "American Diabetes Month: What 'Blood Sugar-Friendly' Actually Means at Breakfast",
+    description:
+      "November is American Diabetes Month. A practical, non-alarmist look at how breakfast choices affect blood sugar, and how to build a steadier morning in Spokane Valley.",
+    category: "Nutrition",
+    date: "2026-11-05",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "Chia Pudding Bowl from Everbowl Spokane, a fiber-forward breakfast option",
+    keywords: [
+      "american diabetes month",
+      "blood sugar friendly breakfast",
+      "spokane valley nutrition",
+      "everbowl spokane",
+    ],
+    body: `<p>November is American Diabetes Month, and most of the messaging around it understandably focuses on diagnosis, medication, and medical management. What gets talked about less is a simpler, everyday question that matters to almost everyone, diagnosed or not: what actually makes a breakfast "blood sugar-friendly," and is that even something worth thinking about if you're otherwise healthy? Short answer: yes, a little, and it's less complicated than the supplement aisle makes it sound.</p>
+
+<p>To be clear up front, this isn't medical advice, and it isn't about fear or restriction. Blood sugar stability is a genuinely useful lens for an ordinary breakfast, the same way "did I get enough protein" is — it's a tool for feeling steadier through a Spokane Valley morning, not a diagnosis to self-manage.</p>
+
+<h2>What "blood sugar-friendly" actually means</h2>
+<p>Every carbohydrate you eat eventually becomes glucose in your bloodstream — that's not a flaw, it's how the body fuels itself. The practical question is how fast that happens. A glass of juice or a plain pastry delivers glucose quickly, which can mean a sharp rise followed by a corresponding dip an hour or two later: the classic mid-morning crash. Pairing that same carbohydrate with fiber, protein, and a little fat slows the whole process down, so the rise is gentler and the energy lasts longer. Nothing here is about avoiding carbs — fruit, oats, and granola are still the backbone of a good breakfast. It's about what you pair them with.</p>
+
+<ul>
+  <li><strong>Fiber</strong> physically slows how fast sugar reaches your bloodstream. Berries, chia, and whole fruit all carry it; juice and refined flour mostly don't.</li>
+  <li><strong>Protein</strong> blunts the speed of a glucose rise when eaten alongside carbohydrate, which is part of why a plain bagel hits differently than a bagel with eggs.</li>
+  <li><strong>Fat</strong> does something similar — it's a big part of why nut butter on toast feels more sustaining than toast alone.</li>
+</ul>
+
+<blockquote>The goal isn't a flat line — it's avoiding the steep spike-and-crash pattern that leaves you reaching for more sugar by 10am to feel normal again.</blockquote>
+
+<h2>Where typical breakfasts go wrong</h2>
+<p>Most grab-and-go breakfasts aren't bad because of any single ingredient — they're unbalanced. A plain smoothie made from juice concentrate, a muffin, or cereal with skim milk and nothing else all deliver fast carbohydrate with little fiber, protein, or fat to slow things down. That's the pattern behind the familiar 10am slump: not a character flaw, just physiology responding predictably to how the meal was built.</p>
+
+<h2>Building a steadier bowl or smoothie</h2>
+<p>This is where a well-built bowl actually earns its reputation. Our <a href="/#menu">Chia Pudding Bowl</a> leans on chia seeds, which are among the highest-fiber foods around, layered with real fruit instead of syrup — a genuinely gentler option than most breakfast pastries. For something more substantial, the <a href="/#menu">Nutty Butty</a> pairs almond and peanut butter with açaí and granola, adding the protein and fat that a fruit-only bowl would be missing. On the sip side, our <a href="/#sips">Iced Matcha</a> carries noticeably less sugar than a flavored latte, and the L-theanine in matcha is associated with a smoother caffeine curve than coffee alone — useful if your "crash" is more about caffeine than carbohydrate.</p>
+
+<h2>A few honest caveats</h2>
+<p>None of this makes fruit "bad" or means you need to fear carbohydrates — whole fruit's fiber is exactly why it behaves differently in your body than fruit juice or candy, even though both are sugar on a label. And none of it applies the same way if you're managing diagnosed diabetes or prediabetes, where individualized guidance from your doctor or a registered dietitian matters far more than a blog post. For most people without a diagnosis, this is simply a useful way to think about why some breakfasts hold you steady through a Spokane Valley morning and others leave you hunting for a second coffee by 10.</p>
+
+<h2>Make it part of your morning</h2>
+<p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, on the way for most Sprague-corridor commutes. If mornings are tight, <a href="/#order">order ahead online</a> so a fiber-and-protein-forward bowl or smoothie is ready before you're even out the door — the easiest way to actually follow through on a steadier breakfast instead of just meaning to.</p>
+
+<h2>The bottom line</h2>
+<p>American Diabetes Month is a good prompt to think about blood sugar even if you're not managing a diagnosis — not with fear, but with a simple habit: pair your morning carbohydrate with fiber, protein, or fat, and the slow rise you get in return tends to carry you a lot further than a fast one does.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
