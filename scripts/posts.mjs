@@ -3978,4 +3978,49 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "second-harvest-food-drive-volunteer-fuel-spokane",
+    title: "Food Drive Season: Fueling a Volunteer Shift at Second Harvest",
+    description:
+      "November means food drive season across the Inland Northwest. Here's how to eat before and after a volunteer shift sorting and packing donations.",
+    category: "Health",
+    date: "2026-11-05",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "Pitaya Paradise smoothie from Everbowl Spokane, fuel for a Second Harvest volunteer shift",
+    keywords: [
+      "second harvest spokane volunteer",
+      "food drive season spokane valley",
+      "volunteer shift nutrition",
+      "everbowl spokane",
+    ],
+    body: `<p>November is when food drive season really kicks in across the Inland Northwest. Office canned-food competitions, church and school collection bins, and letter-carrier drives all ramp up in the weeks before Thanksgiving, and a lot of that food moves through Second Harvest Inland Northwest, the regional food bank that sorts and distributes donations to pantries and meal programs across Spokane and North Idaho. Shifts there (and at the smaller pantries and drive sites that lean on Second Harvest's supply) tend to be the same kind of work: hours of standing, lifting boxes, and repetitive sorting on a warehouse floor or a folding table in a church gym.</p>
+
+<p>It's genuinely good, useful work — and it's also more physically demanding than people expect going in. A three-hour volunteer shift sorting canned goods or packing hunger-relief boxes burns real energy, and it's easy to show up under-fueled because it doesn't feel like "exercise" the way a workout does.</p>
+
+<h2>Why volunteer shifts catch people off guard</h2>
+<p>Most food drive and food bank shifts share a few things that quietly drain energy faster than a normal errand:</p>
+
+<ul>
+  <li><strong>Standing beats sitting, even without much movement.</strong> A few hours on your feet at a sorting table uses noticeably more energy than the desk day most people are used to.</li>
+  <li><strong>Lifting and repetitive motion add up.</strong> Hauling flats of canned food or boxes of produce for a few hours is light strength work, whether it feels like it or not.</li>
+  <li><strong>Shifts often land around a meal you'd normally eat.</strong> A Saturday morning sort or a weeknight collection-bin run tends to replace breakfast or dinner instead of fitting neatly around it.</li>
+</ul>
+
+<blockquote>Showing up to help your neighbors shouldn't mean running on empty yourself. A little fuel before and after makes the whole shift easier to get through.</blockquote>
+
+<h2>What to eat before a shift</h2>
+<p>A quick, real breakfast or dinner before you head out beats trying to power through on coffee alone. Our <a href="/#menu">PB Everbowl</a> pairs peanut butter protein with açaí, granola, and banana for steady energy that holds up through a few hours of standing and lifting — order it ahead online so it's ready the moment you swing by on your way to a shift. If mornings are tight, our <a href="/#sips">Iced Matcha</a> gives you caffeine without the crash that a quick coffee-and-nothing-else breakfast can leave you with by hour two.</p>
+
+<h2>What to eat after</h2>
+<p>A sorting shift is real physical work, even if it doesn't feel like a workout in the moment. A <a href="/#smoothies">Pitaya Paradise</a> smoothie afterward is an easy way to rehydrate and refuel with real fruit and fiber, especially if the shift ran through what would've been a meal. It's also a simple way to say thanks to yourself (or a group of fellow volunteers) without a sit-down meal that nobody has time for between a shift and the rest of a Saturday.</p>
+
+<h2>Make it part of the route</h2>
+<p>Everbowl Spokane sits at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, which puts it on the way for a lot of Sprague-corridor volunteers heading to or from a food drive drop-off, a church collection event, or a Second Harvest shift. If you're coordinating a group — a workplace team, a youth group, a school class — consider building a stop in on both ends: fuel up before the shift, then regroup with a bowl or smoothie after as a small, well-earned thank-you for a few hours of genuinely good work.</p>
+
+<h2>The bottom line</h2>
+<p>Food drive season is one of the better things about November in the Inland Northwest, and it runs on volunteers who show up to lift, sort, and pack for hours at a stretch. Treating that shift like the physical work it actually is — with real food before and after — makes it easier to keep showing up through the whole season, not just for one Saturday.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
