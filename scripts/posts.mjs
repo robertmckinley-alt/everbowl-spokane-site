@@ -4118,4 +4118,45 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "citrus-season-vitamin-c-spokane-valley",
+    title: "Citrus Season Starts Now: Winter Vitamin C, the Delicious Way",
+    description:
+      "Green Bluff's stone fruit is long gone, but citrus season is just getting started. Here's why that matters for immune support — and how to get it in a Spokane Valley bowl or sip.",
+    category: "Nutrition",
+    date: "2026-11-06",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "Blue Lagoon bowl with pitaya, a vitamin C-rich pick for citrus season at Everbowl Spokane",
+    keywords: [
+      "citrus season vitamin c",
+      "winter immune support spokane",
+      "vitamin c foods spokane valley",
+      "everbowl spokane valley",
+    ],
+    body: `<p>Green Bluff's apple season has wound down, the farmers markets have packed up their tents, and the produce aisle at your local Spokane Valley grocery store is making its yearly pivot. Right about now, nets of clementines and crates of satsuma mandarins start showing up by the registers, and bags of navel oranges get stacked higher than they were in October. It's easy to walk past them on autopilot. It's worth stopping for a second instead, because citrus hits its peak right as the rest of Inland Northwest produce is disappearing for the year — and that timing is more useful than it looks.</p>
+
+<h2>Why citrus shows up exactly when you need it</h2>
+<p>Most of the fruit that carried us through summer and fall around here — Green Bluff peaches, Palouse apples, late-season berries — is grown close enough to actually taste like something, but it's a short window. Citrus works on the opposite calendar. Oranges, mandarins, grapefruit, and lemons are winter crops, picked at their best from roughly November through February, which happens to line up almost exactly with the stretch of the year when the Inland Northwest's fresh local options thin out the most. It's a convenient overlap: as gray-day produce choices narrow, one of the most genuinely nutrient-dense fruit categories is arriving at peak quality.</p>
+
+<ul>
+  <li><strong>Vitamin C:</strong> A single orange or a couple of clementines covers a full day's vitamin C for most adults. It won't stop a cold from starting, but consistent intake is linked in research reviews to modestly shorter, milder colds — a reasonable trade for something that tastes like dessert.</li>
+  <li><strong>Flavonoids:</strong> The compounds that give citrus its bitterness and bright color (think hesperidin in oranges, naringin in grapefruit) are antioxidants in their own right, working alongside vitamin C rather than instead of it.</li>
+  <li><strong>Hydration:</strong> Citrus fruit runs 85–90% water, which quietly helps during a season when people drink less because they're not sweating and don't feel thirsty.</li>
+</ul>
+
+<blockquote>You don't need a supplement aisle to cover your bases this time of year. You need produce that's actually in season — and citrus is exactly that right now.</blockquote>
+
+<h2>The part most people skip: pairing it with something that sticks</h2>
+<p>Citrus alone is a snack, not a meal, and eaten on an empty stomach first thing on a cold morning, straight acid can leave some people with a sour stomach. The fix is simple: pair bright, vitamin-C-forward flavors with protein and fat so they become a real breakfast or afternoon reset instead of a quick sugar hit that fades by 10am. That's a case for a built bowl or smoothie over a bag of oranges eaten standing at the kitchen counter.</p>
+
+<p>This is where pitaya earns its spot. It's not citrus, but it carries a similar vitamin C and hydration profile in a hot-pink, antioxidant-dense package — and it's the base of two of the easiest vitamin-C-forward orders on the menu. The <a href="/#menu">Blue Lagoon</a> bowl layers pitaya with granola, banana, and berries for real staying power, protein, and fiber alongside the vitamin C — a legitimate breakfast, not a snack. If you'd rather sip it, the <a href="/#sips">Strawberry Lemonade</a> leans straight into the citrus-adjacent brightness with real lemon and strawberry, and it's an easy grab-and-go for a short, cold-but-not-yet-snowy Spokane Valley afternoon.</p>
+
+<h2>Make it a habit before the holidays crowd it out</h2>
+<p>November has a way of filling up fast — Thanksgiving planning, shorter daylight, colder commutes — and the first thing to slip is usually the simple stuff like actually eating enough fruit. Building a quick citrus-adjacent order into your week now, before the holiday stretch gets busier, is an easier habit to keep than trying to start one cold in late December. Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, a quick stop on the way to or from work along Sprague Ave, and if your morning is already tight, <a href="/#order">ordering ahead online</a> means a Blue Lagoon bowl or a Strawberry Lemonade is ready when you walk in instead of eating into your commute.</p>
+
+<h2>The bottom line</h2>
+<p>Citrus season isn't just a grocery-store display — it's one of the better-timed produce windows of the whole year for the Inland Northwest, arriving right as local fruit disappears and cold-and-flu season ramps up. Eat the orange. Better yet, pair that same vitamin C with real protein and fiber in a bowl or a sip, and you've turned a seasonal coincidence into an actual habit.</p>`,
+  },
 ];
