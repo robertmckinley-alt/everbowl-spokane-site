@@ -4071,4 +4071,51 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "ski-season-fuel-mt-spokane-silver-schweitzer",
+    title: "Ski Season Fuel: Powering Mt. Spokane, Silver Mountain & Schweitzer Days",
+    description:
+      "Local resorts are gearing up to open for the season. Here's how to actually eat and hydrate for a full day on the mountain instead of running out of gas by lunch.",
+    category: "Spokane & Movement",
+    date: "2026-11-06",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "Full Moon bowl with cacao, granola, and banana from Everbowl Spokane",
+    keywords: [
+      "ski season fuel spokane",
+      "mt spokane nutrition",
+      "silver mountain schweitzer fuel",
+      "everbowl spokane valley",
+    ],
+    body: `<p>The snow gauges at Mt. Spokane, Silver Mountain, and Schweitzer are starting to matter again. Lift maintenance crews are out, lodges are stocking up, and if this season runs anything like a normal one, opening day announcements will start landing any week now — most years it's sometime around Thanksgiving weekend, snowpack permitting. If you're the type who's already waxing boards in the garage, this is the week to think about something people plan for way less than their gear: how you're actually going to eat on mountain days.</p>
+
+<p>A ski or snowboard day is a strange kind of workout. It's not continuous like a run — it's bursts of real effort on the chair-to-chair, long gaps of standing in lift lines in the cold, and hours of this cycle repeating from first chair to last. That combination fools a lot of people into skipping food because they don't feel like they're "really" exercising, right up until they're shaky and snapping at their kids on the drive home from Silver Mountain.</p>
+
+<h2>Why mountain days burn through you faster than you think</h2>
+<p>Three things stack up against you on a ski day. Cold weather increases your baseline calorie burn just to maintain body temperature. Altitude at Schweitzer or Silver Mountain can dull your thirst response even as you lose fluid through cold, dry air. And bulky gear plus gloves makes snacking enough of a hassle that most people under-eat without noticing until they're running on fumes by 1pm.</p>
+
+<ul>
+  <li><strong>Carbohydrate</strong> is your main fuel for the repeated bursts of effort in turns and pole pushes — this is not the day to skip breakfast.</li>
+  <li><strong>Hydration</strong> matters just as much in 28-degree air as it does in July heat. Cold air is often drier, and you lose more moisture through breathing than you'd guess.</li>
+  <li><strong>Protein and fat</strong> slow digestion down, which actually helps on a mountain day — you want steady fuel between runs, not another quick spike-and-crash an hour after the chairlift.</li>
+</ul>
+
+<blockquote>The goal for a ski day isn't eating more — it's front-loading enough real food that you're not negotiating with a vending machine by the second chair of the afternoon.</blockquote>
+
+<h2>Fueling up before you head to the mountain</h2>
+<p>The drive up from Spokane Valley to Mt. Spokane, or the longer haul to Silver Mountain or Schweitzer, is the easiest window of the whole day to eat well — you're sitting still, not wrestling with mittens. This is where a <a href="/#menu">Full Moon</a> bowl earns its keep: vanilla, cacao, granola, banana, strawberry, peanut butter, and cacao nibs add up to real carbohydrate for the first few runs plus protein and fat from the peanut butter that keeps you fueled well past the first chair. It travels fine in the car on the way to I-90 or Highway 2, and it beats a gas station pastry by a wide margin.</p>
+
+<p>For the cold-weather sip, a <a href="/#sips">Cacao Ice Blended Coffee</a> gives you caffeine for the early alarm plus the same magnesium-rich cacao that's doing work in the bowl — a warmer, more sustaining alternative to a quick coffee shop run with nothing behind it. Either works solo, but together they cover the carb, protein, and caffeine bases before you've even parked.</p>
+
+<h2>Surviving the lodge lunch</h2>
+<p>Lodge food at any of the three mountains tends toward fast and greasy, which is fine occasionally but not a great base for an afternoon that still has several runs left in it. If you can, pack something with real substance for the base lodge — even half a bowl eaten cold holds up better than a basket of fries for keeping your legs steady on the last few laps before the lifts close.</p>
+
+<h2>Build the habit before opening day</h2>
+<p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley — close enough to the I-90 corridor that it's a realistic stop on the way to Silver Mountain or across to Schweitzer, not just a nice idea. <a href="/#order">Order ahead online</a> on a morning when you're trying to beat traffic to the pass, and picking up a Full Moon bowl or a Cacao Ice Blended Coffee adds a couple of minutes, not twenty.</p>
+
+<h2>The bottom line</h2>
+<p>Ski season in the Inland Northwest rewards people who treat a mountain day like the all-day effort it actually is. Eat real food before you go, hydrate even though it's cold, and have a plan for the lodge instead of hoping the vending machine comes through — your legs on run twelve will thank you.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
