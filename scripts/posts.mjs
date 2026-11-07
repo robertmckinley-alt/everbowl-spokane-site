@@ -4211,4 +4211,51 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "snowshoe-nordic-mt-spokane-state-park",
+    title: "Snowshoe & Nordic Days: Fueling Mt. Spokane State Park's Winter Trails",
+    description:
+      "Snowshoeing and cross-country skiing at Mt. Spokane State Park burn more than people expect. Here's how to fuel the slow-burn hours before and after.",
+    category: "Spokane & Movement",
+    date: "2026-11-07",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "Full Moon bowl with cacao, granola, banana, and peanut butter from Everbowl Spokane",
+    keywords: [
+      "mt spokane state park snowshoeing",
+      "nordic skiing spokane fuel",
+      "cross country ski nutrition",
+      "everbowl spokane valley",
+    ],
+    body: `<p>Once the first real snow sticks, the Nordic area at Mt. Spokane State Park turns into one of the Inland Northwest's best-kept winter secrets. Groomed cross-country loops, a separate snowshoe trail system, and none of the lift-line crowds a few miles down the road at the alpine side. It's quieter, it's cheaper, and it's a genuinely good full-body workout — which is exactly why so many people underestimate how much it takes out of them.</p>
+
+<h2>Why "slow and steady" still burns through fuel</h2>
+<p>Downhill skiing is bursts of effort broken up by chairlift rest. Snowshoeing and Nordic skiing are the opposite: a long, steady aerobic grind, often for two or three hours straight, through snow that adds resistance to every single step or glide. That combination — sustained effort plus a heavier energy cost per step than walking on dry ground — means snowshoers and Nordic skiers often burn through carbohydrate stores faster than they expect for what feels like a moderate-pace outing.</p>
+
+<ul>
+  <li><strong>No obvious breaks.</strong> Without a lift ride to coast through, your body doesn't get the recovery windows that downhill skiing builds in automatically.</li>
+  <li><strong>Cold masks fatigue.</strong> The same blunted-thirst, blunted-hunger effect that hits skiers hits snowshoers too — you don't feel depleted until you're already running low.</li>
+  <li><strong>Layers hide real effort.</strong> Breaking trail in fresh snow or climbing the rolling terrain near Mt. Spokane's Nordic loops is harder than the flat, easy pace it often looks like from the parking lot.</li>
+</ul>
+
+<blockquote>The bonk on a Nordic trail doesn't look dramatic. It looks like "I'm suddenly freezing, slow, and irritable two miles from the car" — which is a much worse place to run low than at a ski lodge with a lift back down.</blockquote>
+
+<h2>Fueling before you start</h2>
+<p>Because the effort is steady rather than explosive, a bowl with real carbohydrate and a bit of fat holds you better than a light breakfast. A <a href="/#menu">Full Moon</a> bowl — cacao wow, granola, banana, strawberry, peanut butter, and cacao nibs — gives you quick-digesting fruit sugar alongside peanut butter's slower-burning fat, which is a reasonable combination for an effort that's going to last a couple of hours rather than a couple of minutes. If mornings are tight before the drive up Highway 206, a <a href="/#smoothies">PB Cacao Dream</a> smoothie travels well in a car cupholder and covers similar ground in liquid form.</p>
+
+<h2>What to actually pack on the trail</h2>
+<p>For anything past about ninety minutes, carry something. Dried fruit, a granola bar, or a thermos of something warm all work — the point is having an easy carbohydrate source that doesn't require stopping to dig through a pack with cold hands. Water matters just as much as on the alpine side of the mountain; pack it somewhere it won't freeze solid, like an inside jacket pocket instead of an exterior bottle holder.</p>
+
+<h2>Refueling after the trailhead</h2>
+<p>A long aerobic effort in the cold leaves most people colder, hungrier, and more depleted than a shorter burst of hard exercise would. This is where warm, substantial food earns its place over something cold and light. A <a href="/#menu">Hot Oats</a> bowl — warm, gluten-free, and genuinely filling — is built for exactly this moment: carbohydrate to restock what you burned, warmth to counter a couple hours in single-digit wind chill, and enough substance that it actually replaces a meal instead of just tiding you over.</p>
+
+<h2>Make the stop part of the plan</h2>
+<p>The drive down from Mt. Spokane State Park runs right past Spokane Valley, which makes <a href="/#location">13324 E Sprague Ave, Suite 101</a> an easy stop on the way home rather than a detour. <a href="/#order">Order ahead online</a> so a Hot Oats bowl or a Full Moon is ready by the time you've changed out of wet boots and back into regular shoes.</p>
+
+<h2>The bottom line</h2>
+<p>Mt. Spokane State Park's Nordic and snowshoe trails are a genuinely good winter workout precisely because they don't feel as extreme as downhill skiing — which is exactly why they're easy to under-fuel for. Eat something with real substance before you go, carry a little fuel for longer outings, and plan on warm, carbohydrate-rich food afterward instead of skipping straight to dinner three hours later.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
