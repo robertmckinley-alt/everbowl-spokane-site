@@ -4159,4 +4159,56 @@ export const POSTS = [
 <h2>The bottom line</h2>
 <p>Citrus season isn't just a grocery-store display — it's one of the better-timed produce windows of the whole year for the Inland Northwest, arriving right as local fruit disappears and cold-and-flu season ramps up. Eat the orange. Better yet, pair that same vitamin C with real protein and fiber in a bowl or a sip, and you've turned a seasonal coincidence into an actual habit.</p>`,
   },
+
+  {
+    slug: "winter-hydration-skiing-cold-spokane-valley",
+    title: "Winter Hydration: Why You Still Dehydrate Skiing in the Cold",
+    description:
+      "No sweat doesn't mean no fluid loss. Here's why cold-weather days at Mt. Spokane or Schweitzer dehydrate you anyway, and how to actually fix it before you head up.",
+    category: "Health",
+    date: "2026-11-07",
+    readMins: 5,
+    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
+    imageAlt: "Pitaya Paradise smoothie with pink dragon fruit from Everbowl Spokane",
+    keywords: [
+      "winter hydration spokane",
+      "dehydration skiing cold weather",
+      "mt spokane ski hydration",
+      "everbowl spokane valley",
+    ],
+    body: `<p>Here's a sentence that trips up a lot of people on their first few days back on the mountain each season: "I couldn't have been that dehydrated, it was freezing out there." It feels wrong on its face. Dehydration is a summer problem, a Hoopfest-in-July problem, not something that happens at 25 degrees on a chairlift at Mt. Spokane. Except it absolutely does — and if you've ever come down off the hill with a pounding headache and legs that gave out faster than they should have, cold-weather dehydration was probably part of why.</p>
+
+<p>With Mt. Spokane, Silver Mountain, and Schweitzer all gearing back up for the season, this is the week to get ahead of it, before opening-day traffic on I-90 and Highway 2 is in full swing.</p>
+
+<h2>Why cold weather dehydrates you without the sweat to prove it</h2>
+<p>Sweat is the obvious sign of fluid loss, so when it's missing, people assume the loss is missing too. A few things are working against you on a winter day that have nothing to do with sweating:</p>
+
+<ul>
+  <li><strong>Respiratory water loss.</strong> Cold air holds very little moisture, so every breath you take up a cold, dry run pulls more water vapor out of your lungs than a warm-weather breath does. Over several hours on the mountain, that adds up.</li>
+  <li><strong>A blunted thirst response.</strong> Cold exposure causes blood vessels near your skin to constrict, which can trick your body into reading your blood volume as higher than it actually is — and thirst signals get quieter as a result. You're losing fluid, but your body isn't asking for more.</li>
+  <li><strong>Hidden sweat under layers.</strong> Base layers, a shell, gloves, and a helmet trap heat during the real effort of a run even when the air around you is freezing. You sweat, it evaporates fast in the dry air, and you never feel the wet-shirt cue that usually tells you to drink.</li>
+  <li><strong>Altitude.</strong> Schweitzer and Silver Mountain both put you meaningfully higher than Spokane Valley, and altitude further dulls thirst while increasing fluid loss through faster breathing.</li>
+</ul>
+
+<blockquote>The warning signs of winter dehydration don't look like a hot summer day — they look like a headache, legs that feel heavier than they should by noon, and a bad mood you blame on your kids instead of your water intake.</blockquote>
+
+<h2>What this actually costs you on the hill</h2>
+<p>Even mild dehydration — the kind you'd shrug off in July — measurably affects balance, reaction time, and endurance. On a ski or snowboard day, that's exactly the stuff keeping you upright on variable snow by your eighth or ninth run. It's also a big part of why so many ski injuries cluster in the afternoon: fatigue plus dehydration plus "just one more run" is a bad combination.</p>
+
+<h2>Fixing it before you even leave Spokane Valley</h2>
+<p>The easiest fix is front-loading fluids before cold and gear make it inconvenient. A blended fruit drink does double duty here, delivering real fluid volume plus the natural electrolytes in fruit, instead of just plain water that's easy to under-drink. A <a href="/#smoothies">Pitaya Paradise</a> smoothie — dragon fruit, banana, and pineapple blended with coconut water — is a genuinely good pre-mountain drink for exactly this reason: it's hydrating in a way a granola bar or a dry breakfast sandwich isn't, and the natural sugars give you carbohydrate for the first few runs at the same time.</p>
+
+<p>Pair it with a <a href="/#sips">Cold Brew</a> if you want the caffeine for an early alarm without the heavier, more dehydrating effect of a double espresso on an empty stomach — cold brew's lower acidity also sits easier if your stomach is already dealing with nerves and cold air. Order both on the way out of Spokane Valley and you've covered fluid, carbohydrate, and caffeine before you've merged onto the interstate.</p>
+
+<h2>On the mountain, not just before it</h2>
+<p>Pack a refillable bottle and actually use it at the lodge between runs — don't wait until you're thirsty, since by the time you notice, the blunted winter thirst response means you're already behind. A good habit: drink something every time you stop for a lift line longer than a couple minutes. It costs you nothing and keeps the afternoon from unraveling the way mornings on the mountain rarely do.</p>
+
+<h2>Stop by on your way to the hill</h2>
+<p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, close enough to I-90 that a stop for a Pitaya Paradise and a Cold Brew adds a couple of minutes to the drive, not twenty. <a href="/#order">Order ahead online</a> on an early opening-day morning and skip the line entirely.</p>
+
+<h2>The bottom line</h2>
+<p>Cold weather doesn't cancel dehydration — it just hides it better. Drink before you're thirsty, lean on a fruit-based smoothie instead of relying on memory to drink enough water, and your legs (and your mood on the drive home) will hold up a lot further into the day.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
