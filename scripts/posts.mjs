@@ -4307,4 +4307,51 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "small-business-saturday-spokane-valley-shop-small-fuel",
+    title: "Small Business Saturday in Spokane Valley: Fuel for a Shop-Small Day",
+    description:
+      "Small Business Saturday falls on November 28 this year. Here's how to fuel a full day of shopping Spokane Valley's independent stores, Everbowl included.",
+    category: "Spokane & Movement",
+    date: "2026-11-08",
+    readMins: 5,
+    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
+    imageAlt: "Spread of Everbowl Spokane bowls and toppings, ready for a Small Business Saturday stop",
+    keywords: [
+      "small business saturday spokane",
+      "shop small spokane valley",
+      "sprague ave shopping",
+      "everbowl spokane valley",
+    ],
+    body: `<p>The Saturday after Thanksgiving gets most of its attention from the big-box crowds lining up for Black Friday leftovers, but the day right after that — Small Business Saturday, November 28 this year — is the one built for Spokane Valley's independent shops. It's a low-key tradition compared to the mall stampede: no doorbuster lines, just a morning or afternoon spent moving between locally owned stores along Sprague Ave and the surrounding Valley, spending money with people who actually live here instead of a national chain's shareholders.</p>
+
+<p>It's also, without much planning, one of the longer shopping days of the year. Between Sprague Avenue's string of boutiques, the antique shops, the gift stores getting their holiday inventory out, and a stop at the Spokane Valley Mall for anything the small shops don't carry, a Small Business Saturday outing can easily run four or five hours on your feet. That's a long stretch to run on a to-go coffee and whatever's left of Thanksgiving leftovers.</p>
+
+<h2>Why a shop-small day wrecks your energy faster than you'd expect</h2>
+<p>Shopping doesn't feel like exercise, but a few hours of walking, standing in line, carrying bags, and making a steady stream of small decisions adds up to real fatigue — physical and mental. It's the same kind of low-grade, all-day drain as a conference or a day of errands: nothing dramatic enough to notice in the moment, but enough that by mid-afternoon you're running on fumes, short-tempered, and tempted to cut the day short or grab whatever's fastest at the food court.</p>
+
+<p>The fix isn't complicated. Starting the day with real protein and fiber instead of just caffeine, and having a plan for a midday refuel, keeps your energy and patience steadier through hour four than hour one — which matters when hour four is also when the best parking spots and gift ideas tend to show up.</p>
+
+<h2>Make Everbowl part of the shop-small route</h2>
+<p>Everbowl Spokane is a small, locally run business itself, sitting at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley — which makes it a natural stop on the same loop as the boutiques and gift shops you're already supporting that day. Start the morning with a <a href="/#menu">Perfect Date Bowl</a>, acai blended with dates and almond butter and topped with granola and coconut, for lasting energy that doesn't spike and crash the way a pastry-case muffin will. If you'd rather carry something in one hand while you browse, a <a href="/#smoothies">Pitaya Paradise</a> smoothie — dragon fruit, banana, and strawberry — travels easily between stores and still delivers real fruit and fiber instead of sugar-water.</p>
+
+<blockquote>Shopping small works the same way eating well does: it's not one big gesture, it's a string of small, deliberate choices that add up by the end of the day.</blockquote>
+
+<h2>A simple plan for the day</h2>
+<ul>
+  <li><strong>Fuel before you leave the house.</strong> A bowl or a protein-forward breakfast beats shopping on an empty stomach, which tends to end in impulse buys and a short fuse in checkout lines.</li>
+  <li><strong>Build in a real midday stop, not just a snack.</strong> A second bowl or a <a href="/#toast">Bruschetta Avocado Toast</a> around the halfway point resets your energy better than powering through on willpower alone.</li>
+  <li><strong>Hydrate between stores.</strong> Heated shops and cold outdoor air both pull moisture out faster than you'd guess in late November; water or an <a href="/#sips">Iced Matcha</a> between stops helps more than it sounds like it would.</li>
+  <li><strong>Order ahead for the stops where you're pressed for time.</strong> <a href="/#order">Ordering online</a> means your bowl or smoothie is ready the moment you walk in, which matters when the day's itinerary is tight.</li>
+</ul>
+
+<h2>Shopping small is a Spokane Valley habit worth keeping</h2>
+<p>Small Business Saturday only comes once a year as an official date, but the idea behind it — spending locally, supporting the independent shops that make Sprague Ave and the rest of the Valley feel like a community instead of a strip mall — is worth carrying past November 28th. Everbowl Spokane is glad to be one of the stops on that list, not just the one day a year it has a name.</p>
+
+<h2>The bottom line</h2>
+<p>A full day of shop-small browsing in Spokane Valley deserves fuel that matches the effort: real protein and fiber to start, a genuine midday reset, and steady hydration in between. Build Everbowl into the route, and the rest of the day's errands feel a lot less like a grind.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
