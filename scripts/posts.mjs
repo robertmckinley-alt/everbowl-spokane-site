@@ -4258,4 +4258,53 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "movember-mens-health-nutrition-spokane-valley",
+    title: "Movember in Spokane Valley: Simple Nutrition Wins for Men's Health Awareness Month",
+    description:
+      "Movember puts men's health in the spotlight every November. Here's how a few protein-forward habits, not a diet overhaul, actually move the needle in Spokane Valley.",
+    category: "Health",
+    date: "2026-11-08",
+    readMins: 5,
+    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
+    imageAlt: "PB Everbowl acai bowl with peanut butter and banana from Everbowl Spokane",
+    keywords: [
+      "movember spokane",
+      "mens health nutrition",
+      "mens health awareness month",
+      "everbowl spokane valley",
+    ],
+    body: `<p>Every November, mustaches start showing up at gyms, offices, and bars across Spokane Valley as part of Movember — the month-long push to get men talking about health topics they'd otherwise put off. The mustache is the visible part. The quieter, more useful part is the nudge it gives toward actually doing something about the basics: sleep, movement, checkups, and — the one that gets skipped most — what's actually going on the plate day to day.</p>
+
+<p>None of this requires a diet overhaul. A handful of small, repeatable habits do more for long-term health than any 30-day reset, and November is as good a month as any to start one.</p>
+
+<h2>Why protein is the easiest win to start with</h2>
+<p>Of all the nutrition advice floating around, protein intake is one of the few areas where most men are genuinely falling short, especially past their 30s when muscle mass naturally starts to decline without deliberate effort to maintain it. Adequate protein supports that maintenance, keeps you fuller between meals instead of grazing on whatever's closest at 3pm, and makes recovery from workouts, yard work, or a weekend hauling firewood noticeably easier.</p>
+
+<p>The fix isn't protein powder and a meal plan spreadsheet. It's making sure at least one or two meals a day actually have a real protein source built in, instead of defaulting to a bagel or a drive-through breakfast sandwich out of habit.</p>
+
+<blockquote>Men's health campaigns tend to focus on the big, scary checkups — and those matter. But the daily habit that's easiest to actually change is what's in the first meal of the day.</blockquote>
+
+<h2>A breakfast that doesn't rely on willpower</h2>
+<p>A <a href="/#menu">PB Everbowl</a> — acai blended with peanut butter, topped with granola, banana, and more peanut butter — packs real protein and healthy fat into something that still reads as a treat, not a chore. That matters more than it sounds: the habits that stick are the ones that don't feel like punishment. If you're headed somewhere that eating with a spoon isn't practical, a <a href="/#smoothies">PB Cacao Dream</a> smoothie — cacao, peanut butter, banana, and almond milk — covers the same ground and travels in a cupholder on the way to a job site or the office.</p>
+
+<h2>Three habits worth actually keeping this month</h2>
+<ul>
+  <li><strong>Build one protein-forward meal into your day, every day.</strong> It doesn't need to be all three. One solid meal, done consistently, beats a perfect plan you abandon by week two.</li>
+  <li><strong>Swap one sugary afternoon habit for a real snack.</strong> A handful of nuts or a bowl with fruit and nut butter holds energy longer than a vending-machine candy bar, without the crash an hour later.</li>
+  <li><strong>Hydrate like it affects your mood, because it does.</strong> Mild dehydration shows up as fatigue and irritability well before thirst kicks in, especially once the weather turns cold and dry.</li>
+</ul>
+
+<h2>Movember is also a reminder, not just a mustache</h2>
+<p>The broader point of Movember — prostate and testicular cancer awareness, mental health, suicide prevention — deserves more than a nutrition blog post can cover, and this isn't medical advice. But the campaign's real success is getting men to pay attention to their health in small, regular ways instead of ignoring it until something forces the issue. Eating a real meal instead of skipping breakfast is about as low-stakes a place to start as there is.</p>
+
+<h2>Stop in and make it easy</h2>
+<p>Everbowl Spokane is at <a href="/#location">13324 E Sprague Ave, Suite 101</a> in Spokane Valley, a quick stop whether you're headed to work, the gym, or just trying to break a drive-through habit this month. <a href="/#order">Order ahead online</a> and a PB Everbowl or PB Cacao Dream smoothie is ready when you walk in — no extra willpower required.</p>
+
+<h2>The bottom line</h2>
+<p>You don't need a Movember mustache to take part in what the month is actually about. Pick one meal, make it protein-forward, and keep doing it past November 30th. Small, boring, repeatable habits are the ones that actually move the needle on men's health.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
