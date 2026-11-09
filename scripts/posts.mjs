@@ -4404,4 +4404,51 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "riverfront-park-skate-ribbon-season-spokane",
+    title: "Skate Ribbon Season: Fueling a Night at Riverfront Park Before Winter Really Sets In",
+    description:
+      "The Numerica Skate Ribbon at Riverfront Park reopens for the season soon. Here's how to fuel a cold night of skating, with two Everbowl stops that make it easy.",
+    category: "Spokane & Movement",
+    date: "2026-11-09",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "Cacao Ice Blended Coffee, a warm treat before or after a night on Riverfront Park's Skate Ribbon",
+    keywords: [
+      "riverfront park skate ribbon",
+      "numerica skate ribbon spokane",
+      "ice skating spokane winter",
+      "everbowl spokane valley",
+    ],
+    body: `<p>Downtown Spokane's clearest sign that winter has actually arrived isn't the first snowfall — it's the Numerica Skate Ribbon at Riverfront Park switching its lights back on. The quarter-mile looping ice path winding past the Pavilion reopens for the season right around Thanksgiving weekend and runs clear through Presidents Day, and once it does, it becomes one of the most reliable cold-weather plans in the Inland Northwest. Families show up after dinner, date nights happen under the string lights, and work groups make a loop or two before heading home. It's an easy, cheap, genuinely fun way to spend an evening outside instead of hibernating as soon as the sun drops before 5pm.</p>
+
+<p>It's also more physical than people expect walking in. Skating a few loops of the ribbon works your legs, your balance, and your core the whole time, and you're doing all of it in temperatures that are already asking your body to work harder just to stay warm. Add a parking-lot walk in the cold on both ends, and a casual hour on the ice adds up to a real chunk of activity — one that deserves actual fuel, not just whatever's left in your coat pocket.</p>
+
+<h2>Why cold-weather activity burns through you faster</h2>
+<p>Shivering and simply staying warm costs energy on top of whatever exercise you're doing, which is part of why a night on the ribbon can leave you hungrier and more worn out than an equivalent hour spent moving indoors. Cold air also blunts your thirst signal, so people tend to under-hydrate in winter the same way they overheat and under-hydrate in July — just less obviously. The combination of extra calorie burn, lower blood sugar than usual by the time you're lacing back out of your skates, and quiet dehydration is exactly the setup for the shaky, irritable feeling that can turn a fun night sour right at the end.</p>
+
+<blockquote>A night on the ribbon is a great plan precisely because it's effortless to show up for. Don't let an empty stomach be the reason it ends early.</blockquote>
+
+<h2>Fuel the trip, not just the skating</h2>
+<p>Riverfront Park sits across town from Spokane Valley, which means a Skate Ribbon night is usually part of a bigger evening — dinner downtown, a drive in from the Valley, maybe a stop for the kids on the way home. That's a good reason to build Everbowl Spokane into the route rather than treating it as a separate errand. Grab a <a href="/#smoothies">PB Cacao Dream</a> smoothie — cacao, peanut butter, banana, and almond milk — on your way out of Spokane Valley before the drive downtown, and you've got real protein and slow-burning carbs on board before you ever put on a skate.</p>
+
+<p>Coming back the other direction, a <a href="/#sips">Cacao Ice Blended Coffee</a> does double duty: genuine caffeine for the drive home, plus enough actual food in it — cacao, banana, protein — to work as a real post-skate snack instead of just a hot drink to warm your hands on. Both are available to <a href="/#order">order ahead online</a>, so the stop at <a href="/#location">13324 E Sprague Ave, Suite 101</a> adds minutes, not a detour, on either end of the night.</p>
+
+<h2>A simple plan for Skate Ribbon nights</h2>
+<ul>
+  <li><strong>Eat something real before you leave the house.</strong> Skating on an empty stomach in the cold is a fast way to end up lightheaded on the ice, not just tired afterward.</li>
+  <li><strong>Hydrate like it's summer, not just winter.</strong> Cold air hides your thirst signal; drink water or something like <a href="/#sips">Iced Matcha</a> before you go, even if you don't feel like you need it.</li>
+  <li><strong>Plan the warm-up, not just the warm-up gear.</strong> A hot or cold drink that also counts as food — cacao, matcha, a protein smoothie — beats hand warmers for how you actually feel twenty minutes later.</li>
+  <li><strong>Bundle the stop with your drive.</strong> Order ahead for pickup on your way out of the Valley or on your way back, and the detour disappears.</li>
+</ul>
+
+<h2>Make it a season-long habit, not a one-off</h2>
+<p>The ribbon stays open for months, which means there's no need to treat opening weekend as the only chance to go. A standing plan — skate once every week or two through the season, fuel up at Everbowl on the way there or back — turns a single fun night into one of the better reasons to actually look forward to Spokane winters instead of just enduring them.</p>
+
+<h2>The bottom line</h2>
+<p>The Numerica Skate Ribbon is one of the easiest good nights out the Inland Northwest offers all winter, but cold weather and real physical activity both burn through your energy faster than they feel like they should in the moment. Eat before you go, hydrate on purpose, and let Everbowl Spokane handle the fuel on either end of the drive. The skating's the fun part — don't let hunger be the reason the night ends early.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
