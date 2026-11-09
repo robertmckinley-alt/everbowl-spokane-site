@@ -4354,4 +4354,54 @@ export const POSTS = [
 
 <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "tire-shop-wait-spokane-valley-winterize-day",
+    title: "Tire Shop Wait Times: Fueling the Saturday You Winterize the Car in Spokane Valley",
+    description:
+      "With snow coming to the Inland Northwest, tire shops along Sprague Ave are booked solid. Here's how to eat well through a long winterizing errand day.",
+    category: "Spokane & Movement",
+    date: "2026-11-09",
+    readMins: 5,
+    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
+    imageAlt: "Cacao Ice Blended Coffee, a warm pick-me-up for a long tire-shop wait in Spokane Valley",
+    keywords: [
+      "winter tires spokane valley",
+      "tire shop wait spokane",
+      "winterize car spokane",
+      "sprague ave errands",
+      "everbowl spokane valley",
+    ],
+    body: `<p>The first real snow already hit the Valley this month, and that's the signal every Spokane Valley driver knows by now: it's time to swap to winter rubber before the next storm, not after. The problem is that everyone has the same idea on the same handful of weekends, which means the tire shops up and down Sprague Ave and Pines Road fill their appointment books fast and still run behind. A "quick tire swap" on a Saturday morning in early-to-mid November routinely turns into a two- or three-hour wait, sometimes longer if the shop is also squeezing in batteries, wipers, and the inevitable brake inspection nobody asked for.</p>
+
+<p>That's a long stretch to spend sitting in a cramped waiting room on a bag of gas-station chips, especially if winterizing the car is only the first stop on a Saturday that also includes the grocery run, the kids' practice, and whatever else got pushed to "the one day I have free this week."</p>
+
+<h2>Why a waiting-room Saturday wears you out more than it should</h2>
+<p>Sitting still for two hours doesn't sound like it should leave you drained, but a long wait in an unfamiliar chair, under fluorescent lights, with nothing to do but check your phone and listen for your name, is its own kind of low-grade stress. Add the cold walk across the lot to drop off the car, skipped breakfast because you were rushing to make an 8am appointment, and vending-machine coffee as the only available fuel, and it's easy to come out of a tire shop more tired and irritable than the actual errand should cause — right before you still have the rest of the day's list to get through.</p>
+
+<p>The fix is the same one that works for any long, low-activity wait: show up with a real plan for food instead of leaving it to whatever's closest when you get hungry.</p>
+
+<h2>Build the wait into your order-ahead routine</h2>
+<p>Most tire shops along Sprague will text or call when your car is ready, which means you don't actually have to sit in the waiting room the whole time. <a href="/#order">Order ahead online</a> for an Everbowl Spokane pickup timed to when you drop off the car, walk the few minutes over to <a href="/#location">13324 E Sprague Ave, Suite 101</a>, and you've turned dead waiting-room time into an actual break instead of a slog. A <a href="/#menu">Hot Oats bowl</a> — warm, filling, and built for a cold morning — beats the vending machine by every measure, and it holds you over far longer than coffee alone through whatever the rest of winterizing day throws at you.</p>
+
+<p>If the shop is one you can't walk away from, or the forecast has you standing in the cold lot instead, a <a href="/#sips">Cacao Ice Blended Coffee</a> does double duty: real caffeine for the wait, plus enough actual food — cacao, banana, protein — to function as a legitimate small meal rather than just a hot drink to hold.</p>
+
+<blockquote>A long tire-shop wait is unavoidable this time of year. Showing up hungry and leaving on vending-machine snacks is the part that's actually optional.</blockquote>
+
+<h2>A simple plan for winterizing day</h2>
+<ul>
+  <li><strong>Eat before the appointment, not after.</strong> An early slot means an early alarm, and skipping breakfast to make it on time is the single most common mistake on a winterizing-day Saturday.</li>
+  <li><strong>Order ahead for the exact drop-off window.</strong> Timing a pickup to when you hand over the keys turns a wait into a walk instead of a stall.</li>
+  <li><strong>Hydrate in the waiting room.</strong> Dry shop air and cold outside air both pull moisture out faster than you'd expect; water or a <a href="/#sips">Strawberry Lemonade</a> beats another cup of weak drip coffee.</li>
+  <li><strong>Keep the rest of the day's errands in mind.</strong> If the tire shop is stop one of four, a real bowl now is what keeps stop four from running on fumes.</li>
+</ul>
+
+<h2>Everbowl Spokane is built for errand days</h2>
+<p>Winterizing the car is one of those Inland Northwest chores that always takes longer than the appointment slot suggests, and it tends to land on the same Saturday as everything else that needs doing before the snow really sets in. Everbowl Spokane sits right in the middle of the Sprague Ave corridor where most of that errand-running happens, which makes it an easy stop to slot in rather than a detour. A few minutes for a real bowl or smoothie between stops changes the whole tone of the day.</p>
+
+<h2>The bottom line</h2>
+<p>Tire shop waits on Sprague Ave are long this time of year, and they're not getting shorter until the rush dies down. Plan around it: eat before you go, order ahead for pickup, and treat the wait as a break instead of a hole in your morning. Winterizing the car is never fun, but it doesn't have to leave you running on empty for the rest of the day.</p>
+
+<p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
