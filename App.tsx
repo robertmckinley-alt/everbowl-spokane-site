@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type FormEvent } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 import { A, HERO_CHAPTERS } from "./assets";
 
@@ -687,6 +688,7 @@ export default function App() {
           </div>
         </div>
       </footer>
+      <Analytics />
     </main>
   );
 }
