@@ -16,6 +16,7 @@ const used = new Set(POSTS.map((p) => p.image));
 const all = fs
   .readdirSync(IMG_DIR)
   .filter((f) => /\.jpe?g$/i.test(f))
+  .filter((f) => !f.startsWith("duo-")) // montages are retired: never offer them
   .map((f) => "/blog-img/" + f);
 const unused = all.filter((f) => !used.has(f));
 
