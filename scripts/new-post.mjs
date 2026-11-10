@@ -11,6 +11,15 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+console.log("=".repeat(70));
+console.log("IMAGE RULE (HARD REQUIREMENT): every post needs a UNIQUE image that");
+console.log("no other post uses. Run `node scripts/pick-image.mjs` and use EXACTLY");
+console.log("the IMAGE and ALT it prints. NEVER reuse an image filename, and NEVER");
+console.log("use the old AI images (9a971840/b5c5a817/b52051c7/ee557844/a0f7344d).");
+console.log("The build (npm run blog) now FAILS if an image is reused.");
+console.log("=".repeat(70));
+
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const QUEUE = path.join(__dirname, "topic-queue.json");
 const q = JSON.parse(fs.readFileSync(QUEUE, "utf-8"));

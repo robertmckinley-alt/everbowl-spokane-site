@@ -4,6 +4,8 @@
 export const SITE = "https://everbowlspokane.com";
 export const CDN = "https://d2ol7oe51mr4n9.cloudfront.net/user_3EYPmwtztSzZFM0MKDfVfBshbpu";
 
+// IMAGE RULE: every post must use a UNIQUE image (never used by any other post).
+// Pick with: node scripts/pick-image.mjs  — never reuse an image filename.
 export const POSTS = [
   {
     slug: "acai-bowls-workout-recovery",
@@ -788,8 +790,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-10",
     readMins: 5,
-    image: "/blog-img/chia-pudding-whatever-bowl.jpg",
-    imageAlt: "Chia pudding Whatever Bowl, a fiber-rich base ready for toppings",
+    image: "/blog-img/cold-brew-pb-foam.jpg",
+    imageAlt: "Everbowl cold brew topped with peanut butter cold foam",
     keywords: ["gut health", "prebiotic foods", "fiber benefits", "microbiome diet"],
     body: `
       <p>The gut-health aisle would love to sell you something complicated. The research keeps saying something simple: the trillions of bacteria in your gut mostly eat one thing — fiber — and most Americans feed them about half of what they need. The average intake hovers around 15 grams a day against a 25-to-38-gram recommendation. That gap explains a lot.</p>
@@ -918,8 +920,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-14",
     readMins: 5,
-    image: "/blog-img/nanaberry-bliss.jpg",
-    imageAlt: "Nanaberry Bliss smoothie, a pre-run favorite",
+    image: "/blog-img/duo-acai-base-pint--blue-lagoon.jpg",
+    imageAlt: "Acai Base Pint and Blue Lagoon from Everbowl",
     keywords: ["fall running", "cold weather running nutrition", "running fuel", "spokane running"],
     body: `
       <p>Ask Spokane runners their favorite month and October wins in a landslide: 40-degree mornings, firm trails, no smoke, no ice. It's also the month the spring-race people quietly start building their base — Bloomsday is seven months out, and seven months is exactly how long a good base takes. Cold-weather running has its own fueling logic. Here it is.</p>
@@ -1489,8 +1491,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-11-02",
     readMins: 5,
-    image: "/blog-img/nanaberry-bliss.jpg",
-    imageAlt: "Nanaberry Bliss smoothie, a cold-morning pre-race favorite",
+    image: "/blog-img/duo-cold-brew--everbowl.jpg",
+    imageAlt: "Cold Brew and Everbowl from Everbowl",
     keywords: [
       "turkey trot fuel",
       "thanksgiving 5k nutrition",
@@ -1584,8 +1586,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-03",
     readMins: 5,
-    image: "/blog-img/glow-up.jpg",
-    imageAlt: "Glow Up smoothie, a bright, balanced pick for busy Thanksgiving week mornings",
+    image: "/blog-img/duo-cold-brew-cacao-foam--cold-brew-cinnamon-foam.jpg",
+    imageAlt: "Cold Brew Cacao Foam and Cold Brew Cinnamon Foam from Everbowl",
     keywords: [
       "thanksgiving week eating",
       "holiday food guilt",
@@ -1668,8 +1670,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-07",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "Smoothie with fresh berries, a balanced option for a family fall outing",
+    image: "/blog-img/bruschetta-avocado-toast.jpg",
+    imageAlt: "Bruschetta Avocado Toast with marinated tomatoes and balsamic glaze",
     keywords: ["green bluff pumpkin patch", "spokane corn maze", "fall family activities spokane", "green bluff october", "family day trip fuel"],
     body: `
       <p>Every October, the orchards up on Green Bluff — the farming plateau about 20 minutes north of Spokane — swap their apple bins for pumpkin patches, corn mazes, and hay rides. Family favorites like Siemers Family Orchard, Beck's Harvest House, and Walters' Fruit Ranch open up their fields on fall weekends, and by the second half of the month the parking lots are full of minivans and the kind of kids who will absolutely insist on carrying a pumpkin twice their size back to the car. It's one of the best family mornings the Inland Northwest has to offer this time of year — and also one of the easiest to accidentally run on nothing but cider donuts and apple cider.</p>
@@ -1708,8 +1710,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-08",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "Smoothie with fresh berries, an easy pre-race option for young runners",
+    image: "/blog-img/cacao-wow-base-pint.jpg",
+    imageAlt: "Everbowl Cacao Wow base pint to take home",
     keywords: ["plantes ferry cross country", "spokane valley youth running", "cross country fueling", "gsl district meet", "high school xc nutrition"],
     body: `
       <p>Every October weekend, Plantes Ferry Park in Spokane Valley turns into one of the busiest spots in the Inland Northwest. Middle and high school cross country teams from across the Greater Spokane League pack the hillside above the Spokane River for district meets, families spread out camp chairs and blankets along the course, and the smell of fall — cut grass, river air, somebody's orange slices — hangs over the whole place. If you've got a kid running this season, or you're the one driving them there before 8am on a Saturday, how everyone eats around race day matters more than most families realize.</p>
@@ -1747,8 +1749,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-08",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A smoothie ready for an easy post-walk refuel in Spokane",
+    image: "/blog-img/coco-love-base-pint.jpg",
+    imageAlt: "Everbowl Coco Love base pint to take home",
     keywords: ["finch arboretum", "spokane fall foliage", "west spokane family walk", "john a finch arboretum", "easy fall walks spokane"],
     body: `
       <p>Most of the fall-color advice floating around the Inland Northwest points you toward a hike — Tubbs Hill, Mineral Ridge, Dishman Hills, something with a hill and a view. All worth doing. But if you're pushing a stroller, bringing grandparents along, or just don't feel like a workout today, the John A. Finch Arboretum on the west side of Spokane is the one fall-color spot that almost nobody has to train for. Sixty-five acres along Garden Springs Creek, mostly flat, mostly paved, and in mid-to-late October it's genuinely one of the prettiest free things to do in the city.</p>
@@ -1784,8 +1786,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-09",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A Cacao Ice Blended Coffee ready for a Gonzaga game night in Spokane",
+    image: "/blog-img/cold-brew-cacao-foam.jpg",
+    imageAlt: "Everbowl cold brew topped with cacao cold foam",
     keywords: ["kraziness in the kennel", "gonzaga basketball spokane", "mccarthey athletic center", "zag game day spokane valley", "gonzaga basketball season fuel"],
     body: `
       <p>Every October, Gonzaga basketball announces that another season has arrived with Kraziness in the Kennel — the free, student-driven scrimmage and dunk-contest night at the McCarthey Athletic Center that doubles as Spokane's unofficial start of basketball season. Students start lining up outside the Kennel hours before doors open, the student section is already in full voice before the team even scrimmages, and by the final buzzer half the city is talking about how this year's Zags look. It's one of the few nights where Spokane's college-town energy and its sports-town energy are the exact same thing, and whether you're a student in line at 4pm or a family watching the highlights from home, it's also a night that runs long — which means it's worth thinking about food before the excitement takes over.</p>
@@ -1824,8 +1826,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-09",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A smoothie ready for the drive up to Silverwood's Scarywood Nights",
+    image: "/blog-img/cold-brew-cinnamon-foam.jpg",
+    imageAlt: "Everbowl cold brew topped with cinnamon cold foam",
     keywords: ["scarywood nights", "silverwood theme park october", "coeur d'alene haunt season", "spokane valley fall fuel", "athol idaho scarywood"],
     body: `
       <p>Every Friday, Saturday, and Sunday night in October, Silverwood Theme Park in Athol, Idaho trades roller coasters for fog machines and turns into Scarywood Nights — one of the Inland Northwest's biggest haunt-season traditions. Families from Spokane and Coeur d'Alene make the drive up US-95 all month, and by the time the gates open at dusk, the parking lot is full of people bundled in jackets for a night of haunted houses, scare zones, and the handful of rides still running after dark. It's a great night out. It's also, physically, a long one: hours on your feet, cold October air, late bedtimes, and a snack stand lineup that leans hard into funnel cake and candy. None of that is a problem if you plan the actual eating part of the night a little better than most people do.</p>
@@ -1865,8 +1867,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-10",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "An acai bowl ready for refueling after a fall mountain bike ride at Beacon Hill",
+    image: "/blog-img/ice-blended-matcha.jpg",
+    imageAlt: "Everbowl ice blended matcha",
     keywords: ["beacon hill mountain biking", "camp sekani spokane", "fall mountain bike fuel", "spokane valley trail fuel", "spokane river mtb trails"],
     body: `
       <p>If you ride mountain bikes in Spokane, you already know the calendar is working against you this time of year. The window between "trails are tacky and fast" and "trails are a frozen, rutted mess" is short, and right now — mid-October, before the first real cold snap turns the dirt to ice overnight — is about as good as singletrack gets. Beacon Hill and the connected Camp Sekani trail network along the Spokane River, just off Upriver Drive on the city's northeast side, are two of the busiest spots in town for exactly this reason: dry, grippy dirt, basalt rock features, river views through thinning tree cover, and a trail system built and maintained largely by the local riding community. It's a short drive from Spokane Valley, and this stretch of fall is when it's worth making the trip before the weather turns.</p>
@@ -1906,8 +1908,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-11",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "An acai bowl ready for a post-hike refuel after Antoine Peak",
+    image: "/blog-img/ice-blended-strawberry-matcha.jpg",
+    imageAlt: "Everbowl ice blended strawberry matcha",
     keywords: ["antoine peak conservation area", "spokane valley hiking", "fall hikes spokane valley", "mica peak conservation area", "spokane valley trails"],
     body: `
       <p>Every fall hiking list in the Inland Northwest points toward the same handful of names — Tubbs Hill, Mineral Ridge, Liberty Lake, Dishman Hills. They're all worth the drive. But the trail a lot of Spokane Valley residents overlook is the one closest to home: Antoine Peak Conservation Area, a Spokane County property tucked between Forker Road and the north side of the Valley, with over 1,200 acres of ponderosa pine, open bunchgrass meadow, and a summit loop that clears the trees just enough to lay out the whole Valley floor below. In October, with the grass gone gold and the air finally cool enough to climb without overheating, it's one of the best short hikes around — and one of the few that doesn't require planning a whole afternoon around the drive.</p>
@@ -1947,8 +1949,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-11",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "An acai bowl, an easy way to start an unplanned day off in Spokane Valley",
+    image: "/blog-img/iced-strawberry-matcha.jpg",
+    imageAlt: "Everbowl iced strawberry matcha",
     keywords: ["columbus day spokane", "indigenous peoples day inland northwest", "three day weekend spokane valley", "fall long weekend spokane", "spokane valley day off ideas"],
     body: `
       <p>The second Monday of October sneaks up on a lot of Spokane Valley households. Banks close, many schools and government offices are out, and plenty of local employers give the day as a floating holiday — and suddenly you've got an unplanned Monday where the usual 6 a.m. routine just doesn't apply. It's a small gift of a day, but it's also an easy one to waste: no alarm, no plan, and somehow it's 1 p.m. and all you've eaten is the second half of a coffee you made four hours ago.</p>
@@ -1991,8 +1993,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-12",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A smoothie ready to fuel an early, dark Spokane Valley run before work",
+    image: "/blog-img/mango-base-pint.jpg",
+    imageAlt: "Everbowl mango base pint to take home",
     keywords: ["treadmill training spokane", "indoor running fall", "spokane valley running", "fall running fuel", "running base inland northwest"],
     body: `
       <p>Mid-October is when the shift actually happens for most Spokane Valley runners. It's not the first snow that pushes people inside — that's still weeks away — it's the mornings. Sunrise keeps sliding later, the pre-dawn temperature keeps dropping into the 30s and 40s, and the easy 6 a.m. loop around the neighborhood that felt effortless in August starts needing a headlamp, a jacket, and a little more willpower than it used to. Somewhere around now, a lot of runners quietly start trading some outdoor miles for the treadmill at the gym, and the base they built all summer is genuinely at risk if the transition isn't handled on purpose.</p>
@@ -2032,8 +2034,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-10-12",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "An acai bowl built as recovery fuel for Spokane Marathon runners near Mirabeau Point",
+    image: "/blog-img/pitaya-base-pint.jpg",
+    imageAlt: "Everbowl pitaya base pint to take home",
     keywords: ["spokane marathon fueling", "marathon race day nutrition spokane", "mirabeau point park running", "spokane valley half marathon", "race week fuel inland northwest"],
     body: `
       <p>Every October, the Spokane Marathon brings its full marathon, half marathon, and 5K finishers into Spokane Valley, with the course finishing near Mirabeau Point Park — close enough to the Valley that a huge share of the crowd on course, and the friends and family tracking them, are practically neighbors of ours on Sprague Avenue. Whether you're tapering for 26.2, chasing a half-marathon goal, or walking the 5K with your kids, race weekend rewards a fueling plan that starts well before the starting line and doesn't stop at the finish tape.</p>
@@ -2076,8 +2078,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-13",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "Two Everbowl smoothies and a bowl, the kind of pre- and post-walk fuel for a fall morning at Turnbull",
+    image: "/blog-img/duo-acai-base-pint--berry-boost.jpg",
+    imageAlt: "Acai Base Pint and Berry Boost from Everbowl",
     keywords: ["turnbull national wildlife refuge", "spokane fall birding", "cheney washington hiking", "fall nature walk fuel", "spokane valley smoothie"],
     body: `
       <p>October is when Turnbull National Wildlife Refuge, just southwest of Cheney, really earns the trip. The channeled scablands fill with migrating waterfowl heading south, the aspens along the auto tour route turn gold, and the mornings carry that first real bite of fall cold before the day warms up. It's one of the quieter outdoor mornings in the Inland Northwest — more binoculars than trekking poles — but a slow, cold walk still asks something of your body, and it's easy to under-fuel something that doesn't feel like "exercise."</p>
@@ -2121,8 +2123,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-14",
     readMins: 5,
-    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
-    imageAlt: "A spread of Everbowl bowls and toppings, ready to share before a Friday night football game",
+    image: "/blog-img/duo-acai-base-pint--blue-majic-base-pint.jpg",
+    imageAlt: "Acai Base Pint and Blue Majic Base Pint from Everbowl",
     keywords: ["spokane valley high school football", "friday night lights fuel", "central valley bears", "university titans", "west valley eagles", "pre game nutrition"],
     body: `
       <p>October Friday nights in Spokane Valley have a rhythm to them: the sun drops behind the ridge by six, the stadium lights at Central Valley, University, and West Valley High Schools flicker on, and half the Valley seems to funnel toward one of three parking lots. Football season here isn't a backdrop — it's the plan for the evening, for players, marching band, student section, and the parents who've been rearranging dinner around a kickoff time all week. The trouble is that "rearranging dinner around a kickoff time" usually means not really eating dinner at all, just grabbing whatever's fastest on the way out the door.</p>
@@ -2166,8 +2168,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-14",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "Two Everbowl smoothies, the kind of before-and-after fuel for an Oktoberfest weekend in Spokane",
+    image: "/blog-img/duo-berry-boost--blue-lagoon.jpg",
+    imageAlt: "Berry Boost and Blue Lagoon from Everbowl",
     keywords: ["spokane oktoberfest", "coeur d'alene breweries fall", "beer garden food plan", "spokane valley smoothie", "fall weekend recovery"],
     body: `
       <p>October is peak brewery season in the Inland Northwest. Taprooms around Spokane and Coeur d'Alene — No-Li Brewhouse, Iron Goat Brewing, Selkirk Abbey out in Airway Heights — lean hard into Oktoberfest-style releases this time of year: malty lagers, pretzels the size of steering wheels, and beer gardens that spill outside while the weather still allows it. It's a genuinely fun fall tradition. It's also one that tends to leave people foggy, dehydrated, and regretting Saturday by the time Monday rolls around. None of that is really about the beer — it's about showing up to a beer garden on an empty stomach and letting pretzels and bratwurst be the only food in the picture all day.</p>
@@ -2210,8 +2212,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-15",
     readMins: 5,
-    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
-    imageAlt: "A vibrant pitaya smoothie bowl, bright fuel for a fall color cruise day on Lake Coeur d'Alene",
+    image: "/blog-img/duo-berry-boost--blue-majic-base-pint.jpg",
+    imageAlt: "Berry Boost and Blue Majic Base Pint from Everbowl",
     keywords: ["lake coeur d'alene fall color", "coeur d'alene fall activities", "spokane valley smoothie bowl", "fall boat day food", "everbowl spokane valley"],
     body: `
       <p>Late October is prime time for watching the hillsides around Lake Coeur d'Alene turn — the tamaracks go gold along the shoreline, the cottonwoods flare yellow near Wolf Lodge Bay, and a scenic cruise out of downtown Coeur d'Alene becomes one of the better low-effort ways to see it without lacing up boots. It's an easy day to plan: drive over, grab a ticket, stand on the deck for an hour or two, maybe wander the floating boardwalk or grab coffee downtown afterward. The part people don't plan for is that a few hours on open water in October air is colder and more tiring than it looks from the dock, and showing up without real food in your stomach turns a relaxing afternoon into a shivery, cranky one.</p>
@@ -2254,8 +2256,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-15",
     readMins: 4,
-    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
-    imageAlt: "A bright magenta pitaya smoothie bowl topped with fruit and granola",
+    image: "/blog-img/duo-berry-boost--bruschetta-avocado-toast.jpg",
+    imageAlt: "Berry Boost and Bruschetta Avocado Toast from Everbowl",
     keywords: ["what is pitaya", "dragon fruit benefits", "pitaya bowl spokane", "pitaya paradise smoothie", "everbowl spokane valley"],
     body: `
       <p>New customers ask about it almost as often as they ask about the blue one: what exactly is the hot-pink stuff underneath the granola? It isn't food coloring, and it isn't flavored syrup. It's pitaya — better known by its market name, dragon fruit — and it's been the base of some of the menu's most popular builds, like the <a href="/#menu">Pitayum</a> bowl and the <a href="/#menu">Blue Lagoon</a>, since before most of Spokane Valley had heard the word.</p>
@@ -2295,8 +2297,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-16",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "A fresh acai bowl with banana, granola, and berries, fuel for a fall yard work day",
+    image: "/blog-img/duo-blue-lagoon--blue-majic-base-pint.jpg",
+    imageAlt: "Blue Lagoon and Blue Majic Base Pint from Everbowl",
     keywords: ["fall yard work fuel", "spokane valley yard work", "leaf raking workout", "fall chores nutrition", "everbowl spokane valley"],
     body: `
       <p>By mid-October, the maples and tamaracks that made Spokane Valley look so good for photos are doing the opposite to your lawn. Between the leaves piling up along Sprague and Appleway, the last mow before the ground gets soggy, and gutters that need clearing before the first real storm, most Inland Northwest driveways have a full Saturday of yard work queued up before winter settles in. Nobody plans a nutrition strategy around raking leaves — but a full day of bagging, hauling, and ladder-climbing burns more than people expect, and skipping real food through it is exactly how a yard-work Saturday turns into a Saturday evening spent sore on the couch with a headache.</p>
@@ -2339,8 +2341,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-16",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A warm cacao drink and acai bowl, fuel for a cold night of Spokane Chiefs hockey downtown",
+    image: "/blog-img/duo-blue-lagoon--bruschetta-avocado-toast.jpg",
+    imageAlt: "Blue Lagoon and Bruschetta Avocado Toast from Everbowl",
     keywords: ["spokane chiefs game night", "whl hockey spokane", "spokane arena fuel", "downtown spokane dinner before game", "everbowl spokane valley"],
     body: `
       <p>Mid-October means Spokane Chiefs hockey is back in full swing at the Spokane Arena, and on a game night the whole routine downtown follows a familiar shape: leave work or school with just enough time to find parking, grab something fast, and get into your seat before the puck drops. The trouble is that "something fast" near the Arena usually means a hot dog in line or nothing until intermission — and three periods of WHL hockey, cheering included, asks more of your body than most people plan for on a weeknight.</p>
@@ -2382,8 +2384,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-11-04",
     readMins: 5,
-    image: "/blog-img/pb-protein-ice-blended-coffee.jpg",
-    imageAlt: "PB Protein Ice Blended Coffee, a pre-gym pick-me-up from Everbowl",
+    image: "/blog-img/duo-cold-brew-cacao-foam--cold-brew-pb-foam.jpg",
+    imageAlt: "Cold Brew Cacao Foam and Cold Brew PB Foam from Everbowl",
     keywords: [
       "shoulder season Spokane",
       "indoor training Inland Northwest",
@@ -2420,8 +2422,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-11-05",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A warm Cacao Ice Blended Coffee from Everbowl Spokane, fuel for a cold ski swap morning",
+    image: "/blog-img/duo-cold-brew-cinnamon-foam--cold-brew.jpg",
+    imageAlt: "Cold Brew Cinnamon Foam and Cold Brew from Everbowl",
     keywords: [
       "Spokane ski swap",
       "Spokane Mountaineers ski swap",
@@ -2456,8 +2458,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-18",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "An Evergreen greens smoothie from Everbowl Spokane, a fall allergy season pick-me-up",
+    image: "/blog-img/duo-blue-lagoon--cacao-ice-blended-coffee.jpg",
+    imageAlt: "Blue Lagoon and Cacao Ice Blended Coffee from Everbowl",
     keywords: [
       "fall allergies Spokane",
       "ragweed season Inland Northwest",
@@ -2502,8 +2504,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-18",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "An Everbowl açaí bowl, a post-garden-cleanup refuel in Spokane Valley",
+    image: "/blog-img/duo-blue-majic-base-pint--bruschetta-avocado-toast.jpg",
+    imageAlt: "Blue Majic Base Pint and Bruschetta Avocado Toast from Everbowl",
     keywords: [
       "first frost Spokane",
       "garden harvest Inland Northwest",
@@ -2548,8 +2550,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-19",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A Full Moon acai bowl with cacao from Everbowl Spokane, a pre-dawn hunting season breakfast",
+    image: "/blog-img/duo-blue-majic-base-pint--cacao-ice-blended-coffee.jpg",
+    imageAlt: "Blue Majic Base Pint and Cacao Ice Blended Coffee from Everbowl",
     keywords: [
       "deer season Spokane",
       "hunting season Inland Northwest",
@@ -2596,8 +2598,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-20",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A blended matcha drink and smoothie from Everbowl Spokane ready for an EWU Homecoming tailgate in Cheney",
+    image: "/blog-img/duo-blue-majic-base-pint--cacao-wow-base-pint.jpg",
+    imageAlt: "Blue Majic Base Pint and Cacao Wow Base Pint from Everbowl",
     keywords: [
       "ewu homecoming",
       "cheney washington tailgate",
@@ -2641,8 +2643,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-21",
     readMins: 5,
-    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
-    imageAlt: "A spread of smoothie bowls and toast from Everbowl Spokane for a Halloween trick-or-treat night",
+    image: "/blog-img/duo-bruschetta-avocado-toast--cacao-ice-blended-coffee.jpg",
+    imageAlt: "Bruschetta Avocado Toast and Cacao Ice Blended Coffee from Everbowl",
     keywords: [
       "halloween spokane valley",
       "trick or treat fuel",
@@ -2689,8 +2691,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-21",
     readMins: 5,
-    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
-    imageAlt: "A bright pitaya smoothie bowl from Everbowl Spokane, fuel for a fall steelhead fishing day",
+    image: "/blog-img/duo-bruschetta-avocado-toast--cacao-wow-base-pint.jpg",
+    imageAlt: "Bruschetta Avocado Toast and Cacao Wow Base Pint from Everbowl",
     keywords: [
       "fall steelhead fishing",
       "clearwater river steelhead",
@@ -2739,8 +2741,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-22",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A cacao smoothie bowl from Everbowl Spokane, warm fuel for a late-night stargazing trip",
+    image: "/blog-img/duo-bruschetta-avocado-toast--chia-pudding-whatever-bowl.jpg",
+    imageAlt: "Bruschetta Avocado Toast and Chia Pudding Whatever Bowl from Everbowl",
     keywords: [
       "orionid meteor shower spokane",
       "stargazing spokane valley",
@@ -2787,8 +2789,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-22",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A bright smoothie from Everbowl Spokane, quick fuel before a weeknight rec league game",
+    image: "/blog-img/duo-cacao-ice-blended-coffee--cacao-wow-base-pint.jpg",
+    imageAlt: "Cacao Ice Blended Coffee and Cacao Wow Base Pint from Everbowl",
     keywords: [
       "rec league nutrition spokane",
       "HUB sports center liberty lake",
@@ -2835,8 +2837,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-23",
     readMins: 5,
-    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
-    imageAlt: "A pitaya smoothie bowl from Everbowl Spokane, bright fuel for flu shot season",
+    image: "/blog-img/duo-cacao-ice-blended-coffee--chia-pudding-whatever-bowl.jpg",
+    imageAlt: "Cacao Ice Blended Coffee and Chia Pudding Whatever Bowl from Everbowl",
     keywords: [
       "flu shot season spokane",
       "immune support food spokane valley",
@@ -2880,8 +2882,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-23",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A blended protein coffee drink from Everbowl Spokane, topped and ready to go",
+    image: "/blog-img/duo-cacao-ice-blended-coffee--cinnamon-ice-blended-coffee.jpg",
+    imageAlt: "Cacao Ice Blended Coffee and Cinnamon Ice Blended Coffee from Everbowl",
     keywords: [
       "collagen coffee",
       "collagen supplement nutrition",
@@ -2926,8 +2928,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-24",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A warm cacao Everbowl Spokane bowl with fall spices, an alternative to a sugary pumpkin spice drink",
+    image: "/blog-img/duo-cacao-wow-base-pint--chia-pudding-whatever-bowl.jpg",
+    imageAlt: "Cacao Wow Base Pint and Chia Pudding Whatever Bowl from Everbowl",
     keywords: [
       "pumpkin spice latte nutrition",
       "pumpkin spice myth",
@@ -2973,8 +2975,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-24",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "A fresh açaí bowl from Everbowl Spokane, ready to pack for a Palouse road trip",
+    image: "/blog-img/duo-cacao-wow-base-pint--cinnamon-ice-blended-coffee.jpg",
+    imageAlt: "Cacao Wow Base Pint and Cinnamon Ice Blended Coffee from Everbowl",
     keywords: [
       "steptoe butte spokane",
       "palouse fall drive",
@@ -3019,8 +3021,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-25",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A smoothie and toast from Everbowl Spokane, ready for a Gonzaga basketball watch party",
+    image: "/blog-img/duo-cacao-wow-base-pint--classic-avocado-toast.jpg",
+    imageAlt: "Cacao Wow Base Pint and Classic Avocado Toast from Everbowl",
     keywords: [
       "gonzaga basketball spokane",
       "zags watch party food",
@@ -3065,8 +3067,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-25",
     readMins: 5,
-    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
-    imageAlt: "A spread of fresh superfood bowls and toast from Everbowl Spokane, ready for a winterizing errand day",
+    image: "/blog-img/duo-chia-pudding-whatever-bowl--cinnamon-ice-blended-coffee.jpg",
+    imageAlt: "Chia Pudding Whatever Bowl and Cinnamon Ice Blended Coffee from Everbowl",
     keywords: [
       "spokane winterizing car",
       "inland northwest first snow",
@@ -3112,8 +3114,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-11-06",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "Perfect Date bowl from Everbowl Spokane, ready for a Veterans Day thank-you stop",
+    image: "/blog-img/duo-cold-brew-pb-foam--dragon-fruit-lemonade.jpg",
+    imageAlt: "Cold Brew PB Foam and Dragon Fruit Lemonade from Everbowl",
     keywords: [
       "veterans day spokane",
       "spokane veterans day parade",
@@ -3156,8 +3158,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-26",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "Pitaya Paradise smoothie from Everbowl Spokane, grab-and-go fuel for a long Election Day shift",
+    image: "/blog-img/duo-chia-pudding-whatever-bowl--classic-avocado-toast.jpg",
+    imageAlt: "Chia Pudding Whatever Bowl and Classic Avocado Toast from Everbowl",
     keywords: [
       "election day spokane",
       "poll worker fuel",
@@ -3200,8 +3202,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-27",
     readMins: 5,
-    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
-    imageAlt: "A spread of Everbowl Spokane bowls and smoothies, ready for an end-of-season team party",
+    image: "/blog-img/duo-chia-pudding-whatever-bowl--coco-love-base-pint.jpg",
+    imageAlt: "Chia Pudding Whatever Bowl and Coco Love Base Pint from Everbowl",
     keywords: [
       "spokane valley youth sports",
       "team potluck ideas",
@@ -3244,8 +3246,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-27",
     readMins: 5,
-    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
-    imageAlt: "A refreshing Pitaya Paradise smoothie bowl, ready for a day at the Spokane Fall Folk Festival",
+    image: "/blog-img/duo-cinnamon-ice-blended-coffee--classic-avocado-toast.jpg",
+    imageAlt: "Cinnamon Ice Blended Coffee and Classic Avocado Toast from Everbowl",
     keywords: [
       "spokane fall folk festival",
       "the bing crosby theater",
@@ -3288,8 +3290,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-28",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A Nanaberry Bliss smoothie in a to-go cup, ready for a Spokane International Airport travel day",
+    image: "/blog-img/duo-cinnamon-ice-blended-coffee--coco-love-base-pint.jpg",
+    imageAlt: "Cinnamon Ice Blended Coffee and Coco Love Base Pint from Everbowl",
     keywords: [
       "spokane airport travel snacks",
       "GEG thanksgiving travel",
@@ -3332,8 +3334,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-28",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "An acai bowl ready for a post-hike refuel after a day at Palisades Park",
+    image: "/blog-img/duo-cinnamon-ice-blended-coffee--cold-brew-cacao-foam.jpg",
+    imageAlt: "Cinnamon Ice Blended Coffee and Cold Brew Cacao Foam from Everbowl",
     keywords: [
       "palisades park spokane",
       "west spokane hiking",
@@ -3377,8 +3379,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-10-29",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A cacao-based bowl, built for steady energy during the daylight saving time change",
+    image: "/blog-img/duo-classic-avocado-toast--coco-love-base-pint.jpg",
+    imageAlt: "Classic Avocado Toast and Coco Love Base Pint from Everbowl",
     keywords: [
       "daylight saving time spokane",
       "fall back energy",
@@ -3427,8 +3429,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-29",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A cacao-rich bowl topped with banana and berries, next to cacao nibs",
+    image: "/blog-img/duo-classic-avocado-toast--cold-brew-cacao-foam.jpg",
+    imageAlt: "Classic Avocado Toast and Cold Brew Cacao Foam from Everbowl",
     keywords: [
       "dia de los muertos spokane",
       "cacao history",
@@ -3471,8 +3473,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-30",
     readMins: 5,
-    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
-    imageAlt: "A spread of Everbowl bowls and toast, built for a full Halloween weekend in Spokane",
+    image: "/blog-img/duo-classic-avocado-toast--cold-brew-cinnamon-foam.jpg",
+    imageAlt: "Classic Avocado Toast and Cold Brew Cinnamon Foam from Everbowl",
     keywords: [
       "garland district halloween spokane",
       "halloween weekend spokane valley",
@@ -3519,8 +3521,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-30",
     readMins: 5,
-    image: "/blog-img/chia-pudding-whatever-bowl.jpg",
-    imageAlt: "Chia Pudding Bowl topped with fresh fruit, a make-ahead breakfast option",
+    image: "/blog-img/duo-coco-love-base-pint--cold-brew-cacao-foam.jpg",
+    imageAlt: "Coco Love Base Pint and Cold Brew Cacao Foam from Everbowl",
     keywords: [
       "chia pudding benefits",
       "make ahead breakfast spokane",
@@ -3567,8 +3569,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-10-31",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A smoothie and bowl from Everbowl, built for an end-of-fall wellness reset in Spokane Valley",
+    image: "/blog-img/duo-coco-love-base-pint--cold-brew-cinnamon-foam.jpg",
+    imageAlt: "Coco Love Base Pint and Cold Brew Cinnamon Foam from Everbowl",
     keywords: [
       "fall wellness check in spokane",
       "end of october routine spokane valley",
@@ -3616,8 +3618,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-10-31",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "A kid-friendly Everbowl bowl, built for fueling a Halloween trunk-or-treat afternoon in Spokane Valley",
+    image: "/blog-img/duo-coco-love-base-pint--cold-brew-pb-foam.jpg",
+    imageAlt: "Coco Love Base Pint and Cold Brew PB Foam from Everbowl",
     keywords: [
       "trunk or treat spokane valley",
       "halloween saturday fuel spokane",
@@ -3665,8 +3667,8 @@ export const POSTS = [
     category: "Food & Nutrition",
     date: "2026-11-01",
     readMins: 5,
-    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
-    imageAlt: "A shareable toppings spread for a Friendsgiving potluck, built around Everbowl ingredients in Spokane Valley",
+    image: "/blog-img/duo-cold-brew--dragon-fruit-lemonade.jpg",
+    imageAlt: "Cold Brew and Dragon Fruit Lemonade from Everbowl",
     keywords: [
       "friendsgiving spokane valley",
       "potluck dish idea spokane",
@@ -3713,8 +3715,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-11-02",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A smoothie ready to grab before a morning of holiday craft bazaar shopping in Spokane Valley",
+    image: "/blog-img/duo-cold-brew--evergreen.jpg",
+    imageAlt: "Cold Brew and Evergreen from Everbowl",
     keywords: [
       "centerplace spokane valley craft bazaar",
       "holiday craft show spokane valley",
@@ -3758,8 +3760,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-07",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "A warm cacao bowl ready before a morning of shoveling the first snow in Spokane Valley",
+    image: "/blog-img/duo-dragon-fruit-lemonade--evergreen.jpg",
+    imageAlt: "Dragon Fruit Lemonade and Evergreen from Everbowl",
     keywords: [
       "first snow spokane valley",
       "shoveling snow workout fuel",
@@ -3803,8 +3805,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-08",
     readMins: 5,
-    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
-    imageAlt: "A spread of no-cook superfood toppings ready for a Spokane Valley power outage food plan",
+    image: "/blog-img/duo-evergreen--full-moon.jpg",
+    imageAlt: "Evergreen and Full Moon from Everbowl",
     keywords: [
       "spokane valley power outage food",
       "inland northwest windstorm season",
@@ -3852,8 +3854,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-09",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A kid-friendly smoothie and bowl spread for a Veterans Day no-school day in Spokane Valley",
+    image: "/blog-img/duo-full-moon--ice-blended-matcha.jpg",
+    imageAlt: "Full Moon and Ice Blended Matcha from Everbowl",
     keywords: [
       "veterans day no school spokane",
       "spokane valley kids snacks",
@@ -3898,8 +3900,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-04",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "Acai bowl topped with fruit, a mood-steady breakfast for Spokane Valley's short-daylight season",
+    image: "/blog-img/duo-cold-brew-cacao-foam--cold-brew.jpg",
+    imageAlt: "Cold Brew Cacao Foam and Cold Brew from Everbowl",
     keywords: [
       "spokane short days",
       "winter mood food",
@@ -3943,8 +3945,8 @@ export const POSTS = [
     category: "Fitness & Recovery",
     date: "2026-11-04",
     readMins: 5,
-    image: "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg",
-    imageAlt: "A fruit-topped smoothie from Everbowl Spokane, quick pre-practice fuel for a winter sports athlete",
+    image: "/blog-img/duo-cold-brew-cinnamon-foam--cold-brew-pb-foam.jpg",
+    imageAlt: "Cold Brew Cinnamon Foam and Cold Brew PB Foam from Everbowl",
     keywords: [
       "winter sports nutrition spokane valley",
       "high school basketball fuel",
@@ -3986,8 +3988,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-05",
     readMins: 5,
-    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
-    imageAlt: "Pitaya Paradise smoothie from Everbowl Spokane, fuel for a Second Harvest volunteer shift",
+    image: "/blog-img/duo-cold-brew-cinnamon-foam--dragon-fruit-lemonade.jpg",
+    imageAlt: "Cold Brew Cinnamon Foam and Dragon Fruit Lemonade from Everbowl",
     keywords: [
       "second harvest spokane volunteer",
       "food drive season spokane valley",
@@ -4031,8 +4033,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-11-05",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "Chia Pudding Bowl from Everbowl Spokane, a fiber-forward breakfast option",
+    image: "/blog-img/duo-cold-brew-pb-foam--cold-brew.jpg",
+    imageAlt: "Cold Brew PB Foam and Cold Brew from Everbowl",
     keywords: [
       "american diabetes month",
       "blood sugar friendly breakfast",
@@ -4079,8 +4081,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-11-06",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "Full Moon bowl with cacao, granola, and banana from Everbowl Spokane",
+    image: "/blog-img/duo-cold-brew-pb-foam--everbowl.jpg",
+    imageAlt: "Cold Brew PB Foam and Everbowl from Everbowl",
     keywords: [
       "ski season fuel spokane",
       "mt spokane nutrition",
@@ -4127,8 +4129,8 @@ export const POSTS = [
     category: "Nutrition",
     date: "2026-11-06",
     readMins: 5,
-    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
-    imageAlt: "Blue Lagoon bowl with pitaya, a vitamin C-rich pick for citrus season at Everbowl Spokane",
+    image: "/blog-img/duo-dragon-fruit-lemonade--everbowl.jpg",
+    imageAlt: "Dragon Fruit Lemonade and Everbowl from Everbowl",
     keywords: [
       "citrus season vitamin c",
       "winter immune support spokane",
@@ -4168,8 +4170,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-07",
     readMins: 5,
-    image: "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg",
-    imageAlt: "Pitaya Paradise smoothie with pink dragon fruit from Everbowl Spokane",
+    image: "/blog-img/duo-everbowl--evergreen.jpg",
+    imageAlt: "Everbowl and Evergreen from Everbowl",
     keywords: [
       "winter hydration spokane",
       "dehydration skiing cold weather",
@@ -4220,8 +4222,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-11-07",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "Full Moon bowl with cacao, granola, banana, and peanut butter from Everbowl Spokane",
+    image: "/blog-img/duo-everbowl--full-moon.jpg",
+    imageAlt: "Everbowl and Full Moon from Everbowl",
     keywords: [
       "mt spokane state park snowshoeing",
       "nordic skiing spokane fuel",
@@ -4267,8 +4269,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-08",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "PB Everbowl acai bowl with peanut butter and banana from Everbowl Spokane",
+    image: "/blog-img/duo-evergreen--glow-up.jpg",
+    imageAlt: "Evergreen and Glow Up from Everbowl",
     keywords: [
       "movember spokane",
       "mens health nutrition",
@@ -4316,8 +4318,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-11-08",
     readMins: 5,
-    image: "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg",
-    imageAlt: "Spread of Everbowl Spokane bowls and toppings, ready for a Small Business Saturday stop",
+    image: "/blog-img/duo-full-moon--glow-up.jpg",
+    imageAlt: "Full Moon and Glow Up from Everbowl",
     keywords: [
       "small business saturday spokane",
       "shop small spokane valley",
@@ -4363,8 +4365,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-11-09",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "Cacao Ice Blended Coffee, a warm pick-me-up for a long tire-shop wait in Spokane Valley",
+    image: "/blog-img/duo-glow-up--ice-blended-matcha.jpg",
+    imageAlt: "Glow Up and Ice Blended Matcha from Everbowl",
     keywords: [
       "winter tires spokane valley",
       "tire shop wait spokane",
@@ -4413,8 +4415,8 @@ export const POSTS = [
     category: "Spokane & Movement",
     date: "2026-11-09",
     readMins: 5,
-    image: "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg",
-    imageAlt: "Cacao Ice Blended Coffee, a warm treat before or after a night on Riverfront Park's Skate Ribbon",
+    image: "/blog-img/duo-glow-up--ice-blended-strawberry-matcha.jpg",
+    imageAlt: "Glow Up and Ice Blended Strawberry Matcha from Everbowl",
     keywords: [
       "riverfront park skate ribbon",
       "numerica skate ribbon spokane",
@@ -4460,8 +4462,8 @@ export const POSTS = [
     category: "Health",
     date: "2026-11-10",
     readMins: 5,
-    image: "9a971840-0b65-4f07-ab00-54336a4f0f74.jpg",
-    imageAlt: "A warm Hot Oats bowl, good fuel for a foggy Spokane Valley morning",
+    image: "/blog-img/duo-ice-blended-matcha--ice-blended-strawberry-matcha.jpg",
+    imageAlt: "Ice Blended Matcha and Ice Blended Strawberry Matcha from Everbowl",
     keywords: [
       "spokane valley fog",
       "temperature inversion spokane",

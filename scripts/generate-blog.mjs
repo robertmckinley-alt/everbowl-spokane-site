@@ -200,6 +200,22 @@ ${cards}
 // Date gate: only publish posts whose date has arrived in Pacific time.
 // Future-dated posts stay in posts.mjs and go live automatically on the
 // first build on/after their date (a scheduled daily rebuild handles this).
+// --- UNIQUE IMAGE GUARD (owner requirement: no photo may be used by two posts) ---
+{
+  const counts = {};
+  for (const p of POSTS) counts[p.image] = (counts[p.image] || 0) + 1;
+  const dups = Object.entries(counts).filter(([, n]) => n > 1);
+  const AI_BANNED = ["9a971840-0b65-4f07-ab00-54336a4f0f74.jpg", "b5c5a817-5e1e-4b3f-b7c3-61c677f0a7bb.jpg", "b52051c7-b0fd-466d-a0e3-45d75298d6fa.jpg", "ee557844-fb66-41b2-8d32-c78a539eb48b.jpg", "a0f7344d-7ab1-4371-a11e-ba41e440b4dd.jpg"];
+  const banned = POSTS.filter((p) => AI_BANNED.includes(p.image));
+  if (dups.length || banned.length) {
+    console.error("BUILD REFUSED: every post must use a UNIQUE, real image.");
+    if (dups.length) console.error("Duplicated images:", dups.map(([i, n]) => n + "x " + i).join("; "));
+    if (banned.length) console.error("Banned AI images used by:", banned.map((p) => p.slug).join(", "));
+    console.error("Fix: run `node scripts/pick-image.mjs` and use exactly the IMAGE/ALT it prints for the offending post(s).");
+    process.exit(1);
+  }
+}
+
 const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
 const published = POSTS.filter((p) => p.date <= TODAY);
 const sorted = [...published].sort((a, b) => (a.date < b.date ? 1 : -1));

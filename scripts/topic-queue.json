@@ -4,6 +4,7 @@
     "SEASONAL + WEATHER: Each post must fit the time of year it publishes (heat, smoke season, first snow, mud season, allergy season, etc.). Pick the queue topic whose season matches today's date.",
     "STORE TIE-IN (required): Every post must reference Everbowl Spokane's store at 13324 E Sprague Ave, Suite 101, Spokane Valley, and drive a visit or online order.",
     "PRODUCT TIE-IN (required): Every post must name and link at least 2 real menu items (e.g. PB Everbowl, Blue Lagoon, Pitaya Paradise smoothie, Nanaberry Bliss, Classic Avocado Toast, Iced Matcha) using anchor links to /#menu, /#smoothies, /#toast, or /#order.",
+    "UNIQUE IMAGE (required): Every post must use an image no other post has ever used. Run node scripts/pick-image.mjs and use exactly the IMAGE and ALT it prints. NEVER reuse an image filename already in posts.mjs.",
     "LENGTH + QUALITY: ~700-900 words, genuinely useful, honest wellness info (not medical advice), original. Keep the disclaimer.",
     "LOCAL EVENT ANCHORS to weave in by season: Hoopfest & Ironman CdA (late June), Fourth of July / lake days (July), smoke-aware summer (Aug), Valleyfest & Green Bluff u-pick (Sept), fall foliage Tubbs Hill/Mineral Ridge (Oct), Turkey Trot (Nov), Mt Spokane/Schweitzer/Silver Mtn ski season (Dec-Feb), Spring training & mud season (Mar-Apr), Bloomsday 12k (first Sun of May)."
   ],
@@ -48,7 +49,7 @@
       "title": "Wildfire Smoke Days: Eating for Recovery When You Can't Train Outside",
       "category": "Health",
       "season": "August",
-      "angle": "Inland NW smoke season; antioxidants + hydration when AQI is high and workouts move indoors; tie in açaí antioxidants, Evergreen greens smoothie; grab-and-go at the Sprague Ave shop."
+      "angle": "Inland NW smoke season; antioxidants + hydration when AQI is high and workouts move indoors; tie in a\u00e7a\u00ed antioxidants, Evergreen greens smoothie; grab-and-go at the Sprague Ave shop."
     },
     {
       "used": true,
@@ -118,14 +119,14 @@
       "title": "Last Chance at Minnehaha: Fueling an October Climbing Day Before the Season Turns",
       "category": "Spokane & Movement",
       "season": "October",
-      "angle": "Minnehaha Rocks bouldering season closes once fall rain starts; pre-climb Nanaberry Bliss smoothie + post-climb PB Everbowl; mention Wild Walls Climbing Gym as the winter indoor alternative. (Original topic written outside the queue order because no queued topic matched October — both queued October slots were already used; the queued November/December topics remain for their seasons.)"
+      "angle": "Minnehaha Rocks bouldering season closes once fall rain starts; pre-climb Nanaberry Bliss smoothie + post-climb PB Everbowl; mention Wild Walls Climbing Gym as the winter indoor alternative. (Original topic written outside the queue order because no queued topic matched October \u2014 both queued October slots were already used; the queued November/December topics remain for their seasons.)"
     },
     {
       "used": true,
       "title": "Pumpkin Patch Day Trip: Fueling a Family Morning at Green Bluff's Corn Mazes",
       "category": "Spokane & Movement",
       "season": "October",
-      "angle": "Green Bluff pumpkin patches/corn mazes (Siemers, Beck's, Walters') peak in October; avoiding an all-cider-donut breakfast before a maze + hay ride; feature Berry Boost bowl + Nanaberry Bliss smoothie; refuel in Spokane Valley on the drive back down from the Bluff. (Original topic written outside the queue order because no queued topic matched October — all queued October and 'any' slots were already used; the queued December ski-season topic remains for its season.)"
+      "angle": "Green Bluff pumpkin patches/corn mazes (Siemers, Beck's, Walters') peak in October; avoiding an all-cider-donut breakfast before a maze + hay ride; feature Berry Boost bowl + Nanaberry Bliss smoothie; refuel in Spokane Valley on the drive back down from the Bluff. (Original topic written outside the queue order because no queued topic matched October \u2014 all queued October and 'any' slots were already used; the queued December ski-season topic remains for its season.)"
     },
     {
       "used": true,
@@ -300,7 +301,7 @@
       "title": "Antioxidants, Explained: What the Colors in Your Bowl Actually Do",
       "category": "Nutrition",
       "season": "any",
-      "angle": "Evergreen science piece tied to smoke/sun exposure common locally; anthocyanins in açaí + pitaya; feature Everbowl + Blue Lagoon; visit the Valley shop for the real thing."
+      "angle": "Evergreen science piece tied to smoke/sun exposure common locally; anthocyanins in a\u00e7a\u00ed + pitaya; feature Everbowl + Blue Lagoon; visit the Valley shop for the real thing."
     },
     {
       "used": true,
