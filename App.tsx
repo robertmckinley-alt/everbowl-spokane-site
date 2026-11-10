@@ -200,7 +200,7 @@ function ScrubHero() {
                 {c.cta ? (
                   <div className="eb-hero-actions">
                     <a href="#menu" className="eb-link-arrow">See the menu ↓</a>
-                    <a href="#order" className="eb-btn-order">Order online</a>
+                    <span className="eb-btn-order pointer-events-none select-none opacity-60" aria-disabled="true">Online ordering opens soon</span>
                   </div>
                 ) : null}
               </div>
@@ -271,7 +271,7 @@ export default function App() {
             <a href="#apply" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Jobs</a>
             <a href="/blog/" className="text-sm font-medium text-eb-muted-light transition-colors hover:text-eb-bone">Journal</a>
           </div>
-          <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="eb-btn-order text-sm">Order online</a>
+          <span className="eb-btn-order pointer-events-none select-none text-sm opacity-60" aria-disabled="true">Opening soon</span>
         </nav>
       </header>
 
@@ -384,7 +384,7 @@ export default function App() {
               <p className="mt-4 max-w-[38ch] text-base leading-relaxed text-eb-muted-light">
                 Blended thick with real fruit and superfood boosts. <span className="font-semibold text-eb-bone">Regular $9.99 / Large $10.99</span>, or build your own Whatever Smoothie.
               </p>
-              <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="eb-btn-rewards mt-7">Order online</a>
+              <span className="eb-btn-rewards pointer-events-none mt-7 select-none opacity-60" aria-disabled="true">Online ordering opens soon</span>
             </div>
             <div className="overflow-hidden rounded-3xl bg-white"><img src="/img/smoothies-lineup.jpg" alt="Everbowl smoothies: Nanaberry Bliss, Pitaya Paradise, and Glow Up" className="h-full w-full object-cover" /></div>
           </div>
@@ -577,8 +577,8 @@ export default function App() {
             <h3 className="mt-3 font-display text-3xl font-extrabold tracking-tight">Order faster. Earn on every bowl.</h3>
             <p className="mt-3 max-w-[38ch] text-base leading-relaxed text-eb-muted-light">Order ahead, skip the line, and stack Everbowl Rewards points from your phone.</p>
             <div className="mt-6 flex flex-wrap gap-3">
-              <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-eb-violet/50 px-5 py-3 text-sm font-semibold text-eb-bone transition-colors hover:border-eb-green"> App Store</a>
-              <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-xl border border-eb-violet/50 px-5 py-3 text-sm font-semibold text-eb-bone transition-colors hover:border-eb-green">▶ Google Play</a>
+              <span className="inline-flex items-center gap-2 rounded-xl border border-eb-violet/50 px-5 py-3 text-sm font-semibold text-eb-bone opacity-60" aria-disabled="true"> App Store · soon</span>
+              <span className="inline-flex items-center gap-2 rounded-xl border border-eb-violet/50 px-5 py-3 text-sm font-semibold text-eb-bone opacity-60" aria-disabled="true">▶ Google Play · soon</span>
             </div>
           </div>
           <div className="flex flex-col justify-between rounded-3xl bg-eb-green p-8 text-eb-plum-deep">
@@ -634,8 +634,8 @@ export default function App() {
           <h2 className="mt-3 max-w-[18ch] font-display text-5xl font-extrabold leading-[0.95] tracking-tight md:text-7xl">Eat bowls. Earn stuff.</h2>
           <p className="mt-5 max-w-[46ch] text-lg font-medium">Rack up points on every bowl and smoothie, score members-only perks, and get a treat on your birthday.</p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
-            <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-eb-plum px-7 py-3.5 font-display text-base font-bold text-eb-bone transition-transform hover:scale-[1.02] active:scale-95">Order online</a>
-            <a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-2xl border-2 border-eb-plum px-7 py-3 font-display text-base font-bold text-eb-plum transition-colors hover:bg-eb-plum hover:text-eb-bone">Join Everbowl Rewards</a>
+            <span className="inline-flex items-center gap-2 rounded-full bg-eb-plum px-7 py-3.5 font-display text-base font-bold text-eb-bone opacity-60" aria-disabled="true">Online ordering opens soon</span>
+            <span className="inline-flex items-center gap-2 rounded-2xl border-2 border-eb-plum px-7 py-3 font-display text-base font-bold text-eb-plum opacity-60" aria-disabled="true">Rewards launch with the store</span>
           </div>
         </div>
       </section>
@@ -675,7 +675,7 @@ export default function App() {
                 <ul className="space-y-2 text-eb-muted-light">
                   <li><a href="/blog/" className="transition-colors hover:text-eb-bone">Journal</a></li>
                   <li><a href="#order" className="transition-colors hover:text-eb-bone">Rewards</a></li>
-                  <li><a href={ORDER_URL} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-eb-bone">Order online</a></li>
+                  <li><span className="opacity-60">Order online — opening soon</span></li>
                   <li><a href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer" className="transition-colors hover:text-eb-bone">Instagram</a></li>
                 </ul>
               </div>
