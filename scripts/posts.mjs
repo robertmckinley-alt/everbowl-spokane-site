@@ -4555,4 +4555,52 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+  {
+    slug: "comfort-food-season-protein-bowl-spokane-valley",
+    title: "Comfort Food Season: How a Protein-Packed Bowl Still Fits When All You Want Is Soup",
+    description:
+      "As Spokane Valley settles into proper cold, soup and stew cravings take over. Here's how a protein-and-fiber bowl or smoothie from Everbowl Spokane still has a place in the rotation.",
+    category: "Nutrition",
+    date: "2026-11-12",
+    readMins: 5,
+    image: "/blog-img/nutty-butty.jpg",
+    imageAlt: "Nutty Butty from Everbowl",
+    keywords: [
+      "comfort food season",
+      "winter nutrition spokane valley",
+      "protein smoothie spokane",
+      "healthy comfort food inland northwest",
+    ],
+    body: `
+      <p>Mid-November in Spokane Valley is when the comfort-food switch flips for good. The first hard frosts have already hit, the furnace is running in the mornings, and the dinner rotation starts drifting toward soup, stew, chili, and anything that comes out of the oven warm. That instinct is completely normal — colder air and shorter days genuinely do shift what sounds appealing at mealtime — but it can also mean protein and produce quietly slide out of the picture, replaced by bowls of mostly broth, noodles, or bread. The good news is you don't have to fight the craving. You just need one or two meals a day doing the nutritional heavy lifting so the comfort food can stay comfort food.</p>
+
+      <h2>Why cravings swing toward "warm and soft" this time of year</h2>
+      <p>Part of it is simple physiology: colder temperatures nudge the body toward higher-calorie, easier-to-digest foods, and shorter daylight hours can affect mood and appetite in ways that make starchy, soft textures feel more satisfying than a crisp salad did in September. Part of it is cultural — soup season is a real seasonal ritual in the Inland Northwest, from Friendsgiving potlucks to Sunday chili simmering while the Zags game plays in the background. None of that is a problem on its own. The issue is when every meal becomes soft carbs and salt with little protein or fiber attached, which tends to leave people hungry again within an hour and reaching for something else.</p>
+      <ul>
+        <li><strong>Soup and stew aren't the enemy.</strong> A bean chili or a broth-based soup loaded with vegetables and meat or legumes is genuinely balanced. The problem is usually the thinner, bread-and-noodle-heavy versions that fill you up on volume without much substance.</li>
+        <li><strong>Protein at breakfast matters more in winter, not less.</strong> If dinner is going to be comfort-forward, starting the day with real protein makes it much easier to avoid the 3pm crash that leads to grazing on whatever's closest.</li>
+        <li><strong>Cold food in cold weather still works.</strong> It sounds counterintuitive, but a protein-and-fruit bowl doesn't need to compete with soup for the "warm and cozy" slot — it's filling a completely different, equally useful role in the day.</li>
+      </ul>
+
+      <h2>Where Everbowl fits into a soup-season week</h2>
+      <p>At Everbowl Spokane, 13324 E Sprague Ave, Suite 101 in Spokane Valley, the move this time of year isn't to replace Thursday's chili night — it's to anchor the meals around it. A <a href="/#menu">Nutty Butty</a> bowl at lunch, with peanut butter, banana, and granola layered over the açaí base, gives you real protein and fiber well before dinner even starts, so a smaller, saner bowl of stew at night is genuinely satisfying instead of a second attempt at getting full. If mornings are the rushed part of your day, a <a href="/#smoothies">PB Cacao Dream</a> smoothie covers the same ground in five minutes flat — protein, healthy fat, and a cacao flavor that fits the cold-weather mood without needing a stove.</p>
+
+      <blockquote>You don't need to out-discipline soup season. You just need one or two meals in the day that are already doing the work, so the comfort food at dinner gets to just be comfort food.</blockquote>
+
+      <h2>A simple way to structure the day</h2>
+      <ol>
+        <li><strong>Morning:</strong> something with real protein — a bowl, a smoothie, or eggs — rather than just toast or coffee alone.</li>
+        <li><strong>Midday:</strong> a bowl or <a href="/#toast">Classic Avocado Toast</a> with produce and fiber, especially on days you know dinner will be heavier.</li>
+        <li><strong>Evening:</strong> the soup, stew, or chili you actually want, ideally with a protein source already built in (beans, chicken, ground turkey) and a side of something green if it's easy.</li>
+      </ol>
+      <p>Notice there's no step that says "skip the comfort food" or "earn your dinner." The point isn't restriction — it's sequencing, so that the meal you're most looking forward to doesn't have to also be the only source of real nutrition in your day.</p>
+
+      <h2>Watch the drink, not just the bowl</h2>
+      <p>Soup season also tends to be hot-drink season, and it's an easy place for a lot of sugar to hide without much else going for it. A <a href="/#sips">Cacao Ice Blended Coffee</a> or a <a href="/#sips">PB Protein Ice Blended Coffee</a> scratches the same rich, cold-weather itch as a sweetened café drink, but it's doing actual work — protein and real cacao instead of just syrup and whipped cream. It's a small swap, but over a week of short, dark Spokane Valley afternoons, small swaps are most of what you have control over.</p>
+
+      <h2>The bottom line</h2>
+      <p>There's nothing wrong with wanting soup, stew, and warm bread once the cold really settles into Spokane Valley — it's one of the genuinely good parts of the season. The trick is making sure at least one other meal that day is pulling its weight on protein and fiber, so dinner gets to stay exactly what it should be: the comfort part of comfort food. Stop by Everbowl Spokane for that anchor meal, or <a href="/#order">order online</a> on your way home, and let the soup pot do the rest.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
+  },
 ];
