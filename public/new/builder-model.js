@@ -3,11 +3,36 @@
   'use strict';
   const copy = value => JSON.parse(JSON.stringify(value));
   const freeze = value => { if (value && typeof value === 'object' && !Object.isFrozen(value)) { Object.freeze(value); Object.values(value).forEach(freeze); } return value; };
+  const toppingName = name => {
+    const clean=String(name).replace(/^Add\s+/i,'');
+    return /^(?:Bonus Bases|Fresh Fruit|Superfoods|Drizzles)$/.test(clean)?clean:clean==='Toast Superfoods'?'Superfoods':null;
+  };
+  function mergeToppingGroups(groups) {
+    const result=[],seen=new Set();
+    for(const original of groups){
+      const category=toppingName(original.name);
+      if(category && seen.has(category))continue;
+      if(category)seen.add(category);
+      const matches=category?groups.filter(g=>toppingName(g.name)===category):[original];
+      const main=matches.find(g=>!/^Add\s/i.test(g.name))||original;
+      const ordered=[main,...matches.filter(g=>g!==main)];
+      const items=[],names=new Map();
+      for(const group of ordered)for(const source of group.items){
+        const name=category?source.name.replace(/^Add\s+/i,''):source.name;
+        const token=name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();
+        if(category && names.has(token))continue;
+        names.set(token,items.length);
+        items.push({...source,name,groups:mergeToppingGroups(source.groups||[])});
+      }
+      result.push({...main,name:category||main.name,items});
+    }
+    return result;
+  }
   class EverbowlBuilderModel {
     constructor(catalog = window.EVERBOWL_BUILDER_MENU, {onChange} = {}) {
       if (!catalog || !Array.isArray(catalog.products) || !catalog.products.length) throw new TypeError('The verified menu catalog is not available.');
       this.catalog = freeze(catalog);
-      this.products = catalog.products;
+      this.products = freeze(catalog.products.map(product=>({...product,groups:mergeToppingGroups(product.groups)})));
       this.categories = catalog.categories;
       this.onChange = typeof onChange === 'function' ? onChange : () => {};
       this.history = [];
