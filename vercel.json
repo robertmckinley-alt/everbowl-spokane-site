@@ -16,5 +16,9 @@
         { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/new", "destination": "/new/index.html" },
+    { "source": "/new/journal", "destination": "/new/journal.html" }
   ]
 }
