@@ -18,7 +18,7 @@
       if(!(canvas instanceof HTMLCanvasElement))throw new TypeError('Product preview needs a canvas.');
       this.canvas=canvas;canvas.width=canvas.height=SIZE;this.ctx=canvas.getContext('2d');this.destroyed=false;this.current=null;this.photos=new Map();this.sequence=0;
       this.plate=document.createElement('canvas');this.lab=new window.BowlLab(this.plate);this.lab.reducedMotion=true;
-      this.ready=this.lab.ready.then(async()=>{if(window.EVERBOWL_BRAND_LOGO){try{this.brand=await load(window.EVERBOWL_BRAND_LOGO);}catch(_){}}[this.sideBowl,this.baseTextures]=await Promise.all([load('assets/side-bowl.webp'),load('assets/base-textures.webp')]);this.loaded=true;if(this.current)this._paint();return this;});
+      this.ready=this.lab.ready.then(async()=>{if(window.EVERBOWL_BRAND_LOGO){try{this.brand=await load(window.EVERBOWL_BRAND_LOGO);}catch(_){}}this.baseTextures=await load('assets/base-textures.webp');this.loaded=true;if(this.current)this._paint();return this;});
     }
     render({product,options=[]}={}){if(this.destroyed)return;this.current={product:product||{name:'Your Whatever',kind:'bowl'},options:options.filter(o=>o&&o.name)};this.sequence++;if(this.loaded)this._paint();return this.canvas;}
     _mainOptions(){
@@ -43,7 +43,7 @@
     _paint(){
       if(!this.loaded||this.destroyed||!this.current)return;
       const c=this.ctx,{product}=this.current,food=this._ingredients();c.clearRect(0,0,SIZE,SIZE);c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
-      const kind=product.kind||'bowl';const height=kind==='bowl'?660:1000;if(this.canvas.height!==height)this.canvas.height=height;
+      const kind=product.kind||'bowl';const height=kind==='bowl'?850:1000;if(this.canvas.height!==height)this.canvas.height=height;
       if(kind==='bowl')this._bowl(food);
       else if(kind==='smoothie'||kind==='drink')this._cup(food,kind);
       else if(kind==='toast')this._toast(food);
@@ -51,25 +51,33 @@
 
       this.canvas.setAttribute('aria-label',product.name+' illustrated with '+this.current.options.map(o=>`${o.quantity>1?o.quantity+' × ':''}${o.name}`).join(', '));
     }
+    _clearBowlPath(c){
+      c.beginPath();c.moveTo(101,270);c.bezierCurveTo(116,407,139,549,169,666);c.bezierCurveTo(192,718,809,718,831,666);c.bezierCurveTo(861,549,884,407,899,270);c.bezierCurveTo(830,193,170,193,101,270);c.closePath();
+    }
     _bowl(food){
-      const c=this.ctx,keys=food.bases,small=/kids/i.test(this.current.product.name),large=/large/i.test(this.current.product.name),scale=small?.88:large?1.03:1;
-      c.save();c.translate(500,310);c.scale(scale,scale);c.translate(-500,-380);
-      c.save();c.fillStyle='rgba(36,48,29,.15)';c.filter='blur(15px)';c.beginPath();c.ellipse(500,635,340,30,0,0,Math.PI*2);c.fill();c.restore();
-      c.drawImage(this.sideBowl,0,-160,1000,1000);
+      const c=this.ctx,keys=food.bases,small=/kids/i.test(this.current.product.name),large=/large/i.test(this.current.product.name),scale=small?.88:large?1.04:1;
+      c.save();c.translate(500,425);c.scale(scale,scale);c.translate(-500,-425);
+      c.save();c.fillStyle='rgba(36,48,29,.19)';c.filter='blur(18px)';c.beginPath();c.ellipse(500,717,324,24,0,0,Math.PI*2);c.fill();c.restore();
+      c.save();this._clearBowlPath(c);c.clip();
       if(keys.length){
-        // The shared mouth clips organic scoops; no pie slices or geometric seams.
-        c.save();c.beginPath();c.ellipse(500,270,392,87,0,0,Math.PI*2);c.clip();
-        this._baseTexture(keys[0],100,180,800,175);
-        const layouts={1:[[500,266,403,93]],2:[[315,263,235,88],[686,277,237,89]],3:[[259,261,187,81],[500,265,192,91],[744,276,191,87]],4:[[300,242,231,80],[690,246,235,83],[303,305,238,76],[691,307,237,78]],5:[[234,241,179,73],[500,236,185,76],[766,247,182,78],[330,307,238,77],[701,306,229,77]],6:[[234,239,180,72],[500,235,181,75],[766,246,181,77],[234,307,181,76],[500,306,183,77],[766,308,180,76]]};
-        keys.slice(0,6).forEach((key,i)=>{const [x,y,rx,ry]=layouts[Math.min(keys.length,6)][i];c.save();c.beginPath();c.moveTo(x-rx,y+9);c.bezierCurveTo(x-rx*1.02,y-ry*.65,x-rx*.42,y-ry*1.04,x,y-ry*.92);c.bezierCurveTo(x+rx*.55,y-ry*1.04,x+rx*1.02,y-ry*.45,x+rx,y+8);c.bezierCurveTo(x+rx*.85,y+ry,x-rx*.79,y+ry,x-rx,y+9);c.closePath();c.shadowColor='rgba(44,23,28,.18)';c.shadowBlur=9;c.shadowOffsetY=4;c.fillStyle=COLORS[key]||'#e4d4b5';c.fill();c.shadowColor='transparent';c.clip();this._baseTexture(key,x-rx,y-ry,rx*2,ry*2);c.restore();});
-        this._sideToppings(food);
-        this._boostDust(food,500,267,380,75);
-        c.restore();
-      }
-      // Restore only the front lip and body, keeping all food behind the paper rim.
-      c.save();c.beginPath();c.moveTo(99,269);c.bezierCurveTo(122,353,877,353,905,269);c.lineTo(1000,760);c.lineTo(0,760);c.closePath();c.clip();c.drawImage(this.sideBowl,0,-160,1000,1000);c.restore();
-      if(this.brand){c.save();c.globalAlpha=.87;c.transform(1,.015,-.025,1,0,0);c.drawImage(this.brand,342,435,340,340*51/191);c.restore();}
-      if(!keys.length){c.fillStyle=INK;c.textAlign='center';c.font='600 23px FSProxima,Arial,sans-serif';c.fillText('Pick a base. Make it yours.',500,705);}
+        const top=263,bottom=697,step=(bottom-top)/keys.length;
+        // First pick is the bottom layer. Soft irregular seams read through clear walls.
+        keys.forEach((key,i)=>{const y=bottom-(i+1)*step,low=bottom-i*step;
+          c.save();c.beginPath();c.moveTo(60,y+8);c.bezierCurveTo(290,y-8,395,y+15,525,y+2);c.bezierCurveTo(680,y-12,794,y+12,940,y);c.lineTo(940,low+24);c.lineTo(60,low+24);c.closePath();c.clip();this._baseTexture(key,90,y-12,820,step+42);c.restore();
+        });
+        const shade=c.createLinearGradient(95,0,905,0);shade.addColorStop(0,'rgba(22,27,24,.19)');shade.addColorStop(.18,'rgba(255,255,255,.02)');shade.addColorStop(.48,'rgba(255,255,255,.07)');shade.addColorStop(.8,'rgba(255,255,255,0)');shade.addColorStop(1,'rgba(22,27,24,.20)');c.fillStyle=shade;c.fillRect(90,260,820,450);
+      }else{const empty=c.createLinearGradient(100,0,900,0);empty.addColorStop(0,'rgba(255,255,255,.16)');empty.addColorStop(.5,'rgba(255,255,255,.02)');empty.addColorStop(1,'rgba(255,255,255,.20)');c.fillStyle=empty;c.fillRect(90,190,820,530);}
+      c.restore();
+      // A shallow elliptical food surface sits above the stacked layers.
+      if(keys.length){c.save();c.beginPath();c.ellipse(500,266,390,69,0,0,Math.PI*2);c.clip();this._baseTexture(keys[keys.length-1],100,190,800,155);this._sideToppings(food);this._boostDust(food,500,266,380,66);c.restore();}
+      c.save();this._clearBowlPath(c);c.clip();
+      const shine=c.createLinearGradient(116,0,890,0);shine.addColorStop(0,'rgba(255,255,255,.46)');shine.addColorStop(.04,'rgba(255,255,255,.05)');shine.addColorStop(.11,'rgba(255,255,255,.18)');shine.addColorStop(.17,'rgba(255,255,255,0)');shine.addColorStop(.82,'rgba(255,255,255,0)');shine.addColorStop(.93,'rgba(255,255,255,.24)');shine.addColorStop(1,'rgba(255,255,255,.48)');c.fillStyle=shine;c.fillRect(90,240,820,470);
+      c.strokeStyle='rgba(255,255,255,.48)';c.lineWidth=11;c.lineCap='round';c.beginPath();c.moveTo(147,336);c.bezierCurveTo(154,414,169,530,187,594);c.stroke();c.strokeStyle='rgba(255,255,255,.22)';c.lineWidth=5;c.beginPath();c.moveTo(849,339);c.lineTo(801,650);c.stroke();c.restore();
+      c.strokeStyle='rgba(57,75,65,.28)';c.lineWidth=2.5;this._clearBowlPath(c);c.stroke();
+      c.strokeStyle='rgba(255,255,255,.72)';c.lineWidth=8;c.beginPath();c.moveTo(104,283);c.bezierCurveTo(124,449,146,567,170,664);c.bezierCurveTo(194,713,806,713,830,664);c.bezierCurveTo(856,557,882,399,897,283);c.stroke();
+      c.strokeStyle='rgba(255,255,255,.87)';c.lineWidth=13;c.beginPath();c.ellipse(500,268,399,75,0,0,Math.PI*2);c.stroke();c.strokeStyle='rgba(63,80,69,.23)';c.lineWidth=2;c.beginPath();c.ellipse(500,266,405,80,0,0,Math.PI*2);c.stroke();
+      if(this.brand){c.save();c.globalAlpha=.95;c.shadowColor='rgba(255,255,255,.58)';c.shadowBlur=3;c.drawImage(this.brand,320,458,360,360*51/191);c.restore();}
+      if(!keys.length){c.fillStyle=INK;c.textAlign='center';c.font='600 23px FSProxima,Arial,sans-serif';c.fillText('Pick your bases. Watch them stack.',500,790);}
       c.restore();
     }
     _baseTexture(key,x,y,w,h){

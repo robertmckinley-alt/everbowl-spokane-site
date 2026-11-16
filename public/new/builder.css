@@ -6,3 +6,6 @@
 
 /* Side-view food stays separate from the readable receipt. */
 .mb-canvas{aspect-ratio:auto;margin:0 auto 12px}.mb-visual-panel{background:#e3e9dd}.mb-scene-product{margin-top:0}@media(max-width:760px){.mb-canvas{width:270px;height:auto;max-height:235px;object-fit:contain;margin:0 auto 8px}.mb-visual-panel{max-height:none;padding-top:10px}.mb-stage-tag{margin-bottom:5px}}
+
+/* Taller transparent bowl keeps its full silhouette visible on phones. */
+.mb-canvas{max-width:500px}.mb-visual-panel{padding-inline:9px}@media(max-width:760px){.mb-canvas{width:290px;max-height:247px;margin:0 auto 7px}.mb-visual-panel{padding-inline:4px}.mb-scene-product{margin-bottom:8px}}
