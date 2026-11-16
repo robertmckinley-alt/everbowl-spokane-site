@@ -10,6 +10,7 @@
   function mergeToppingGroups(groups) {
     const result=[],seen=new Set();
     for(const original of groups){
+      if(/^make it a combo[!?.]*$/i.test(original.name.trim()))continue;
       const category=toppingName(original.name);
       if(category && seen.has(category))continue;
       if(category)seen.add(category);
