@@ -18,7 +18,7 @@
       if(!(canvas instanceof HTMLCanvasElement))throw new TypeError('Product preview needs a canvas.');
       this.canvas=canvas;canvas.width=canvas.height=SIZE;this.ctx=canvas.getContext('2d');this.destroyed=false;this.current=null;this.photos=new Map();this.sequence=0;
       this.plate=document.createElement('canvas');this.lab=new window.BowlLab(this.plate);this.lab.reducedMotion=true;
-      this.ready=this.lab.ready.then(async()=>{if(window.EVERBOWL_BRAND_LOGO){try{this.brand=await load(window.EVERBOWL_BRAND_LOGO);}catch(_){}}this.baseTextures=await load('assets/base-textures.webp');this.loaded=true;if(this.current)this._paint();return this;});
+      this.ready=this.lab.ready.then(async()=>{if(window.EVERBOWL_BRAND_LOGO){try{this.brand=await load(window.EVERBOWL_BRAND_LOGO);}catch(_){}}[this.baseTextures,this.bonusTextures]=await Promise.all([load('assets/base-textures.webp'),load('assets/bonus-textures.webp')]);this.loaded=true;if(this.current)this._paint();return this;});
     }
     render({product,options=[]}={}){if(this.destroyed)return;this.current={product:product||{name:'Your Whatever',kind:'bowl'},options:options.filter(o=>o&&o.name)};this.sequence++;if(this.loaded)this._paint();return this.canvas;}
     _mainOptions(){
@@ -81,6 +81,8 @@
       c.restore();
     }
     _baseTexture(key,x,y,w,h){
+      const bonusIndex=['granola','chia-pudding','everoats','greek-yogurt'].indexOf(key);
+      if(bonusIndex>=0){const tw=this.bonusTextures.width/2,th=this.bonusTextures.height/2;this.ctx.drawImage(this.bonusTextures,(bonusIndex%2)*tw+3,Math.floor(bonusIndex/2)*th+3,tw-6,th-6,x,y,w,h);return;}
       const index=['acai','pitaya','cacao','vanilla','blue-majic','coconut','mango','ube','passion-fruit','guava','pineapple','everoats'].indexOf(key),c=this.ctx;
       if(index<0){c.fillStyle=COLORS[key]||'#ede1cc';c.fillRect(x,y,w,h);return;}
       const tw=this.baseTextures.width/4,th=this.baseTextures.height/3;

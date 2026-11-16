@@ -30,6 +30,7 @@
   const product = () => model.getState().product;
 
   function countCopy(group) {
+    if(group.unlimitedToppings)return 'Mix as many as you like';
     const min = Number(group.min) || 0, max = Number(group.max) || null;
     if (min && max === min) return 'Choose ' + min;
     if (min && max) return 'Choose ' + min + '–' + max;
@@ -38,6 +39,8 @@
   }
   function artFor(item, group) {
     const n = normalize(item.name), base = /bases?/i.test(group.name) && !/toast/i.test(group.name);
+    const bonusIndex=['granola','chiapudding','everoats','greekyogurt'].indexOf(n);
+    if(base && bonusIndex>=0)return '<span class="mb-option-art mb-base-photo mb-bonus-photo" aria-hidden="true" style="background-position:'+(bonusIndex%2*100)+'% '+(Math.floor(bonusIndex/2)*100)+'%"></span>';
     const photoIndex=['acai','pitaya','cacaowow','vanilla','bluemajic','cocolove','mango','ube','passionfruit','guava','pineapple','everoats'].indexOf(n);
     if(base && photoIndex>=0) return '<span class="mb-option-art mb-base-photo" aria-hidden="true" style="background-position:'+((photoIndex%4)/3*100)+'% '+(Math.floor(photoIndex/4)/2*100)+'%"></span>';
     if (baseColors[n] && base) return '<span class="mb-option-art mb-frozen-art" aria-hidden="true"><i style="--mb-food-color:' + baseColors[n] + '"></i></span>';

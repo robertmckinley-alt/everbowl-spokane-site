@@ -12,3 +12,5 @@
 
 /* Higgsfield macro photography replaces the illustrated frozen-base swirls. */
 .mb-base-photo{background-image:url("assets/base-textures.webp");background-size:400% 300%;background-repeat:no-repeat;border-radius:5px;box-shadow:inset 0 0 0 3px #ffffff80;height:88px}@media(max-width:760px){.mb-base-photo{height:78px}}
+
+.mb-bonus-photo{background-image:url("assets/bonus-textures.webp");background-size:200% 200%}

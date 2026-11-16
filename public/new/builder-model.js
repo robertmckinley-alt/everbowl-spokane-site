@@ -28,7 +28,9 @@
           const selectedCount = Object.values(selected).reduce((sum,quantity) => sum+(quantity>0?quantity:0),0);
           const selectedItemCount = Object.values(selected).filter(quantity => quantity>0).length;
           const inCombo = ancestors.some(parent => /combo/i.test(parent.groupName));
-          result.push({...group, groupKey:group.key, depth:ancestors.length,
+          const unlimitedToppings=/^(?:Add )?(?:Bonus Bases|Fresh Fruit|Superfoods|Drizzles|Superboosts)$|^Toast Superfoods$/i.test(group.name);
+          const max=unlimitedToppings ? null : this.product.name==='Regular Whatever Bowl' && ancestors.length===0 && /^Bases:/.test(group.name) ? 5 : group.max;
+          result.push({...group, max, mode:unlimitedToppings?'multiple':group.mode, unlimitedToppings, sourceMax:group.max, groupKey:group.key, depth:ancestors.length,
             parentLabel:ancestors.length ? ancestors[ancestors.length-1].itemName : '',
             ancestors:ancestors.map(parent => ({...parent})), inCombo,
             selected:copy(selected), selectedCount, selectedItemCount, count:selectedCount});
