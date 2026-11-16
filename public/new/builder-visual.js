@@ -18,7 +18,7 @@
       if(!(canvas instanceof HTMLCanvasElement))throw new TypeError('Product preview needs a canvas.');
       this.canvas=canvas;canvas.width=canvas.height=SIZE;this.ctx=canvas.getContext('2d');this.destroyed=false;this.current=null;this.photos=new Map();this.sequence=0;
       this.plate=document.createElement('canvas');this.lab=new window.BowlLab(this.plate);this.lab.reducedMotion=true;
-      this.ready=this.lab.ready.then(async()=>{if(window.EVERBOWL_BRAND_LOGO){try{this.brand=await load(window.EVERBOWL_BRAND_LOGO);}catch(_){}}this.loaded=true;if(this.current)this._paint();return this;});
+      this.ready=this.lab.ready.then(async()=>{if(window.EVERBOWL_BRAND_LOGO){try{this.brand=await load(window.EVERBOWL_BRAND_LOGO);}catch(_){}}[this.sideBowl,this.baseTextures]=await Promise.all([load('assets/side-bowl.webp'),load('assets/base-textures.webp')]);this.loaded=true;if(this.current)this._paint();return this;});
     }
     render({product,options=[]}={}){if(this.destroyed)return;this.current={product:product||{name:'Your Whatever',kind:'bowl'},options:options.filter(o=>o&&o.name)};this.sequence++;if(this.loaded)this._paint();return this.canvas;}
     _mainOptions(){
@@ -43,19 +43,49 @@
     _paint(){
       if(!this.loaded||this.destroyed||!this.current)return;
       const c=this.ctx,{product}=this.current,food=this._ingredients();c.clearRect(0,0,SIZE,SIZE);c.imageSmoothingEnabled=true;c.imageSmoothingQuality='high';
-      const kind=product.kind||'bowl';
+      const kind=product.kind||'bowl';const height=kind==='bowl'?660:1000;if(this.canvas.height!==height)this.canvas.height=height;
       if(kind==='bowl')this._bowl(food);
       else if(kind==='smoothie'||kind==='drink')this._cup(food,kind);
       else if(kind==='toast')this._toast(food);
       else this._packaged(food,kind);
-      this._selectionRibbon();
+
       this.canvas.setAttribute('aria-label',product.name+' illustrated with '+this.current.options.map(o=>`${o.quantity>1?o.quantity+' × ':''}${o.name}`).join(', '));
     }
     _bowl(food){
-      this.lab.setVisualComposition(food);const c=this.ctx;let scale=1;if(/kids/i.test(this.current.product.name))scale=.84;else if(/large/i.test(this.current.product.name)||food.options.some(o=>norm(o.name)==='large'))scale=1.06;
-      c.save();c.translate(500,400);c.scale(scale,scale);c.drawImage(this.plate,-440,-440,880,880);c.restore();
-      if(!food.bases.length){c.fillStyle=INK;c.textAlign='center';c.font='700 25px FSProxima,Arial,sans-serif';c.fillText('Choose your first base',500,430);}
-      this._boostDust(food,500,400,280,260);
+      const c=this.ctx,keys=food.bases,small=/kids/i.test(this.current.product.name),large=/large/i.test(this.current.product.name),scale=small?.88:large?1.03:1;
+      c.save();c.translate(500,310);c.scale(scale,scale);c.translate(-500,-380);
+      c.save();c.fillStyle='rgba(36,48,29,.15)';c.filter='blur(15px)';c.beginPath();c.ellipse(500,635,340,30,0,0,Math.PI*2);c.fill();c.restore();
+      c.drawImage(this.sideBowl,0,-160,1000,1000);
+      if(keys.length){
+        // The shared mouth clips organic scoops; no pie slices or geometric seams.
+        c.save();c.beginPath();c.ellipse(500,270,392,87,0,0,Math.PI*2);c.clip();
+        this._baseTexture(keys[0],100,180,800,175);
+        const layouts={1:[[500,266,403,93]],2:[[315,263,235,88],[686,277,237,89]],3:[[259,261,187,81],[500,265,192,91],[744,276,191,87]],4:[[300,242,231,80],[690,246,235,83],[303,305,238,76],[691,307,237,78]],5:[[234,241,179,73],[500,236,185,76],[766,247,182,78],[330,307,238,77],[701,306,229,77]],6:[[234,239,180,72],[500,235,181,75],[766,246,181,77],[234,307,181,76],[500,306,183,77],[766,308,180,76]]};
+        keys.slice(0,6).forEach((key,i)=>{const [x,y,rx,ry]=layouts[Math.min(keys.length,6)][i];c.save();c.beginPath();c.moveTo(x-rx,y+9);c.bezierCurveTo(x-rx*1.02,y-ry*.65,x-rx*.42,y-ry*1.04,x,y-ry*.92);c.bezierCurveTo(x+rx*.55,y-ry*1.04,x+rx*1.02,y-ry*.45,x+rx,y+8);c.bezierCurveTo(x+rx*.85,y+ry,x-rx*.79,y+ry,x-rx,y+9);c.closePath();c.shadowColor='rgba(44,23,28,.18)';c.shadowBlur=9;c.shadowOffsetY=4;c.fillStyle=COLORS[key]||'#e4d4b5';c.fill();c.shadowColor='transparent';c.clip();this._baseTexture(key,x-rx,y-ry,rx*2,ry*2);c.restore();});
+        this._sideToppings(food);
+        this._boostDust(food,500,267,380,75);
+        c.restore();
+      }
+      // Restore only the front lip and body, keeping all food behind the paper rim.
+      c.save();c.beginPath();c.moveTo(99,269);c.bezierCurveTo(122,353,877,353,905,269);c.lineTo(1000,760);c.lineTo(0,760);c.closePath();c.clip();c.drawImage(this.sideBowl,0,-160,1000,1000);c.restore();
+      if(this.brand){c.save();c.globalAlpha=.87;c.transform(1,.015,-.025,1,0,0);c.drawImage(this.brand,342,435,340,340*51/191);c.restore();}
+      if(!keys.length){c.fillStyle=INK;c.textAlign='center';c.font='600 23px FSProxima,Arial,sans-serif';c.fillText('Pick a base. Make it yours.',500,705);}
+      c.restore();
+    }
+    _baseTexture(key,x,y,w,h){
+      const index=['acai','pitaya','cacao','vanilla','blue-majic','coconut','mango','ube','passion-fruit','guava','pineapple','everoats'].indexOf(key),c=this.ctx;
+      if(index<0){c.fillStyle=COLORS[key]||'#ede1cc';c.fillRect(x,y,w,h);return;}
+      const tw=this.baseTextures.width/4,th=this.baseTextures.height/3;
+      c.drawImage(this.baseTextures,(index%4)*tw+3,Math.floor(index/4)*th+3,tw-6,th-6,x,y,w,h);
+    }
+    _sideToppings(food){
+      const c=this.ctx,pieces=[];
+      food.ingredients.forEach(({key,quantity},i)=>{const sprite=this.lab.sprites[key];if(!sprite)return;const r=seed(key),meta=window.BOWL_INGREDIENTS?.[key],fruit=/banana|strawberry|kiwi|pineapple|blueberry|cinnamon-apples/.test(key),count=Math.min(fruit?9:32,Math.ceil((fruit?6:18)*Math.sqrt(quantity)));
+        for(let n=0;n<count;n++){const a=r()*Math.PI*2,rad=Math.sqrt(r())*.84,x=500+Math.cos(a)*360*rad,y=269+Math.sin(a)*70*rad,w=fruit?62+r()*20:25+r()*16;pieces.push({sprite,x,y,w,h:w*sprite.height/sprite.width,angle:(r()-.5)*.9});}
+      });
+      pieces.sort((a,b)=>a.y-b.y).forEach(p=>{c.save();c.translate(p.x,p.y);c.rotate(p.angle);c.shadowColor='rgba(36,19,17,.23)';c.shadowBlur=4;c.shadowOffsetY=3;c.drawImage(p.sprite,-p.w/2,-p.h/2,p.w,p.h);c.restore();});
+      const sauceColors={'peanut-butter':'#b67e43','almond-butter':'#956332',honey:'#d49b29',agave:'#c99c5c',nutella:'#4d281c'};
+      food.drizzles.forEach((key,i)=>{c.save();c.strokeStyle=sauceColors[key]||'#7b4a30';c.lineWidth=/honey|agave/.test(key)?4:7;c.lineCap='round';c.shadowColor='rgba(58,25,10,.18)';c.shadowBlur=2;c.beginPath();for(let n=0;n<=120;n++){const x=145+n*5.9,y=265+Math.sin(n*.25+i*.7)*48; if(n)c.lineTo(x,y);else c.moveTo(x,y);}c.stroke();c.restore();});
     }
     _cupPath(c){c.beginPath();c.moveTo(320,185);c.lineTo(680,185);c.lineTo(638,710);c.quadraticCurveTo(635,747,600,750);c.lineTo(400,750);c.quadraticCurveTo(365,747,362,710);c.closePath();}
     _cup(food,kind){
