@@ -9,3 +9,6 @@
 
 /* Taller transparent bowl keeps its full silhouette visible on phones. */
 .mb-canvas{max-width:500px}.mb-visual-panel{padding-inline:9px}@media(max-width:760px){.mb-canvas{width:290px;max-height:247px;margin:0 auto 7px}.mb-visual-panel{padding-inline:4px}.mb-scene-product{margin-bottom:8px}}
+
+/* Higgsfield macro photography replaces the illustrated frozen-base swirls. */
+.mb-base-photo{background-image:url("assets/base-textures.webp");background-size:400% 300%;background-repeat:no-repeat;border-radius:5px;box-shadow:inset 0 0 0 3px #ffffff80;height:88px}@media(max-width:760px){.mb-base-photo{height:78px}}

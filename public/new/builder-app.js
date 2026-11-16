@@ -38,6 +38,8 @@
   }
   function artFor(item, group) {
     const n = normalize(item.name), base = /bases?/i.test(group.name) && !/toast/i.test(group.name);
+    const photoIndex=['acai','pitaya','cacaowow','vanilla','bluemajic','cocolove','mango','ube','passionfruit','guava','pineapple','everoats'].indexOf(n);
+    if(base && photoIndex>=0) return '<span class="mb-option-art mb-base-photo" aria-hidden="true" style="background-position:'+((photoIndex%4)/3*100)+'% '+(Math.floor(photoIndex/4)/2*100)+'%"></span>';
     if (baseColors[n] && base) return '<span class="mb-option-art mb-frozen-art" aria-hidden="true"><i style="--mb-food-color:' + baseColors[n] + '"></i></span>';
     const lookup = {coconut:'coconut',almonds:'almonds',cacaonibs:'cacao-nibs',gojiberries:'goji-berries',driedpineapple:'dried-pineapple',driedmango:'dried-mango',chiaseeds:'chia-seeds',flaxseeds:'flax-seeds',hempseeds:'hemp-seeds',beepollen:'bee-pollen',cinnamonapples:'cinnamon-apples',peanutbutter:'peanut-butter',almondbutter:'almond-butter'};
     const key = lookup[n] || n;
