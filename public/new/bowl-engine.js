@@ -5,8 +5,9 @@
   const SIZE = 1000;
   const MAX_PORTIONS = 24;
   const MAX_PIECES = 360;
-  const BASES = ['acai', 'pitaya', 'coconut'];
-  const BASE_LABELS = { acai: 'Açaí', pitaya: 'Pitaya', coconut: 'Coco love' };
+  const PRIMARY_BASES = ['acai','pitaya','cacao','vanilla','blue-majic','coconut','mango','ube','passion-fruit','guava','pineapple'];
+  const BASES = [...PRIMARY_BASES, 'greek-yogurt','chia-pudding','everoats','empty'];
+  const BASE_LABELS = {acai:'Açaí',pitaya:'Pitaya',cacao:'Cacao Wow',vanilla:'Vanilla','blue-majic':'Blue Majic',coconut:'Coco Love',mango:'Mango',ube:'Ube','passion-fruit':'Passion Fruit',guava:'Guava',pineapple:'Pineapple','greek-yogurt':'Greek Yogurt','chia-pudding':'Chia Pudding',everoats:'Everoats',empty:'Choose a base'};
   const CATALOG = Array.isArray(window.COUNTER_TOPPINGS) ? window.COUNTER_TOPPINGS : [];
   const INGREDIENTS = Object.fromEntries(CATALOG.filter(item => item.kind === 'ingredient').map(item => [item.key, { ...item, ...item.sprite, position: [...item.position] }]));
   const SAUCES = Object.fromEntries(CATALOG.filter(item => item.kind === 'sauce').map(item => [item.key, { ...item }]));
@@ -57,6 +58,7 @@
         if (this.destroyed) throw new Error('Builder was closed.');
         this._prepareSprites(original, 'original');
         this._prepareSprites(expanded, 'expanded');
+        this._prepareBaseVariants();
         this.loaded = true;
         this._paint();
         this._emit();
@@ -132,6 +134,41 @@
       }
     }
 
+    _prepareBaseVariants() {
+      const palette = {cacao:'#6b4437',vanilla:'#ead9ad','blue-majic':'#59bad3',mango:'#f6aa24',ube:'#9b72bc','passion-fruit':'#f2c748',guava:'#f1a2a2',pineapple:'#f4d46b','greek-yogurt':'#f7f5e8','chia-pudding':'#ddd2bd',everoats:'#cbb394',empty:'#f6f4ee'};
+      const source=this.sprites['base-acai'];
+      for (const [key,color] of Object.entries(palette)) {
+        const tile=document.createElement('canvas');tile.width=source.width;tile.height=source.height;const c=tile.getContext('2d');c.drawImage(source,0,0);
+        const d=c.getImageData(0,0,tile.width,tile.height),v=d.data,red=parseInt(color.slice(1,3),16),green=parseInt(color.slice(3,5),16),blue=parseInt(color.slice(5,7),16);
+        for(let y=0;y<tile.height;y++)for(let x=0;x<tile.width;x++){
+          const i=(y*tile.width+x)*4,dx=(x/tile.width-.5)/.46,dy=(y/tile.height-.5)/.46;
+          if(dx*dx+dy*dy>1||!v[i+3])continue;
+          const l=(v[i]*.2126+v[i+1]*.7152+v[i+2]*.0722)/255;
+          // Outside the food surface, retain the neutral ceramic rim and shadow.
+          if(Math.hypot(x/tile.width-.5,y/tile.height-.5)>.425&&!(v[i]>v[i+1]+9&&v[i+2]>v[i+1]+5))continue;
+          if(l>.84&&Math.max(v[i],v[i+1],v[i+2])-Math.min(v[i],v[i+1],v[i+2])<22)continue;
+          const factor=key==='empty'?.985:(key==='greek-yogurt'? .88+l*.24:.67+l*.9);
+          v[i]=clamp(red*factor,0,255);v[i+1]=clamp(green*factor,0,255);v[i+2]=clamp(blue*factor,0,255);
+        }
+        c.putImageData(d,0,0);
+        if(key==='chia-pudding'||key==='everoats'){
+          const rand=seeded(key==='chia-pudding'?318:818);c.save();c.beginPath();c.ellipse(tile.width/2,tile.height/2,tile.width*.375,tile.height*.375,0,0,Math.PI*2);c.clip();
+          for(let n=0;n<(key==='chia-pudding'?850:340);n++){const a=rand()*Math.PI*2,r=Math.sqrt(rand()),x=tile.width*(.5+Math.cos(a)*r*.37),y=tile.height*(.5+Math.sin(a)*r*.37);c.fillStyle=key==='chia-pudding'?(n%3?'#50463d':'#a59480'):(n%2?'#ead5a9':'#a48c65');c.beginPath();c.ellipse(x,y,key==='chia-pudding'?1.2:3.4,key==='chia-pudding'?1.7:1.4,rand()*Math.PI,0,Math.PI*2);c.fill();}c.restore();
+        }
+        this.sprites['base-'+key]=tile;
+      }
+    }
+
+    setVisualComposition({bases=[],ingredients=[],drizzles=[]}={}) {
+      this.state=freshState();this.state.bases=[...new Set(bases)].filter(key=>BASES.includes(key)).slice(0,6);
+      if(!this.state.bases.length)this.state.bases=['empty'];
+      this.sequence=0;
+      for(const entry of ingredients){const key=typeof entry==='string'?entry:entry.key;if(!INGREDIENTS[key])continue;const quantity=typeof entry==='string'?1:Math.max(1,Math.min(6,Number(entry.quantity)||1));const portion=this._newPortion(key,null,0,Math.min(Math.round(INGREDIENTS[key].count*Math.sqrt(quantity)),40), [...key].reduce((a,ch)=>a*31+ch.charCodeAt(0),7)>>>0);
+        const rand=seeded([...key].reduce((a,ch)=>a*31+ch.charCodeAt(0),7)>>>0);for(const piece of portion.pieces){piece.born=-1000000;piece.rotation=rand()*Math.PI*2;piece.size=INGREDIENTS[key].size*(.88+rand()*.24);}this.state.portions.push(portion);}
+      this.state.drizzles=[...new Set(drizzles)].filter(key=>SAUCES[key]);for(const key of this.state.drizzles)this.state.drizzleSeeds[key]=17+Object.keys(SAUCES).indexOf(key)*117;
+      this.state.drizzle=this.state.drizzles.includes('peanut-butter');this.history=[];this._paint();return this.getState();
+    }
+
     getState() {
       return {
         bases: [...this.state.bases],
@@ -162,7 +199,7 @@
 
     setBases(keys) {
       if (!Array.isArray(keys)) return false;
-      const bases = [...new Set(keys)].filter(key => BASES.includes(key)).slice(0, 3);
+      const bases = [...new Set(keys)].filter(key => BASES.includes(key)).slice(0, 6);
       if (!bases.length) return false;
       if (bases.join('|') === this.state.bases.join('|')) return this.getState();
       this._remember();
@@ -178,7 +215,9 @@
       return { x: g.cx + dx / radius * g.rx * margin, y: g.cy + dy / radius * g.ry * margin };
     }
 
-    _newPortion(key, position, offset = 0, count) {
+    _newPortion(key, position, offset = 0, count, randomSeed) {
+      const random = randomSeed === undefined ? null : seeded(randomSeed);
+      const between = (a,b) => random ? a + random() * (b-a) : randomBetween(a,b);
       const meta = INGREDIENTS[key];
       const pieceCount = count === undefined ? meta.count : count;
       const id = 'portion-' + (++this.sequence);
@@ -194,23 +233,23 @@
       for (let i = 0; i < pieceCount; i++) {
         let x, y;
         if ((key === 'granola' || key === 'coconut' || meta.group === 'seeds' || key === 'cinnamon') && !position) {
-          const angle = randomBetween(0, Math.PI * 2);
+          const angle = between(0, Math.PI * 2);
           const radius = Math.sqrt(Math.random()) * .87;
           x = 500 + Math.cos(angle) * this.geometry.rx * radius;
           y = 500 + Math.sin(angle) * this.geometry.ry * radius;
         } else {
-          const angle = i * 2.39996 + randomBetween(-.24, .24);
+          const angle = i * 2.39996 + between(-.24, .24);
           const radius = Math.sqrt(i / Math.max(1, pieceCount - 1)) * (key === 'blueberry' ? 83 : 106);
-          x = target.x + Math.cos(angle) * radius + randomBetween(-9, 9);
-          y = target.y + Math.sin(angle) * radius * .76 + randomBetween(-7, 7);
+          x = target.x + Math.cos(angle) * radius + between(-9, 9);
+          y = target.y + Math.sin(angle) * radius * .76 + between(-7, 7);
         }
         const point = this._inside(x, y, .83);
         pieces.push({
-          x: point.x, y: point.y, rotation: randomBetween(-Math.PI, Math.PI),
-          size: meta.size * randomBetween(.84, 1.14),
+          x: point.x, y: point.y, rotation: between(-Math.PI, Math.PI),
+          size: meta.size * between(.84, 1.14),
           born: this.reducedMotion ? -1000000 : now + offset + i * 22,
-          duration: randomBetween(460, 640), drift: randomBetween(-54, 54),
-          fall: randomBetween(270, 430), spin: randomBetween(-1.7, 1.7),
+          duration: between(460, 640), drift: between(-54, 54),
+          fall: between(270, 430), spin: between(-1.7, 1.7),
         });
       }
       return { id, key, pieces };
@@ -290,7 +329,7 @@
       this._remember();
       const previous = this.state.bases[0];
       this.state = freshState();
-      const choices = BASES.filter(key => key !== previous);
+      const choices = PRIMARY_BASES.filter(key => key !== previous);
       this.state.bases = [choices[Math.floor(Math.random() * choices.length)]];
       if (Math.random() > .5) this.state.bases.push(previous);
       const shuffle = items => {
@@ -439,6 +478,6 @@
 
   window.BOWL_INGREDIENTS = Object.fromEntries(Object.entries(INGREDIENTS).map(([key, value]) => [key, { ...value, position: [...value.position] }]));
   window.BOWL_SAUCES = Object.fromEntries(Object.entries(SAUCES).map(([key, value]) => [key, { ...value }]));
-  window.BOWL_BASES = { acai: { label: 'Açaí', col: 0, row: 0 }, pitaya: { label: 'Pitaya', col: 1, row: 0 }, coconut: { label: 'Coco love', col: 2, row: 0 } };
+  window.BOWL_BASES = Object.fromEntries(PRIMARY_BASES.map((key,index)=>[key,{label:BASE_LABELS[key],col:index%3,row:Math.floor(index/3),illustrated:true}]));
   window.BowlLab = BowlLab;
 })();
