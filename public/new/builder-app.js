@@ -17,7 +17,13 @@
   const normalize = value => String(value || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/^(add|remove)\s+/, '').replace(/\b(base|frozen fruit|powder)\b/g, '').replace(/[^a-z0-9]/g, '');
   const baseColors = {acai:'#572e58',pitaya:'#d33b86',cacaowow:'#62402d',vanilla:'#e9d8ae',bluemajic:'#44a9c6',cocolove:'#eee9d6',mango:'#eaa537',ube:'#9276bc',passionfruit:'#edbb43',guava:'#eb9a96',pineapple:'#efce69',greekyogurt:'#f3eee0',chiapudding:'#a4a29a',everoats:'#bda47a',granola:'#bd945d'};
   const hash = value => { let n=0;for(const ch of value)n=Math.imul(n,31)+ch.charCodeAt(0)|0;return Math.abs(n).toString(36); };
-  const catalog = window.EVERBOWL_BUILDER_MENU;
+  const sourceCatalog = window.EVERBOWL_BUILDER_MENU;
+  const catalog = sourceCatalog && {
+    ...sourceCatalog,
+    products: sourceCatalog.products.filter(product =>
+      product.kind !== 'pint' || !/ Base Pint$/i.test(product.name) || product.imageUrl
+    )
+  };
   let model, visual, currentFamily = 'bowls', ready = false, renderQueued = false, selectedSignature = '';
   let dialogRequest = 0, dialogTimer, dialogReturnFocus, actionError = null;
   const detailsState = new Map();

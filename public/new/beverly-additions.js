@@ -11,10 +11,40 @@
       'Chia Pudding Whatever Bowl': 'Chia Pudding Bowl',
       'Oats Whatever Bowl': 'Oats Bowl'
     };
+    const localPhotos = {
+      "Acai Base Pint": "assets/brand/pint-acai.webp",
+      "Pitaya Base Pint": "assets/brand/pint-pitaya.webp",
+      "Cacao Wow Base Pint": "assets/brand/pint-cacao.webp",
+      "Vanilla Base Pint": "assets/brand/pint-vanilla.webp",
+      "Blue Majic Base Pint": "assets/brand/pint-blue-majic.webp",
+      "Coco Love Base Pint": "assets/brand/pint-coco-love.webp",
+      "Vanilla Everwich": "assets/brand/vanilla-everwich.webp",
+      "Banana Cutter": "assets/brand/banana-cutter.webp",
+      "Acai Seed Bracelet": "assets/brand/acai-seed-bracelet.webp",
+      "Coconut Bowl": "assets/brand/coconut-bowl.webp",
+      "Nutella Banana Toast": "assets/brand/nutella-banana-toast.webp",
+      "Celsius Tropical Vibe": "assets/brand/celsius-tropical-vibe.webp",
+      "Celsius Kiwi Guava": "assets/brand/celsius-kiwi-guava.webp",
+      "Poppi Strawberry Lemonade": "assets/brand/poppi-strawberry-lemonade.webp",
+      "Smart Water": "assets/brand/smart-water.webp",
+      "Vita Coco Coconut Water": "assets/brand/vita-coco-coconut-water.webp",
+      "Miss Vickies Sea Salt": "assets/brand/miss-vickies-sea-salt.webp",
+      "Miss Vickies Smokehouse BBQ": "assets/brand/miss-vickies-smokehouse-bbq.webp",
+      "Miss Vickies Jalapeno": "assets/brand/miss-vickies-jalapeno.webp",
+      "Miss Vickies Sea Salt and Vinegar": "assets/brand/miss-vickies-sea-salt-and-vinegar.webp"
+    };
+    const photoMap = window.EVERBOWL_BEVERLY_PHOTOS || {};
+    const photoFor = item => localPhotos[item.name] || (item.photoUrl && photoMap[item.photoUrl]);
+    const visibleCategories = data.categories.map(category => ({
+      ...category,
+      items: category.id === 'take-me-homes'
+        ? category.items.filter(item => !/ Base Pint$/i.test(item.name) || photoFor(item))
+        : category.items
+    }));
     const existing = [...document.querySelectorAll('.fs-menu-item h4,.fs-whatever-item>span,.fs-smoothie h3,.fs-toast h3,.fs-sips li,#bowls [data-preset] strong,#whatever .prices li,#smoothies .cups h3,#toast .toasts h3,#toast .drinks li')];
     const coverage = {sourceCount: 0, representedByExisting: [], addedIds: [], missingIds: [], pricePolicy: 'New public prices omitted pending Spokane confirmation; Beverly prices remain in reference data.'};
     const groups = [];
-    for (const cat of data.categories) {
+    for (const cat of visibleCategories) {
       const missing = [];
       for (const item of cat.items) {
         coverage.sourceCount++;
@@ -29,16 +59,6 @@
       }
       if (missing.length) groups.push({...cat,items:missing});
     }
-    const hubPhotos = {
-      "Acai Base Pint": "assets/brand/pint-acai.webp",
-      "Pitaya Base Pint": "assets/brand/pint-pitaya.webp",
-      "Cacao Wow Base Pint": "assets/brand/pint-cacao.webp",
-      "Vanilla Base Pint": "assets/brand/pint-vanilla.webp",
-      "Blue Majic Base Pint": "assets/brand/pint-blue-majic.webp",
-      "Coco Love Base Pint": "assets/brand/pint-coco-love.webp",
-      "Vanilla Everwich": "assets/brand/vanilla-everwich.webp"
-    };
-    const photoMap = window.EVERBOWL_BEVERLY_PHOTOS || {};
     const optionGroups = item => (item.optionGroupIds || []).map(id => data.optionGroups[id]).filter(Boolean).filter(group => !/default ingredients|make it a combo/i.test(group.name));
     const choices = item => {
       const list = optionGroups(item);
@@ -47,9 +67,8 @@
     };
     const card = item => {
       coverage.addedIds.push(item.id);
-      const hubPhoto = hubPhotos[item.name];
-      const image = hubPhoto || (item.photoUrl && photoMap[item.photoUrl]);
-      return `<article class="bv-product${image ? ' bv-has-photo' : ' bv-type-card'}" data-source-item-id="${esc(item.id)}" data-source-item-name="${esc(item.name)}">${image ? `<div class="bv-product-photo"><img style="--bv-photo-scale:${hubPhoto ? 1 : Number((window.EVERBOWL_BEVERLY_PHOTO_SCALES || {})[item.photoUrl]) || 1}" src="${image}" alt="${esc(item.name)}" loading="lazy" decoding="async"></div>` : ''}<div class="bv-product-copy"><h4>${esc(item.name)}</h4>${item.description ? `<p>${esc(item.description)}</p>` : ''}${choices(item)}</div></article>`;
+      const image = photoFor(item);
+      return `<article class="bv-product${image ? ' bv-has-photo' : ' bv-type-card'}" data-source-item-id="${esc(item.id)}" data-source-item-name="${esc(item.name)}">${image ? `<div class="bv-product-photo"><img style="--bv-photo-scale:${localPhotos[item.name] ? 1 : Number((window.EVERBOWL_BEVERLY_PHOTO_SCALES || {})[item.photoUrl]) || 1}" src="${image}" alt="${esc(item.name)}" loading="lazy" decoding="async"></div>` : ''}<div class="bv-product-copy"><h4>${esc(item.name)}</h4>${item.description ? `<p>${esc(item.description)}</p>` : ''}${choices(item)}</div></article>`;
     };
     const headings = {
       'everfuel-protein-craft-superfoods-lto': ['THE NEW GOOD STUFF.', 'everFuel Protein Craft Superfoods LTO', 'Four ways to mix things up with Greek yogurt, protein and nutella.'],
@@ -72,7 +91,7 @@
       cats.forEach(cat => {cat.hidden = id !== 'all' && cat.dataset.bvCategory !== id;});
       section.querySelector('.bv-filter-status').textContent = id === 'all' ? 'Showing all additional menu categories.' : `Showing ${button.textContent.trim()}.`;
     });
-    const all = data.categories.flatMap(cat => cat.items);
+    const all = visibleCategories.flatMap(cat => cat.items);
     const present = new Set([...document.querySelectorAll('[data-source-item-id]')].map(node => node.dataset.sourceItemId));
     coverage.missingIds = all.filter(item => !present.has(item.id)).map(item => item.id);
     coverage.addedCategories = groups.map(group => ({id:group.id,name:group.name,count:group.items.length}));
