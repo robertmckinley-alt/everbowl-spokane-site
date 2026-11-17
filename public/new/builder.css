@@ -20,3 +20,6 @@
 /* The bowl follows the options within the builder. */
 @media(min-width:761px){.mb-display{position:sticky;top:20px;align-self:start}.mb-visual-panel{margin-bottom:0}}
 @media(max-width:760px){.mb-visual-panel{position:sticky;top:0;align-self:flex-start;z-index:6}}
+
+/* End the sticky bowl and final options panel on the same baseline. */
+.mb-options .mb-group:last-child{margin-bottom:0}
