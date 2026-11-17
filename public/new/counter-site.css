@@ -242,3 +242,9 @@ body.counter-storefront .fs-rewards-details{padding-top:20px}
 body.counter-storefront .fs-footer{padding-top:28px;padding-bottom:20px}
 body.counter-storefront .mb-builder{padding-top:22px;padding-bottom:20px}
 }
+
+/* Location details and map share a bottom edge in the two-column layout. */
+body.counter-storefront .fs-map-card{align-self:stretch;display:flex;flex-direction:column}
+body.counter-storefront .fs-map-card iframe{flex:1 1 320px;min-height:320px}
+body.counter-storefront .fs-map-caption{flex:none}
+@media(max-width:760px){body.counter-storefront .fs-map-card iframe{flex-basis:300px;min-height:300px}}
