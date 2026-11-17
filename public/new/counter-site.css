@@ -222,3 +222,23 @@ body.counter-storefront .fs-map-caption .fs-map-address{font-size:15px;line-heig
 
 /* Bring the opening bowls heading closer to the top of the green section. */
 body.counter-storefront #bowl-opening .fs-menu{padding-top:24px;border-top-width:0}
+
+/* Compact vertical rhythm across the complete storefront. */
+body.counter-storefront .fs-site .fs-section{padding-block:40px}
+body.counter-storefront .fs-newsletter{padding-block:40px!important}
+body.counter-storefront .fs-catering-copy{padding-block:40px}
+body.counter-storefront .fs-newsletter>.fs-wrap{padding-block:24px}
+body.counter-storefront .fs-application-form{padding-top:32px;padding-bottom:24px}
+body.counter-storefront .fs-rewards-details{padding-top:24px}
+body.counter-storefront .fs-footer{padding-top:32px;padding-bottom:20px}
+body.counter-storefront .mb-builder{padding-top:28px;padding-bottom:24px}
+@media(max-width:760px){
+body.counter-storefront .fs-site .fs-section{padding-block:28px}
+body.counter-storefront .fs-newsletter{padding-block:28px!important}
+body.counter-storefront .fs-catering-copy{padding-block:28px}
+body.counter-storefront .fs-newsletter>.fs-wrap{padding-block:22px}
+body.counter-storefront .fs-application-form{padding-top:28px;padding-bottom:22px}
+body.counter-storefront .fs-rewards-details{padding-top:20px}
+body.counter-storefront .fs-footer{padding-top:28px;padding-bottom:20px}
+body.counter-storefront .mb-builder{padding-top:22px;padding-bottom:20px}
+}
