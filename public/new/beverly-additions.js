@@ -29,6 +29,15 @@
       }
       if (missing.length) groups.push({...cat,items:missing});
     }
+    const hubPhotos = {
+      "Acai Base Pint": "assets/brand/pint-acai.webp",
+      "Pitaya Base Pint": "assets/brand/pint-pitaya.webp",
+      "Cacao Wow Base Pint": "assets/brand/pint-cacao.webp",
+      "Vanilla Base Pint": "assets/brand/pint-vanilla.webp",
+      "Blue Majic Base Pint": "assets/brand/pint-blue-majic.webp",
+      "Coco Love Base Pint": "assets/brand/pint-coco-love.webp",
+      "Vanilla Everwich": "assets/brand/vanilla-everwich.webp"
+    };
     const photoMap = window.EVERBOWL_BEVERLY_PHOTOS || {};
     const optionGroups = item => (item.optionGroupIds || []).map(id => data.optionGroups[id]).filter(Boolean).filter(group => !/default ingredients|make it a combo/i.test(group.name));
     const choices = item => {
@@ -38,8 +47,9 @@
     };
     const card = item => {
       coverage.addedIds.push(item.id);
-      const image = item.photoUrl && photoMap[item.photoUrl];
-      return `<article class="bv-product${image ? ' bv-has-photo' : ' bv-type-card'}" data-source-item-id="${esc(item.id)}" data-source-item-name="${esc(item.name)}">${image ? `<div class="bv-product-photo"><img style="--bv-photo-scale:${Number((window.EVERBOWL_BEVERLY_PHOTO_SCALES || {})[item.photoUrl]) || 1}" src="${image}" alt="${esc(item.name)}" loading="lazy" decoding="async"></div>` : ''}<div class="bv-product-copy"><h4>${esc(item.name)}</h4>${item.description ? `<p>${esc(item.description)}</p>` : ''}${choices(item)}</div></article>`;
+      const hubPhoto = hubPhotos[item.name];
+      const image = hubPhoto || (item.photoUrl && photoMap[item.photoUrl]);
+      return `<article class="bv-product${image ? ' bv-has-photo' : ' bv-type-card'}" data-source-item-id="${esc(item.id)}" data-source-item-name="${esc(item.name)}">${image ? `<div class="bv-product-photo"><img style="--bv-photo-scale:${hubPhoto ? 1 : Number((window.EVERBOWL_BEVERLY_PHOTO_SCALES || {})[item.photoUrl]) || 1}" src="${image}" alt="${esc(item.name)}" loading="lazy" decoding="async"></div>` : ''}<div class="bv-product-copy"><h4>${esc(item.name)}</h4>${item.description ? `<p>${esc(item.description)}</p>` : ''}${choices(item)}</div></article>`;
     };
     const headings = {
       'everfuel-protein-craft-superfoods-lto': ['THE NEW GOOD STUFF.', 'everFuel Protein Craft Superfoods LTO', 'Four ways to mix things up with Greek yogurt, protein and nutella.'],

@@ -2,61 +2,75 @@ window.EVERBOWL_SITE_DATA = {
   "signatureBowls": [
     {
       "name": "Everbowl",
-      "ingredients": "Açaí, granola, banana, strawberry, blueberry."
+      "ingredients": "Açaí, granola, banana, strawberry, blueberry.",
+      "image": "assets/brand/everbowl.webp"
     },
     {
       "name": "PB Everbowl",
-      "ingredients": "Açaí, granola, peanut butter, banana, strawberry, blueberry."
+      "ingredients": "Açaí, granola, peanut butter, banana, strawberry, blueberry.",
+      "image": "assets/brand/pb-everbowl.webp"
     },
     {
       "name": "Berry Boost",
-      "ingredients": "Açaí, chia pudding, banana, strawberry, blueberry, goji berry."
+      "ingredients": "Açaí, chia pudding, banana, strawberry, blueberry, goji berry.",
+      "image": "assets/brand/berry-boost.webp"
     },
     {
       "name": "Blue Lagoon",
-      "ingredients": "Blue majic, pitaya, coco love, chia pudding, strawberry, pineapple, coconut."
+      "ingredients": "Blue majic, pitaya, coco love, chia pudding, strawberry, pineapple, coconut.",
+      "image": "assets/brand/blue-lagoon.webp"
     },
     {
       "name": "Pitayum",
-      "ingredients": "Açaí, pitaya, coco love, granola, banana, pineapple, kiwi, coconut."
+      "ingredients": "Açaí, pitaya, coco love, granola, banana, pineapple, kiwi, coconut.",
+      "image": "assets/brand/pitayum.webp"
     },
     {
       "name": "Mango Majic",
-      "ingredients": "Mango, blue majic, granola, pineapple, strawberry, kiwi, coconut."
+      "ingredients": "Mango, blue majic, granola, pineapple, strawberry, kiwi, coconut.",
+      "image": "assets/brand/mango-majic.webp"
     },
     {
       "name": "Full Moon",
-      "ingredients": "Vanilla, cacao wow, granola, banana, strawberry, peanut butter, cacao nibs."
+      "ingredients": "Vanilla, cacao wow, granola, banana, strawberry, peanut butter, cacao nibs.",
+      "image": "assets/brand/full-moon.webp"
     },
     {
       "name": "Nutty Butty",
-      "ingredients": "Vanilla, everoats, banana, strawberry, peanut butter, almond butter, almonds, cinnamon."
+      "ingredients": "Vanilla, everoats, banana, strawberry, peanut butter, almond butter, almonds, cinnamon.",
+      "image": "assets/brand/nutty-butty.webp"
     },
     {
       "name": "Perfect Date",
-      "ingredients": "Cacao wow, coco love, granola, peanut butter, banana, blueberry, date."
+      "ingredients": "Cacao wow, coco love, granola, peanut butter, banana, blueberry, date.",
+      "image": "assets/brand/perfect-date.webp"
     }
   ],
   "whateverBowls": [
     {
       "name": "Regular Whatever Bowl",
-      "price": "$11.99"
+      "price": "$11.99",
+      "image": "assets/brand/whatever-bowl.webp"
     },
     {
       "name": "Large Whatever Bowl",
-      "price": "$14.99"
+      "price": "$14.99",
+      "image": "assets/brand/large-whatever-bowl.webp"
     },
     {
       "name": "Kids Bowl",
-      "price": "$7.99"
+      "price": "$7.99",
+      "image": "assets/brand/kids-bowl.webp"
     },
     {
       "name": "Chia Pudding Bowl",
-      "price": "$7.99"
+      "price": "$7.99",
+      "image": "assets/brand/chia-pudding-whatever-bowl.webp"
     },
     {
       "name": "Oats Bowl",
-      "price": "$7.99"
+      "price": "$7.99",
+      "image": "assets/brand/oats-whatever-bowl.webp"
     },
     {
       "name": "Hot Oats (GF)",
@@ -67,27 +81,27 @@ window.EVERBOWL_SITE_DATA = {
     {
       "name": "Nanaberry Bliss",
       "ingredients": "Vanilla, banana, strawberry, almond milk.",
-      "image": "assets/nanaberry-bliss-matched.png"
+      "image": "assets/brand/nanaberry-bliss.webp"
     },
     {
       "name": "PB Cacao Dream",
       "ingredients": "Cacao wow, banana, cacao nibs, peanut butter, almond milk.",
-      "image": "assets/pb-cacao-dream.jpg"
+      "image": "assets/brand/pb-cacao-dream.webp"
     },
     {
       "name": "Pitaya Paradise",
       "ingredients": "Pitaya, coco love, strawberry, pineapple, coconut milk.",
-      "image": "assets/pitaya-paradise.jpg"
+      "image": "assets/brand/pitaya-paradise.webp"
     },
     {
       "name": "Glow Up",
       "ingredients": "Mango, pineapple, apple juice.",
-      "image": "assets/glow-up.jpg"
+      "image": "assets/brand/glow-up.webp"
     },
     {
       "name": "Evergreen",
       "ingredients": "Blue majic, coco love, mango, pineapple, spinach, apple juice.",
-      "image": "assets/evergreen.jpg"
+      "image": "assets/brand/evergreen.webp"
     }
   ],
   "toasts": [
@@ -95,25 +109,24 @@ window.EVERBOWL_SITE_DATA = {
       "name": "Classic Avocado Toast",
       "ingredients": "House-made avocado spread, everything seasoning, chili flakes, honey.",
       "price": "$6.99",
-      "image": "assets/toast-classic-official.webp"
+      "image": "assets/brand/classic-avocado-toast.webp"
     },
     {
       "name": "Bruschetta Avocado Toast",
       "ingredients": "Avocado spread, marinated tomatoes, basil, balsamic glaze.",
       "price": "$7.99",
-      "image": "assets/toast-bruschetta-official.webp"
+      "image": "assets/brand/bruschetta-avocado-toast.webp"
     },
     {
       "name": "PB Crunch Toast",
       "ingredients": "Crunchy peanut butter spread, banana, cacao nibs, honey.",
       "price": "$6.99",
-      "image": "assets/toast-pb-crunch-official.webp"
+      "image": "assets/brand/pb-crunch-toast.webp"
     },
     {
       "name": "Whatever Toast",
       "ingredients": "Build your own on toasted artisan rustic bread.",
-      "price": "$8.99",
-      "image": "assets/toast-trio.jpg"
+      "price": "$8.99"
     }
   ],
   "sips": [
@@ -135,19 +148,19 @@ window.EVERBOWL_SITE_DATA = {
     {
       "name": "Everbowl",
       "ingredients": "Açaí, granola, banana, strawberry, blueberry.",
-      "image": "assets/bowl-acai.jpg",
+      "image": "assets/brand/everbowl.webp",
       "tag": "Açaí base"
     },
     {
       "name": "Blue Lagoon",
       "ingredients": "Blue majic, pitaya, coco love, chia pudding, strawberry, pineapple, coconut.",
-      "image": "assets/bowl-pitaya.jpg",
-      "tag": "Pitaya base"
+      "image": "assets/brand/blue-lagoon.webp",
+      "tag": "Blue majic · pitaya · coco love"
     },
     {
       "name": "The Whatever Bowl",
       "ingredients": "Your bases, your fruit, your superfoods. Built from scratch, your rules.",
-      "image": "assets/bowl-custom.jpg",
+      "image": "assets/brand/whatever-bowl.webp",
       "tag": "Build your own"
     }
   ],
@@ -302,7 +315,7 @@ window.EVERBOWL_SITE_DATA = {
     "title": "Feed the whole crew.",
     "body": "Team offsites, practices, birthdays, and events. Build-your-own bowl bars and smoothie boxes for groups of any size, delivered fresh.",
     "url": "https://www.everbowl.com/acai-bowl-catering-near-me",
-    "image": "assets/spread.jpg"
+    "image": "assets/brand/bowls-together.webp"
   },
   "rewards": {
     "title": "Eat bowls. Earn stuff.",
@@ -330,20 +343,20 @@ window.EVERBOWL_SITE_DATA = {
     "url": "https://www.instagram.com/everbowlspokane/",
     "images": [
       {
-        "src": "assets/bowl-acai.jpg",
-        "alt": "Everbowl açaí bowl with fruit and granola"
+        "src": "assets/brand/everbowl-stylized.webp",
+        "alt": "An Everbowl açaí bowl with fresh berries"
       },
       {
-        "src": "assets/bowl-pitaya.jpg",
-        "alt": "Colorful layered Everbowl fruit bowl"
+        "src": "assets/brand/full-moon-stylized.webp",
+        "alt": "A Full Moon bowl on Everbowl’s pink backdrop"
       },
       {
-        "src": "assets/smoothies-lineup.jpg",
-        "alt": "Everbowl smoothie lineup"
+        "src": "assets/brand/smoothies-and-sips.webp",
+        "alt": "Everbowl smoothies and lemonades alongside fresh fruit"
       },
       {
-        "src": "assets/bowl-custom.jpg",
-        "alt": "Custom Everbowl with fruit and toppings"
+        "src": "assets/brand/toast-stylized.webp",
+        "alt": "Everbowl avocado and bruschetta toasts"
       }
     ]
   },
@@ -432,5 +445,20 @@ window.EVERBOWL_SITE_DATA = {
         ]
       }
     ]
+  },
+  "sipPhotos": {
+    "Strawberry Lemonade": "assets/brand/strawberry-lemonade.webp",
+    "Dragon Fruit Lemonade": "assets/brand/dragon-fruit-lemonade.webp",
+    "Cold Brew": "assets/brand/cold-brew.webp",
+    "Cold Brew + Cinnamon Cold Foam": "assets/brand/cold-brew-with-cinnamon-cold-foam.webp",
+    "Cold Brew + Cacao Cold Foam": "assets/brand/cold-brew-with-cacao-cold-foam.webp",
+    "Cold Brew + PB Cold Foam": "assets/brand/cold-brew-with-peanut-butter-cold-foam.webp",
+    "Cinnamon Ice Blended Coffee": "assets/brand/cinnamon-ice-blended-coffee.webp",
+    "Cacao Ice Blended Coffee": "assets/brand/cacao-ice-blended-coffee.webp",
+    "PB Protein Ice Blended Coffee": "assets/brand/peanut-butter-protein-ice-blended-coffee.webp",
+    "Iced Matcha": "assets/brand/iced-matcha.webp",
+    "Iced Strawberry Matcha": "assets/brand/iced-strawberry-matcha.webp",
+    "Ice Blended Matcha": "assets/brand/ice-blended-matcha.webp",
+    "Ice Blended Strawberry Matcha": "assets/brand/ice-blended-strawberry-matcha.webp"
   }
 };
