@@ -230,7 +230,8 @@ window.EVERBOWL_SITE_DATA = {
       }
     ],
     "mapsUrl": "https://www.google.com/maps/search/?api=1&query=13324+E+Sprague+Ave+Suite+101+Spokane+Valley+WA+99216",
-    "mapsEmbed": "https://www.google.com/maps?q=13324+E+Sprague+Ave+Suite+101+Spokane+Valley+WA+99216&output=embed",
+    "mapsEmbed": "https://www.google.com/maps?saddr=Trader+Joe%27s+13414+E+Sprague+Ave+Spokane+Valley+WA&daddr=13324+E+Sprague+Ave+Suite+101+Spokane+Valley+WA&dirflg=w&output=embed",
+    "parkingMapsUrl": "https://www.google.com/maps/dir/?api=1&origin=Trader+Joe%27s+13414+E+Sprague+Ave+Spokane+Valley+WA&destination=13324+E+Sprague+Ave+Suite+101+Spokane+Valley+WA&travelmode=walking",
     "phonePlaceholder": "Phone details to be confirmed",
     "sourcePhone": "(509) 555-0142",
     "hoursLabel": "Listed hours",
