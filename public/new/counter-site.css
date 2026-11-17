@@ -219,3 +219,6 @@ body.counter-storefront .fs-map-caption h3{font-size:29px;margin:0 0 13px}
 body.counter-storefront .fs-map-caption .fs-parking-note{font-size:19px;font-weight:600;color:#203426;margin:0 0 12px}
 body.counter-storefront .fs-map-caption .fs-map-address{font-size:15px;line-height:1.5;margin:0 0 20px}
 @media(max-width:760px){body.counter-storefront .fs-map-card{min-height:0}body.counter-storefront .fs-map-card iframe{height:300px;min-height:0}body.counter-storefront .fs-map-caption{padding:24px}}
+
+/* Bring the opening bowls heading closer to the top of the green section. */
+body.counter-storefront #bowl-opening .fs-menu{padding-top:24px;border-top-width:0}
