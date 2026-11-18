@@ -5,26 +5,29 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { POSTS, SITE, CDN } from "./posts.mjs";
+import { POSTS as ARCHIVE_POSTS, SITE, CDN } from "./posts.mjs";
+import { LOCAL_POSTS } from "./local-posts.mjs";
+
+const POSTS = [...LOCAL_POSTS, ...ARCHIVE_POSTS];
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, "..");
 const BLOG_DIR = path.join(ROOT, "public", "blog");
 fs.mkdirSync(BLOG_DIR, { recursive: true });
 
-const LOGO = `${CDN}/d786c528-0377-4f20-9f7a-05b7308b91d7.png`;
+const LOGO = `${SITE}/new/assets/brand/logo-white.png`;
+const THEME_DESCRIPTION = "Everbowl menu favorites and things to do around Spokane, the Inland Northwest, and North Idaho.";
 const esc = (s) => String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
 const fmtDate = (iso) =>
   new Date(iso + "T12:00:00Z").toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" });
 
 const NAV = `
   <nav class="eb-nav">
-    <a class="eb-brand" href="/"><img src="${LOGO}" alt="Everbowl Spokane" /><span>everbowl <span class="g">spokane</span></span></a>
+    <a class="eb-brand" href="/new"><img src="${LOGO}" alt="Everbowl Spokane Valley" width="500" height="135" /></a>
     <div class="eb-nav-links">
-      <a href="/#menu">Menu</a>
-      <a href="/#location">Visit</a>
+      <a href="/new#menu">Menu</a>
+      <a href="/new#location">Visit</a>
       <a href="/blog/">Journal</a>
-      <span class="eb-nav-cta" style="opacity:.65;pointer-events:none" aria-disabled="true">Opening soon</span>
     </div>
   </nav>`;
 
@@ -32,7 +35,7 @@ const FOOTER = `
   <footer class="eb-foot">
     <div class="wrap-wide row">
       <div>© ${new Date().getUTCFullYear()} Everbowl Spokane · 13324 E Sprague Ave, Suite 101, Spokane Valley, WA</div>
-      <div><a href="/">Home</a> · <a href="/blog/">Journal</a> · <a href="https://www.instagram.com/everbowl/" rel="noopener">Instagram</a></div>
+      <div><a href="/new">Home</a> · <a href="/blog/">Journal</a> · <a href="https://www.instagram.com/everbowl/" rel="noopener">Instagram</a></div>
     </div>
   </footer>`;
 
@@ -40,7 +43,7 @@ const CTA = `
   <div class="callout">
     <h3>Refuel at Everbowl Spokane Valley</h3>
     <p>Cold-blended açaí, pitaya, and smoothie bowls made to order at 13324 E Sprague Ave. Perfect after the trail, the river, or the gym.</p>
-    <a class="btn" href="/#menu">See the menu →</a>
+    <a class="btn" href="/new#menu">See the menu →</a>
   </div>`;
 
 function postHtml(p) {
@@ -95,9 +98,8 @@ function postHtml(p) {
   <meta name="twitter:title" content="${esc(p.title)}" />
   <meta name="twitter:description" content="${esc(p.description)}" />
   <meta name="twitter:image" content="${hero}" />
-  <link rel="preload" href="/fonts/brandonfont-black.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/Proxima-Nova-Regular.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/fonts/fonts.css" />
+  <link rel="preload" href="/new/assets/brand/brandon-grotesque-black.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/new/assets/brand/proxima-nova-regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="/blog/blog.css" />
   <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
   <script type="application/ld+json">${JSON.stringify(crumb)}</script>
@@ -133,7 +135,7 @@ function indexHtml(posts) {
   const cards = posts
     .map((p) => {
       const hero = p.image ? (p.image.startsWith("/") ? `${SITE}${p.image}` : `${CDN}/${p.image}`) : `${CDN}/6ba26f97-d429-4d26-badf-9f5e631c7da6.png`;
-      return `      <a class="card" href="/blog/${p.slug}.html">
+      return `      <a class="card" href="/blog/${p.slug}.html" data-category="${esc(p.category)}">
         <div class="card-img"><img src="${hero}" alt="${esc(p.imageAlt || p.title)}" loading="lazy" /></div>
         <div class="card-body">
           <span class="card-cat">${esc(p.category)}</span>
@@ -144,11 +146,13 @@ function indexHtml(posts) {
       </a>`;
     })
     .join("\n");
+  const categories = [...new Set(posts.map(post => post.category))].sort();
+  const options = categories.map(category => `<option>${esc(category)}</option>`).join("");
   const jsonld = {
     "@context": "https://schema.org",
     "@type": "Blog",
     "name": "Everbowl Spokane Journal",
-    "description": "Fitness, health, and nutrition from Spokane Valley's superfood bowl bar.",
+    "description": THEME_DESCRIPTION,
     "url": SITE + "/blog/",
     "publisher": { "@type": "Organization", "name": "Everbowl Spokane", "logo": { "@type": "ImageObject", "url": LOGO } },
     "blogPost": posts.map((p) => ({ "@type": "BlogPosting", "headline": p.title, "url": `${SITE}/blog/${p.slug}.html`, "datePublished": p.date })),
@@ -158,22 +162,21 @@ function indexHtml(posts) {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Journal | Fitness, Health &amp; Nutrition — Everbowl Spokane</title>
-  <meta name="description" content="Fitness, health, and nutrition tips from Everbowl Spokane Valley — superfoods, açaí bowls, workout fuel, and eating well in the Inland Northwest." />
+  <title>The Journal | Local Outings &amp; Menu Favorites — Everbowl Spokane</title>
+  <meta name="description" content="${THEME_DESCRIPTION}" />
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <link rel="canonical" href="${SITE}/blog/" />
   <meta name="theme-color" content="#211037" />
   <link rel="icon" href="${LOGO}" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Everbowl Spokane" />
-  <meta property="og:title" content="The Journal — Fitness, Health &amp; Nutrition | Everbowl Spokane" />
-  <meta property="og:description" content="Fitness, health, and nutrition from Spokane Valley's superfood bowl bar." />
+  <meta property="og:title" content="The Journal — Local Outings &amp; Menu Favorites | Everbowl Spokane" />
+  <meta property="og:description" content="${THEME_DESCRIPTION}" />
   <meta property="og:url" content="${SITE}/blog/" />
   <meta property="og:image" content="${CDN}/6ba26f97-d429-4d26-badf-9f5e631c7da6.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <link rel="preload" href="/fonts/brandonfont-black.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="preload" href="/fonts/Proxima-Nova-Regular.woff2" as="font" type="font/woff2" crossorigin />
-  <link rel="stylesheet" href="/fonts/fonts.css" />
+  <link rel="preload" href="/new/assets/brand/brandon-grotesque-black.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/new/assets/brand/proxima-nova-regular.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="stylesheet" href="/blog/blog.css" />
   <script type="application/ld+json">${JSON.stringify(jsonld)}</script>
 </head>
@@ -181,17 +184,43 @@ function indexHtml(posts) {
   ${NAV}
   <header class="hero-index">
     <div class="wrap-wide">
-      <p class="kicker">The Journal</p>
-      <h1>Fuel, moved forward.</h1>
-      <p>Fitness, health, and nutrition from Spokane Valley's superfood bowl bar — what to eat around training, what's actually in your bowl, and how to feel good doing it.</p>
+      <h1>The Everbowl Journal</h1>
+      <p>${THEME_DESCRIPTION}</p>
     </div>
   </header>
   <main class="wrap-wide">
+    <div class="journal-filters" hidden>
+      <label>Search articles <input id="journal-query" type="search" placeholder="Try Post Falls or matcha" /></label>
+      <label>Topic <select id="journal-topic"><option value="">All topics</option>${options}</select></label>
+    </div>
+    <p id="journal-results" role="status" hidden></p>
     <div class="post-grid">
 ${cards}
     </div>
   </main>
   ${FOOTER}
+  <script>
+    const query = document.querySelector("#journal-query");
+    const topic = document.querySelector("#journal-topic");
+    const results = document.querySelector("#journal-results");
+    const cards = [...document.querySelectorAll(".post-grid .card")];
+    const normalize = value => value.toLowerCase().normalize("NFD").replace(/\\p{Mark}/gu, "");
+    function filterArticles() {
+      const words = normalize(query.value).trim().split(/\\s+/).filter(Boolean);
+      let count = 0;
+      for (const card of cards) {
+        const matchesTopic = !topic.value || topic.value === card.dataset.category;
+        const text = normalize(card.textContent);
+        card.hidden = !matchesTopic || !words.every(word => text.includes(word));
+        if (!card.hidden) count++;
+      }
+      results.hidden = !topic.value && !words.length;
+      results.textContent = count === 1 ? "1 article" : count ? count + " articles" : "No articles match your search.";
+    }
+    document.querySelector(".journal-filters").hidden = false;
+    query.addEventListener("input", filterArticles);
+    topic.addEventListener("change", filterArticles);
+  </script>
 </body>
 </html>`;
 }
@@ -218,7 +247,7 @@ ${cards}
 
 const TODAY = new Intl.DateTimeFormat("en-CA", { timeZone: "America/Los_Angeles" }).format(new Date());
 const published = POSTS.filter((p) => p.date <= TODAY);
-const sorted = [...published].sort((a, b) => (a.date < b.date ? 1 : -1));
+const sorted = [...published].sort((a, b) => b.date.localeCompare(a.date));
 for (const p of sorted) {
   fs.writeFileSync(path.join(BLOG_DIR, `${p.slug}.html`), postHtml(p));
 }

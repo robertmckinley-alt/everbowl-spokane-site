@@ -123,3 +123,67 @@ blockquote {
   .eb-nav-links { gap: 0.9rem; }
   .eb-nav-links a:not(.eb-nav-cta) { display: none; }
 }
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("/new/assets/brand/brandon-grotesque-black.woff2") format("woff2");
+  font-weight: 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/new/assets/brand/proxima-nova-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/new/assets/brand/proxima-nova-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+:root {
+  --eb-bone: #f5f7ef;
+  --eb-bone-soft: #e8efe3;
+  --eb-bone-line: #d4ddcf;
+  --eb-plum: #231f20;
+  --eb-plum-deep: #231f20;
+  --eb-ink: #231f20;
+  --eb-green: #6ec27c;
+  --eb-green-deep: #21643c;
+  --eb-violet: #21643c;
+  --eb-muted: #526156;
+  --eb-muted-light: #e1e8de;
+  --font-display: "Brandon Grotesque", ui-sans-serif, system-ui, sans-serif;
+}
+.eb-nav { background: var(--eb-ink); border-bottom: 0; }
+.eb-brand img { width: clamp(104px, 17vw, 168px); height: auto; border-radius: 0; }
+.hero-index { padding: 3rem 0 2.5rem; }
+.hero-index p { margin: 0; }
+.journal-filters {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 14px;
+  padding-top: 1.5rem;
+}
+.journal-filters label { display: grid; gap: 5px; font-weight: 700; }
+.journal-filters :is(input, select) {
+  width: 100%;
+  min-height: 44px;
+  padding: .55em .75em;
+  font: inherit;
+  font-weight: 400;
+  color: var(--eb-ink);
+  background: #fff;
+  border: 1px solid #a5b7a2;
+}
+[hidden] { display: none !important; }
+.post-grid { grid-template-columns: repeat(auto-fill, minmax(min(100%, 286px), 1fr)); padding-top: 1.5rem; }
+.card-img img[src*="/new/assets/brand/"],
+.post-hero img[src*="/new/assets/brand/"] { object-position: center 70%; }
+@media (max-width: 600px) {
+  .eb-nav { padding-inline: .75rem; }
+  .eb-nav-links { gap: .6rem; }
+  .eb-nav-links a:not(.eb-nav-cta) { display: inline; }
+  .journal-filters { grid-template-columns: 1fr; }
+}

@@ -27,7 +27,7 @@
         let image = old?.image || '';
         if (img) {
           const candidate = new URL(img.getAttribute('src'), origin);
-          if (candidate.origin === origin && /^\/blog-img\/[a-zA-Z0-9_.-]+\.(?:png|jpe?g|webp)$/i.test(candidate.pathname)) image = candidate.href;
+          if (candidate.origin === origin && /^\/(?:blog-img|new\/assets\/brand)\/[a-zA-Z0-9_.-]+\.(?:png|jpe?g|webp)$/i.test(candidate.pathname)) image = candidate.href;
         }
         incoming.push({...old, slug:match[1], title, date,
           dateLabel:new Intl.DateTimeFormat('en-US', {year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}).format(new Date(date+'T12:00:00Z')),
