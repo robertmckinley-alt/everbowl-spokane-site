@@ -313,12 +313,12 @@ body.counter-storefront .fs-sips h2 {
   object-position: center 92%;
 }
 .fs-sips-groups {
-  columns: 2;
-  column-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 16px;
 }
 .fs-sips-group {
-  break-inside: avoid;
-  margin-bottom: 16px;
   min-width: 0;
   background: #fff;
   border: 1px solid #d6dfd0;
@@ -403,7 +403,10 @@ body.counter-storefront .fs-whatever-item .fs-menu-photo {
   body.counter-storefront .fs-sips-layout { gap: 18px; }
   .fs-sips-visual { gap: 10px; }
   .fs-sips-collage { aspect-ratio: 1; }
-  .fs-sips-groups { columns: 1; }
-  .fs-sips-group { margin-bottom: 10px; }
+  .fs-sips-groups {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 10px;
+  }
   .fs-sips .fs-sips-group li { min-height: 70px; }
 }

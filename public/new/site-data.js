@@ -138,20 +138,20 @@ window.EVERBOWL_SITE_DATA = {
       ]
     },
     {
+      "name": "Ice Blended Coffee",
+      "drinks": [
+        "Cinnamon Ice Blended Coffee",
+        "Cacao Ice Blended Coffee",
+        "PB Protein Ice Blended Coffee"
+      ]
+    },
+    {
       "name": "Cold Brew",
       "drinks": [
         "Cold Brew",
         "Cold Brew + Cinnamon Cold Foam",
         "Cold Brew + Cacao Cold Foam",
         "Cold Brew + PB Cold Foam"
-      ]
-    },
-    {
-      "name": "Ice Blended Coffee",
-      "drinks": [
-        "Cinnamon Ice Blended Coffee",
-        "Cacao Ice Blended Coffee",
-        "PB Protein Ice Blended Coffee"
       ]
     },
     {
