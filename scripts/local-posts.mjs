@@ -19,8 +19,8 @@ export const LOCAL_POSTS = [
       <p>Keep the <a href="https://my.spokanecity.org/parks/gardens/gaiser-conservatory/">Gaiser Conservatory page</a> handy. If it’s open, the conservatory gives your outing a little variety after the outdoor walk. Pick a room or display to spend time in and compare what’s growing there with what you saw outside. If it’s closed, use the <a href="https://my.spokanecity.org/parks/major/manito/">Manito Park guide</a> to choose another part of the park for a turnaround.</p>
       <p>For a family outing, plan around the stop the youngest person is most likely to enjoy. For a walking meetup, pick a clear meeting point at the park and let the route come together from there. The advantage of Manito is that you can do a short visit without having to race across town for a second activity.</p>
       <h2>Pick a savory stop in Spokane Valley</h2>
-      <p>On a day you’re heading east after the park, Everbowl Spokane Valley at 13324 E. Sprague Ave., Suite 101 is a stop to keep in mind. The <a href="/new#toast">Classic Avocado Toast</a> comes with avocado spread, everything seasoning, chili flakes, and honey. The <a href="/new#toast">Bruschetta Avocado Toast</a> puts tomatoes, basil, and balsamic glaze in the spotlight. If two people are splitting lunch, ordering one of each is a direct way to try the two styles side by side.</p>
-      <p>Looking for a drink to go with it? <a href="/new#sips">Iced Matcha</a> is on the drinks menu, alongside the lemonades and cold brews. Check the <a href="/new#location">Spokane Valley location page</a> for the latest store details before making the stop.</p>
+      <p>On a day you’re heading east after the park, Everbowl Spokane Valley at 13324 E. Sprague Ave., Suite 101 is a stop to keep in mind. The <a href="/#toast">Classic Avocado Toast</a> comes with avocado spread, everything seasoning, chili flakes, and honey. The <a href="/#toast">Bruschetta Avocado Toast</a> puts tomatoes, basil, and balsamic glaze in the spotlight. If two people are splitting lunch, ordering one of each is a direct way to try the two styles side by side.</p>
+      <p>Looking for a drink to go with it? <a href="/#sips">Iced Matcha</a> is on the drinks menu, alongside the lemonades and cold brews. Check the <a href="/#location">Spokane Valley location page</a> for the latest store details before making the stop.</p>
     `
   },
   {
@@ -43,8 +43,8 @@ export const LOCAL_POSTS = [
       <p>For a brief visit, pick one paved path and turn back when you’ve had your time at the viewpoint. If the group wants more, use the playground or the covered shelters to break up the outing. Bring an extra layer for a November visit so you can spend more than a minute at the overlook when the air cools off.</p>
       <p>Before leaving, check the city’s <a href="https://www.postfalls.gov/340/Park-Projects">park projects page</a> for updates, especially if the pond is part of your plan. A route built around the overlook can still be worthwhile if work changes access to another part of the park.</p>
       <h2>Two bowls for the trip back west</h2>
-      <p>If you’re headed back toward Spokane, look up Everbowl Spokane Valley at 13324 E. Sprague Ave., Suite 101. The <a href="/new#favorites">Blue Lagoon</a> layers Blue Majic, pitaya, Coco Love, and chia pudding with toppings that include strawberry and pineapple. The <a href="/new#favorites">Berry Boost</a> is a good pick if you’d rather have açaí, strawberry, blueberry, and goji berry with your chia pudding.</p>
-      <p>Pick the one with the fruit you want, or order both for the table if you’re out with family. View the <a href="/new#location">current Spokane Valley store details</a> before you drive over.</p>
+      <p>If you’re headed back toward Spokane, look up Everbowl Spokane Valley at 13324 E. Sprague Ave., Suite 101. The <a href="/#favorites">Blue Lagoon</a> layers Blue Majic, pitaya, Coco Love, and chia pudding with toppings that include strawberry and pineapple. The <a href="/#favorites">Berry Boost</a> is a good pick if you’d rather have açaí, strawberry, blueberry, and goji berry with your chia pudding.</p>
+      <p>Pick the one with the fruit you want, or order both for the table if you’re out with family. View the <a href="/#location">current Spokane Valley store details</a> before you drive over.</p>
     `
   },
   {
@@ -66,8 +66,8 @@ export const LOCAL_POSTS = [
       <h2>Use the West Spokane trailhead as your landmark</h2>
       <p>The name can suggest the paved route takes you straight to Fish Lake. The <a href="https://static.spokanecity.org/documents/bcc/commissions/transportation-commission/presentations/2025/02/19/fish-lake-trail-update.pdf">city’s trail update</a> identifies a remaining gap. For this plan, use the West Spokane trailhead, make it an out-and-back, and skip the logistics of arranging a second car. If you want to explore farther on another day, check the current route information before you set an endpoint.</p>
       <h2>Choose a smoothie for the way back</h2>
-      <p>If the rest of your day takes you east, Everbowl Spokane Valley at 13324 E. Sprague Ave., Suite 101 offers two different directions. <a href="/new#smoothies">PB Cacao Dream</a> combines Cacao Wow, banana, cacao nibs, peanut butter, and almond milk. <a href="/new#smoothies">Evergreen</a> blends Blue Majic, Coco Love, mango, pineapple, spinach, and apple juice. Choose PB Cacao Dream for the peanut butter and cacao pairing, or Evergreen when you’re in the mood for pineapple and mango.</p>
-      <p>If you’re making plans with friends, send them both the trail guide and the <a href="/new#location">Spokane Valley store details</a> so they know where to meet and can check the latest opening information.</p>
+      <p>If the rest of your day takes you east, Everbowl Spokane Valley at 13324 E. Sprague Ave., Suite 101 offers two different directions. <a href="/#smoothies">PB Cacao Dream</a> combines Cacao Wow, banana, cacao nibs, peanut butter, and almond milk. <a href="/#smoothies">Evergreen</a> blends Blue Majic, Coco Love, mango, pineapple, spinach, and apple juice. Choose PB Cacao Dream for the peanut butter and cacao pairing, or Evergreen when you’re in the mood for pineapple and mango.</p>
+      <p>If you’re making plans with friends, send them both the trail guide and the <a href="/#location">Spokane Valley store details</a> so they know where to meet and can check the latest opening information.</p>
     `
   }
 ];

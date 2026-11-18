@@ -380,7 +380,7 @@ window.EVERBOWL_SITE_DATA = {
       }
     ]
   },
-  "disclosure": "Menu and pricing based on Everbowl's Mission Valley online ordering. Phone and ordering / catering links are placeholders for this concept site.",
+  "disclosure": "Reference pricing comes from Everbowl Mission Valley. Spokane Valley pricing, phone and online ordering details are to be confirmed.",
   "priceNote": "Source design sample prices, based on Mission Valley ordering—not verified Spokane Valley prices.",
   "menuHeadings": {
     "bowls": "Piled high, blended fresh.",

@@ -410,3 +410,9 @@ body.counter-storefront .fs-whatever-item .fs-menu-photo {
   }
   .fs-sips .fs-sips-group li { min-height: 70px; }
 }
+
+body.counter-storefront .fs-menu-title {
+  margin: 0;
+  font: 900 clamp(44px, 4.5vw, 72px)/.94 FSBrandon, Arial, sans-serif;
+  letter-spacing: -.025em;
+}

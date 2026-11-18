@@ -8,7 +8,7 @@
     "blog": "node scripts/generate-blog.mjs",
     "new-post": "node scripts/new-post.mjs",
     "prebuild": "node scripts/generate-blog.mjs",
-    "build": "vite build && vite build --ssr entry-server.tsx --outDir dist-ssr && node prerender.js",
+    "build": "vite build && node scripts/publish-storefront.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

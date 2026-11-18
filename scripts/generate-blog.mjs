@@ -23,10 +23,10 @@ const fmtDate = (iso) =>
 
 const NAV = `
   <nav class="eb-nav">
-    <a class="eb-brand" href="/new"><img src="${LOGO}" alt="Everbowl Spokane Valley" width="500" height="135" /></a>
+    <a class="eb-brand" href="/"><img src="${LOGO}" alt="Everbowl Spokane Valley" width="500" height="135" /></a>
     <div class="eb-nav-links">
-      <a href="/new#menu">Menu</a>
-      <a href="/new#location">Visit</a>
+      <a href="/#menu">Menu</a>
+      <a href="/#location">Visit</a>
       <a href="/blog/">Journal</a>
     </div>
   </nav>`;
@@ -35,7 +35,7 @@ const FOOTER = `
   <footer class="eb-foot">
     <div class="wrap-wide row">
       <div>© ${new Date().getUTCFullYear()} Everbowl Spokane · 13324 E Sprague Ave, Suite 101, Spokane Valley, WA</div>
-      <div><a href="/new">Home</a> · <a href="/blog/">Journal</a> · <a href="https://www.instagram.com/everbowl/" rel="noopener">Instagram</a></div>
+      <div><a href="/">Home</a> · <a href="/blog/">Journal</a> · <a href="https://www.instagram.com/everbowl/" rel="noopener">Instagram</a></div>
     </div>
   </footer>`;
 
@@ -43,7 +43,7 @@ const CTA = `
   <div class="callout">
     <h3>Refuel at Everbowl Spokane Valley</h3>
     <p>Cold-blended açaí, pitaya, and smoothie bowls made to order at 13324 E Sprague Ave. Perfect after the trail, the river, or the gym.</p>
-    <a class="btn" href="/new#menu">See the menu →</a>
+    <a class="btn" href="/#menu">See the menu →</a>
   </div>`;
 
 function postHtml(p) {

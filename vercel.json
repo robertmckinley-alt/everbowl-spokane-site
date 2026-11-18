@@ -17,8 +17,11 @@
       ]
     }
   ],
+  "redirects": [
+    { "source": "/new", "destination": "/", "permanent": true },
+    { "source": "/new/index.html", "destination": "/", "permanent": true }
+  ],
   "rewrites": [
-    { "source": "/new", "destination": "/new/index.html" },
     { "source": "/new/journal", "destination": "/new/journal.html" }
   ]
 }
