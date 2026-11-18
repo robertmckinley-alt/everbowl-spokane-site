@@ -76,9 +76,6 @@ body.counter-storefront .fs-toast-title{margin-top:25px}
 body.counter-storefront .fs-toast-title h3{font-size:27px}
 body.counter-storefront .fs-toast-title strong{color:#21643c;font-size:17px}
 body.counter-storefront .fs-toast>p{color:#526156}
-body.counter-storefront .fs-sips{background:var(--eb-yellow);border-top:2px solid var(--eb-ink);border-bottom:2px solid var(--eb-ink)}
-body.counter-storefront .fs-sips h2{max-width:14ch}
-body.counter-storefront .fs-sips li{border-color:#a3bc7c;font-size:17px;color:var(--eb-ink)}
 /* Catering spreads onto a bigger table. */
 body.counter-storefront .fs-catering{background:var(--eb-purple);color:#fff;grid-template-columns:1.1fr 1fr;border-bottom:10px solid var(--eb-ink)}
 body.counter-storefront .fs-catering-image{min-height:600px}
@@ -209,7 +206,6 @@ body.counter-storefront .fs-application-form{margin-top:0}
 
 body.counter-storefront #full-header .fs-logo{display:flex;align-items:center;line-height:1}body.counter-storefront .fs-brand-logo{width:210px;height:auto;display:block}body.counter-storefront .fs-footer .fs-brand-logo{width:230px}body.counter-storefront .fs-footer-wordmark{font-size:0;line-height:1}body.counter-storefront .fs-footer-wordmark img{display:block;width:min(78%,900px);height:auto;margin-inline:auto}@media(max-width:760px){body.counter-storefront #full-header .fs-brand-logo{width:168px}}@media(max-width:390px){body.counter-storefront #full-header .fs-brand-logo{width:152px}}
 
-body.counter-storefront .fs-sips-layout{align-items:start;gap:76px}.fs-sips-collage{max-width:400px;margin:30px 8px 10px 0;border:7px solid #fff;box-shadow:6px 7px 0 #a6bd7f;transform:rotate(-2deg)}.fs-sips-collage img{display:block;width:100%;height:auto}@media(max-width:760px){body.counter-storefront .fs-sips-layout{gap:45px}.fs-sips-collage{max-width:360px;margin-right:8px}}
 
 /* The location is visible as a compact map, with the parking-lot landmark. */
 body.counter-storefront .fs-map-card{min-height:0;align-self:start;background:#f9faf3;overflow:hidden}
@@ -258,8 +254,7 @@ body.counter-storefront .fs-feature-bowl > img {
 }
 body.counter-storefront .fs-smoothie > img { padding: 10px; }
 body.counter-storefront .fs-menu-item,
-body.counter-storefront .fs-whatever-item,
-body.counter-storefront .fs-sips li {
+body.counter-storefront .fs-whatever-item {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -273,11 +268,6 @@ body.counter-storefront .fs-menu-photo {
   flex: none;
   object-fit: contain;
 }
-body.counter-storefront .fs-sips li { border-color: #231f2060; }
-body.counter-storefront .fs-sips .fs-menu-photo {
-  width: 42px;
-  height: 55px;
-}
 body.counter-storefront .fs-catering .fs-button {
   background: #fff;
   color: var(--eb-ink) !important;
@@ -285,4 +275,130 @@ body.counter-storefront .fs-catering .fs-button {
 }
 body.counter-storefront .fs-catering .fs-button:hover {
   background: var(--eb-yellow);
+}
+
+body.counter-storefront .fs-sips {
+  background: #f3f6ee;
+  color: var(--eb-ink);
+  border-block: 1px solid #d6dfd0;
+}
+body.counter-storefront .fs-sips-layout {
+  grid-template-columns: minmax(230px, .85fr) minmax(0, 2fr);
+  gap: clamp(30px, 5vw, 76px);
+  align-items: start;
+}
+body.counter-storefront .fs-sips h2 {
+  max-width: 11ch;
+  font-size: clamp(38px, 4.2vw, 68px);
+  text-transform: uppercase;
+}
+.fs-sips-collage {
+  margin: 24px 0 0;
+  aspect-ratio: 4 / 5;
+  border: 1px solid #e5d984;
+  background: #fbea91;
+  overflow: hidden;
+}
+.fs-sips-collage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 92%;
+}
+.fs-sips-groups {
+  columns: 2;
+  column-gap: 16px;
+}
+.fs-sips-group {
+  break-inside: avoid;
+  margin-bottom: 16px;
+  min-width: 0;
+  background: #fff;
+  border: 1px solid #d6dfd0;
+  padding: 13px clamp(10px, 1.4vw, 20px) 3px;
+}
+.fs-sips-group h3 {
+  padding-bottom: 9px;
+  border-bottom: 2px solid var(--eb-green);
+  font-size: clamp(22px, 2.1vw, 31px);
+  line-height: 1.1;
+}
+.fs-sips .fs-sips-group ul { display: block; }
+.fs-sips .fs-sips-group li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 76px;
+  padding: 4px 0;
+  border-top: 1px solid #e2e8de;
+  color: var(--eb-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.22;
+}
+.fs-sips .fs-sips-group li:first-child { border-top: 0; }
+.fs-sip-photo {
+  display: block;
+  flex: 0 0 60px;
+  height: 66px;
+  overflow: hidden;
+}
+.fs-sip-photo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fs-sip-photo img[src$="lemonade.webp"] { object-fit: contain; }
+
+body.counter-storefront .fs-whatever {
+  background: #eef5ea;
+  border: 1px solid #9bd0a1;
+  box-shadow: inset 0 4px 0 var(--eb-green);
+}
+body.counter-storefront .fs-whatever h3,
+body.counter-storefront .fs-whatever .fs-label,
+body.counter-storefront .fs-whatever-item strong { color: var(--eb-ink); }
+body.counter-storefront .fs-whatever .fs-whatever-grid {
+  gap: 10px;
+}
+body.counter-storefront .fs-whatever-item {
+  min-height: 86px;
+  background: #fff;
+  border: 1px solid #d6dfd0;
+  padding: 8px 12px;
+  line-height: 1.2;
+}
+body.counter-storefront .fs-whatever-item .fs-menu-photo {
+  width: 68px;
+  height: 62px;
+}
+.fs-whatever-item img[src$="chia-pudding-whatever-bowl.webp"],
+.fs-whatever-item img[src$="oats-whatever-bowl.webp"] {
+  object-fit: cover;
+}
+
+@media (max-width: 950px) {
+  body.counter-storefront .fs-sips-layout { grid-template-columns: 1fr; }
+  .fs-sips-visual {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(128px, .85fr);
+    align-items: center;
+    gap: 20px;
+  }
+  .fs-sips-collage {
+    margin: 0;
+    aspect-ratio: 5 / 4;
+    max-height: 225px;
+  }
+}
+@media (max-width: 550px) {
+  body.counter-storefront .fs-sips-layout { gap: 18px; }
+  .fs-sips-visual { gap: 10px; }
+  body.counter-storefront .fs-sips h2 { font-size: clamp(25px, 7vw, 38px); }
+  .fs-sips-collage { aspect-ratio: 1; }
+  .fs-sips-groups { columns: 1; }
+  .fs-sips-group { margin-bottom: 10px; }
+  .fs-sips .fs-sips-group li { min-height: 70px; }
 }

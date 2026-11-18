@@ -53,3 +53,52 @@
 
 /* Equal menu cards; choices stay aligned even when copy wraps. */
 .bv-products{align-items:stretch}.bv-product{display:flex;flex-direction:column;align-self:stretch}.bv-product-photo{flex:none}.bv-product-copy{display:flex;flex-direction:column;flex:1}.bv-product-copy>h4{min-height:3.15em}.bv-product-copy>p{margin-bottom:22px}.bv-product-copy>.bv-choices{margin-top:auto;padding-top:16px}
+
+.bv-category-grab-n-go .bv-products {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+.bv-category-grab-n-go .bv-product,
+.bv-category-merchandise .bv-product {
+  box-shadow: none;
+}
+.bv-category-grab-n-go .bv-product-photo,
+.bv-category-merchandise .bv-product-photo {
+  height: clamp(122px, 14vw, 190px);
+  aspect-ratio: auto;
+  padding: 10px 12px;
+}
+.bv-category-grab-n-go .bv-product-copy,
+.bv-category-merchandise .bv-product-copy {
+  padding: 12px 14px 14px;
+}
+.bv-category-grab-n-go .bv-product h4,
+.bv-category-merchandise .bv-product h4 {
+  min-height: 0;
+  margin: 0;
+  font-size: clamp(17px, 1.56vw, 23px);
+  line-height: 1.12;
+}
+.bv-category-grab-n-go .bv-product-photo img {
+  max-width: 174px;
+  margin-inline: auto;
+}
+.bv-category-grab-n-go img[src$="celsius-kiwi-guava.webp"],
+.bv-category-grab-n-go img[src$="smart-water.webp"],
+.bv-category-grab-n-go img[src*="miss-vickies-"] {
+  object-fit: cover;
+}
+.bv-category-grab-n-go img[src$="vita-coco-coconut-water.webp"] {
+  transform: scale(1.13);
+}
+.bv-category-grab-n-go img[src$="smart-water.webp"],
+.bv-category-grab-n-go img[src*="miss-vickies-"] {
+  mask-image: radial-gradient(ellipse 70% 72% at center, #000 55%, transparent 94%);
+}
+@media (max-width: 1050px) {
+  .bv-category-grab-n-go .bv-products { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 620px) {
+  .bv-category-grab-n-go .bv-products,
+  .bv-category-merchandise .bv-products { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+}

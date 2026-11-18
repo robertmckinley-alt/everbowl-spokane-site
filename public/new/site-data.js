@@ -129,20 +129,40 @@ window.EVERBOWL_SITE_DATA = {
       "price": "$8.99"
     }
   ],
-  "sips": [
-    "Strawberry Lemonade",
-    "Dragon Fruit Lemonade",
-    "Cold Brew",
-    "Cold Brew + Cinnamon Cold Foam",
-    "Cold Brew + Cacao Cold Foam",
-    "Cold Brew + PB Cold Foam",
-    "Cinnamon Ice Blended Coffee",
-    "Cacao Ice Blended Coffee",
-    "PB Protein Ice Blended Coffee",
-    "Iced Matcha",
-    "Iced Strawberry Matcha",
-    "Ice Blended Matcha",
-    "Ice Blended Strawberry Matcha"
+  "sipGroups": [
+    {
+      "name": "Lemonades",
+      "drinks": [
+        "Strawberry Lemonade",
+        "Dragon Fruit Lemonade"
+      ]
+    },
+    {
+      "name": "Cold Brew",
+      "drinks": [
+        "Cold Brew",
+        "Cold Brew + Cinnamon Cold Foam",
+        "Cold Brew + Cacao Cold Foam",
+        "Cold Brew + PB Cold Foam"
+      ]
+    },
+    {
+      "name": "Ice Blended Coffee",
+      "drinks": [
+        "Cinnamon Ice Blended Coffee",
+        "Cacao Ice Blended Coffee",
+        "PB Protein Ice Blended Coffee"
+      ]
+    },
+    {
+      "name": "Matcha",
+      "drinks": [
+        "Iced Matcha",
+        "Iced Strawberry Matcha",
+        "Ice Blended Matcha",
+        "Ice Blended Strawberry Matcha"
+      ]
+    }
   ],
   "featured": [
     {
