@@ -288,9 +288,15 @@ body.counter-storefront .fs-sips-layout {
   align-items: start;
 }
 body.counter-storefront .fs-sips h2 {
-  max-width: 11ch;
-  font-size: clamp(38px, 4.2vw, 68px);
+  max-width: none;
+  container-type: inline-size;
+  font-size: clamp(22px, 3.4vw, 64px);
   text-transform: uppercase;
+}
+.fs-sips h2 span {
+  display: block;
+  font-size: min(64px, 14.2cqi);
+  white-space: nowrap;
 }
 .fs-sips-collage {
   margin: 24px 0 0;
@@ -396,7 +402,6 @@ body.counter-storefront .fs-whatever-item .fs-menu-photo {
 @media (max-width: 550px) {
   body.counter-storefront .fs-sips-layout { gap: 18px; }
   .fs-sips-visual { gap: 10px; }
-  body.counter-storefront .fs-sips h2 { font-size: clamp(25px, 7vw, 38px); }
   .fs-sips-collage { aspect-ratio: 1; }
   .fs-sips-groups { columns: 1; }
   .fs-sips-group { margin-bottom: 10px; }

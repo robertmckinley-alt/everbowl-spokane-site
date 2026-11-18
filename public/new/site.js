@@ -63,7 +63,11 @@
       <section id="sips" class="fs-sips fs-section" aria-labelledby="fs-sips-title">
         <div class="fs-wrap fs-sips-layout">
           <header class="fs-sips-visual">
-            <h2 id="fs-sips-title">Lemonades, cold brew &amp; matcha.</h2>
+            <h2 id="fs-sips-title">
+              <span>Lemonades,</span>
+              <span>cold brew</span>
+              <span>&amp; matcha.</span>
+            </h2>
             <figure class="fs-sips-collage"><img src="assets/brand/smoothies-and-sips.webp" alt="Everbowl smoothies and lemonades alongside fresh fruit" loading="lazy" width="382" height="680"></figure>
           </header>
           <div class="fs-sips-groups">${sips}</div>
