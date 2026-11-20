@@ -1,5 +1,29 @@
 export const LOCAL_POSTS = [
   {
+    slug: "spokane-valley-heritage-museum-full-moon-nutty-butty",
+    title: "An Orchard History Afternoon at the Spokane Valley Heritage Museum",
+    description: "Trace the Corbin Ditch and Spokane Valley’s orchard days on a late-fall museum visit, then compare Everbowl’s Full Moon and Nutty Butty bowls.",
+    category: "Spokane Area",
+    date: "2026-11-20",
+    readMins: 3,
+    image: "/new/assets/brand/full-moon-stylized.webp",
+    imageAlt: "Everbowl’s Full Moon bowl with sliced fruit and granola against a pink backdrop",
+    keywords: ["Spokane Valley Heritage Museum", "The Apple Was King", "Corbin Ditch", "Full Moon bowl", "Nutty Butty bowl"],
+    disclaimer: "Confirm museum access and Everbowl Spokane Valley opening details with the official sources linked above before making plans.",
+    body: `
+      <p>A rainy November afternoon is a good time to learn why Spokane Valley once had so many orchards. At the Spokane Valley Heritage Museum on East Sprague Avenue, <a href="https://www.spokanevalleymuseum.com/apple-is-king/">The Apple Was King</a> starts with fruit and winds up telling a story about water. It’s an easy outing to plan around one exhibit, especially if you’ve lived here long enough to know the street names but never thought about what came before them.</p>
+      <h2>Follow the water before you look for the apples</h2>
+      <p>Start with the Corbin Irrigation System, also known as the Corbin Ditch. The museum describes a 54-mile network that carried water from Post Falls, Idaho, to orchards and vegetable farms in Spokane Valley. Think about the difference between putting in one ditch and keeping water moving through a system of channels and flumes. Suddenly the apple story has as much to do with an engineering project that crossed the state line as it does with what grew here.</p>
+      <p>Here’s a way to make the exhibit more personal. Before you walk in, pick a neighborhood or stretch of road you know well. As you look through the exhibit, see whether anything helps you picture how that area might have fit into an agricultural valley. If a docent is available, ask where they’d point a first-time visitor who wants to understand the ditch. That’s a more specific question than asking where to start, and it gives you one detail to bring up the next time you’re driving through the Valley with someone else.</p>
+      <h2>Plan a short indoor visit</h2>
+      <p>The museum is at 12114 E. Sprague Ave. Its <a href="https://www.spokanevalleymuseum.com/visit/">visit page</a> lists regular hours of 11 a.m. to 4 p.m. Wednesday, Friday, and Saturday, and 11 a.m. to 5 p.m. Thursday. Admission is paid at the museum. The museum also advises that the visit isn’t suitable for children under seven. With Thanksgiving coming up, check the museum’s current hours before counting on the regular Thursday schedule.</p>
+      <p>Allow roughly an hour if you like to read the labels. If you have extra time, the museum’s <a href="https://www.spokanevalleymuseum.com/ice-age-floods-and-the-history-of-grand-coulee-dam/">Ice Age Floods and Grand Coulee Dam exhibit</a> gives you another way to think about the landscape. Save it for a second visit if the orchard story turns into a longer conversation. A visit built around one good question is enough for an afternoon.</p>
+      <h2>Two bowls for your next Sprague Avenue outing</h2>
+      <p>The <a href="/#menu">Full Moon</a> and <a href="/#menu">Nutty Butty</a> share banana, strawberry, and peanut butter, but the base and toppings take them in different directions. Full Moon pairs vanilla and Cacao Wow with granola and cacao nibs. Nutty Butty combines vanilla and Everoats with almond butter, almonds, and cinnamon. Pick Full Moon for the cacao and crunchy nibs, or Nutty Butty if cinnamon and almond butter sound better on a cool afternoon.</p>
+      <p>Everbowl Spokane Valley lists its location at 13324 E. Sprague Ave., Suite 101, and still shows opening soon as of November 20. Go ahead and plan the museum visit now. For a future outing, save the bowl that sounds good and check <a href="/#location">Everbowl Spokane Valley’s location page</a> for opening details before heading over.</p>
+    `
+  },
+  {
     slug: "manito-park-winter-walk-and-avocado-toast",
     title: "A Manito Park Walk and Classic Avocado Toast",
     description: "Make a short South Hill outing out of Duncan Garden, Gaiser Conservatory, and a savory Everbowl stop in Spokane Valley.",
