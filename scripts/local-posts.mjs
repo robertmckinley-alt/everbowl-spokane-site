@@ -1,5 +1,28 @@
 export const LOCAL_POSTS = [
   {
+    slug: "pullman-wsu-art-museum-unearthed",
+    title: "A Slow Look at Unearthed in Pullman",
+    description: "Plan a late-fall Palouse outing around Jim Hodges’ bronze sculpture at WSU, with holiday museum hours and two Everbowl picks for a later Valley stop.",
+    category: "Inland Northwest",
+    date: "2026-11-21",
+    readMins: 3,
+    image: "/new/assets/brand/everbowl-stylized.webp",
+    imageAlt: "A spoonful of fruit and granola above Everbowl’s signature açaí bowl",
+    keywords: ["Pullman weekend outing", "Jordan Schnitzer Museum of Art WSU", "Jim Hodges Unearthed", "Palouse", "Everbowl açaí bowl", "Dragon Fruit Lemonade"],
+    disclaimer: "Check the museum’s visit page for schedule changes and Everbowl’s location page for opening updates before traveling.",
+    body: `
+      <p>If the Palouse is on your list for a late-fall day trip, start with one work of art. At Washington State University’s Jordan Schnitzer Museum of Art in Pullman, <a href="https://museum.wsu.edu/exhibit/2026-jim-hodges-unearthed/">Jim Hodges’ <em>Unearthed (a work in progress)</em></a> gives you a reason to take your time. The museum is showing it through June 26, 2027, so you can catch it on a late-November visit or save the idea for another weekend.</p>
+      <h2>Look once from a distance, then look again</h2>
+      <p><em>Unearthed</em> is a large bronze cast of an uprooted tree stump. From a few steps back, see what the mass of roots does to the outline. Then, from another permitted spot in the gallery, look for one small feature you missed the first time. The places where the roots twist or break can look quite different as you move around the work.</p>
+      <p>If you’re going with a friend, try spending the first minute looking quietly. Then compare what drew each of you in before reading the wall text together. Did one of you see a tree right away? Did the other start with the texture of the metal? Those are good observations to carry into another gallery. If you only have time for one work, it’s also a satisfying way to finish the visit.</p>
+      <h2>Plan around the Thanksgiving break</h2>
+      <p>Find the museum in the Crimson Cube at 1535 NE Wilson Road on the WSU Pullman campus. The museum’s <a href="https://museum.wsu.edu/visit/">visitor information</a> lists regular public hours from 10 a.m. to 4 p.m. Tuesday through Saturday. It lists Thursday, November 26, 2026, as the start of its Thanksgiving closure and Tuesday, December 1, as the reopening date. Check the same page for directions and parking before leaving. For a short outing, give yourself time to find parking, settle into the gallery, and make a second pass by the sculpture.</p>
+      <h2>Two Everbowl picks for another day in the Valley</h2>
+      <p>For the next time you’re on East Sprague, start with the <a href="/#menu">signature Everbowl</a> if you want the classic combination of açaí, granola, banana, strawberries, and blueberries. Choose <a href="/#sips">Dragon Fruit Lemonade</a> if you’d rather have a cold drink. The two are easy to split between someone who wants a bowl and someone who just wants a sip.</p>
+      <p>As of November 21, Everbowl Spokane Valley lists its shop at 13324 E. Sprague Ave., Suite 101, as opening soon. Plan the Pullman visit around the museum’s hours, and keep the <a href="/#location">Spokane Valley location page</a> handy for the shop’s opening updates.</p>
+    `
+  },
+  {
     slug: "spokane-valley-heritage-museum-full-moon-nutty-butty",
     title: "An Orchard History Afternoon at the Spokane Valley Heritage Museum",
     description: "Trace the Corbin Ditch and Spokane Valley’s orchard days on a late-fall museum visit, then compare Everbowl’s Full Moon and Nutty Butty bowls.",
