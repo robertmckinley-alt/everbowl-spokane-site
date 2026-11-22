@@ -1,5 +1,28 @@
 export const LOCAL_POSTS = [
   {
+    slug: "riverstone-park-coeur-dalene-november-walk",
+    title: "A Short November Walk at Riverstone Park",
+    description: "Make a flexible North Idaho outing out of Riverstone Park’s paths and playground, with Nutella Banana Toast and Glow Up on the Everbowl menu for a future Valley stop.",
+    category: "North Idaho",
+    date: "2026-11-22",
+    readMins: 3,
+    image: "/new/assets/brand/nutella-banana-toast.webp",
+    imageAlt: "Everbowl Nutella Banana Toast topped with banana slices and a chocolate-hazelnut drizzle",
+    keywords: ["Riverstone Park Coeur d’Alene", "North Idaho November walk", "Nutella Banana Toast", "Glow Up smoothie"],
+    disclaimer: "Check the city’s park information and the Everbowl Spokane Valley location page before traveling.",
+    body: `
+      <p>Riverstone Park in Coeur d’Alene is a good North Idaho outing when you have part of an afternoon and people who want different things from it. One person can go for a walk, someone else can sit for a few minutes, and kids can make the playground the main event. The <a href="https://www.cdaid.org/park-facility-list/riverstone-park/">City of Coeur d’Alene’s park page</a> lists paths for pedestrians and cyclists, benches, a playground, and off-street parking at 1805 Tilford Lane.</p>
+      <h2>Use the amphitheater as your turnaround</h2>
+      <p>Start near the parking area and follow an open park path toward the amphitheater. You can turn back there for a short outing or keep going along the park paths if everyone is still enjoying the walk. Give cyclists room to pass, and use one of the benches for a break instead of stopping across the path. If you’re meeting someone after the first part of the walk, the amphitheater is an easy landmark to agree on before you arrive.</p>
+      <p>On a November visit, I’d start with the walk and save the playground for the return. That lets you see how the group feels before committing to a longer stretch away from the car. If there are wet leaves or frost underfoot, choose the clearer path and keep the outing short. Bring a layer you can put back on when you stop moving.</p>
+      <h2>Check the seasonal details</h2>
+      <p>The city’s <a href="https://www.cdaid.org/government/departments/parks-and-recreation/park-faqs/">parks FAQ</a> lists city park hours of 5 a.m. to 11 p.m. and says park restrooms generally close in mid-October. For a late-fall visit, plan to arrive in daylight and make a restroom stop beforehand. The city also lists Riverstone’s paths among the places dogs can join a walk on leash.</p>
+      <h2>Two picks to save for Spokane Valley</h2>
+      <p>On another day when you’re back on East Sprague, <a href="/#more-everbowl">Nutella Banana Toast</a> is the pick for banana and chocolate-hazelnut spread. If you’d rather sip something fruity, the <a href="/#smoothies">Glow Up smoothie</a> blends mango, pineapple, and apple juice. The toast pictured here and the smoothie are both listed on Everbowl Spokane Valley’s menu.</p>
+      <p>As of November 22, the <a href="/#location">Spokane Valley location page</a> still lists the shop at 13324 E. Sprague Ave., Suite 101 as opening soon. Take the Riverstone walk whenever it works for you, and check the store page before adding Everbowl to a future trip.</p>
+    `
+  },
+  {
     slug: "pullman-wsu-art-museum-unearthed",
     title: "A Slow Look at Unearthed in Pullman",
     description: "Plan a late-fall Palouse outing around Jim Hodges’ bronze sculpture at WSU, with holiday museum hours and two Everbowl picks for a later Valley stop.",
