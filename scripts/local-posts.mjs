@@ -1,5 +1,27 @@
 export const LOCAL_POSTS = [
   {
+    slug: "spokane-central-library-historic-photo-search",
+    title: "Find an Old Photo of Your Spokane Block",
+    description: "Spend a late-fall afternoon tracing a familiar street in Central Library’s Inland Northwest Special Collections, then save two Everbowl picks for another day.",
+    category: "Spokane Area",
+    date: "2026-11-23",
+    readMins: 3,
+    image: "/new/assets/brand/pb-crunch-toast.webp",
+    imageAlt: "Everbowl PB Crunch Toast topped with banana slices and cacao nibs",
+    keywords: ["Spokane Central Library", "Spokane historic photos", "Inland Northwest Special Collections", "PB Crunch Toast", "Iced Strawberry Matcha"],
+    disclaimer: "Confirm library access and Everbowl Spokane Valley opening details on the official pages linked above before traveling.",
+    body: `
+      <p>Pick a Spokane intersection you pass all the time. It could be the corner near your first apartment, the entrance to a favorite park, or the block where you always wait for the same bus. Then use one weekday afternoon to see what you can learn about it. Spokane Public Library’s <a href="https://www.spokanelibrary.org/inland-northwest-special-collections">Inland Northwest Special Collections</a> at Central Library brings together photographs, maps, and city directories that can help turn a familiar address into a little research project.</p>
+      <h2>Bring two names for the same place</h2>
+      <p>Write down the street name and one nearby landmark before you go. Start with the library’s <a href="https://www.spokanelibrary.org/spokane-history-culture/">Spokane History &amp; Culture page</a> and follow its link to the digital photo archive. If the street search comes up short, try the landmark, a business name, or a cross street. A picture filed under a building name might still show the block you want in the background.</p>
+      <p>When you find a promising photo, read its caption and note the date or date range if one is available. Look for one feature you can place, such as the shape of a roofline, a bend in the street, or a sign on a neighboring building. Save the catalog link so you can bring it along the next time you walk past that corner. If you hit a dead end and want to ask about maps or physical photographs, the collection’s page explains how to get staff help.</p>
+      <h2>Pick a weekday before or after the holiday</h2>
+      <p><a href="https://www.spokanelibrary.org/central/">Central Library</a> is at 906 W. Main Ave. The special collections page lists drop-in access from 10 a.m. to 4 p.m. Monday through Friday, subject to staffing. It also gives a phone number to confirm access or arrange a more involved research visit. The library’s <a href="https://www.spokanelibrary.org/holidays">holiday calendar</a> lists closures on November 26 and 27, 2026. If Thanksgiving weekend is your only window, start with the digital photos and save the in-person visit for a weekday.</p>
+      <h2>Two menu picks to save for a Valley day</h2>
+      <p>When you’re planning another afternoon on East Sprague, the <a href="/#toast">PB Crunch Toast</a> pairs crunchy peanut butter spread with banana, cacao nibs, and honey. The <a href="/#sips">Iced Strawberry Matcha</a> is a separate pick for when you’re in the mood for an iced drink. As of November 23, Everbowl Spokane Valley lists its shop at 13324 E. Sprague Ave., Suite 101 as opening soon. Check the <a href="/#location">store’s location page</a> before building an Everbowl stop into your plans.</p>
+    `
+  },
+  {
     slug: "riverstone-park-coeur-dalene-november-walk",
     title: "A Short November Walk at Riverstone Park",
     description: "Make a flexible North Idaho outing out of Riverstone Park’s paths and playground, with Nutella Banana Toast and Glow Up on the Everbowl menu for a future Valley stop.",
