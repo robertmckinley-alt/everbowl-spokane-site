@@ -1,5 +1,34 @@
 export const LOCAL_POSTS = [
   {
+    slug: "fort-spokane-lake-roosevelt-late-fall-walk",
+    title: "A Late-Fall Shoreline Walk at Fort Spokane",
+    description: "Spend a November afternoon above the water at Lake Roosevelt’s Fort Spokane Day Use Area, and save two Everbowl menu picks for a future Spokane Valley stop.",
+    category: "Inland Northwest",
+    date: "2026-11-24",
+    readMins: 4,
+    image: "/blog-img/fort-spokane-day-use-nps.jpg",
+    imageAlt: "A grassy slope above the beach at Fort Spokane, with a green bridge spanning the water on a sunny day",
+    keywords: ["Fort Spokane Day Use Area", "Lake Roosevelt fall walk", "Inland Northwest day trip", "Pitayum bowl", "Cinnamon Cold Foam"],
+    disclaimer: "Check National Park Service alerts and Everbowl Spokane Valley’s location page before traveling.",
+    body: `
+      <p>Fort Spokane is easy to picture as a summer beach stop. In late November, try the same spot on foot. The <a href="https://www.nps.gov/places/fort-spokane-day-use-area.htm">Fort Spokane Day Use Area</a> has open grass, picnic shelters, and a view over Lake Roosevelt. You can spend half an hour looking at the water, stop for a snack if the weather cooperates, and still be back at the car well before the afternoon light goes.</p>
+      <h2>Start at the day-use area on Highway 25</h2>
+      <p>Look for the day-use area across Highway 25 from the campground, just north of the Fort Spokane Visitor Center. Start with a look from the grassy area and pick a picnic table or shelter as a turnaround. If you’re meeting another car, share the day-use area pin before you leave so everyone heads to the same lot.</p>
+      <p>Coming from Spokane, follow the Park Service’s <a href="https://www.nps.gov/laro/planyourvisit/directions.htm">driving directions</a> along US-2 toward Davenport, then take Highway 25 north for about 23 miles. The directions use the visitor center as the landmark, so keep the separate day-use area page handy for the last turn. The <a href="https://home.nps.gov/laro/planyourvisit/park-brochure.htm">park brochure</a> shows where the Spokane River arm meets the main lake near Fort Spokane.</p>
+      <p>The <a href="https://home.nps.gov/laro/planyourvisit/hours.htm">National Park Service’s hours page</a> lists Lake Roosevelt as open to recreation year-round. The Fort Spokane Museum and Visitor Center normally run from Memorial Day through Labor Day, and the Park Service <a href="https://www.nps.gov/laro/learn/news/fort-spokane-museum-and-visitor-center-to-close-for-repairs.htm">also announced a closure for building repairs in 2026</a>. Make the outdoor picnic grounds your destination. The day-use area has a trailhead toward the visitor center if you decide to extend the walk and the trail is open.</p>
+      <h2>See what the water is doing from higher ground</h2>
+      <p>Once you can see the water, pick out the bridge and follow the shoreline with your eyes. Look for the line between the grass and exposed ground, then see how far the water sits below it. It’s an easy thing for kids to spot, and it gives you something to compare if you come back in summer. The Park Service’s <a href="https://www.nps.gov/laro/planyourvisit/water-access-and-day-use.htm">day-use guide</a> explains that Lake Roosevelt is a working reservoir and that changing levels affect beach access. You can do the whole outing from the grounds above the shore.</p>
+      <p>On a calm day, try pausing at two places where you can see the water. At the first, look across for the shape of the opposite bank. At the second, look back toward the first spot and see what’s hidden or revealed from the new angle. If you bring a camera, take one wide photo that includes the bank and bridge. You’ll have a better reference for a return visit than a close-up of the water alone.</p>
+      <h2>Keep it short if the weather turns</h2>
+      <p>Give yourself room to change the plan when you arrive. Bring drinking water from home because the Park Service lists potable water at this site during the summer season. Pack a layer you can put on when you stop walking. If the ground is slick or the wind picks up, take in the view from near the parking area and save the longer walk for another day.</p>
+      <p>Check the park’s <a href="https://www.nps.gov/laro/planyourvisit/conditions.htm">alerts and conditions</a> before you leave, especially if the temperature has been hovering around freezing. Aim to arrive with enough daylight to get your bearings and head back at a comfortable pace. A few quiet minutes looking out over the reservoir can be the whole trip.</p>
+      <h2>Two menu picks for a future Spokane Valley stop</h2>
+      <p>Save the <a href="/#menu">Pitayum bowl</a> if you like pineapple and kiwi. It layers açaí, pitaya, and Coco Love with granola, banana, pineapple, kiwi, and coconut. For a coffee pick, try the <a href="/#sips">Cold Brew + Cinnamon Cold Foam</a>. The bowl puts tropical fruit up front, while the coffee gives you a way to get a little cinnamon without choosing a blended drink.</p>
+      <p>As of November 24, the <a href="/#location">Everbowl Spokane Valley location page</a> lists the shop at 13324 E. Sprague Ave., Suite 101 as opening soon. Check that page before planning a stop, and keep the two menu picks handy for a day on East Sprague after the shop opens.</p>
+      <p><small>Photo from a warm-weather visit, courtesy of the <a href="https://www.nps.gov/places/fort-spokane-day-use-area.htm">U.S. National Park Service</a>. No claim to original U.S. Government works.</small></p>
+    `
+  },
+  {
     slug: "spokane-central-library-historic-photo-search",
     title: "Find an Old Photo of Your Spokane Block",
     description: "Spend a late-fall afternoon tracing a familiar street in Central Library’s Inland Northwest Special Collections, then save two Everbowl picks for another day.",
