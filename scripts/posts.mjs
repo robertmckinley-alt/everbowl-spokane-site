@@ -4603,4 +4603,53 @@ export const POSTS = [
 
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>`,
   },
+
+  {
+    slug: "holiday-party-season-survival-spokane-valley",
+    title: "Holiday Party Season Survival: Eating Well From Thanksgiving Weekend to New Year's",
+    description:
+      "Thanksgiving is just the opener. Here's a simple way to handle office potlucks, cookie exchanges, and open houses through New Year's without feeling awful by January.",
+    category: "Health",
+    date: "2026-11-24",
+    readMins: 5,
+    image: "/new/assets/brand/berry-boost.webp",
+    imageAlt: "Berry Boost bowl from Everbowl",
+    keywords: [
+      "holiday party survival",
+      "holiday eating tips spokane valley",
+      "december nutrition spokane",
+      "office potluck healthy eating",
+    ],
+    body: `
+      <p>Thanksgiving gets all the attention, but in Spokane Valley it's really just the opening act. Once the leftovers are gone, the real stretch begins — the office potluck, the cookie exchange, the neighbor's open house, the kids' winter concert reception, and at least one more Friendsgiving-style gathering before New Year's Eve. Any single one of those is easy to handle. Six or seven of them packed into five weeks, each with its own table of food you didn't plan for, is what actually wears people down. The good news is you don't need a strict diet to get through it — you need a handful of habits that work even when your calendar is busy and your schedule isn't your own.</p>
+
+      <h2>Why party season is harder than the holiday itself</h2>
+      <p>Thanksgiving dinner is a single, predictable meal you can plan around. Party season is the opposite: a dozen smaller, less predictable food situations scattered across five weeks, each with its own buffet table, each easy to treat as "just this once." The trouble is there's no clean after-the-fact reset the way there is after Thanksgiving — one open house just rolls into the next week's cookie exchange. A few things make the stretch more manageable without turning you into the person who brings their own food to a potluck.</p>
+      <ul>
+        <li><strong>Don't arrive starving.</strong> Showing up to a 6pm open house having skipped lunch to "save calories" is how a buffet table turns into dinner, dessert, and seconds. A small protein-forward snack beforehand changes the whole evening.</li>
+        <li><strong>Scan before you plate.</strong> Walk the spread once before taking anything. It's a small pause, but it keeps you from loading up on the first three dips you see and having no room left for the dish you actually wanted.</li>
+        <li><strong>Pick one event to really let go at.</strong> Trying to be careful at every single gathering from now through New Year's is exhausting and rarely sustainable. Decide which one or two actually matter to you, and relax about the rest.</li>
+      </ul>
+
+      <h2>The "protein first" rule for a packed week</h2>
+      <p>When evenings are booked with parties, the meals you control are breakfast and lunch — so that's where protein and fiber need to live. If dinner is going to be a buffet of cheese, crackers, and cookies three nights this week, the other two meals of the day are doing a lot of quiet work to keep you from running on sugar and salt alone.</p>
+
+      <blockquote>You can't control what's on someone else's dessert table. You can control what you ate at 8am, and that decision does more for how the evening goes than any amount of willpower at the buffet.</blockquote>
+
+      <h2>Where Everbowl fits into a busy December week</h2>
+      <p>Everbowl Spokane, at 13324 E Sprague Ave, Suite 101 in Spokane Valley, is built for exactly this kind of week. A <a href="/#menu">Berry Boost</a> bowl before a work party gives you real fruit, fiber, and a protein boost without needing a sit-down meal — it's cold, fast, and genuinely filling. On mornings when you know a cookie exchange is waiting at 7pm, a <a href="/#smoothies">Nanaberry Bliss</a> smoothie at breakfast is an easy five-minute way to start the day with protein and produce instead of just coffee and a granola bar on the way out the door.</p>
+
+      <ol>
+        <li><strong>Before a party:</strong> eat something with real protein in the hours beforehand, even if it's small.</li>
+        <li><strong>At the party:</strong> take one lap around the table before you plate anything, and pick the two or three things you actually want.</li>
+        <li><strong>The next morning:</strong> go back to your normal routine — no "making up for it," just picking up where you left off.</li>
+      </ol>
+
+      <h2>Skipping meals to "save room" backfires</h2>
+      <p>It's tempting to eat light all day before a big evening event, but it almost always backfires — you show up hungrier, less patient, and far more likely to overdo it at the one buffet you were trying to be careful around. A normal, balanced day leading into a party leaves you in a much better position than an empty-stomach gamble that depends on willpower holding up in front of a dessert table.</p>
+
+      <h2>The bottom line</h2>
+      <p>Five weeks of holiday gatherings in Spokane Valley isn't something you need to white-knuckle through or feel guilty about afterward. Eat real food during the day, don't show up starving, and let yourself actually enjoy the one or two events that matter most to you. Everbowl Spokane's Sprague Ave shop is <a href="/#location">opening soon</a> and is built to be the easy, reliable meal on the days in between — see the full <a href="/#menu">menu</a> for what's coming.</p>
+    `,
+  },
 ];
