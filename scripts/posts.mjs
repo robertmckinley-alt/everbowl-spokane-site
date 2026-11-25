@@ -4652,4 +4652,49 @@ export const POSTS = [
       <p>Five weeks of holiday gatherings in Spokane Valley isn't something you need to white-knuckle through or feel guilty about afterward. Eat real food during the day, don't show up starving, and let yourself actually enjoy the one or two events that matter most to you. Everbowl Spokane's Sprague Ave shop is <a href="/#location">opening soon</a> and is built to be the easy, reliable meal on the days in between — see the full <a href="/#menu">menu</a> for what's coming.</p>
     `,
   },
+
+  {
+    slug: "hosting-thanksgiving-cooking-day-fuel-spokane-valley",
+    title: "Hosting Thanksgiving This Year? Fuel Your Cooking Day, Not Just the Feast",
+    description:
+      "If you're cooking for a crowd today, don't skip your own meals. A quick, realistic plan for feeding yourself while the turkey's in the oven in Spokane Valley.",
+    category: "Health",
+    date: "2026-11-25",
+    readMins: 5,
+    image: "/new/assets/brand/pb-everbowl.webp",
+    imageAlt: "Everbowl's PB Everbowl topped with peanut butter drizzle, banana, and granola",
+    keywords: [
+      "hosting thanksgiving spokane valley",
+      "thanksgiving cooking day",
+      "thanksgiving prep day fuel",
+      "spokane valley thanksgiving",
+      "pb everbowl",
+    ],
+    body: `
+      <p>If you're the one hosting tomorrow, today is already a working day. The turkey might be brining, the pie crusts are probably in the fridge, and there's a running list in your head of what still needs to happen before anyone shows up. Somewhere in the middle of all that chopping, basting, and table-setting, it's easy to end up feeding everyone else's day while skipping your own meals entirely. A bite of stuffing here, a taste of gravy there, three cups of coffee — and suddenly it's 2pm and you haven't actually eaten anything.</p>
+
+      <h2>Why "tasting as you go" isn't the same as eating</h2>
+      <p>Tasting while you cook keeps you company, but it doesn't add up to a real meal. It's scattered, it's mostly carbs and butter, and it rarely includes much protein. For a host spending six or more hours on your feet, managing a hot oven, sharp knives, and a kitchen full of people underfoot, that matters more than it sounds like it should. Running low on fuel while you're juggling a roasting turkey and boiling potatoes isn't just unpleasant — it's when people get lightheaded, short-tempered, or genuinely careless near a stove. The person doing the most work in the house is often the one running on the least food, and that's backwards.</p>
+
+      <blockquote>The cook is usually the first person up and the last person to sit down. That's exactly the person who needs a real meal early, not the one who can skip it.</blockquote>
+
+      <h2>A plan that survives a packed cooking day</h2>
+      <p>You don't need to step away from the kitchen to eat well today. You need something you can eat with one hand between tasks, that doesn't require its own prep, and that actually has protein in it.</p>
+      <ul>
+        <li><strong>Mid-morning, before the kitchen gets loud:</strong> eat something real before the oven and the stovetop are both going at once. Once four dishes are in motion, it's much harder to stop for yourself.</li>
+        <li><strong>Mid-afternoon, when the kitchen is at its busiest:</strong> this is the point most hosts skip entirely. A five-minute cold option beats nothing, and it beats grazing on raw cookie dough or pie filling while you wait for the oven timer.</li>
+        <li><strong>Right before guests arrive:</strong> have a plan for a quick sip of something with caffeine if you're flagging. The last hour before a meal is not the time to discover you're exhausted.</li>
+      </ul>
+
+      <h2>Where Everbowl fits into a hosting day in Spokane Valley</h2>
+      <p>Everbowl Spokane, at 13324 E Sprague Ave, Suite 101 in Spokane Valley, is built for exactly this kind of morning. A <a href="/#menu">PB Everbowl</a> gives you real protein, fruit, and peanut butter in a bowl you can eat standing at the counter between basting the turkey and peeling potatoes — no dishes, no prep, no decisions. If the afternoon lull hits and you need a lift without reaching for another slice of pie before dinner's even served, a <a href="/#sips">Cold Brew with Peanut Butter Cold Foam</a> does the job without derailing the meal you're about to sit down to.</p>
+
+      <h2>Let someone else handle one meal</h2>
+      <p>Hosting is already a full day of feeding other people. Letting one of your own meals today be something you didn't have to cook isn't cutting corners — it's the one part of the day you get to make easy on purpose. Everbowl Spokane's Sprague Ave shop is <a href="/#location">opening soon</a>; check the location page for updates, and keep the PB Everbowl and Cold Brew in mind for the next time you're the one running the kitchen.</p>
+
+      <p>Whatever's on your table tomorrow, from everyone at Everbowl Spokane: have a good Thanksgiving.</p>
+
+      <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>
+    `,
+  },
 ];
