@@ -1,5 +1,33 @@
 export const LOCAL_POSTS = [
   {
+    slug: "sandpoint-holiday-tree-lighting-jeff-jones-square",
+    title: "See Sandpoint’s Holiday Tree Light Up",
+    description: "Spend the Friday after Thanksgiving at Sandpoint’s free tree lighting, then save the Perfect Date bowl and Strawberry Lemonade for a future Spokane Valley stop.",
+    category: "North Idaho",
+    date: "2026-11-25",
+    readMins: 4,
+    image: "/new/assets/brand/perfect-date.webp",
+    imageAlt: "Everbowl’s Perfect Date bowl with sliced banana, blueberries, dates, and granola",
+    keywords: ["Sandpoint holiday tree lighting", "Jeff Jones Square", "Thanksgiving weekend in North Idaho", "Perfect Date bowl", "Strawberry Lemonade"],
+    disclaimer: "Check the Greater Sandpoint Chamber’s event listing and Everbowl Spokane Valley’s location page for updates before traveling.",
+    body: `
+      <p>Sandpoint starts the holiday weekend with a countdown in the middle of downtown. The <a href="https://members.sandpointchamber.org/events/details/holiday-tree-lighting-2026-17185">Greater Sandpoint Chamber of Commerce</a> lists its annual tree lighting for Friday, November 27, 2026, from 5 to 7 p.m. Pacific at Jeff Jones Square, at Oak Street and Third Avenue. Admission is free and open to the public. If you’re driving over from the Spokane area, both cities are on Pacific time, so you can plan around the same clock.</p>
+      <h2>Make the countdown the main event</h2>
+      <p>Give yourself time to park and walk to the square near the start of the event. The Chamber’s 5 to 7 p.m. listing covers the evening as a whole. Check its page again before leaving if you’re trying to arrive for a particular part of the program. The Chamber says Santa will take part in the celebration and lists hot cocoa, cider, and treats. A good plan with young kids is to see the tree come on first, then decide how much of the rest of the evening everyone has energy for.</p>
+      <p>If you’re meeting another household, pick a corner near the square before you arrive and agree on a time to meet there. It’s easier to regroup at a named corner than to find someone by the tree once everyone is looking in the same direction. Let kids choose a detail to look for when the lights come on. They might notice the top of the tree first or see the lights reflected in a window on the walk back.</p>
+      <h2>Plan the walk from the car</h2>
+      <p>If you’re making the drive from Washington, check the <a href="https://wsdot.com/Travel/Real-time/Map/">WSDOT travel map</a> and <a href="https://511.idaho.gov/">Idaho 511</a> before you leave. Look at the return route while you’re planning, too. Even if you stay only for the countdown, the drive home will be after dark.</p>
+      <p>The <a href="https://www.sandpointidaho.gov/media/18166">City of Sandpoint’s parking plan</a> identifies a city lot at Third and Church streets. Use it as one option when you look at the map, and follow the signs for current rates, time limits, and any event restrictions when you arrive. If the closest spaces are full, give yourself room to park a few blocks away so you can walk into the square without rushing the countdown.</p>
+      <p>On the way in, take note of the streets you crossed. By the time you head back, you’ll be walking with other people leaving the event, and remembering your route makes it easier to keep your group together. If someone in your group needs a shorter walk, agree in advance on where you could safely drop them off near the square and where you’ll meet afterward.</p>
+      <h2>Leave room for an early finish</h2>
+      <p>Standing outside feels different from walking a few downtown blocks. Bring a layer you can add at the square and gloves you’re comfortable wearing while holding a cup or taking a photo. If it’s your first time at the lighting, try watching from the edge of the gathering. You can see the tree from farther back and have more room to step away if someone needs a break.</p>
+      <p>If the group is ready to head out once the lights are on, pause for one last look as you leave the square. That’s often when a family can get a photo together without spending the countdown looking at a phone. For a longer evening, take another look at the tree after the crowd around you has shifted, then follow your planned route back to the car.</p>
+      <h2>Two picks for another day on East Sprague</h2>
+      <p>The <a href="/#menu">Perfect Date bowl</a> in the photo layers Cacao Wow and Coco Love with granola, peanut butter, banana, blueberries, and dates. Save that one if you like cacao and fruit together. The <a href="/#sips">Strawberry Lemonade</a> is a bright, tart drink to keep in mind for a day when you want something simpler.</p>
+      <p>As of November 25, the <a href="/#location">Everbowl Spokane Valley location page</a> lists the shop at 13324 E. Sprague Ave., Suite 101 as opening soon. Check there for opening updates before planning a stop. The Sandpoint lighting has its own Friday schedule, so you can make that outing now and save the bowl and lemonade for a future Valley visit.</p>
+    `
+  },
+  {
     slug: "fort-spokane-lake-roosevelt-late-fall-walk",
     title: "A Late-Fall Shoreline Walk at Fort Spokane",
     description: "Spend a November afternoon above the water at Lake Roosevelt’s Fort Spokane Day Use Area, and save two Everbowl menu picks for a future Spokane Valley stop.",
