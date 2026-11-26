@@ -4697,4 +4697,53 @@ export const POSTS = [
       <p><em>This article is for general information and is not medical advice. Talk to your doctor or a registered dietitian about your individual needs.</em></p>
     `,
   },
+
+  {
+    slug: "black-friday-spokane-valley-mall-fuel-guide",
+    title: "Black Friday in Spokane Valley: A Fueling Guide for the Year's Biggest Shopping Day",
+    description:
+      "Doorbusters open early and the lines at Spokane Valley Mall don't let up. A realistic plan for eating well on your feet all day after Thanksgiving.",
+    category: "Spokane & Movement",
+    date: "2026-11-26",
+    readMins: 5,
+    image: "/blog-img/duo-cold-brew--everbowl.jpg",
+    imageAlt: "A Cold Brew and an Everbowl bowl, ready to grab and go",
+    keywords: [
+      "black friday spokane valley",
+      "spokane valley mall shopping",
+      "black friday fuel",
+      "day after thanksgiving spokane",
+      "everbowl spokane",
+    ],
+    body: `<p>If today's the big feast, tomorrow is the big line. Black Friday still pulls a real crowd to Spokane Valley Mall, and plenty of shoppers are planning their route before they've even cleared the Thanksgiving dishes — which store opens earliest, which lot fills up first, which doorbuster is actually worth setting an alarm for. What a lot of people don't plan for is how they're going to eat during a day that can easily run six or eight hours on their feet, bouncing between stores with a full cart and a growing headache.</p>
+
+      <h2>Why Black Friday wrecks your eating schedule</h2>
+      <p>A normal day has built-in stopping points — breakfast at home, lunch at your desk, dinner at the table. Black Friday erases most of those. You're up earlier than usual, out the door before you're really hungry, and then suddenly it's 1pm, you're three stores deep into a mall loop, and the only food in sight is a pretzel stand or a food-court option with a twenty-minute line of its own. Skipping meals to "keep moving" is the default, not the plan — and it's exactly how a fun shopping day turns into a cranky, foggy-headed one by mid-afternoon.</p>
+      <ul>
+        <li><strong>Eat something real before you leave the house.</strong> Even an early doorbuster line is easier to stand in on a full stomach than an empty one.</li>
+        <li><strong>Don't count on the food court to save you.</strong> On the busiest shopping day of the year, it's usually the slowest line in the building.</li>
+        <li><strong>Carry a small snack in your bag or car.</strong> Something that doesn't need to be kept cold is one less reason to push through on low blood sugar.</li>
+      </ul>
+
+      <h2>A simple rhythm for a long shopping day</h2>
+      <p>You don't need a complicated plan — you need two or three fixed points in the day where you actually sit down, or at least stand still, and eat something with protein in it.</p>
+      <ol>
+        <li><strong>Before the doors open:</strong> a real breakfast, not just coffee. If you're leaving before sunrise, this is non-negotiable.</li>
+        <li><strong>Mid-morning or early afternoon:</strong> a planned stop, not a desperate one, once the first wave of stores is checked off your list.</li>
+        <li><strong>Before the second half of the day:</strong> a quick refuel if you're heading back out for round two, rather than running on fumes until dinner.</li>
+      </ol>
+
+      <blockquote>The goal isn't to eat perfectly on Black Friday. It's to not let an empty stomach make the decisions for you by 2pm.</blockquote>
+
+      <h2>Where Everbowl fits into the day</h2>
+      <p>Everbowl Spokane, at 13324 E Sprague Ave, Suite 101 in Spokane Valley, is close enough to the mall corridor to work as an easy stop before, between, or after the shopping grind. A classic <a href="/#menu">Everbowl</a> — açaí, granola, banana, strawberry, and blueberry — gives you real fruit and fiber in a bowl you can eat in a few minutes without sitting down for a full meal. If you're running on an early alarm and need the caffeine to match, a <a href="/#sips">Cold Brew</a> is a straightforward way to wake up without a sugar-loaded specialty drink weighing you down for the rest of the day.</p>
+
+      <h2>Pace yourself like it's a long errand, not a sprint</h2>
+      <p>Treat Black Friday more like a long day of yard work than a race. The people who make it to the car at the end of the day without a headache and a bad mood are usually the ones who ate on a schedule, not the ones who powered through on adrenaline and a parking-lot churro. Build in a real stop, let your feet rest for ten minutes, and get back out there once you've actually refueled.</p>
+      <p>The parking lot itself is part of the day's planning, too. If you're aiming for an early doorbuster, expect the closest rows at Spokane Valley Mall to fill fast, and budget a few extra minutes to walk in from wherever you actually land. That's a few more minutes on your feet before you've bought anything, which is exactly why the "eat before you leave" rule matters more on Black Friday than on a normal errand run — you're starting the clock earlier and ending it later than most days of the year.</p>
+
+      <h2>The bottom line</h2>
+      <p>Black Friday in Spokane Valley is a long day by design — that's the whole point of a doorbuster list. Give yourself a fighting chance by eating something real before you leave the house and planning at least one proper stop in the middle of it. Everbowl Spokane's Sprague Ave shop is <a href="/#location">opening soon</a>; check the location page for updates, and keep the Everbowl and Cold Brew in mind the next time a mall loop turns into an all-day event.</p>
+    `,
+  },
 ];
