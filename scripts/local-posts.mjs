@@ -1,5 +1,35 @@
 export const LOCAL_POSTS = [
   {
+    slug: "garland-theater-wizard-of-oz-thanksgiving-weekend",
+    title: "A Free Wizard of Oz Matinee at Spokane’s Garland Theater",
+    description: "Catch The Wizard of Oz at a free Thanksgiving weekend matinee, take a closer look at the Garland’s marquee, and save two bowl picks for a future Spokane Valley stop.",
+    category: "Spokane Area",
+    date: "2026-11-26",
+    readMins: 4,
+    image: "/blog-img/garland-theater-spokane-2016.jpg",
+    imageAlt: "The tall Garland Theatre marquee above the brick cinema entrance on West Garland Avenue in Spokane",
+    keywords: ["Garland Theater Spokane", "The Wizard of Oz free matinee", "Thanksgiving weekend in Spokane", "Kids Bowl", "Mango Majic"],
+    disclaimer: "Check the Garland Theater’s showtimes and Everbowl Spokane Valley’s location page before traveling.",
+    body: `
+      <p>For a family outing after Thanksgiving, go see <em>The Wizard of Oz</em> on the big screen at Spokane’s Garland Theater. The theater lists free 2 p.m. screenings on <a href="https://garlandtheater.org/event/the-wizard-of-oz-sponsored-by-washington-trust-bank-free-admission/">Friday, November 27</a>, and <a href="https://garlandtheater.org/event/the-wizard-of-oz-sponsored-by-washington-trust-bank-free-admission-2/">Saturday, November 28, 2026</a>, at 924 W. Garland Ave. Both are part of the theater’s holiday screenings sponsored by Washington Trust Bank. If it’s someone’s first time at the Garland, leave a few minutes to look at the building before the show.</p>
+      <h2>Pick your afternoon and check the listing</h2>
+      <p>The Garland’s <a href="https://garlandtheater.org/special-events/">special events page</a> lists both matinees as rated G and says doors open 30 minutes before the movie. That puts doors at 1:30 p.m. Pacific for either date under the posted schedule. The two event pages list a small popcorn special for $3 plus tax. The theater also lists other screenings that weekend, so check the date, time, and free admission note together when you pick your showing.</p>
+      <p>If you’re going with a few households, agree on which day you’re aiming for and make the entrance your meeting point. Build in time to get settled together. For questions about seating, admission arrangements, or access needs, use the theater’s <a href="https://garlandtheater.org/contact-us/">contact page</a> before you head out.</p>
+      <h2>Look at the Garland before you go inside</h2>
+      <p>The tower makes the theater easy to spot. The <a href="https://properties.historicspokane.org/property/?PropertyID=2074">Spokane Historic Preservation Office</a> identifies the building as a single-screen theater built in 1945 in the Streamline Moderne style. It points out two exterior details you can look for on arrival. One is the 48-foot tower marquee. The other is the turquoise terra-cotta tilework on the brick front, with flower motifs that are easier to pick out when you stop for a moment.</p>
+      <p>The <a href="https://garlandtheater.org/">theater’s own history</a> recalls that the snack bar was a novelty when the Garland opened in November 1945. Its opening program was a double feature. Eight decades later, the popcorn counter is still one way to make the visit feel different from watching a movie at home.</p>
+      <p>Give each person a detail to spot on the way in. One can look for the flowers in the tiles while someone else reads the lettering on the sign. The photo here shows what the front looked like in 2016. Look at the shape of the sign and how it sits beside the entrance, then see what details you can recognize from the sidewalk today.</p>
+      <h2>Give a familiar movie a fresh look</h2>
+      <p>The Garland was built just six years after the movie came out. The <a href="https://www.loc.gov/item/prn-13-165/">Library of Congress</a> notes that the 1939 film joined the National Film Registry in its inaugural year, 1989. If a younger viewer only knows the story from a book, this is a chance to hear Judy Garland sing “Over the Rainbow” in a theater.</p>
+      <p>Even if you know the songs by heart, try watching for the difference between Dorothy’s Kansas scenes and her first moments in Oz. Pay attention to what you can see beyond Dorothy as the color and scenery change. If this is a child’s first viewing, let them discover the change on their own, then ask what they saw first. It could be the road, a costume, or something in the background you’ve never paid much attention to.</p>
+      <p>On the way out, compare one detail from the theater and one from the film. A photo of the marquee can help you remember the day, but a conversation about the surprise someone noticed on screen is just as good a souvenir. That’s enough to make the matinee feel like an outing of its own on a busy holiday weekend.</p>
+      <h2>Two bowls for a future Spokane Valley stop</h2>
+      <p>Save the <a href="/#your-way">Kids Bowl</a> if you’re looking at the children’s option on the Whatever Bowl menu. For a signature bowl, the <a href="/#menu">Mango Majic</a> pairs mango and Blue Majic with granola, pineapple, strawberry, kiwi, and coconut. It’s a fruit-forward pick if pineapple and mango are what you usually go for.</p>
+      <p>As of November 26, the <a href="/#location">Everbowl Spokane Valley location page</a> lists the store at 13324 E. Sprague Ave., Suite 101 as opening soon. Plan the Garland visit around the theater’s schedule, and check the store page before adding a bowl stop to a future trip.</p>
+      <p><small><a href="https://commons.wikimedia.org/wiki/File:The_Garland_Theatre_in_Spokane,_WA.jpg">The Garland Theatre in Spokane, WA</a> (2016) by YHWHisYeshua via Wikimedia Commons, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>. Resized for the web.</small></p>
+    `
+  },
+  {
     slug: "sandpoint-holiday-tree-lighting-jeff-jones-square",
     title: "See Sandpoint’s Holiday Tree Light Up",
     description: "Spend the Friday after Thanksgiving at Sandpoint’s free tree lighting, then save the Perfect Date bowl and Strawberry Lemonade for a future Spokane Valley stop.",
