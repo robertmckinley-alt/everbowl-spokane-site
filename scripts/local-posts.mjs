@@ -1,5 +1,33 @@
 export const LOCAL_POSTS = [
   {
+    slug: "fort-walla-walla-museum-thirty-three-mule-team",
+    title: "Meet the 33-Mule Team at Fort Walla Walla Museum",
+    description: "Spend a late-November afternoon with a century-old wheat combine and its life-size mule team, then save two Everbowl picks for a future Spokane Valley stop.",
+    category: "Inland Northwest",
+    date: "2026-11-27",
+    readMins: 4,
+    image: "/blog-img/walla-walla-wheat-harvest-russell-lee-1941.jpg",
+    imageAlt: "A mule-drawn combine in a rolling Walla Walla County wheat field, photographed in black and white in 1941",
+    keywords: ["Fort Walla Walla Museum", "33-mule team", "Walla Walla winter museum visit", "wheat harvest history", "Oats Bowl", "Cinnamon Ice Blended Coffee"],
+    disclaimer: "Check the museum’s hours and Everbowl Spokane Valley’s location page before traveling.",
+    body: `
+      <p>At Fort Walla Walla Museum, you can get a sense of how much work it took to bring in a wheat harvest by standing beside a single machine. The museum’s <a href="https://www.fwwm.org/exhibit-index/agriculture-bajcd">agriculture exhibit</a> sets a 1919 Harris hillside wheat combine in front of a harvest mural with life-size replicas of the 33 mules that would have pulled it. In late November, when the museum’s Pioneer Village buildings are closed for the season, the exhibit halls give you a good reason to make the trip.</p>
+      <h2>Start far enough back to see the whole team</h2>
+      <p>Start with a view of the entire display. Then trace the line from the animals nearest the combine toward the front of the team. Count the rows instead of trying to count every mule at once. Look at how much room the team and machine would need to turn, then use the slope in the mural to picture what it would take to keep them moving across a field.</p>
+      <p>If you’re visiting with kids, let them pick the part they want to figure out. One might look for where the operator would sit. Another might look for the wide cutting end or ask where the grain went. The machine combined several harvest jobs. An <a href="https://www.loc.gov/item/2003662113/">earlier Library of Congress photograph from Walla Walla</a> describes a team-powered harvester cutting, threshing, and bagging wheat. See which of those jobs you can match to parts of the Harris machine or to the exhibit labels.</p>
+      <h2>Compare the museum display with a real field</h2>
+      <p>The photograph above shows another view of that kind of work. Russell Lee photographed a mule-drawn combine in Walla Walla County in July 1941. The machine is small against the hills, and the cut rows curve away across the foreground. Look at the difference between the standing crop and the part already harvested. In the hall you can see the equipment close up. In the field photo you can see how much ground a team still had to cover.</p>
+      <p>Before leaving the agriculture exhibit, look for the cook wagon. The museum’s exhibit page includes a short account of why the wagon followed threshing crews in the field. Compare the space in the wagon with the scale of the harvest display. It’s a chance to talk about the people who kept a crew fed while others worked the equipment. If you’re visiting with family after Thanksgiving, a question to take with you is what meal you’d plan if your kitchen had to move with the crew.</p>
+      <h2>Use the winter museum hours</h2>
+      <p>The museum is at 755 NE Myra Road in Walla Walla. Its <a href="https://www.fwwm.org/hours-and-admission">hours and admission page</a> lists winter hours of 10 a.m. to 4 p.m. daily from November through February, with holiday exceptions. The <a href="https://www.fwwm.org/calendar/thanksgiving">museum calendar</a> lists the Thanksgiving closure on Thursday, November 26. Check the posted hours before traveling for a weekend visit. Admission is charged, with rates by age and category on the museum’s site.</p>
+      <p>Plan for walking between parts of the museum, and ask about mobility assistance if it would help your group. The museum lists wheelchairs and golf carts and provides a number to call for details. For a short visit, make the combine and the cook wagon your two stops and give yourself time to read the labels around each one.</p>
+      <h2>Two menu picks for another day in Spokane Valley</h2>
+      <p>On a future trip along East Sprague, look for the <a href="/#your-way">Oats Bowl</a> in the Whatever Bowl section and the <a href="/#sips">Cinnamon Ice Blended Coffee</a> in the coffee lineup. The Oats Bowl is the pick when you want something spoonable, while the blended coffee is a way to go for cinnamon if you’re in the mood for a drink.</p>
+      <p>As of November 27, the <a href="/#location">Everbowl Spokane Valley location page</a> lists the shop at 13324 E. Sprague Ave., Suite 101 as opening soon. Check that page for an opening update before planning your stop.</p>
+      <p><small>Russell Lee, <a href="https://www.loc.gov/pictures/item/2017790077/">Mule-drawn combine in wheat field in Walla Walla County, Washington</a>, July 1941. Library of Congress, Prints &amp; Photographs Division, Farm Security Administration/Office of War Information collection.</small></p>
+    `
+  },
+  {
     slug: "garland-theater-wizard-of-oz-thanksgiving-weekend",
     title: "A Free Wizard of Oz Matinee at Spokane’s Garland Theater",
     description: "Catch The Wizard of Oz at a free Thanksgiving weekend matinee, take a closer look at the Garland’s marquee, and save two bowl picks for a future Spokane Valley stop.",
