@@ -4746,4 +4746,53 @@ export const POSTS = [
       <p>Black Friday in Spokane Valley is a long day by design — that's the whole point of a doorbuster list. Give yourself a fighting chance by eating something real before you leave the house and planning at least one proper stop in the middle of it. Everbowl Spokane's Sprague Ave shop is <a href="/#location">opening soon</a>; check the location page for updates, and keep the Everbowl and Cold Brew in mind the next time a mall loop turns into an all-day event.</p>
     `,
   },
+
+  {
+    slug: "cyber-monday-online-shopping-fuel-spokane-valley",
+    title: "Cyber Monday Fuel: Surviving a Full Day on the Couch With Your Laptop and Ten Browser Tabs",
+    description:
+      "Cyber Monday doesn't make you walk a mall, but it still wrecks a normal eating schedule. A simple plan for fueling a day spent clicking 'add to cart' in Spokane Valley.",
+    category: "Health",
+    date: "2026-11-27",
+    readMins: 5,
+    image: "/blog-img/duo-cold-brew-pb-foam--cold-brew.jpg",
+    imageAlt: "A Cold Brew and a Cold Brew with PB Protein Foam from Everbowl, ready for a desk-day refuel",
+    keywords: [
+      "cyber monday spokane valley",
+      "online shopping fuel",
+      "work from home snacking",
+      "cyber monday deals spokane",
+      "everbowl spokane",
+    ],
+    body: `
+      <p>Black Friday gets you out of the house. Cyber Monday keeps you right where you are — laptop open, ten browser tabs stacked with the same pair of boots at three different prices, and a phone buzzing with one more "flash sale ends tonight" email. It looks like an easy day compared to fighting for a parking spot at Spokane Valley Mall, and in a lot of ways it is. But a full day of comparison shopping from the couch or the kitchen table has its own way of wrecking your eating schedule, and it sneaks up on you differently than a day spent on your feet does.</p>
+
+      <h2>Why a "lazy" shopping day still throws off your meals</h2>
+      <p>When you're not leaving the house, there's no built-in reason to stop and eat. No drive to the mall that ends with lunch, no walking past a food court that reminds you it's past noon. Instead, you refresh a cart, check a coupon code, open a new tab, and somehow it's 2pm and all you've had is coffee and whatever was within arm's reach of the couch. The other trap is the opposite problem: mindless grazing. A bag of chips next to the laptop turns into an entire afternoon of eating without ever actually having a meal, which leaves you both overfed and undernourished by dinner.</p>
+      <ul>
+        <li><strong>Set an actual lunch, even on a stay-home day.</strong> "I'll eat when I'm done with this cart" can stretch for hours when there's always one more tab to check.</li>
+        <li><strong>Don't let snacking replace a meal.</strong> Chips and cookies within reach of the couch add up fast and rarely include any protein.</li>
+        <li><strong>Watch the coffee refills.</strong> It's easy to run on caffeine alone when you're parked at a screen all day, and that catches up with you by mid-afternoon.</li>
+      </ul>
+
+      <h2>A simple rhythm for a screen-bound day</h2>
+      <p>You don't need to overhaul your whole day to fix this. You need two or three deliberate stops where you actually step away from the screen and eat something with protein in it, the same way you would if you were out running errands.</p>
+      <ol>
+        <li><strong>Mid-morning:</strong> a real breakfast before the deals start rolling in, not just the first cup of coffee.</li>
+        <li><strong>Midday:</strong> a proper lunch break away from the laptop, even if it's just ten minutes at the counter.</li>
+        <li><strong>Mid-afternoon:</strong> a planned snack with some protein in it, so the 4pm slump doesn't send you straight to the pantry.</li>
+      </ol>
+
+      <blockquote>A day spent sitting still can still leave you running on empty by dinner. The couch doesn't ask much of your body, but skipped meals and nonstop coffee will still catch up with you.</blockquote>
+
+      <h2>Where Everbowl fits into a Cyber Monday afternoon</h2>
+      <p>Everbowl Spokane, at 13324 E Sprague Ave, Suite 101 in Spokane Valley, is an easy way to break up a day of clicking through deals. A <a href="/#smoothies">Nanaberry Bliss</a> smoothie makes a fast, real breakfast you can drink one-handed while you finish checking out a cart, without derailing your morning the way skipping straight to coffee does. When the early-afternoon slump hits and another cup of plain coffee isn't going to cut it, a <a href="/#sips">PB Protein Ice Blended Coffee</a> gives you caffeine and actual protein at the same time, which does a lot more for your energy than a fourth refill of black coffee.</p>
+
+      <h2>Give yourself a reason to actually stand up</h2>
+      <p>If nothing else, treat a meal break as the thing that gets you off the couch. Step into another room, eat without the laptop screen in front of you, and let your eyes and your back get a few minutes away from the shopping cart. You'll come back to the deals with a clearer head, and you'll be a lot more likely to notice you already have three of the same item in your cart from three different sites.</p>
+
+      <h2>The bottom line</h2>
+      <p>Cyber Monday is an easy day to let slide into no real meals and too much coffee, precisely because it doesn't feel like a big production the way Black Friday does. Give yourself the same two or three deliberate meal stops you'd plan for any busy day, screen or no screen. Everbowl Spokane's Sprague Ave shop is <a href="/#location">opening soon</a>; check the location page for updates, or see the full <a href="/#menu">menu</a> for what's coming the next time deal-hunting from the couch turns into an all-day event.</p>
+    `,
+  },
 ];
